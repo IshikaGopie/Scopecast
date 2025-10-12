@@ -1,0 +1,563 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1585">WS-1585</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                When my session expires I should be taken to login 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1595">WS-1595</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                All the connections are deleted when a blank connection is deleted
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 45m</td>
+            <td>
+                            1h 45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1597">WS-1597</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Selecting the default option in mappings should update the placeholder text for the customizable option
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1601">WS-1601</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update the payment config to only have mapping for undeposited funds
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1628">WS-1628</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                The wrong date is showing up on payouts and orders
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>38m</td>
+            <td>
+                            38m
+                    </td>
+        <td>
+                    8 minutes
+            </td>
+            <td>
+                            8 minutes
+                    </td>
+        <td>
+                    -26
+            </td>
+            <td>
+                            -26
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1637">WS-1637</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Rename Sparks and Signals
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1661">WS-1661</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Charge Back insights are posting multiple times in a day
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1206">WS-1206</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to map payment methods to deposit accounts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1226">WS-1226</a></td>
+    <td>Closed</td>
+    <td>Critical</td>
+    <td>
+                I should be able to view a list of orders
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1474">WS-1474</a></td>
+    <td>Closed</td>
+    <td>Minor</td>
+    <td>
+                I should be able to view a list of payouts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1598">WS-1598</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update the Fees tab to include Payout fee mappings
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1604">WS-1604</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update import list to have filters and a short description of the contents
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1613">WS-1613</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Place list of most recent imports on the home screen
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1614">WS-1614</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Simulate payouts for webooks-dev and webooks-qa
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1631">WS-1631</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Import is polling continuously even after the final change errored
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1663">WS-1663</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Make it so that all demo connections are copied to demo accounts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>2h 30m</td>
+            <td>2h 30m</td>
+        <td>0m</td>
+            <td>0m</td>
+        <td>4h 33m</td>
+            <td>4h 33m</td>
+        <td>2 hours, 3 minutes</td>
+            <td>2 hours, 3 minutes</td>
+        <td>-82</td>
+            <td>-82</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:43 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

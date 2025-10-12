@@ -1,0 +1,198 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1706">WS-1706</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to upload a file and associate it with a purchase order 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1878">WS-1878</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Authenticating with emails is case sensitive 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1705">WS-1705</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to upload an image and associate it with a purchase order
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1858">WS-1858</a></td>
+    <td>Deploy to Production</td>
+    <td>Major</td>
+    <td>
+                Add Netsuite as a provider to IAM 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>0m</td>
+            <td>0m</td>
+        <td>0m</td>
+            <td>0m</td>
+        <td>2h 30m</td>
+            <td>2h 30m</td>
+        <td>2 hours, 30 minutes</td>
+            <td>2 hours, 30 minutes</td>
+        <td>0</td>
+            <td>0</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:45 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

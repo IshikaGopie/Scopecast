@@ -1,0 +1,2128 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-11">MED-11</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to cancel my subscription
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-17">MED-17</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to create a test in test mode
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-19">MED-19</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to manage the prompts for the Tutor AI
+    </td>
+    <td>-</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-59">MED-59</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Deploy Tutor Service to Wepala
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-22">MED-22</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                Create terraform module for Azure VPC
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 10m</td>
+            <td>
+                            2h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-209">MED-209</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Can&#39;t Delete user from admin
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-212">MED-212</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Switch to using custom scheme
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-213">MED-213</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that questions are not repeated
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-203">MED-203</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should go back to the question list page I was on when I edit a question 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>5m</td>
+            <td>
+                            5m
+                    </td>
+        <td>55m</td>
+            <td>
+                            55m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-183">MED-183</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Setup encoding during learning objectives import
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-7">MED-7</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to install the app form the play store
+    </td>
+    <td>-</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-193">MED-193</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup development keys for android
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-6">MED-6</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to install the app from the app store
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-18">MED-18</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to to manage the question bank
+    </td>
+    <td>-</td>
+            <td>
+                            1d 6h
+                    </td>
+        <td>-</td>
+            <td>
+                            1d
+                    </td>
+        <td>-</td>
+            <td>
+                            1d 5h
+                    </td>
+        <td>
+            </td>
+            <td>
+                            7 hours
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-61">MED-61</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update entities 
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>7h</td>
+            <td>
+                    </td>
+        <td>
+                    6 hours
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -600
+            </td>
+            <td>
+                            -600
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-63">MED-63</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add endpoint for upserting disciplines
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-64">MED-64</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add endpoint for upserting compentency
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-68">MED-68</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add question edit enpoint 
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-70">MED-70</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add question create screen
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-72">MED-72</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add organ system screens
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-60">MED-60</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                                -&gt;
+                Wireframe Admin App
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-62">MED-62</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add endpoint for Upserting Organ System
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-65">MED-65</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add endpoint for upserting cognitive skills
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-69">MED-69</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add question list screen
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-71">MED-71</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Hook up question create
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-73">MED-73</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add competency screens
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-67">MED-67</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add question create endpoint 
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-58">MED-58</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Deploy MedAI App to Wepala
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-66">MED-66</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add initializer for question types
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-1">MED-1</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup an account using apple id
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-2">MED-2</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup an account using google id
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-3">MED-3</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup an account using microsoft
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-4">MED-4</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup an account using username and password
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-5">MED-5</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to reset my password (if I use the password option)
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-8">MED-8</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be receive an email when I setup a new account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-9">MED-9</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be receive an email when I update an account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-10">MED-10</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to pay for a subscription
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-14">MED-14</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to use the AI to ask general questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-15">MED-15</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should be able to use the AI tutor when reviewing questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-16">MED-16</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to take a test
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-20">MED-20</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to see a list of users
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-21">MED-21</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should not be able to sign up is I&#39;m not in an allowed region
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-27">MED-27</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                Deploy App
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-93">MED-93</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                As and admin I should be able use autocomplete to select the learning objective on a question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-121">MED-121</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                As a user I should be able to pause a test
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-124">MED-124</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to see a list of all the paused blocks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-127">MED-127</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to see the results of a block when completed
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-128">MED-128</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to review a question that I already answered in a block
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-129">MED-129</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to end a block
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-131">MED-131</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to select specialty when setting up an account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-135">MED-135</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to see my average score 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-148">MED-148</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to see how I rank by organ system
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-159">MED-159</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to see a list of blocks that have been completed
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-166">MED-166</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to take the test in tutor mode
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-170">MED-170</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to take a timed test
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-173">MED-173</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to leave feedback on a question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-201">MED-201</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to get lab view data
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-204">MED-204</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Onboarding Updates
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-206">MED-206</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to add references for a question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-207">MED-207</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Mobile Fixes
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-210">MED-210</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Hook up use profile screen to show actual user info
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-211">MED-211</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Copy Questions back from Production
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-214">MED-214</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to search for questions by id
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-217">MED-217</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Move the settings menu item under my account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-219">MED-219</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that in tutor mode when the user goes back it goes to the review version of the question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-221">MED-221</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Microsoft login not working (at least on staging)
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-222">MED-222</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Page header and title not changing after logging in 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-224">MED-224</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                When the user cancels login they are taken to a blank screen on mobile
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-226">MED-226</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Apple approval updates
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>2d 5h</td>
+            <td>2d 5h</td>
+        <td>1d 3h 35m</td>
+            <td>1d 3h 35m</td>
+        <td>3d 5h 25m</td>
+            <td>3d 5h 25m</td>
+        <td>2 days, 4 hours</td>
+            <td>2 days, 4 hours</td>
+        <td>-95</td>
+            <td>-95</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 2:03 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

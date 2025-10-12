@@ -1,0 +1,4691 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-26">MED-26</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup Prod environment
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 18m</td>
+            <td>
+                            1d 18m
+                    </td>
+        <td>
+                    4 hours, 18 minutes
+            </td>
+            <td>
+                            4 hours, 18 minutes
+                    </td>
+        <td>
+                    -107
+            </td>
+            <td>
+                            -107
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-29">MED-29</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-1">MED-1</a>
+                                        -&gt;
+                Setup environment for apple id
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-30">MED-30</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-1">MED-1</a>
+                                        -&gt;
+                Setup OAuth Config for Apple Service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-32">MED-32</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-1">MED-1</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h</td>
+            <td>
+                            1d 1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-34">MED-34</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-2">MED-2</a>
+                                        -&gt;
+                Implement GetInfo
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+                    10 minutes
+            </td>
+            <td>
+                            10 minutes
+                    </td>
+        <td>
+                    -33
+            </td>
+            <td>
+                            -33
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-36">MED-36</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-3">MED-3</a>
+                                        -&gt;
+                Implement GetInfo
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-38">MED-38</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-4">MED-4</a>
+                                        -&gt;
+                Setup login endpoint 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-39">MED-39</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-4">MED-4</a>
+                                        -&gt;
+                Implement Cache service interface on Azure Service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 6m</td>
+            <td>
+                            1h 6m
+                    </td>
+        <td>
+                    6 minutes
+            </td>
+            <td>
+                            6 minutes
+                    </td>
+        <td>
+                    -10
+            </td>
+            <td>
+                            -10
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-42">MED-42</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-5">MED-5</a>
+                                        -&gt;
+                Setup system for initiating a password reset
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 50m</td>
+            <td>
+                            1h 50m
+                    </td>
+        <td>
+                    50 minutes
+            </td>
+            <td>
+                            50 minutes
+                    </td>
+        <td>
+                    -83
+            </td>
+            <td>
+                            -83
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-43">MED-43</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-5">MED-5</a>
+                                        -&gt;
+                Setup endpoint for updating the password after reset
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-47">MED-47</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-27">MED-27</a>
+                                        -&gt;
+                Update github actions to push to azure
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 30m</td>
+            <td>
+                            5h 30m
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -37
+            </td>
+            <td>
+                            -37
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-49">MED-49</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-27">MED-27</a>
+                                        -&gt;
+                Setup authentication and login
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 30m</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -12
+            </td>
+            <td>
+                            -12
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-50">MED-50</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-22">MED-22</a>
+                                        -&gt;
+                Setup container
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 10m</td>
+            <td>
+                            3h 10m
+                    </td>
+        <td>
+                    1 hour, 10 minutes
+            </td>
+            <td>
+                            1 hour, 10 minutes
+                    </td>
+        <td>
+                    -58
+            </td>
+            <td>
+                            -58
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-52">MED-52</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-22">MED-22</a>
+                                        -&gt;
+                Setup api gateway
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -300
+            </td>
+            <td>
+                            -300
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-53">MED-53</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-27">MED-27</a>
+                                        -&gt;
+                setup onboarding screens 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-54">MED-54</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-27">MED-27</a>
+                                        -&gt;
+                fix failing tests 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-56">MED-56</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-5">MED-5</a>
+                                        -&gt;
+                setup email service
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-76">MED-76</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-19">MED-19</a>
+                                        -&gt;
+                model the tutor service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-77">MED-77</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-19">MED-19</a>
+                                        -&gt;
+                create entities, receivers etc
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-79">MED-79</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-19">MED-19</a>
+                                        -&gt;
+                add screens to admin for managing prompt
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-80">MED-80</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add concept of tags 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-82">MED-82</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Update question form to allow user to specify identifier
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-84">MED-84</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Update question form so that multemdia could be uploaded or added as a link
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-87">MED-87</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Make it so that the id for the question is generated
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-88">MED-88</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add multimedia concept to answers 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-94">MED-94</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Import learning objectives
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h</td>
+            <td>
+                            5h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -66
+            </td>
+            <td>
+                            -66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-95">MED-95</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Update UI to be auto complete
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-96">MED-96</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-6">MED-6</a>
+                                        -&gt;
+                Setup build keys in app store
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-99">MED-99</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-6">MED-6</a>
+                                        -&gt;
+                First deploy to test flight
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-102">MED-102</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Add endpoint for creating a question bank
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-107">MED-107</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Add endpoint for managing topics
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-111">MED-111</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Add screen for uploading CSV with objectives
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-112">MED-112</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 40m</td>
+            <td>
+                            1h 40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-113">MED-113</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Hook up creation screen to API
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-115">MED-115</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Update block domain entity with logic for generating a block
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-116">MED-116</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Setup question service for return a list of questions
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-118">MED-118</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Add entity for a submission to the block
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-119">MED-119</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Add pinia store for tracking progress in the block and navigating the block
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -200
+            </td>
+            <td>
+                            -200
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-122">MED-122</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-121">MED-121</a>
+                                        -&gt;
+                update block to track time remaining
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>
+                    3 hours
+            </td>
+            <td>
+                            3 hours
+                    </td>
+        <td>
+                    -300
+            </td>
+            <td>
+                            -300
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-123">MED-123</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-121">MED-121</a>
+                                        -&gt;
+                track end time
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-139">MED-139</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Add entity for recording the answer 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-146">MED-146</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                Add a query tutor endpoint
+    </td>
+    <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-147">MED-147</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                instantiate LLM Service
+    </td>
+    <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-150">MED-150</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-148">MED-148</a>
+                                        -&gt;
+                Add controller to get a list of organ systems along with the user scores and percentiles
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-152">MED-152</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                update chat receiver to filter by tutor 
+    </td>
+    <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-153">MED-153</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                Add a review tutor receiver 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-154">MED-154</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                create a tutor service on the app
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-155">MED-155</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                update the app to send a request to the tutor endpoint on the tutor service 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 26m</td>
+            <td>
+                            2h 26m
+                    </td>
+        <td>
+                    1 hour, 26 minutes
+            </td>
+            <td>
+                            1 hour, 26 minutes
+                    </td>
+        <td>
+                    -143
+            </td>
+            <td>
+                            -143
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-156">MED-156</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                update the app to send a request to the endpoint on the tutor service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-157">MED-157</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                Setup query service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-158">MED-158</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                set up review service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    100
+            </td>
+            <td>
+                            100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-161">MED-161</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                create an event handler for creating a chat
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-162">MED-162</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                create an event handler for creating a message
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-163">MED-163</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                Add a tutor property to the prompt
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    40 minutes
+            </td>
+            <td>
+                            40 minutes
+                    </td>
+        <td>
+                    66
+            </td>
+            <td>
+                            66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-164">MED-164</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                update the app to add a menu to select the tutor when creating the prompt 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+                    45 minutes
+            </td>
+            <td>
+                            45 minutes
+                    </td>
+        <td>
+                    75
+            </td>
+            <td>
+                            75
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-167">MED-167</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                update the app to make the tutor available when reviewing a question 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-174">MED-174</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-173">MED-173</a>
+                                        -&gt;
+                Add domain entity for user feedback
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-175">MED-175</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-173">MED-173</a>
+                                        -&gt;
+                Update handler to send email to admins when user feedback is added 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-176">MED-176</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-173">MED-173</a>
+                                        -&gt;
+                Added receiver and endpoint for submitting feedback
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-177">MED-177</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-173">MED-173</a>
+                                        -&gt;
+                Show list of feedback in question view in admin
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-178">MED-178</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-173">MED-173</a>
+                                        -&gt;
+                Hook up feedback view to endpoint
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-180">MED-180</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-128">MED-128</a>
+                                        -&gt;
+                Hook up the explanations for write and incorrect answers
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-182">MED-182</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-127">MED-127</a>
+                                        -&gt;
+                Hook up block results
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-184">MED-184</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Setup product and entitlements in revenue cat
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-185">MED-185</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Setup revenue cat SDK on iOS
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>
+                    5 hours
+            </td>
+            <td>
+                            5 hours
+                    </td>
+        <td>
+                    -500
+            </td>
+            <td>
+                            -500
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-188">MED-188</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Link Stripe to Revenue Cat
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-190">MED-190</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Hook up subscription purchase in UI
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-192">MED-192</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Hook up link to manage subscription on stripe if web purchase
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-197">MED-197</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-124">MED-124</a>
+                                        -&gt;
+                hook up updated list
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-198">MED-198</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-129">MED-129</a>
+                                        -&gt;
+                Hook up pause functionality to update block on back end
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-202">MED-202</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-205">MED-205</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-6">MED-6</a>
+                                        -&gt;
+                Add logos for the app 
+    </td>
+    <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    100
+            </td>
+            <td>
+                            100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-208">MED-208</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-215">MED-215</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-15">MED-15</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-216">MED-216</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-210">MED-210</a>
+                                        -&gt;
+                add endpoint to get user 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-218">MED-218</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-4">MED-4</a>
+                                        -&gt;
+                feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-223">MED-223</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-1">MED-1</a>
+                                        -&gt;
+                update callback handler to handle the apple login 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-225">MED-225</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Subscription not working
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-228">MED-228</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Topics Id default to learning objective id on import
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-45">MED-45</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-4">MED-4</a>
+                                        -&gt;
+                Implement AWS service
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-89">MED-89</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add multimedia concept to answer form
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+                    1 hour, 40 minutes
+            </td>
+            <td>
+                            1 hour, 40 minutes
+                    </td>
+        <td>
+                    -166
+            </td>
+            <td>
+                            -166
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-37">MED-37</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-3">MED-3</a>
+                                        -&gt;
+                Setup Oauth config
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>17m</td>
+            <td>
+                            17m
+                    </td>
+        <td>43m</td>
+            <td>
+                            43m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-31">MED-31</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-1">MED-1</a>
+                                        -&gt;
+                Implement GetInfo
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-46">MED-46</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-27">MED-27</a>
+                                        -&gt;
+                Setup base app
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-86">MED-86</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add the ability to do bulk actions on questions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-110">MED-110</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Create endpoint for importing learning objectives
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-145">MED-145</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                Add a query receiver to the tutor service
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-151">MED-151</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-148">MED-148</a>
+                                        -&gt;
+                Hook up endpoint to UI
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-169">MED-169</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-166">MED-166</a>
+                                        -&gt;
+                Update block taking flow to show explanation after each question
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    50
+            </td>
+            <td>
+                            50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-44">MED-44</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-22">MED-22</a>
+                                        -&gt;
+                Setup Azure CLI and init terraform state
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>49m</td>
+            <td>
+                            49m
+                    </td>
+        <td>1h 11m</td>
+            <td>
+                            1h 11m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-23">MED-23</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create terraform module for Azure Container Instance
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>53m</td>
+            <td>
+                            53m
+                    </td>
+        <td>1h 7m</td>
+            <td>
+                            1h 7m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-35">MED-35</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-3">MED-3</a>
+                                        -&gt;
+                Setup client id and secret
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-41">MED-41</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-8">MED-8</a>
+                                        -&gt;
+                Add event handler for sending emails 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-75">MED-75</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add learning objectives
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-78">MED-78</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-19">MED-19</a>
+                                        -&gt;
+                confirm prompt endpoint works 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-83">MED-83</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add concept of multimedia links to questions
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-98">MED-98</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-6">MED-6</a>
+                                        -&gt;
+                Fix issue with notch
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-108">MED-108</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-93">MED-93</a>
+                                        -&gt;
+                Add endpoint for managing sub topics
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-120">MED-120</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Hook up the front end to display question
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-136">MED-136</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-135">MED-135</a>
+                                        -&gt;
+                Create entity for tracking user stats
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-137">MED-137</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-135">MED-135</a>
+                                        -&gt;
+                Update block handler to update average score on user stats
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-138">MED-138</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-135">MED-135</a>
+                                        -&gt;
+                Add controller for returning user stats
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-186">MED-186</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Setup revenuecat SDK on android
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-187">MED-187</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                setup revenuecat SDK on web
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-189">MED-189</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Upgrade IAM to support subscriptions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-191">MED-191</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-10">MED-10</a>
+                                        -&gt;
+                Feedback 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-199">MED-199</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-129">MED-129</a>
+                                        -&gt;
+                Add code to end the exam when time runs out
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-200">MED-200</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-14">MED-14</a>
+                                        -&gt;
+                update the open AI service to pass in an endpoint
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-51">MED-51</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-22">MED-22</a>
+                                        -&gt;
+                Setup container registry
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-24">MED-24</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Setup Dev environment
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MED-74">MED-74</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Add concept of feedback and users
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-85">MED-85</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-18">MED-18</a>
+                                        -&gt;
+                Add more columns to the question list and the ability to filter on those column
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-195">MED-195</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-7">MED-7</a>
+                                        -&gt;
+                get android build working
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MED-140">MED-140</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to see my average overall score rank against all users in the system
+    </td>
+    <td>-</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-141">MED-141</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create a gorm model for tracking all user scores
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-142">MED-142</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update block handler to store score table
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-144">MED-144</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Hook up ranking performance widget
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MED-143">MED-143</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update stats controller to return the user&#39;s rank and percentile
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-33">MED-33</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-2">MED-2</a>
+                                        -&gt;
+                Setup client id and secret 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-100">MED-100</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-6">MED-6</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-104">MED-104</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Add endpoint for saving answer to a question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-106">MED-106</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-16">MED-16</a>
+                                        -&gt;
+                Add endpoint for updating the state of the exam
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-114">MED-114</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Update the filter form so that the organ system filter shows topics 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-117">MED-117</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Make it so that select all on the filter selects ALL in the list
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-125">MED-125</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-124">MED-124</a>
+                                        -&gt;
+                Update the list of paused questions across the top of the blocks landing screen
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-133">MED-133</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-131">MED-131</a>
+                                        -&gt;
+                Update with full list of specialties
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-149">MED-149</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-148">MED-148</a>
+                                        -&gt;
+                UI Updates
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-160">MED-160</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-159">MED-159</a>
+                                        -&gt;
+                Hook up list to list block api
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-165">MED-165</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-17">MED-17</a>
+                                        -&gt;
+                Add disciplines filter
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-168">MED-168</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-128">MED-128</a>
+                                        -&gt;
+                Add review version of question detail
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-171">MED-171</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-170">MED-170</a>
+                                        -&gt;
+                Add method for progressing timer
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-172">MED-172</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-170">MED-170</a>
+                                        -&gt;
+                Clear timer set timeout the moment the explanation is shown in tutor mode
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-179">MED-179</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-128">MED-128</a>
+                                        -&gt;
+                Update the question answers to have a version where the answer is wrong and another when it&#39;s correct
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-181">MED-181</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-127">MED-127</a>
+                                        -&gt;
+                Add screen for block results
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/MED-194">MED-194</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/MED-7">MED-7</a>
+                                        -&gt;
+                Setup fastlane for android
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/MED-227">MED-227</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                AI tutor screen too large 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>2w 2d 1h 35m</td>
+            <td>2w 2d 1h 35m</td>
+        <td>4d 2h 49m</td>
+            <td>4d 2h 49m</td>
+        <td>2w 4d 7h 26m</td>
+            <td>2w 4d 7h 26m</td>
+        <td>1 week, 40 minutes</td>
+            <td>1 week, 40 minutes</td>
+        <td>-43</td>
+            <td>-43</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 2:02 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

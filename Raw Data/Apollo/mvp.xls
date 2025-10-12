@@ -1,0 +1,2155 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-13">APO-13</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                setup aws amplify
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 2h 9m</td>
+            <td>
+                            1d 2h 9m
+                    </td>
+        <td>
+                    4 hours, 9 minutes
+            </td>
+            <td>
+                            4 hours, 9 minutes
+                    </td>
+        <td>
+                    -69
+            </td>
+            <td>
+                            -69
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-26">APO-26</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create binary poll screen
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 4h 5m</td>
+            <td>
+                            1d 4h 5m
+                    </td>
+        <td>
+                    6 hours, 5 minutes
+            </td>
+            <td>
+                            6 hours, 5 minutes
+                    </td>
+        <td>
+                    -101
+            </td>
+            <td>
+                            -101
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-28">APO-28</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create image poll screen
+    </td>
+    <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 7h 6m</td>
+            <td>
+                            2d 7h 6m
+                    </td>
+        <td>
+                    1 day, 7 hours, 6 minutes
+            </td>
+            <td>
+                            1 day, 7 hours, 6 minutes
+                    </td>
+        <td>
+                    -188
+            </td>
+            <td>
+                            -188
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-31">APO-31</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                                                        $parentIssue.getKey()
+                                        -&gt;
+                add method for getting poll by id
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 28m</td>
+            <td>
+                            4h 28m
+                    </td>
+        <td>
+                    2 hours, 28 minutes
+            </td>
+            <td>
+                            2 hours, 28 minutes
+                    </td>
+        <td>
+                    -123
+            </td>
+            <td>
+                            -123
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-32">APO-32</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                                                        $parentIssue.getKey()
+                                        -&gt;
+                create component for sharing poll url
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 10m</td>
+            <td>
+                            3h 10m
+                    </td>
+        <td>
+                    1 hour, 10 minutes
+            </td>
+            <td>
+                            1 hour, 10 minutes
+                    </td>
+        <td>
+                    -58
+            </td>
+            <td>
+                            -58
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-33">APO-33</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                implement deeplink
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 6h 1m</td>
+            <td>
+                            1d 6h 1m
+                    </td>
+        <td>
+                    1 day, 2 hours, 1 minute
+            </td>
+            <td>
+                            1 day, 2 hours, 1 minute
+                    </td>
+        <td>
+                    -250
+            </td>
+            <td>
+                            -250
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-42">APO-42</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create poll results screen
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 2h 33m</td>
+            <td>
+                            1d 2h 33m
+                    </td>
+        <td>
+                    6 hours, 33 minutes
+            </td>
+            <td>
+                            6 hours, 33 minutes
+                    </td>
+        <td>
+                    -163
+            </td>
+            <td>
+                            -163
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-58">APO-58</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create screen for voting binary poll
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>7h 26m</td>
+            <td>
+                            7h 26m
+                    </td>
+        <td>
+                    1 hour, 26 minutes
+            </td>
+            <td>
+                            1 hour, 26 minutes
+                    </td>
+        <td>
+                    -23
+            </td>
+            <td>
+                            -23
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-66">APO-66</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                add share button to poll results
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 42m</td>
+            <td>
+                            3h 42m
+                    </td>
+        <td>
+                    1 hour, 42 minutes
+            </td>
+            <td>
+                            1 hour, 42 minutes
+                    </td>
+        <td>
+                    -85
+            </td>
+            <td>
+                            -85
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-71">APO-71</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create dynamodb adapter for accounts
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 15m</td>
+            <td>
+                            1d 15m
+                    </td>
+        <td>
+                    5 hours, 15 minutes
+            </td>
+            <td>
+                            5 hours, 15 minutes
+                    </td>
+        <td>
+                    -175
+            </td>
+            <td>
+                            -175
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-75">APO-75</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Changes to UI for app header, got header and navigation to play nicely.
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-76">APO-76</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create a landing page
+    </td>
+    <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 3h 29m</td>
+            <td>
+                            1d 3h 29m
+                    </td>
+        <td>
+                    3 hours, 29 minutes
+            </td>
+            <td>
+                            3 hours, 29 minutes
+                    </td>
+        <td>
+                    -43
+            </td>
+            <td>
+                            -43
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-78">APO-78</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create a demographic break down sreen
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 7h 49m</td>
+            <td>
+                            1d 7h 49m
+                    </td>
+        <td>
+                    1 day, 3 hours, 49 minutes
+            </td>
+            <td>
+                            1 day, 3 hours, 49 minutes
+                    </td>
+        <td>
+                    -295
+            </td>
+            <td>
+                            -295
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-79">APO-79</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Finish my polls section
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 37m</td>
+            <td>
+                            4h 37m
+                    </td>
+        <td>
+                    1 hour, 37 minutes
+            </td>
+            <td>
+                            1 hour, 37 minutes
+                    </td>
+        <td>
+                    -53
+            </td>
+            <td>
+                            -53
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-80">APO-80</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Design Poll API
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 36m</td>
+            <td>
+                            4h 36m
+                    </td>
+        <td>
+                    1 hour, 36 minutes
+            </td>
+            <td>
+                            1 hour, 36 minutes
+                    </td>
+        <td>
+                    -53
+            </td>
+            <td>
+                            -53
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-81">APO-81</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Automate the build process
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 38m</td>
+            <td>
+                            5h 38m
+                    </td>
+        <td>
+                    1 hour, 38 minutes
+            </td>
+            <td>
+                            1 hour, 38 minutes
+                    </td>
+        <td>
+                    -40
+            </td>
+            <td>
+                            -40
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-96">APO-96</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create Action for retrieving user poll results (Polls user created)
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 2h 17m</td>
+            <td>
+                            2d 2h 17m
+                    </td>
+        <td>
+                    1 day, 7 hours, 17 minutes
+            </td>
+            <td>
+                            1 day, 7 hours, 17 minutes
+                    </td>
+        <td>
+                    -509
+            </td>
+            <td>
+                            -509
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-102">APO-102</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                implement adapters:
+    </td>
+    <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 1h 32m</td>
+            <td>
+                            2d 1h 32m
+                    </td>
+        <td>
+                    1 day, 1 hour, 32 minutes
+            </td>
+            <td>
+                            1 day, 1 hour, 32 minutes
+                    </td>
+        <td>
+                    -119
+            </td>
+            <td>
+                            -119
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-103">APO-103</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                unit tests
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 4h 1m</td>
+            <td>
+                            2d 4h 1m
+                    </td>
+        <td>
+                    2 days, 2 hours, 1 minute
+            </td>
+            <td>
+                            2 days, 2 hours, 1 minute
+                    </td>
+        <td>
+                    -900
+            </td>
+            <td>
+                            -900
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-139">APO-139</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create tests for actions
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 17m</td>
+            <td>
+                            6h 17m
+                    </td>
+        <td>
+                    17 minutes
+            </td>
+            <td>
+                            17 minutes
+                    </td>
+        <td>
+                    -4
+            </td>
+            <td>
+                            -4
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-140">APO-140</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update service to use a service struct
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-148">APO-148</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup and run Expo app on Android and iOS simulators
+    </td>
+    <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 4m</td>
+            <td>
+                            2h 4m
+                    </td>
+        <td>
+                    34 minutes
+            </td>
+            <td>
+                            34 minutes
+                    </td>
+        <td>
+                    -37
+            </td>
+            <td>
+                            -37
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-150">APO-150</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Move hard coded URLs into configs
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-158">APO-158</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Create a handler for creating a poll
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>7h 25m</td>
+            <td>
+                            7h 25m
+                    </td>
+        <td>
+                    5 hours, 25 minutes
+            </td>
+            <td>
+                            5 hours, 25 minutes
+                    </td>
+        <td>
+                    -270
+            </td>
+            <td>
+                            -270
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-160">APO-160</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Create a handler for answering a poll
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 39m</td>
+            <td>
+                            6h 39m
+                    </td>
+        <td>
+                    4 hours, 39 minutes
+            </td>
+            <td>
+                            4 hours, 39 minutes
+                    </td>
+        <td>
+                    -232
+            </td>
+            <td>
+                            -232
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-161">APO-161</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Deploy poll service
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 51m</td>
+            <td>
+                            2d 51m
+                    </td>
+        <td>
+                    1 day, 5 hours, 51 minutes
+            </td>
+            <td>
+                            1 day, 5 hours, 51 minutes
+                    </td>
+        <td>
+                    -461
+            </td>
+            <td>
+                            -461
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-163">APO-163</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Send User ID, Account ID and Correlation ID in requests to poll server
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 56m</td>
+            <td>
+                            2h 56m
+                    </td>
+        <td>
+                    56 minutes
+            </td>
+            <td>
+                            56 minutes
+                    </td>
+        <td>
+                    -46
+            </td>
+            <td>
+                            -46
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-165">APO-165</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                View and Create polls with new API
+    </td>
+    <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h 32m</td>
+            <td>
+                            1d 1h 32m
+                    </td>
+        <td>
+                    1 day, 2 minutes
+            </td>
+            <td>
+                            1 day, 2 minutes
+                    </td>
+        <td>
+                    -535
+            </td>
+            <td>
+                            -535
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-168">APO-168</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Vote on polls in App
+    </td>
+    <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 47m</td>
+            <td>
+                            3h 47m
+                    </td>
+        <td>
+                    1 hour, 17 minutes
+            </td>
+            <td>
+                            1 hour, 17 minutes
+                    </td>
+        <td>
+                    -51
+            </td>
+            <td>
+                            -51
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-98">APO-98</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create action for retrieving poll details
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>1m</td>
+            <td>
+                            1m
+                    </td>
+        <td>2h 59m</td>
+            <td>
+                            2h 59m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-60">APO-60</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create screen for voting multioption poll
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>3m</td>
+            <td>
+                            3m
+                    </td>
+        <td>1d 1h 34m</td>
+            <td>
+                            1d 1h 34m
+                    </td>
+        <td>
+                    3 hours, 37 minutes
+            </td>
+            <td>
+                            3 hours, 37 minutes
+                    </td>
+        <td>
+                    -60
+            </td>
+            <td>
+                            -60
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-84">APO-84</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Send example results json
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>3m</td>
+            <td>
+                            3m
+                    </td>
+        <td>27m</td>
+            <td>
+                            27m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-167">APO-167</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Remove upload image functionality
+    </td>
+    <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>4m</td>
+            <td>
+                            4m
+                    </td>
+        <td>1h 26m</td>
+            <td>
+                            1h 26m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-113">APO-113</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Allow poll duplicate
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>5m</td>
+            <td>
+                            5m
+                    </td>
+        <td>5h 55m</td>
+            <td>
+                            5h 55m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-59">APO-59</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create screen for voting image poll
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>11m</td>
+            <td>
+                            11m
+                    </td>
+        <td>1d 2h 10m</td>
+            <td>
+                            1d 2h 10m
+                    </td>
+        <td>
+                    4 hours, 21 minutes
+            </td>
+            <td>
+                            4 hours, 21 minutes
+                    </td>
+        <td>
+                    -72
+            </td>
+            <td>
+                            -72
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-100">APO-100</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Apollo Prep
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>12m</td>
+            <td>
+                            12m
+                    </td>
+        <td>1h 48m</td>
+            <td>
+                            1h 48m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-27">APO-27</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create multiple choice poll screen
+    </td>
+    <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>18m</td>
+            <td>
+                            18m
+                    </td>
+        <td>1d 12m</td>
+            <td>
+                            1d 12m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -6
+            </td>
+            <td>
+                            -6
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-85">APO-85</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Figure out how Ariel is going to access the endpoint
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-149">APO-149</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Remove Profile tab and share button 
+    </td>
+    <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>38m</td>
+            <td>
+                            38m
+                    </td>
+        <td>52m</td>
+            <td>
+                            52m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-63">APO-63</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create endpoint for getting polls
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>39m</td>
+            <td>
+                            39m
+                    </td>
+        <td>2h 21m</td>
+            <td>
+                            2h 21m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-95">APO-95</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Generate GUID/UID on app install
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>2h 20m</td>
+            <td>
+                            2h 20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-111">APO-111</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create action and hook up functionality for voting on a poll
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>5h 20m</td>
+            <td>
+                            5h 20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-97">APO-97</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create action for retrieving poll results
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>41m</td>
+            <td>
+                            41m
+                    </td>
+        <td>2h 19m</td>
+            <td>
+                            2h 19m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-69">APO-69</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                setup accountApi repository
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>44m</td>
+            <td>
+                            44m
+                    </td>
+        <td>1h 16m</td>
+            <td>
+                            1h 16m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-104">APO-104</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                test command
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-83">APO-83</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Get Landing page on weflow
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-86">APO-86</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update system architecture doc
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-89">APO-89</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup Poll mock server
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-16">APO-16</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                setup pollApi repository
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 3m</td>
+            <td>
+                            1h 3m
+                    </td>
+        <td>57m</td>
+            <td>
+                            57m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-82">APO-82</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Add Image to question
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>1h 45m</td>
+            <td>
+                            1h 45m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-70">APO-70</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create interface for account storage
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 40m</td>
+            <td>
+                            1h 40m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-10">APO-10</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                setup aws amplify for facebook login, google login
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>1h 58m</td>
+            <td>
+                            1h 58m
+                    </td>
+        <td>2h 2m</td>
+            <td>
+                            2h 2m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-12">APO-12</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                setup boilerplate react native project
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-29">APO-29</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create action for creating poll
+    </td>
+    <td>6h</td>
+            <td>
+                            1d 6h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1d 1h 32m</td>
+            <td>
+                            5d 2h 21m
+                    </td>
+        <td>
+                    5 hours, 32 minutes
+            </td>
+            <td>
+                            3 days, 6 hours, 21 minutes
+                    </td>
+        <td>
+                    -92
+            </td>
+            <td>
+                            -216
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-93">APO-93</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Save Poll image using image poll endpoint
+    </td>
+    <td>4h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>3d 2h 43m</td>
+            <td>
+                    </td>
+        <td>
+                    2 days, 6 hours, 43 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -567
+            </td>
+            <td>
+                            -567
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-94">APO-94</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Store Poll using Enpoint
+    </td>
+    <td>4h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>6h 6m</td>
+            <td>
+                    </td>
+        <td>
+                    2 hours, 6 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -52
+            </td>
+            <td>
+                            -52
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-87">APO-87</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Spec out Results
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-108">APO-108</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Mock up the walk through 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-112">APO-112</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Display results when poll vote is registered
+    </td>
+    <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>2h 47m</td>
+            <td>
+                            2h 47m
+                    </td>
+        <td>5h 13m</td>
+            <td>
+                            5h 13m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-99">APO-99</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create View for Image poll results
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>2h 51m</td>
+            <td>
+                            2h 51m
+                    </td>
+        <td>3h 9m</td>
+            <td>
+                            3h 9m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-22">APO-22</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create a spec for the create poll api in swagger
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-92">APO-92</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Work on Image server
+    </td>
+    <td>3d</td>
+            <td>
+                            3d
+                    </td>
+        <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>2d 1h 47m</td>
+            <td>
+                            2d 1h 47m
+                    </td>
+        <td>
+                    1 hour, 47 minutes
+            </td>
+            <td>
+                            1 hour, 47 minutes
+                    </td>
+        <td>
+                    -7
+            </td>
+            <td>
+                            -7
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-77">APO-77</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                01/30/3019 Misc LittleApollo
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>4w 1d 7h 30m</td>
+            <td>4w 1d 7h 30m</td>
+        <td>5d 2h 53m</td>
+            <td>5d 2h 53m</td>
+        <td>7w 8m</td>
+            <td>7w 8m</td>
+        <td>3 weeks, 3 days, 3 hours, 31 minutes</td>
+            <td>3 weeks, 3 days, 3 hours, 31 minutes</td>
+        <td>-81</td>
+            <td>-81</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:57 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

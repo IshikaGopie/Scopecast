@@ -1,0 +1,5005 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-1">APO-1</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create Pages and Navigation through the app
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 9m</td>
+            <td>
+                            6h 9m
+                    </td>
+        <td>
+                    9 minutes
+            </td>
+            <td>
+                            9 minutes
+                    </td>
+        <td>
+                    -2
+            </td>
+            <td>
+                            -2
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-4">APO-4</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create a Poll Functionality
+    </td>
+    <td>2d</td>
+            <td>
+                            2d
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 2h 58m</td>
+            <td>
+                            1d 2h 58m
+                    </td>
+        <td>
+                    5 hours, 2 minutes
+            </td>
+            <td>
+                            5 hours, 2 minutes
+                    </td>
+        <td>
+                    31
+            </td>
+            <td>
+                            31
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-6">APO-6</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Build App load/first open flow according to design
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-7">APO-7</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Build design for feed/Home page And Create Poll Page
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h 50m</td>
+            <td>
+                            1d 1h 50m
+                    </td>
+        <td>
+                    1 day, 1 hour, 50 minutes
+            </td>
+            <td>
+                            1 day, 1 hour, 50 minutes
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-57">APO-57</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                create endpoint for sending poll vote
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 2m</td>
+            <td>
+                            4h 2m
+                    </td>
+        <td>
+                    2 hours, 2 minutes
+            </td>
+            <td>
+                            2 hours, 2 minutes
+                    </td>
+        <td>
+                    -101
+            </td>
+            <td>
+                            -101
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-142">APO-142</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Image Service Restructure
+    </td>
+    <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 47m</td>
+            <td>
+                            2h 47m
+                    </td>
+        <td>
+                    17 minutes
+            </td>
+            <td>
+                            17 minutes
+                    </td>
+        <td>
+                    -11
+            </td>
+            <td>
+                            -11
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-171">APO-171</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Misc Tweaks + Fixes
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 2h 48m</td>
+            <td>
+                            1d 2h 48m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-222">APO-222</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-200">APO-200</a>
+                                        -&gt;
+                Add endpoint to list test frameworks
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-230">APO-230</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                                                        <a href="/browse/APO-223">APO-223</a>
+                                        -&gt;
+                Setup Google App, Microsoft App and Facebook app for Apollo
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-237">APO-237</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-225">APO-225</a>
+                                        -&gt;
+                Add child dashboard
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-238">APO-238</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-225">APO-225</a>
+                                        -&gt;
+                Add view child endpoint
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-239">APO-239</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Add endpoint for viewing list of exercises
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-242">APO-242</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Add endpoint for viewing exercise detail
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-245">APO-245</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                Add endpoint for submitting an answer
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 6m</td>
+            <td>
+                            3h 6m
+                    </td>
+        <td>
+                    1 hour, 6 minutes
+            </td>
+            <td>
+                            1 hour, 6 minutes
+                    </td>
+        <td>
+                    -55
+            </td>
+            <td>
+                            -55
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-246">APO-246</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                Add endpoint grading and getting the answers for an exercise 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h</td>
+            <td>
+                            1d 1h
+                    </td>
+        <td>
+                    7 hours
+            </td>
+            <td>
+                            7 hours
+                    </td>
+        <td>
+                    -350
+            </td>
+            <td>
+                            -350
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-247">APO-247</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                Add screen for reviewing answers
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h</td>
+            <td>
+                            5h
+                    </td>
+        <td>
+                    3 hours
+            </td>
+            <td>
+                            3 hours
+                    </td>
+        <td>
+                    -150
+            </td>
+            <td>
+                            -150
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-251">APO-251</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-228">APO-228</a>
+                                        -&gt;
+                Add endpoint for viewing test objectives under a strand
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-256">APO-256</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-203">APO-203</a>
+                                        -&gt;
+                finalize endpoints
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-257">APO-257</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-203">APO-203</a>
+                                        -&gt;
+                Add create form 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-259">APO-259</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-207">APO-207</a>
+                                        -&gt;
+                Create a generic prompt for generating questions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+                    10 minutes
+            </td>
+            <td>
+                            10 minutes
+                    </td>
+        <td>
+                    -16
+            </td>
+            <td>
+                            -16
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-260">APO-260</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-207">APO-207</a>
+                                        -&gt;
+                Create a receiver for generating questions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+                    2 hours, 30 minutes
+            </td>
+            <td>
+                            2 hours, 30 minutes
+                    </td>
+        <td>
+                    -250
+            </td>
+            <td>
+                            -250
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-265">APO-265</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-261">APO-261</a>
+                                        -&gt;
+                Add a screen for creating/updating/testing a prompt
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-266">APO-266</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-261">APO-261</a>
+                                        -&gt;
+                Add endpoint for upserting a prompt
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-269">APO-269</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-203">APO-203</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-276">APO-276</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Implement RevenueCat service in IAM
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-277">APO-277</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Add subscription screens
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -150
+            </td>
+            <td>
+                            -150
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-278">APO-278</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 25m</td>
+            <td>
+                            5h 25m
+                    </td>
+        <td>
+                    4 hours, 25 minutes
+            </td>
+            <td>
+                            4 hours, 25 minutes
+                    </td>
+        <td>
+                    -441
+            </td>
+            <td>
+                            -441
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-288">APO-288</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-207">APO-207</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-291">APO-291</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-290">APO-290</a>
+                                        -&gt;
+                Update UI to allow for adding sub questions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-292">APO-292</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-290">APO-290</a>
+                                        -&gt;
+                Update the question upsert endpoint to allow for passing in sub parts
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-294">APO-294</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-225">APO-225</a>
+                                        -&gt;
+                add screen for adding child 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-295">APO-295</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to select multiple test objectives for a question
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-297">APO-297</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update question upsert endpoint to receive multiple test objectives
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-296">APO-296</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Implement stripe service in IAM
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-298">APO-298</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-225">APO-225</a>
+                                        -&gt;
+                Get student creation working on the test service 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -150
+            </td>
+            <td>
+                            -150
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-299">APO-299</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                add endpoint for viewing answer
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-300">APO-300</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Make it so that if an email is entered for student, invite is sent
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-301">APO-301</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-304">APO-304</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 30m</td>
+            <td>
+                            6h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-305">APO-305</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+                    3 hours, 30 minutes
+            </td>
+            <td>
+                            3 hours, 30 minutes
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-311">APO-311</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Update exercise upsert receiver to return 402 if the user doesn&#39;t have a subscription
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-315">APO-315</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Add an endpoint to IAM to get an updated JWT 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-318">APO-318</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Add endpoint for getting the stats of an exercise 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 24m</td>
+            <td>
+                            3h 24m
+                    </td>
+        <td>
+                    1 hour, 24 minutes
+            </td>
+            <td>
+                            1 hour, 24 minutes
+                    </td>
+        <td>
+                    -70
+            </td>
+            <td>
+                            -70
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-319">APO-319</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Hook up UI to backend
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 15m</td>
+            <td>
+                            4h 15m
+                    </td>
+        <td>
+                    2 hours, 15 minutes
+            </td>
+            <td>
+                            2 hours, 15 minutes
+                    </td>
+        <td>
+                    -112
+            </td>
+            <td>
+                            -112
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-321">APO-321</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Add subscription ID to the JWT
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -200
+            </td>
+            <td>
+                            -200
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-349">APO-349</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-346">APO-346</a>
+                                        -&gt;
+                Add a list screen for all the exercises 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-350">APO-350</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-346">APO-346</a>
+                                        -&gt;
+                Add form for creating/updating an exercise
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 51m</td>
+            <td>
+                            6h 51m
+                    </td>
+        <td>
+                    4 hours, 51 minutes
+            </td>
+            <td>
+                            4 hours, 51 minutes
+                    </td>
+        <td>
+                    -242
+            </td>
+            <td>
+                            -242
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-387">APO-387</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-384">APO-384</a>
+                                        -&gt;
+                add ela writing as a subject
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h</td>
+            <td>
+                            5h
+                    </td>
+        <td>
+                    3 hours
+            </td>
+            <td>
+                            3 hours
+                    </td>
+        <td>
+                    -150
+            </td>
+            <td>
+                            -150
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-388">APO-388</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-384">APO-384</a>
+                                        -&gt;
+                setup the different types of essays as strands
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-391">APO-391</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-384">APO-384</a>
+                                        -&gt;
+                Add screens for selecting strand, and questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-151">APO-151</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Get up to speed with the Image Server
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>5m</td>
+            <td>
+                            5m
+                    </td>
+        <td>3h 55m</td>
+            <td>
+                            3h 55m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-2">APO-2</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create Apollo RN project and Repo
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-244">APO-244</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-227">APO-227</a>
+                                        -&gt;
+                Add screen for viewing a question
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>18m</td>
+            <td>
+                            18m
+                    </td>
+        <td>3h 54m</td>
+            <td>
+                            3h 54m
+                    </td>
+        <td>
+                    1 hour, 12 minutes
+            </td>
+            <td>
+                            1 hour, 12 minutes
+                    </td>
+        <td>
+                    -40
+            </td>
+            <td>
+                            -40
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-317">APO-317</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Record time spent on a question
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>1h 40m</td>
+            <td>
+                            1h 40m
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-323">APO-323</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Update tally to only show questions as a whole and not each question part individually
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>1h 40m</td>
+            <td>
+                            1h 40m
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-275">APO-275</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Setup revenue cat
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-289">APO-289</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-261">APO-261</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-293">APO-293</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-290">APO-290</a>
+                                        -&gt;
+                Update Question generation to accommodate multi part questions
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-352">APO-352</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-309">APO-309</a>
+                                        -&gt;
+                Add method on Answer to mark answer correct
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-354">APO-354</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-307">APO-307</a>
+                                        -&gt;
+                Update question service to fix issue where repeats are in the sample
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-322">APO-322</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Add total metrics at the top
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>35m</td>
+            <td>
+                            35m
+                    </td>
+        <td>25m</td>
+            <td>
+                            25m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-253">APO-253</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Import test objectives from CSV
+    </td>
+    <td>1h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            40m
+                    </td>
+        <td>1h</td>
+            <td>
+                            3h 20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            -33
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-254">APO-254</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Process subjects,strands, substrands
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-255">APO-255</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Process test objectives, thinking process
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>40m</td>
+            <td>
+                    </td>
+        <td>1h 20m</td>
+            <td>
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-258">APO-258</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-207">APO-207</a>
+                                        -&gt;
+                Import questions from CSV
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>44m</td>
+            <td>
+                            44m
+                    </td>
+        <td>1h 16m</td>
+            <td>
+                            1h 16m
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-176">APO-176</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to get the answer for a question
+    </td>
+    <td>-</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-187">APO-187</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update answer prompt to work without out the user submitting an answer
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-189">APO-189</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Experiment with prompt that checks it&#39;s own explanation
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-231">APO-231</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-223">APO-223</a>
+                                        -&gt;
+                Setup dashboard for logged in Parent
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-233">APO-233</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Add endpoint for removing a child 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-234">APO-234</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Add form for creating child 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-235">APO-235</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Add screen for creating child 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-240">APO-240</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Add screen for listing and filtering exercises 
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-241">APO-241</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Add endpoint for upserting exercise
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1d</td>
+            <td>
+                            1d
+                    </td>
+        <td>
+                    7 hours
+            </td>
+            <td>
+                            7 hours
+                    </td>
+        <td>
+                    -350
+            </td>
+            <td>
+                            -350
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-250">APO-250</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-228">APO-228</a>
+                                        -&gt;
+                add endpoint for viewing a strand 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-262">APO-262</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-261">APO-261</a>
+                                        -&gt;
+                Add screen for view list of test objectives
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-264">APO-264</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-261">APO-261</a>
+                                        -&gt;
+                Add a form for creating/updating a prompt
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-274">APO-274</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Setup stripe account
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-324">APO-324</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-303">APO-303</a>
+                                        -&gt;
+                Small UI tweaks
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-351">APO-351</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-346">APO-346</a>
+                                        -&gt;
+                Add endpoint for creating a crafted exercise 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-353">APO-353</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-309">APO-309</a>
+                                        -&gt;
+                Add endpoint for marking answer correct
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-355">APO-355</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-307">APO-307</a>
+                                        -&gt;
+                Update question service to re run query without restrictions if the no. of questions returned is less than what was asked for 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-375">APO-375</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-374">APO-374</a>
+                                        -&gt;
+                Add coachmarks to the exercise review screen
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-376">APO-376</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-374">APO-374</a>
+                                        -&gt;
+                Add coachmarks to the question review
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-310">APO-310</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-270">APO-270</a>
+                                        -&gt;
+                Update front end to use revenue cat
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 45m</td>
+            <td>
+                            1h 45m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-8">APO-8</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Build Design for Profile Page
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h 45m</td>
+            <td>
+                            2h 45m
+                    </td>
+        <td>
+                    1 hour, 45 minutes
+            </td>
+            <td>
+                            1 hour, 45 minutes
+                    </td>
+        <td>
+                    -58
+            </td>
+            <td>
+                            -58
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-232">APO-232</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Add endpoint for upserting a child 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-236">APO-236</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-224">APO-224</a>
+                                        -&gt;
+                Add a profile screen where the account could be managed
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-252">APO-252</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-228">APO-228</a>
+                                        -&gt;
+                Add screen for viewing test objectives
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-378">APO-378</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-377">APO-377</a>
+                                        -&gt;
+                Add a button to an exercise that deletes the submission and starts the exercise
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-143">APO-143</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Poll Service Restructure
+    </td>
+    <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>2h 5m</td>
+            <td>
+                            2h 5m
+                    </td>
+        <td>25m</td>
+            <td>
+                            25m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-248">APO-248</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-228">APO-228</a>
+                                        -&gt;
+                Add screen that lists the SEA strands
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-25">APO-25</a></td>
+    <td>Done</td>
+    <td></td>
+    <td>
+                create endpoint for adding a poll
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>3h 59m</td>
+            <td>
+                            3h 59m
+                    </td>
+        <td>1m</td>
+            <td>
+                            1m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-335">APO-335</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to upload an image of a question and get the answer
+    </td>
+    <td>-</td>
+            <td>
+                            4h
+                    </td>
+        <td>-</td>
+            <td>
+                            4h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-338">APO-338</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add screen for submitting question
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-339">APO-339</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Hookup UI to backend
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-337">APO-337</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create a receiver that takes a question submission and uses the LLM to answer it 
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-175">APO-175</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should be able to submit an answer and get it corrected
+    </td>
+    <td>-</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-183">APO-183</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add input to enter answer for question
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-185">APO-185</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add endpoint to submit response to 
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-186">APO-186</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update UI to show AI response
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-184">APO-184</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create prompt for responding to question
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-177">APO-177</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Add langfuse so that you can get feedback on generated questions and answers
+    </td>
+    <td>-</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-180">APO-180</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update AI response to return trace id and observation id so that it can be passed back when the response is generated
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-181">APO-181</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Deploy to staging
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-182">APO-182</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Deploy to prod
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-179">APO-179</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add UI to rate generation
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-191">APO-191</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to submit an image and get the math question behind
+    </td>
+    <td>-</td>
+            <td>
+                            5h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            4h 40m
+                    </td>
+        <td>-</td>
+            <td>
+                            50m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-192">APO-192</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add input to upload image 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-194">APO-194</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Get image upload working 
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>40m</td>
+            <td>
+                    </td>
+        <td>20m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-195">APO-195</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Get OCR working and returning message
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-196">APO-196</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update so that the message returned is set as the question or answer depending on the input
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-193">APO-193</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add input to take image with phone camera
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-336">APO-336</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to get more questions like a specific type of question
+    </td>
+    <td>-</td>
+            <td>
+                            6h
+                    </td>
+        <td>-</td>
+            <td>
+                            6h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-341">APO-341</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create exercise factory that uses a question as a reference
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-343">APO-343</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update ui to link to creating exercise by reference
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-340">APO-340</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update question generation to create a vector for each question
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-342">APO-342</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Update the question service to have method for getting questions by vector similarity 
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-271">APO-271</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to install from the play store
+    </td>
+    <td>-</td>
+            <td>
+                            1d 6h
+                    </td>
+        <td>-</td>
+            <td>
+                            1d 6h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-279">APO-279</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup project playstore
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-280">APO-280</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup firebase account
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-281">APO-281</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup capacitor
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-284">APO-284</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add Facebook SDK
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-282">APO-282</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup fastlane
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-283">APO-283</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Do first build 
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-285">APO-285</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup Google Tag Manager
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-286">APO-286</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup RevenueCat SDK
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-287">APO-287</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Feedback
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-5">APO-5</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Spec Little Apollo
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-172">APO-172</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create a list of tools that people use for those jobs, pains and gains now
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/APO-173">APO-173</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Questions are correct but the explaination for the solution is incorrect
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/APO-188">APO-188</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create experiment for having the LLM check it&#39;s own answer 
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/APO-174">APO-174</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Doesn&#39;t generate good questions for trig identities
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-190">APO-190</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make it so that the question is generated using a more accurate answer
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-198">APO-198</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-197">APO-197</a>
+                                        -&gt;
+                Update receivers to use OpenAI SDK Instead
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-199">APO-199</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-197">APO-197</a>
+                                        -&gt;
+                Add Apollo OpenAI key to build
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-229">APO-229</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                                                        <a href="/browse/APO-223">APO-223</a>
+                                        -&gt;
+                Setup apollo IAM
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-243">APO-243</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-226">APO-226</a>
+                                        -&gt;
+                Add endpoint for deleting exercise
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-272">APO-272</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to install from the app store 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-302">APO-302</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-225">APO-225</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-308">APO-308</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Improve question generation to make it easier
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-312">APO-312</a></td>
+    <td>To Do</td>
+    <td>Minor</td>
+    <td>
+                As a student I should be able to setup an account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-326">APO-326</a></td>
+    <td>To Do</td>
+    <td>Minor</td>
+    <td>
+                Make it so that user could select to add student via email or by username
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-329">APO-329</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-328">APO-328</a>
+                                        -&gt;
+                Updated the app to use the student id associated with the exercise instead of pulling from the logged in user JWT
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-330">APO-330</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-328">APO-328</a>
+                                        -&gt;
+                Remove view button for parent
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-331">APO-331</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-328">APO-328</a>
+                                        -&gt;
+                Make it so that when the exam is finished grading it goes to the report
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-347">APO-347</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-346">APO-346</a>
+                                        -&gt;
+                Update exercise entity to have a &quot;name&quot; for the exercise
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/APO-382">APO-382</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/APO-381">APO-381</a>
+                                        -&gt;
+                add schools to api 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/APO-383">APO-383</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Create a tool for creative writing
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-392">APO-392</a></td>
+    <td>To Do</td>
+    <td>Minor</td>
+    <td>
+                Make it so that when you do &quot;more like this&quot; it gives questions worth the same no. of marks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-401">APO-401</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Turn on Std 5 Questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>3w 3h 30m</td>
+            <td>3w 3h 30m</td>
+        <td>1w 3d 46m</td>
+            <td>1w 3d 46m</td>
+        <td>3w 2d 2h 11m</td>
+            <td>3w 2d 2h 11m</td>
+        <td>1 week, 4 days, 7 hours, 27 minutes</td>
+            <td>1 week, 4 days, 7 hours, 27 minutes</td>
+        <td>-55</td>
+            <td>-55</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:54 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

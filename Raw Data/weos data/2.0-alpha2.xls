@@ -1,0 +1,1565 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-346">WS-346</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Clean up Integration service
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-379">WS-379</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create synthetic data for demo account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-401">WS-401</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Remove unbounded reports from prompt
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 47m</td>
+            <td>
+                            2h 47m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-412">WS-412</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Switch to using GPT-4
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 8m</td>
+            <td>
+                            4h 8m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-419">WS-419</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Null response for some queries
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-420">WS-420</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Email on user list doesn&#39;t match the user that accepted invite
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-426">WS-426</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to create an alert on the finance assistant
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 40m</td>
+            <td>
+                            4h 40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-427">WS-427</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to delete an alert 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 20m</td>
+            <td>
+                            1h 20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-431">WS-431</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should see notifications on the homescreen if alerts are triggered
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 28m</td>
+            <td>
+                            2h 28m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-441">WS-441</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to set email as  an option to receive notifications
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 35m</td>
+            <td>
+                            2h 35m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-459">WS-459</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to view a notification&#39;s details
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-461">WS-461</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                As a user I should be able to snooze a notification
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h 12m</td>
+            <td>
+                            1d 1h 12m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-463">WS-463</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able view an alert&#39;s details
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 30m</td>
+            <td>
+                            5h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-464">WS-464</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to view a alert log detail
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-497">WS-497</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make it so that if the alert response has markdown it&#39;s summarized
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-521">WS-521</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to see all the activity from the alert runs on the home screen
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 10m</td>
+            <td>
+                            4h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-528">WS-528</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                As a user I should be able to see a list of my alerts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-529">WS-529</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Error signing up for a new weos account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-534">WS-534</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                When asking &quot;Is the checking account balance greater than $10?&quot; the LLM contradicts itself
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 56m</td>
+            <td>
+                            1d 56m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-535">WS-535</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                When there is an issue setting up the alert it is NOT showing an error
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 20m</td>
+            <td>
+                            2h 20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-579">WS-579</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Alert tells user which reports to use
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>7h 47m</td>
+            <td>
+                            7h 47m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-581">WS-581</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Error when opening app on android mobile
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 45m</td>
+            <td>
+                            3h 45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-583">WS-583</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user when I first setup my account I should start getting insights
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-596">WS-596</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Improve the LLM error responses
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 35m</td>
+            <td>
+                            2h 35m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-598">WS-598</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Got error about the alert being more than daily though I created an alert that was supposed to check weekly
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 4m</td>
+            <td>
+                            3h 4m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-608">WS-608</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Implement batch processing for alerts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 15m</td>
+            <td>
+                            2h 15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-631">WS-631</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Update the Quickbooks mapping
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 10m</td>
+            <td>
+                            3h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-638">WS-638</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Alert Schedule errors
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h 19m</td>
+            <td>
+                            1d 1h 19m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-648">WS-648</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should be able to connect quickbooks to WeOS as a first time user
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 19m</td>
+            <td>
+                            1d 19m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-651">WS-651</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                Long load times on Activity Feed
+    </td>
+    <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 5m</td>
+            <td>
+                            1h 5m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    -30
+            </td>
+            <td>
+                            -30
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-657">WS-657</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Alerts repeating multiple times on prod
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 20m</td>
+            <td>
+                            2h 20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-689">WS-689</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Tech Debt - UX/UI Tweaks to get beta launch ready
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-698">WS-698</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to get a new Insight each day
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-732">WS-732</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Add placeholder text on alert create
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -75
+            </td>
+            <td>
+                            -75
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-745">WS-745</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                UX/UI tweaks part 2
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -16
+            </td>
+            <td>
+                            -16
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-749">WS-749</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Insights aren&#39;t generated based on prod data sometimes
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 30m</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-752">WS-752</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                UX/UI tweaks part 3
+    </td>
+    <td>4h 30m</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h</td>
+            <td>
+                            5h
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -11
+            </td>
+            <td>
+                            -11
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-755">WS-755</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to see recommended alerts related to the insight I received
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 25m</td>
+            <td>
+                            2h 25m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-757">WS-757</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make it so that when a users reads a message they can receive new notifications
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+                    45 minutes
+            </td>
+            <td>
+                            45 minutes
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-758">WS-758</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that the Profit and Loss igniter is run 4 days after the user sets up
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-718">WS-718</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Add footer to the application
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>24m</td>
+            <td>
+                            24m
+                    </td>
+        <td>1h 56m</td>
+            <td>
+                            1h 56m
+                    </td>
+        <td>
+                    1 hour, 20 minutes
+            </td>
+            <td>
+                            1 hour, 20 minutes
+                    </td>
+        <td>
+                    -133
+            </td>
+            <td>
+                            -133
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-546">WS-546</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Upgrade the version of opentelemetry that we use 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-469">WS-469</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to see data insights on the home screen
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-416">WS-416</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Turn off API Deck
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-470">WS-470</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to view insight details
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-649">WS-649</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to login with my Quickbooks account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-652">WS-652</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Add alert creation endpoint to the alert service
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-707">WS-707</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Revert IAM Authentication on RDS
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-717">WS-717</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                Add source info to card
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>1d 5h 20m</td>
+            <td>1d 5h 20m</td>
+        <td>3h 4m</td>
+            <td>3h 4m</td>
+        <td>2w 3d 2h 51m</td>
+            <td>2w 3d 2h 51m</td>
+        <td>2 weeks, 2 days, 35 minutes</td>
+            <td>2 weeks, 2 days, 35 minutes</td>
+        <td>-964</td>
+            <td>-964</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:41 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

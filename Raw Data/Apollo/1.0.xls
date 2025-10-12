@@ -1,0 +1,970 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-207">APO-207</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As and admin I should be able to use AI to generate questions for a test objective
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-210">APO-210</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup basic admin app and deploy
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-225">APO-225</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a child I should be able to login with a code
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-267">APO-267</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup the domain on Hubspot
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-273">APO-273</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup base app
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>
+                    3 hours
+            </td>
+            <td>
+                            3 hours
+                    </td>
+        <td>
+                    -300
+            </td>
+            <td>
+                            -300
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/APO-306">APO-306</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Could not generate questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 18m</td>
+            <td>
+                            3h 18m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/APO-320">APO-320</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Parts are disappearing when save questioned
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>29m</td>
+            <td>
+                            29m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-325">APO-325</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make it so that the user is redirected to add student if they don&#39;t have any student 
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-328">APO-328</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                As a user I should be able to start an exam even if I&#39;m not logged in as a student
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-333">APO-333</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make it return an error if the user signs in with an account that doesn&#39;t exist
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-332">APO-332</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                When creating an exercise without a student use a default if there is 1 student in the account
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-327">APO-327</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Add a state so that if a question needs to be fixed it could go into that state
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>22m</td>
+            <td>
+                            22m
+                    </td>
+        <td>8m</td>
+            <td>
+                            8m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-313">APO-313</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Split initial login screen for existing users and new users 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-314">APO-314</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Make more mobile friendly
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-209">APO-209</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Generate basic api code
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-208">APO-208</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Setup basic API and deploy
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 5m</td>
+            <td>
+                            1h 5m
+                    </td>
+        <td>55m</td>
+            <td>
+                            55m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-197">APO-197</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Switch to using OpenAI instead of Google Vertex API
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-200">APO-200</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to manage test bodies
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-203">APO-203</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to manage questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-223">APO-223</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to register and log in
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-224">APO-224</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to add a child
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-226">APO-226</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to manage exercises
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-227">APO-227</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a child I should be able to complete excercises
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-228">APO-228</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to view the syllabus
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-261">APO-261</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to make a custom prompt for generating questions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-268">APO-268</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                QA
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-290">APO-290</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to create a question that has multiple parts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/APO-303">APO-303</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                As a parent I should be able to analyze how my child did on an exercise
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/APO-334">APO-334</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Update the color of the theme to be orange
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>1d 3h</td>
+            <td>1d 3h</td>
+        <td>3h 42m</td>
+            <td>3h 42m</td>
+        <td>2d 6h 5m</td>
+            <td>2d 6h 5m</td>
+        <td>1 day, 6 hours, 47 minutes</td>
+            <td>1 day, 6 hours, 47 minutes</td>
+        <td>-134</td>
+            <td>-134</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:56 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

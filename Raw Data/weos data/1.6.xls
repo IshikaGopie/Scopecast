@@ -1,0 +1,854 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1203">WS-1203</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to login with Shopify
+    </td>
+    <td>-</td>
+            <td>
+                            5h
+                    </td>
+        <td>-</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            5h 33m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            33 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1275">WS-1275</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                                -&gt;
+                Make it so that users can log into WeOS with 3rd party OAuth
+    </td>
+    <td>5h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>5h 33m</td>
+            <td>
+                    </td>
+        <td>
+                    33 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -11
+            </td>
+            <td>
+                            -11
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1204">WS-1204</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to install WeOS from the Shopify app marketplace
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 10m</td>
+            <td>
+                            2h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1211">WS-1211</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to run a sync manually
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>7h 10m</td>
+            <td>
+                            7h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1213">WS-1213</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to preview an import 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1255">WS-1255</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to get insights on chargebacks when I first install the app
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1350">WS-1350</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to test the shopify integration without setting up Quickbooks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>48m</td>
+            <td>
+                            48m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1390">WS-1390</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                @nuxt dev tools, security vulnerability
+    </td>
+    <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1454">WS-1454</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Update app listing to address feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1455">WS-1455</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Can&#39;t go to chat with assistant when logged in with shopify account
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1468">WS-1468</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to post a payout
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1592">WS-1592</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to see all tax mappings
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1205">WS-1205</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup multiple stores in WeOS
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1207">WS-1207</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to configure how sales orders are sync&#39;d
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1208">WS-1208</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to configure how fees are sync&#39;d
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1209">WS-1209</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to configure how taxes are sync&#39;d
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1256">WS-1256</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to get weekly insights on chargebacks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1295">WS-1295</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Add endpoints to handle GDPR Requests
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1307">WS-1307</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                I should be able to preview an import
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1308">WS-1308</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                I should be able to approve an import
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1453">WS-1453</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to switch between plans
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1456">WS-1456</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Can&#39;t create signal from an account that was created with shopify
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1466">WS-1466</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to configure how payouts are imported
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1467">WS-1467</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to preview a payout
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1470">WS-1470</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to undo an import
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1475">WS-1475</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Create customer specific shopify provider
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>1d 20m</td>
+            <td>1d 20m</td>
+        <td>0m</td>
+            <td>0m</td>
+        <td>2d 5h 16m</td>
+            <td>2d 5h 16m</td>
+        <td>1 day, 4 hours, 56 minutes</td>
+            <td>1 day, 4 hours, 56 minutes</td>
+        <td>-155</td>
+            <td>-155</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:42 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

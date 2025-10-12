@@ -1,0 +1,1049 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1566">WS-1566</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Quickbooks refresh not working
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 10m</td>
+            <td>
+                            2h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1638">WS-1638</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should be able to access the app from my various stores
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 38m</td>
+            <td>
+                            3h 38m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1646">WS-1646</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to import orders from Square
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1662">WS-1662</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Selecting the notification icon should take you to the alerts section
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5m</td>
+            <td>
+                            5m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1676">WS-1676</a></td>
+    <td>Closed</td>
+    <td>Critical</td>
+    <td>
+                Can&#39;t login on mobile
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1687">WS-1687</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Integration not authorized error from quickbooks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1716">WS-1716</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that if there is an error deleting an item from Quickbooks the parent isn&#39;t deleted
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>48m</td>
+            <td>
+                            48m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1717">WS-1717</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that if there is an error on one item that it stops trying to push the import
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 38m</td>
+            <td>
+                            1h 38m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1718">WS-1718</a></td>
+    <td>Closed</td>
+    <td>Critical</td>
+    <td>
+                Make it so that if there is a time out error it let&#39;s the user know that things are slow on destination end and that they can try the import again
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1719">WS-1719</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make it so that the users gets a friendly error when Quickbooks says there are too many people in the system
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1724">WS-1724</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Error during adding store causes a blank connection to be created
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 53m</td>
+            <td>
+                            1h 53m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1730">WS-1730</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                After import order is showing up as unpaid 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>53m</td>
+            <td>
+                            53m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1762">WS-1762</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Payment mapping not being respected
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 33m</td>
+            <td>
+                            5h 33m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1767">WS-1767</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Duplicate entries on import
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1768">WS-1768</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Orders showing up with wrong date
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 5m</td>
+            <td>
+                            3h 5m
+                    </td>
+        <td>
+                    1 hour, 5 minutes
+            </td>
+            <td>
+                            1 hour, 5 minutes
+                    </td>
+        <td>
+                    -54
+            </td>
+            <td>
+                            -54
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1770">WS-1770</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Refund Receipts for cash orders don&#39;t seem to get created
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 40m</td>
+            <td>
+                            4h 40m
+                    </td>
+        <td>
+                    3 hours, 40 minutes
+            </td>
+            <td>
+                            3 hours, 40 minutes
+                    </td>
+        <td>
+                    -366
+            </td>
+            <td>
+                            -366
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1726">WS-1726</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Make help button show modal with Email, Phone and support website
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>6m</td>
+            <td>
+                            6m
+                    </td>
+        <td>24m</td>
+            <td>
+                            24m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1735">WS-1735</a></td>
+    <td>Done</td>
+    <td>Blocker</td>
+    <td>
+                Make it so that store selected on import list screen is selected on payouts and orders
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>7m</td>
+            <td>
+                            7m
+                    </td>
+        <td>23m</td>
+            <td>
+                            23m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1758">WS-1758</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                The date on the fees added are incorrect
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1650">WS-1650</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to remove square integration
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1212">WS-1212</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to schedule a sync to run
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1642">WS-1642</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to add Square as an integration
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1644">WS-1644</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to configure how imports are done for Square store
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1645">WS-1645</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to import payouts from Square
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1681">WS-1681</a></td>
+    <td>Closed</td>
+    <td>Critical</td>
+    <td>
+                When you login with a non-shopify account you get an error related to imports
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1690">WS-1690</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to manage how I want tips to be handled
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1691">WS-1691</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                I should be able to login with Google or Microsoft
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1725">WS-1725</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Everytime an import is done a new tax item is being created
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1729">WS-1729</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                Update the list columns to essentials
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1736">WS-1736</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                Improve build for mobile
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1743">WS-1743</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Error showing up when switching to Square config
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Bug</td>
+    <td><a href="/browse/WS-1781">WS-1781</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                Getting bad request when retrieving payouts on prod
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>7h</td>
+            <td>7h</td>
+        <td>1h 53m</td>
+            <td>1h 53m</td>
+        <td>3d 7h 10m</td>
+            <td>3d 7h 10m</td>
+        <td>3 days, 2 hours, 3 minutes</td>
+            <td>3 days, 2 hours, 3 minutes</td>
+        <td>-372</td>
+            <td>-372</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:43 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

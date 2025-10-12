@@ -1,0 +1,977 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MAR-27">MAR-27</a></td>
+    <td>In Review</td>
+    <td>Critical</td>
+    <td>
+                Handover solution
+    </td>
+    <td>-</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 2h 17m</td>
+            <td>
+                            1d 6h 45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            1 day, 4 hours, 15 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -490
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-28">MAR-28</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create preliminary build to confirm connectivity
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 37m</td>
+            <td>
+                    </td>
+        <td>
+                    37 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -61
+            </td>
+            <td>
+                            -61
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-29">MAR-29</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup CI/CD pipeline 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 21m</td>
+            <td>
+                    </td>
+        <td>
+                    51 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -170
+            </td>
+            <td>
+                            -170
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-30">MAR-30</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                UI updates for consistency
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/MAR-31">MAR-31</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                Plan Project
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 17m</td>
+            <td>
+                            6h 17m
+                    </td>
+        <td>
+                    17 minutes
+            </td>
+            <td>
+                            17 minutes
+                    </td>
+        <td>
+                    -4
+            </td>
+            <td>
+                            -4
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MAR-23">MAR-23</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                I should be able to see a confirmation of the information I submitted
+    </td>
+    <td>-</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>-</td>
+            <td>
+                            35m
+                    </td>
+        <td>-</td>
+            <td>
+                            1h 14m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            34 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-25">MAR-25</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup confirmation screen
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 4m</td>
+            <td>
+                    </td>
+        <td>
+                    34 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -113
+            </td>
+            <td>
+                            -113
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-24">MAR-24</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup a way to configure the redirect URL 
+    </td>
+    <td>15m</td>
+            <td>
+                    </td>
+        <td>15m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-26">MAR-26</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup error screen
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>20m</td>
+            <td>
+                    </td>
+        <td>10m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MAR-1">MAR-1</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                I should be able to see the maximum insurance updated as I enter information
+    </td>
+    <td>-</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            42m
+                    </td>
+        <td>-</td>
+            <td>
+                            48m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-5">MAR-5</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup form inputs to do calculation
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>12m</td>
+            <td>
+                    </td>
+        <td>48m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-32">MAR-32</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add computed variable for maximum insurance
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MAR-16">MAR-16</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                I should be able to submit information in the form 
+    </td>
+    <td>-</td>
+            <td>
+                            7h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            48m
+                    </td>
+        <td>-</td>
+            <td>
+                            1d 7h 9m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            1 day, 27 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-17">MAR-17</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add a command for publishing the quote
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 49m</td>
+            <td>
+                    </td>
+        <td>
+                    1 hour, 19 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -263
+            </td>
+            <td>
+                            -263
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-18">MAR-18</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create go template for Requirements summary
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 55m</td>
+            <td>
+                    </td>
+        <td>
+                    1 hour, 25 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -283
+            </td>
+            <td>
+                            -283
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-19">MAR-19</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create go template for data entry summary 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>2h 48m</td>
+            <td>
+                    </td>
+        <td>
+                    2 hours, 18 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -460
+            </td>
+            <td>
+                            -460
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-22">MAR-22</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup sending to hedge hog service
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>3h 23m</td>
+            <td>
+                    </td>
+        <td>
+                    2 hours, 23 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -238
+            </td>
+            <td>
+                            -238
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-33">MAR-33</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Switch to using writing SQL
+    </td>
+    <td>3h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>4h 2m</td>
+            <td>
+                    </td>
+        <td>
+                    1 hour, 2 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -34
+            </td>
+            <td>
+                            -34
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-20">MAR-20</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup wkhtmltopdf
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>10m</td>
+            <td>
+                    </td>
+        <td>50m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-21">MAR-21</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup pdf generation execution 
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>38m</td>
+            <td>
+                    </td>
+        <td>22m</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/MAR-7">MAR-7</a></td>
+    <td>Resolved</td>
+    <td>Major</td>
+    <td>
+                I should be able to see the information I entered in the quote so far
+    </td>
+    <td>-</td>
+            <td>
+                            5h 15m
+                    </td>
+        <td>-</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>-</td>
+            <td>
+                            3h 48m
+                    </td>
+        <td>
+            </td>
+            <td>
+                            1 hour, 3 minutes
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-8">MAR-8</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup Vue Form to capture data 
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h 41m</td>
+            <td>
+                    </td>
+        <td>
+                    41 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -68
+            </td>
+            <td>
+                            -68
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-11">MAR-11</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create custom entity respository
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-12">MAR-12</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup api schema
+    </td>
+    <td>15m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>28m</td>
+            <td>
+                    </td>
+        <td>
+                    13 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -86
+            </td>
+            <td>
+                            -86
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-13">MAR-13</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup NuxtJS project
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>0m</td>
+            <td>
+                    </td>
+        <td>39m</td>
+            <td>
+                    </td>
+        <td>
+                    9 minutes
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -30
+            </td>
+            <td>
+                            -30
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-10">MAR-10</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Replicate database 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-14">MAR-14</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup endpoint to get quote 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-15">MAR-15</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Add method to projection to get quote 
+    </td>
+    <td>30m</td>
+            <td>
+                    </td>
+        <td>30m</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/MAR-9">MAR-9</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup Docker environment
+    </td>
+    <td>1h</td>
+            <td>
+                    </td>
+        <td>1h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>3d</td>
+            <td>3d</td>
+        <td>4h 35m</td>
+            <td>4h 35m</td>
+        <td>5d 2h 1m</td>
+            <td>5d 2h 1m</td>
+        <td>2 days, 6 hours, 36 minutes</td>
+            <td>2 days, 6 hours, 36 minutes</td>
+        <td>-94</td>
+            <td>-94</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 2:00 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,2089 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1897">WS-1897</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Expand Netsuite functionality in capture service
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1899">WS-1899</a></td>
+    <td>Deploy to Production</td>
+    <td>Critical</td>
+    <td>
+                Make it so that when a user logs in with NetSuite they are prompted to enter their account id
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1901">WS-1901</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                Create Finance Agent
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>7h 40m</td>
+            <td>
+                            7h 40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1902">WS-1902</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Update WeOS app to use finance agent
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1906">WS-1906</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Integrate Netsuite in Finance MCP Server
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 30m</td>
+            <td>
+                            4h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1912">WS-1912</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                Make it so that a user can mark a connection as shared in the account. 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1940">WS-1940</a></td>
+    <td>QA</td>
+    <td>Critical</td>
+    <td>
+                Create basic WeOS Slack App
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>
+                    4 hours
+            </td>
+            <td>
+                            4 hours
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1952">WS-1952</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Architect Agent App
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2017">WS-2017</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                I should be able to create a purchase requisition from WeOS
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h 30m</td>
+            <td>
+                            3h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2027">WS-2027</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                I should be able to search for the latest Bill of Materials Revision
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2d 58m</td>
+            <td>
+                            2d 58m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2037">WS-2037</a></td>
+    <td>To Do</td>
+    <td>Blocker</td>
+    <td>
+                As an account admin I should be able to add Salesforce as an integration
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 1h 30m</td>
+            <td>
+                            1d 1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-2039">WS-2039</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                Optimize OAuth Integration flow
+    </td>
+    <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1d 7h 8m</td>
+            <td>
+                            1d 7h 8m
+                    </td>
+        <td>
+                    1 day, 1 hour, 8 minutes
+            </td>
+            <td>
+                            1 day, 1 hour, 8 minutes
+                    </td>
+        <td>
+                    -152
+            </td>
+            <td>
+                            -152
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2041">WS-2041</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                Make agent that runs a tool and retries if no result or if there is an error
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h 40m</td>
+            <td>
+                            6h 40m
+                    </td>
+        <td>
+                    2 hours, 40 minutes
+            </td>
+            <td>
+                            2 hours, 40 minutes
+                    </td>
+        <td>
+                    -66
+            </td>
+            <td>
+                            -66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2042">WS-2042</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                Make MCP return items in descending updated date as much as possible
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 15m</td>
+            <td>
+                            1h 15m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2044">WS-2044</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                Create an agent that runs an algorithm until all steps are complete and there is a final result
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h</td>
+            <td>
+                            5h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2046">WS-2046</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                Make it so that the MCP does not return a next cursor if there are other results 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/WS-1958">WS-1958</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/WS-1953">WS-1953</a>
+                                        -&gt;
+                Create agent for creating a workflow
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2004">WS-2004</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                Remove unused functionality from WeOS App
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1976">WS-1976</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                I should be able to setup a notification for sales order/purchase order state updates
+    </td>
+    <td>-</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1888">WS-1888</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                                -&gt;
+                Setup job scheduler to run alerts
+    </td>
+    <td>2h</td>
+            <td>
+                    </td>
+        <td>2h</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1891">WS-1891</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Setup Notification service
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1879">WS-1879</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Setup repo for WeOS Finance Agent
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1880">WS-1880</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As an admin I should be able to connect Netsuite
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1881">WS-1881</a></td>
+    <td>To Do</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to connect Quickbooks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1882">WS-1882</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Create ERD for Alert concepts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1884">WS-1884</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to create an alert that is triggered by an event
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1885">WS-1885</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to create an alert that is evaluated on a schedule
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1886">WS-1886</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to get recommended alerts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1887">WS-1887</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to pause alerts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1889">WS-1889</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Create function that evaluates alert
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1890">WS-1890</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Make it so that alert evaluation does NOT pass data to the LLM 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1894">WS-1894</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Make it so that if the user tries to do something and they are not logged in we prompt them to login
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1895">WS-1895</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Update WeOS to support making endpoints MCP server compatible
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1896">WS-1896</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                Add MCP Authorization and Authentication to MCP Server Library
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1898">WS-1898</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Create an screen for managing permissions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1900">WS-1900</a></td>
+    <td>Closed</td>
+    <td>Blocker</td>
+    <td>
+                Create WeOS Finance MCP
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1883">WS-1883</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                                -&gt;
+                Setup Domain Entities/Controllers/Receivers/Event Handlers based on ERD
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1892">WS-1892</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Create a way for the user&#39;s integrations to be retrieved
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Sub-task</td>
+    <td><a href="/browse/WS-1893">WS-1893</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                -&gt;
+                Make it so that if the user doesn&#39;t have any integrations they are asked to add one
+    </td>
+    <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>-</td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1903">WS-1903</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Add support for Stripe
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1904">WS-1904</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Integrate Plaid
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1905">WS-1905</a></td>
+    <td>In Progress</td>
+    <td>Critical</td>
+    <td>
+                Integrate Square
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1907">WS-1907</a></td>
+    <td>To Do</td>
+    <td>Minor</td>
+    <td>
+                Integrate Zohobooks
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1908">WS-1908</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Integrate Shopify
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1909">WS-1909</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Implement Bill.com Spend &amp; Expense API
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1910">WS-1910</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                Update IAM to use RDF domain entity setup
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1911">WS-1911</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Add the ability to manage agents and mpc permissions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1913">WS-1913</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Implement OAuth 2.0 Dynamic Client Registration Management
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1925">WS-1925</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Setup WeOS Connection as the main mcp entry point
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1944">WS-1944</a></td>
+    <td>In Progress</td>
+    <td>Critical</td>
+    <td>
+                Add slack as a provider
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/WS-1951">WS-1951</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Create Workflows
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1974">WS-1974</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to add WeOS to a slack channel and give it permissions
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1975">WS-1975</a></td>
+    <td>QA</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to get information from WeOS
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1977">WS-1977</a></td>
+    <td>In Progress</td>
+    <td>Blocker</td>
+    <td>
+                As a user I should be able to message WeOS on Teams
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-1980">WS-1980</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Make it so that JWT expiration could be configured via environment variables
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-1981">WS-1981</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                As a user I should be able to approve purchase order and sales orders via WeOS
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2003">WS-2003</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to login with Apple ID
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/WS-2020">WS-2020</a></td>
+    <td>Deploy to Production</td>
+    <td>Blocker</td>
+    <td>
+                Add endpoint to mint JWT for slack bots
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-2032">WS-2032</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Scope linking user to the 3rd party
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-2034">WS-2034</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Simplify the callbacks to handle linking slack and other user accounts
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-2036">WS-2036</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Switch to using more generic oauth library on front end
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Improvement</td>
+    <td><a href="/browse/WS-2040">WS-2040</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                Make it so that the login endpoint returns a JSON response with the values needed
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2047">WS-2047</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to integrate with GitHub
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2048">WS-2048</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to integrate with Jira
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2049">WS-2049</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to integrate with Hubspot
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2050">WS-2050</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                I should be able to integrate with slack
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2051">WS-2051</a></td>
+    <td>To Do</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to share a connection with an account
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Story</td>
+    <td><a href="/browse/WS-2052">WS-2052</a></td>
+    <td>To Do</td>
+    <td>Blocker</td>
+    <td>
+                I should be able to share my connection with a role
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>2d 2h</td>
+            <td>2d 2h</td>
+        <td>4h</td>
+            <td>4h</td>
+        <td>1w 4d 11m</td>
+            <td>1w 4d 11m</td>
+        <td>1 week, 2 days, 2 hours, 11 minutes</td>
+            <td>1 week, 2 days, 2 hours, 11 minutes</td>
+        <td>-412</td>
+            <td>-412</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 1:44 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>

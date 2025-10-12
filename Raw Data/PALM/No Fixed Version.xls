@@ -1,0 +1,4085 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Time Tracking Report</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Wepala">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Wepala</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Issue Type</th>
+    <th bgcolor="#dddddd"><b>Key</b></th>
+    <th bgcolor="#dddddd"><b>Status</b></th>
+    <th bgcolor="#dddddd"><b>Priority</b></th>
+    <th bgcolor="#dddddd"><b>Summary</b></th>
+    <th bgcolor="#dddddd"><b>
+                    Original Time Estimated
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Estimated Time Remaining
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>
+                    Total Time Spent
+            </b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+        <th bgcolor="#dddddd"><b>Accuracy (%)</b></th>
+            <th bgcolor="#dddddd">&Sigma;</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-22">PALM-22</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-11">PALM-11</a>
+                                        -&gt;
+                add a receiver for approving/rejecting the service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-23">PALM-23</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-11">PALM-11</a>
+                                        -&gt;
+                add confirmation screens to show the choice that they selected
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-26">PALM-26</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Setup controllers for getting a list of requests and viewing a request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-29">PALM-29</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add receiver for creating a service request in an account
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-30">PALM-30</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add a receiver for deleting a service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    40 minutes
+            </td>
+            <td>
+                            40 minutes
+                    </td>
+        <td>
+                    66
+            </td>
+            <td>
+                            66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-38">PALM-38</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                create domain object and model for contract
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-39">PALM-39</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                add receiver for creating contract
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>6h</td>
+            <td>
+                            6h
+                    </td>
+        <td>
+                    5 hours
+            </td>
+            <td>
+                            5 hours
+                    </td>
+        <td>
+                    -500
+            </td>
+            <td>
+                            -500
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-40">PALM-40</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                create domain object and model for price schedule item
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-41">PALM-41</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                hook up create contract screen
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>41m</td>
+            <td>
+                            41m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-42">PALM-42</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                create controller for listing the contracts
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-43">PALM-43</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                add a receiver for deleting a contract
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    40 minutes
+            </td>
+            <td>
+                            40 minutes
+                    </td>
+        <td>
+                    66
+            </td>
+            <td>
+                            66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-44">PALM-44</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                Add view client screen
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-46">PALM-46</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add endpoint for uploading a file
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 37m</td>
+            <td>
+                            4h 37m
+                    </td>
+        <td>
+                    2 hours, 37 minutes
+            </td>
+            <td>
+                            2 hours, 37 minutes
+                    </td>
+        <td>
+                    -130
+            </td>
+            <td>
+                            -130
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-47">PALM-47</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add screen for Adding a Quote
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-52">PALM-52</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Hook up service request view screen
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-53">PALM-53</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Wireframe and client approval
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-54">PALM-54</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add endpoint for adding service request items
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 6m</td>
+            <td>
+                            5h 6m
+                    </td>
+        <td>
+                    4 hours, 6 minutes
+            </td>
+            <td>
+                            4 hours, 6 minutes
+                    </td>
+        <td>
+                    -410
+            </td>
+            <td>
+                            -410
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-56">PALM-56</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Update the service request list screen columns
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -200
+            </td>
+            <td>
+                            -200
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-57">PALM-57</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Rework Bills, Vendor Quotes
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-58">PALM-58</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add FileService implementation for AWS that uses S3
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 17m</td>
+            <td>
+                            1h 17m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-59">PALM-59</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-7">PALM-7</a>
+                                        -&gt;
+                Hook up screen for adding a Quote
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>5h 10m</td>
+            <td>
+                            5h 10m
+                    </td>
+        <td>
+                    4 hours, 10 minutes
+            </td>
+            <td>
+                            4 hours, 10 minutes
+                    </td>
+        <td>
+                    -416
+            </td>
+            <td>
+                            -416
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-60">PALM-60</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                Update the items functionality to make edit behave similar to service request items
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 33m</td>
+            <td>
+                            1h 33m
+                    </td>
+        <td>
+                    33 minutes
+            </td>
+            <td>
+                            33 minutes
+                    </td>
+        <td>
+                    -55
+            </td>
+            <td>
+                            -55
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-61">PALM-61</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-14">PALM-14</a>
+                                        -&gt;
+                Confirm vendor API works
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    50
+            </td>
+            <td>
+                            50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-70">PALM-70</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Ensure add contact works 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 52m</td>
+            <td>
+                            2h 52m
+                    </td>
+        <td>
+                    1 hour, 52 minutes
+            </td>
+            <td>
+                            1 hour, 52 minutes
+                    </td>
+        <td>
+                    -186
+            </td>
+            <td>
+                            -186
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-71">PALM-71</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add endpoint for listing schedules 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    50
+            </td>
+            <td>
+                            50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-72">PALM-72</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add endpoint for upserting schedule 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-73">PALM-73</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add endpoint for viewing schedule 
+    </td>
+    <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    10 minutes
+            </td>
+            <td>
+                            10 minutes
+                    </td>
+        <td>
+                    50
+            </td>
+            <td>
+                            50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-74">PALM-74</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add endpoint for deleting schedule 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-75">PALM-75</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add endppint for listing categories 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-76">PALM-76</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add endpoint for upserting categories
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>4h 42m</td>
+            <td>
+                            4h 42m
+                    </td>
+        <td>
+                    3 hours, 42 minutes
+            </td>
+            <td>
+                            3 hours, 42 minutes
+                    </td>
+        <td>
+                    -370
+            </td>
+            <td>
+                            -370
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-77">PALM-77</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add endpoint for viewing categories
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-78">PALM-78</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add endpoint for deleting categories
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-79">PALM-79</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add endpoint for listing items 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>25m</td>
+            <td>
+                            25m
+                    </td>
+        <td>
+                    35 minutes
+            </td>
+            <td>
+                            35 minutes
+                    </td>
+        <td>
+                    58
+            </td>
+            <td>
+                            58
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-82">PALM-82</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add endpoint for viewing items
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-87">PALM-87</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add for for creating categories
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-90">PALM-90</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Add endpoint for upserting expense
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 40m</td>
+            <td>
+                            2h 40m
+                    </td>
+        <td>
+                    1 hour, 40 minutes
+            </td>
+            <td>
+                            1 hour, 40 minutes
+                    </td>
+        <td>
+                    -166
+            </td>
+            <td>
+                            -166
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-91">PALM-91</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Add screen for upserting expense 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-92">PALM-92</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Update expense list to show aggregates
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-94">PALM-94</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-93">PALM-93</a>
+                                        -&gt;
+                Add endpoint for upserting invoice
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-95">PALM-95</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-93">PALM-93</a>
+                                        -&gt;
+                Add endoint for viewing invoice details
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    50 minutes
+            </td>
+            <td>
+                            50 minutes
+                    </td>
+        <td>
+                    83
+            </td>
+            <td>
+                            83
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-99">PALM-99</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-98">PALM-98</a>
+                                        -&gt;
+                Add screen to list users 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-100">PALM-100</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-98">PALM-98</a>
+                                        -&gt;
+                Add screen to invite user 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-104">PALM-104</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-7">PALM-7</a>
+                                        -&gt;
+                ensure delete file works 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    40 minutes
+            </td>
+            <td>
+                            40 minutes
+                    </td>
+        <td>
+                    66
+            </td>
+            <td>
+                            66
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-105">PALM-105</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-7">PALM-7</a>
+                                        -&gt;
+                AWS upload not working
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-106">PALM-106</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                make it so that the price schedule items would not get overwritten from the initializer 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    50
+            </td>
+            <td>
+                            50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-107">PALM-107</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Update the expense main list view 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-108">PALM-108</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Add view contact endpoint 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    50 minutes
+            </td>
+            <td>
+                            50 minutes
+                    </td>
+        <td>
+                    83
+            </td>
+            <td>
+                            83
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-109">PALM-109</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Add delete contact endpoint
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    50 minutes
+            </td>
+            <td>
+                            50 minutes
+                    </td>
+        <td>
+                    83
+            </td>
+            <td>
+                            83
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-110">PALM-110</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Confirm upsert contact endpoint is setup
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h 30m</td>
+            <td>
+                            2h 30m
+                    </td>
+        <td>
+                    1 hour, 30 minutes
+            </td>
+            <td>
+                            1 hour, 30 minutes
+                    </td>
+        <td>
+                    -150
+            </td>
+            <td>
+                            -150
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-111">PALM-111</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-98">PALM-98</a>
+                                        -&gt;
+                Add endpoint so that admins can edit a user 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-112">PALM-112</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-98">PALM-98</a>
+                                        -&gt;
+                Add endpoint to get a user&#39;s details 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    30 minutes
+            </td>
+            <td>
+                            30 minutes
+                    </td>
+        <td>
+                    -50
+            </td>
+            <td>
+                            -50
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-113">PALM-113</a></td>
+    <td>Done</td>
+    <td>Critical</td>
+    <td>
+                                                        <a href="/browse/PALM-98">PALM-98</a>
+                                        -&gt;
+                Add initializer for roles
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+                    15 minutes
+            </td>
+            <td>
+                            15 minutes
+                    </td>
+        <td>
+                    25
+            </td>
+            <td>
+                            25
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-115">PALM-115</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-114">PALM-114</a>
+                                        -&gt;
+                First round QA on staging
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-120">PALM-120</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-14">PALM-14</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-121">PALM-121</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-7">PALM-7</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-122">PALM-122</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                Feedback 
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>12m</td>
+            <td>
+                            12m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-123">PALM-123</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>12m</td>
+            <td>
+                            12m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-124">PALM-124</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-125">PALM-125</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 5m</td>
+            <td>
+                            1h 5m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-126">PALM-126</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-93">PALM-93</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h 10m</td>
+            <td>
+                            1h 10m
+                    </td>
+        <td>
+                    1 hour, 10 minutes
+            </td>
+            <td>
+                            1 hour, 10 minutes
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-127">PALM-127</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-128">PALM-128</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-11">PALM-11</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-129">PALM-129</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Feedback
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                            
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-134">PALM-134</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-133">PALM-133</a>
+                                        -&gt;
+                add receiver and endpoint to send confirmation email to requestor
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-135">PALM-135</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-133">PALM-133</a>
+                                        -&gt;
+                Updated email template to show service request items and new copy
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-145">PALM-145</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-144">PALM-144</a>
+                                        -&gt;
+                Create a vendor item domain entity
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>0m</td>
+            <td>
+                            0m
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-55">PALM-55</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Update dashboard to show service request status
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>13m</td>
+            <td>
+                            13m
+                    </td>
+        <td>47m</td>
+            <td>
+                            47m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-31">PALM-31</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Add value object for message
+    </td>
+    <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-116">PALM-116</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-114">PALM-114</a>
+                                        -&gt;
+                Second Round QA on staging
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>15m</td>
+            <td>
+                            15m
+                    </td>
+        <td>45m</td>
+            <td>
+                            45m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-86">PALM-86</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add form for creating schedule 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-25">PALM-25</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add gorm model for service request
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-35">PALM-35</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                setup IAM on staging so that accounts can be managed
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>1h 30m</td>
+            <td>
+                            1h 30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-36">PALM-36</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                integrate UI with IAM
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>7h 30m</td>
+            <td>
+                            7h 30m
+                    </td>
+        <td>
+                    7 hours
+            </td>
+            <td>
+                            7 hours
+                    </td>
+        <td>
+                    -700
+            </td>
+            <td>
+                            -700
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-67">PALM-67</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Update list on service request items to show cost 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-132">PALM-132</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-101">PALM-101</a>
+                                        -&gt;
+                Make markup view admin only
+    </td>
+    <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>30m</td>
+            <td>
+                            30m
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-65">PALM-65</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                Confirm edit is working 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-68">PALM-68</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Ensure service request edit works
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>20m</td>
+            <td>
+                            20m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-66">PALM-66</a></td>
+    <td>Done</td>
+    <td>Minor</td>
+    <td>
+                                                        <a href="/browse/PALM-6">PALM-6</a>
+                                        -&gt;
+                Add filter by client 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>10m</td>
+            <td>
+                            10m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/PALM-97">PALM-97</a></td>
+    <td>To Do</td>
+    <td>Critical</td>
+    <td>
+                Move over to client servers
+    </td>
+    <td>4h</td>
+            <td>
+                            4h
+                    </td>
+        <td>50m</td>
+            <td>
+                            50m
+                    </td>
+        <td>3h 10m</td>
+            <td>
+                            3h 10m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-20">PALM-20</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Create a receiver for creating a service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-21">PALM-21</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Add a handler that sends and email to the contact associated with the request
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-24">PALM-24</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add domain object for service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-33">PALM-33</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Add middleware that can be used to output any screen as a pdf
+    </td>
+    <td>3h</td>
+            <td>
+                            3h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-45">PALM-45</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                Make it so that an identifier is generated for service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-48">PALM-48</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add screen for adding items to a service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-51">PALM-51</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Hook up screen for adding items to a service request
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    1 hour
+            </td>
+            <td>
+                            1 hour
+                    </td>
+        <td>
+                    -100
+            </td>
+            <td>
+                            -100
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-62">PALM-62</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-14">PALM-14</a>
+                                        -&gt;
+                Add list screen
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-63">PALM-63</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-14">PALM-14</a>
+                                        -&gt;
+                Add edit screen
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-64">PALM-64</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                Connect search 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-69">PALM-69</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-5">PALM-5</a>
+                                        -&gt;
+                Ensure contact edit works
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-84">PALM-84</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add screen for view screen for a schedule that shows categories
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-88">PALM-88</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add form for creating items
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-102">PALM-102</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-101">PALM-101</a>
+                                        -&gt;
+                Update UI to only show specific menus to a specific role
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-103">PALM-103</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-101">PALM-101</a>
+                                        -&gt;
+                Update api to only allow admins on certain endpoints
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-117">PALM-117</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-114">PALM-114</a>
+                                        -&gt;
+                Third Round QA on staging
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-118">PALM-118</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-114">PALM-114</a>
+                                        -&gt;
+                First Round QA on prod
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-119">PALM-119</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-114">PALM-114</a>
+                                        -&gt;
+                Second Round QA on prod
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-137">PALM-137</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-133">PALM-133</a>
+                                        -&gt;
+                Hook up confirmation send to front end 
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-139">PALM-139</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-138">PALM-138</a>
+                                        -&gt;
+                Add a receiver that zips all the related files to a service request  and returns a link to the zip
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-140">PALM-140</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-138">PALM-138</a>
+                                        -&gt;
+                Add button to download to create and download the zip
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-143">PALM-143</a></td>
+    <td>To Do</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-142">PALM-142</a>
+                                        -&gt;
+                Add checkbox for admin to mark the service request as paid
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-146">PALM-146</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-144">PALM-144</a>
+                                        -&gt;
+                Update vendor view to list vendor items
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-147">PALM-147</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-144">PALM-144</a>
+                                        -&gt;
+                Add a form for creating a vendor item
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-148">PALM-148</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-144">PALM-144</a>
+                                        -&gt;
+                Add command receiver and endpoint for creating vendor item
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-149">PALM-149</a></td>
+    <td>In Progress</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-144">PALM-144</a>
+                                        -&gt;
+                Update the expense form to show list of related vendor items to the selected service request items
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>6h 30m</td>
+            <td>
+                            6h 30m
+                    </td>
+        <td>
+                    5 hours, 30 minutes
+            </td>
+            <td>
+                            5 hours, 30 minutes
+                    </td>
+        <td>
+                    -275
+            </td>
+            <td>
+                            -275
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-96">PALM-96</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-93">PALM-93</a>
+                                        -&gt;
+                Add form for editing invoice 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h 20m</td>
+            <td>
+                            1h 20m
+                    </td>
+        <td>40m</td>
+            <td>
+                            40m
+                    </td>
+        <td>
+                    0 minutes
+            </td>
+            <td>
+                            0 minutes
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Task</td>
+    <td><a href="/browse/PALM-3">PALM-3</a></td>
+    <td>Closed</td>
+    <td>Major</td>
+    <td>
+                Create client service
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-50">PALM-50</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-15">PALM-15</a>
+                                        -&gt;
+                Hook up editing vendor quote screen
+    </td>
+    <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>1h</td>
+            <td>
+                            1h
+                    </td>
+        <td>
+                    2 hours
+            </td>
+            <td>
+                            2 hours
+                    </td>
+        <td>
+                    -200
+            </td>
+            <td>
+                            -200
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-89">PALM-89</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-10">PALM-10</a>
+                                        -&gt;
+                Create CSV of invoice 
+    </td>
+    <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>2h</td>
+            <td>
+                            2h
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    -
+            </td>
+            <td>
+                            -
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-19">PALM-19</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-18">PALM-18</a>
+                                        -&gt;
+                create UI for creating a basic service request
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-27">PALM-27</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add screen for viewing a list of service requests
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-28">PALM-28</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add screen for view a service request
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-34">PALM-34</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-4">PALM-4</a>
+                                        -&gt;
+                setup account domain object and gorm model
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-49">PALM-49</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-17">PALM-17</a>
+                                        -&gt;
+                Add screen for editing a bill
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-83">PALM-83</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                add screen for listing schedules
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-85">PALM-85</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-16">PALM-16</a>
+                                        -&gt;
+                Add view screen for categorie that shows items
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Sub-task</td>
+    <td><a href="/browse/PALM-136">PALM-136</a></td>
+    <td>Done</td>
+    <td>Major</td>
+    <td>
+                                                        <a href="/browse/PALM-133">PALM-133</a>
+                                        -&gt;
+                remove previous email that was being sent
+    </td>
+    <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>-</td>
+            <td>
+                            -
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>1w 5d 7h 5m</td>
+            <td>1w 5d 7h 5m</td>
+        <td>4d 7h 53m</td>
+            <td>4d 7h 53m</td>
+        <td>2w 1d 2h 24m</td>
+            <td>2w 1d 2h 24m</td>
+        <td>1 week, 3 hours, 12 minutes</td>
+            <td>1 week, 3 hours, 12 minutes</td>
+        <td>-57</td>
+            <td>-57</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generated at 10/5/25 2:05 AM by Ishika Gopie using Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>
