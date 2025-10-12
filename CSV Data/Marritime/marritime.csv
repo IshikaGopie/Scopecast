@@ -1,0 +1,31 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Task,Mar-27,In Review,Critical,Handover solution,-,2h 30m,0m,0m,1d 2h 17m,1d 6h 45m,,"1 day, 4 hours, 15 minutes",,-490
+-> Sub-task,Mar-28,Done,Major,-> Create preliminary build to confirm connectivity,1h,,0m,,1h 37m,,37 minutes,,-61,-61
+-> Sub-task,Mar-29,Resolved,Major,-> Setup CI/CD pipeline,30m,,0m,,1h 21m,,51 minutes,,-170,-170
+-> Sub-task,Mar-30,Resolved,Major,-> UI updates for consistency,1h,,0m,,1h 30m,,30 minutes,,-50,-50
+Task,Mar-31,Resolved,Major,Plan Project,6h,6h,0m,0m,6h 17m,6h 17m,17 minutes,17 minutes,-4,-4
+Story,Mar-23,Resolved,Major,I should be able to see a confirmation of the information I submitted,-,1h 15m,-,35m,-,1h 14m,,34 minutes,,
+-> Sub-task,Mar-25,Resolved,Major,-> Setup confirmation screen,30m,,0m,,1h 4m,,34 minutes,,-113,-113
+-> Sub-task,Mar-24,Resolved,Major,-> Setup a way to configure the redirect URL,15m,,15m,,-,,-,,0,0
+-> Sub-task,Mar-26,Resolved,Major,-> Setup error screen,30m,,20m,,10m,,0 minutes,,0,0
+Story,Mar-1,Done,Major,I should be able to see the maximum insurance updated as I enter information,-,1h 30m,-,42m,-,48m,,0 minutes,,
+-> Sub-task,Mar-5,Done,Major,-> Setup form inputs to do calculation,1h,,12m,,48m,,0 minutes,,0,0
+-> Sub-task,MAR-32,Done,Major,-> Add computed variable for maximum insurance,30m,,30m,,-,,-,,0,0
+Story,Mar-16,Resolved,Major,I should be able to submit information in the form,-,7h 30m,-,48m,-,1d 7h 9m,,"1 day, 27 minutes",,
+-> Sub-task,Mar-17,Done,Major,-> Add a command for publishing the quote,30m,,0m,,1h 49m,,"1 hour, 19 minutes",,-263,-263
+-> Sub-task,Mar-18,Done,Major,-> Create go template for Requirements summary,30m,,0m,,1h 55m,,"1 hour, 25 minutes",,-283,-283
+-> Sub-task,Mar-19,Done,Major,-> Create go template for data entry summary,30m,,0m,,2h 48m,,"2 hours, 18 minutes",,-460,-460
+-> Sub-task,Mar-22,Resolved,Major,-> Setup sending to hedge hog service,1h,,0m,,3h 23m,,"2 hours, 23 minutes",,-238,-238
+-> Sub-task,MAR-33,Resolved,Major,-> Switch to using writing SQL,3h,,0m,,4h 2m,,"1 hour, 2 minutes",,-34,-34
+-> Sub-task,Mar-20,Done,Major,-> Setup wkhtmltopdf,1h,,10m,,50m,,0 minutes,,0,0
+-> Sub-task,Mar-21,Done,Major,-> Setup pdf generation execution,1h,,38m,,22m,,0 minutes,,0,0
+Story,Mar-7,Resolved,Major,I should be able to see the information I entered in the quote so far,-,5h 15m,-,2h 30m,-,3h 48m,,"1 hour, 3 minutes",,
+-> Sub-task,Mar-8,Done,Major,-> Setup Vue Form to capture data,1h,,0m,,1h 41m,,41 minutes,,-68,-68
+-> Sub-task,Mar-11,Done,Major,-> Create custom entity respository,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,Mar-12,Done,Major,-> Setup api schema,15m,,0m,,28m,,13 minutes,,-86,-86
+-> Sub-task,Mar-13,Done,Major,-> Setup NuxtJS project,30m,,0m,,39m,,9 minutes,,-30,-30
+-> Sub-task,Mar-10,Done,Major,-> Replicate database,30m,,30m,,-,,-,,0,0
+-> Sub-task,Mar-14,Done,Major,-> Setup endpoint to get quote,30m,,30m,,-,,-,,0,0
+-> Sub-task,Mar-15,Done,Major,-> Add method to projection to get quote,30m,,30m,,-,,-,,0,0
+-> Sub-task,Mar-9,Done,Major,-> Setup Docker environment,1h,,1h,,-,,-,,0,0
+,,,,Total,3d,3d,4h 35m,4h 35m,5d 2h 1m,5d 2h 1m,"2 days, 6 hours, 36 minutes","2 days, 6 hours, 36 minutes",-94,-94

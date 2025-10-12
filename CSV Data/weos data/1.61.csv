@@ -1,0 +1,18 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,WS-1585,Done,Critical,When my session expires I should be taken to login,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Bug,WS-1595,Done,Major,All the connections are deleted when a blank connection is deleted,-,-,0m,0m,1h 45m,1h 45m,,,,
+Task,WS-1597,Done,Major,Selecting the default option in mappings should update the placeholder text for the customizable option,0m,0m,0m,0m,-,-,,-,,
+Task,WS-1601,Done,Major,Update the payment config to only have mapping for undeposited funds,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Bug,WS-1628,Done,Critical,The wrong date is showing up on payouts and orders,30m,30m,0m,0m,38m,38m,8 minutes,8 minutes,-26,-26
+Task,WS-1637,Done,Major,Rename Sparks and Signals,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Bug,WS-1661,Done,Critical,Charge Back insights are posting multiple times in a day,-,-,0m,0m,10m,10m,,,,
+Story,WS-1206,Done,Major,I should be able to map payment methods to deposit accounts,-,-,-,-,-,-,,,,
+Story,WS-1226,Closed,Critical,I should be able to view a list of orders,-,-,-,-,-,-,,,,
+Story,WS-1474,Closed,Minor,I should be able to view a list of payouts,-,-,-,-,-,-,,,,
+Task,WS-1598,Done,Major,Update the Fees tab to include Payout fee mappings,-,-,-,-,-,-,,,,
+Task,WS-1604,Done,Major,Update import list to have filters and a short description of the contents,-,-,-,-,-,-,,,,
+Task,WS-1613,Done,Major,Place list of most recent imports on the home screen,-,-,-,-,-,-,,,,
+Task,WS-1614,Done,Critical,Simulate payouts for webooks-dev and webooks-qa,-,-,-,-,-,-,,,,
+Bug,WS-1631,Closed,Major,Import is polling continuously even after the final change errored,-,-,-,-,-,-,,,,
+Task,WS-1663,Closed,Major,Make it so that all demo connections are copied to demo accounts,-,-,-,-,-,-,,,,
+,,,,Total,2h 30m,2h 30m,0m,0m,4h 33m,4h 33m,"2 hours, 3 minutes","2 hours, 3 minutes",-82,-82

@@ -1,0 +1,1002 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,WS-2,To Do,Major,I should be able to install a personal assistant,1d,1d,0m,0m,7h 22m,7h 22m,38 minutes,38 minutes,7,7
+Story,WS-11,In Progress,Major,I should be able to setup a manufacturing cost assistant,-,1d 30m,0m,0m,5h 39m,3d 3h 29m,,"2 days, 2 hours, 59 minutes",,-223
+-> Sub-task,WS-36,Done,Major,-> Add schemas to the prompt,30m,,0m,,1h 15m,,45 minutes,,-150,-150
+-> Sub-task,WS-37,Done,Major,-> Create the embeddings for the queries,6h,,0m,,1d 5h 12m,,"7 hours, 12 minutes",,-120,-120
+-> Sub-task,WS-75,Done,Critical,-> Update the query so that it removes duplicates and uses the data from the Shawline Facility,2h,,0m,,5h 2m,,"3 hours, 2 minutes",,-151,-151
+-> Sub-task,WS-108,In Progress,Major,-> What caused the change in value of inventory over the last week?,-,,0m,,2h 21m,,,,,
+Sub-task,WS-15,Done,Minor,WS-14 -> Update the homescreen to have updated tagline,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-16,Done,Minor,WS-14 -> Fix initial icon on the landing screen,1h,1h,0m,0m,3h 30m,3h 30m,"2 hours, 30 minutes","2 hours, 30 minutes",-250,-250
+Sub-task,WS-17,Done,Minor,WS-14 -> Ensure all integrations have icons,30m,30m,0m,0m,1h 30m,1h 30m,1 hour,1 hour,-200,-200
+Sub-task,WS-18,Done,Major,WS-14 -> Redirect back to the main chat after installing integration,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-19,Done,Major,WS-14 -> Make message input smaller,1h 30m,1h 30m,0m,0m,2h 20m,2h 20m,50 minutes,50 minutes,-55,-55
+Sub-task,WS-20,Done,Major,WS-13 -> Update the UI to send the query parameters to the subresouce page,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-21,Done,Major,WS-13 -> Update the google calendar package to have subscribe and unsubscribe handlers,-,-,0m,0m,5h,5h,,,,
+Sub-task,WS-22,Done,Major,WS-13 -> Update Setup subscription handler on the Account Service,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-25,Done,Major,WS-12 -> Setup Netsuite Provider in IAM,1h,1h,0m,0m,3h 38m,3h 38m,"2 hours, 38 minutes","2 hours, 38 minutes",-263,-263
+Sub-task,WS-26,Done,Major,WS-12 -> Create graphQL schema,30m,30m,0m,0m,3h 53m,3h 53m,"3 hours, 23 minutes","3 hours, 23 minutes",-676,-676
+Sub-task,WS-27,Done,Major,WS-12 -> Add netsuite integration,2h,2h,0m,0m,3h 49m,3h 49m,"1 hour, 49 minutes","1 hour, 49 minutes",-90,-90
+Sub-task,WS-31,Done,Major,WS-3 -> Update graphql controller to pass the id_token in the request,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-32,Done,Major,WS-3 -> Update grapql controller to handle multiple calendars,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-33,Done,Major,WS-3 -> Update schemas to match the assistant,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-38,Done,Major,WS-3 -> Clean up mappings stuff,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-39,Done,Major,WS-14 -> Update the logo on the homescreen to higher res version,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-40,Done,Major,WS-14 -> Update the images for the assistants to high res images,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-45,Done,Major,WS-14 -> Make it so that if item have id/title/name render those columns first,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-46,Done,Major,WS-12 -> Deploy to staging,-,-,0m,0m,1h,1h,,,,
+Bug,WS-47,Done,Major,Error being returned from the app when a workflow has no steps,-,-,0m,0m,1h 10m,1h 10m,,,,
+Sub-task,WS-48,Done,Major,WS-3 -> Update mappings,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-49,Done,Major,WS-14 -> Make it so that the table can render nested fields,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-50,Done,Major,WS-14 -> Update assistant manifest with new images,-,-,0m,0m,1h,1h,,,,
+Bug,WS-52,Done,Major,"Error ""unexpected response from assistant service"" when creating manu asst",-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-53,Done,Major,WS-44 -> Add endpoint on the integration to valid integration jwt token,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-54,Done,Major,WS-44 -> Create command handler to pull the assistant and check if specific integrations exist,2h,2h,0m,0m,2h 10m,2h 10m,10 minutes,10 minutes,-8,-8
+Sub-task,WS-56,Done,Major,WS-44 -> Return errors,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-57,Done,Major,WS-44 -> Add notification bar to the top of chat container,2h,2h,0m,0m,3h 30m,3h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-75,-75
+Bug,WS-58,QA,Minor,Square install not working,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-63,Done,Major,WS-44 -> Update Iam to return expires property,30m,30m,0m,0m,1h 24m,1h 24m,54 minutes,54 minutes,-180,-180
+Bug,WS-64,Done,Blocker,When the user has access to both prod and sandbox on Nesuite they are redirected to prod during OAuth,-,-,0m,0m,23m,23m,,,,
+Sub-task,WS-74,Done,Major,WS-61 -> Show me the accounts with the largest variances compared to the previous month,2h,2h,0m,0m,3h 28m,3h 28m,"1 hour, 28 minutes","1 hour, 28 minutes",-73,-73
+Sub-task,WS-78,Done,Major,WS-61 -> Are there expenses accounts with a credit balance,2h,2h,0m,0m,6h 55m,6h 55m,"4 hours, 55 minutes","4 hours, 55 minutes",-245,-245
+Sub-task,WS-80,Done,Major,WS-67 -> Can you identify any duplicate transactions in the last quarter,2h,2h,0m,0m,3h,3h,1 hour,1 hour,-50,-50
+Sub-task,WS-81,Done,Major,WS-67 -> Are there any round-sum entries in the major expense accounts,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-85,Done,Major,WS-67 -> Create embeddings for queries and test,-,-,0m,0m,1h 15m,1h 15m,,,,
+Sub-task,WS-93,Done,Major,WS-60 -> Update IAM to work with apideck as a provider,-,-,0m,0m,5h 35m,5h 35m,,,,
+Sub-task,WS-94,Done,Major,WS-61 -> Add filters for balance sheets,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-95,Done,Major,WS-60 -> Update provider in manifest to be apideck,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-96,Done,Major,WS-67 -> Add ledger account mapping and update bill mapping,-,-,0m,0m,5h 30m,5h 30m,,,,
+Sub-task,WS-97,Done,Major,WS-67 -> Handle nuisances with filters,-,-,0m,0m,1d 4h,1d 4h,,,,
+Sub-task,WS-109,Done,Major,WS-60 -> Deployment,30m,30m,0m,0m,3h 10m,3h 10m,"2 hours, 40 minutes","2 hours, 40 minutes",-533,-533
+Sub-task,WS-111,Done,Major,WS-60 -> Removed hardcoded credentials,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-112,Done,Major,WS-61 -> Test Queries on Dev and staging,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-113,Done,Major,WS-61 -> Update table formatting,-,-,0m,0m,2h,2h,,,,
+Bug,WS-118,Done,Major,Log out loop,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-127,Done,Major,WS-61 -> what is the checking balance as of 11/30/2023,30m,30m,0m,0m,2h 5m,2h 5m,"1 hour, 35 minutes","1 hour, 35 minutes",-316,-316
+Sub-task,WS-128,Done,Major,WS-61 -> Getting balances for expense accounts,2h,2h,0m,0m,6h,6h,4 hours,4 hours,-200,-200
+Sub-task,WS-129,Done,Major,WS-61 -> Get the trial balance as of a specific date,2h,2h,0m,0m,1d 5h 27m,1d 5h 27m,"1 day, 3 hours, 27 minutes","1 day, 3 hours, 27 minutes",-572,-572
+Sub-task,WS-130,Done,Major,WS-61 -> Make account schema use balance sheet report or profit and loss endpoint,-,-,0m,0m,1d,1d,,,,
+Sub-task,WS-157,Done,Major,WS-151 -> Update the assistant service to check if the python code returned a 401 or 403 response and if so then return the code to the app,1h,1h,0m,0m,3h 20m,3h 20m,"2 hours, 20 minutes","2 hours, 20 minutes",-233,-233
+Sub-task,WS-158,Done,Major,WS-151 -> Update the app to have the user reauthorize the integration if the assistant service returned a 401 or 403,1h,1h,0m,0m,1h 20m,1h 20m,20 minutes,20 minutes,-33,-33
+Sub-task,WS-161,Done,Major,WS-151 -> Update the integration service to return which integration threw the error response in the error message,1h,1h,0m,0m,2h 27m,2h 27m,"1 hour, 27 minutes","1 hour, 27 minutes",-145,-145
+Task,WS-162,Done,Major,Switch to Quickbooks Prod,-,-,0m,0m,5h 9m,1d 59m,,,,
+-> Sub-task,WS-164,Done,Major,-> Update the app to create a conversation for a user if the account service returns a 404,-,,0m,,1h 35m,,,,,
+-> Sub-task,WS-174,Done,Major,-> Fix issue where the user's consumer_id is used for api deck even though they are using someone else's assistant,-,,0m,,2h 15m,,,,,
+Sub-task,WS-163,Done,Major,WS-151 -> Update all resolver to return errors to the controller,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Bug,WS-185,Done,Major,Login issues,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-197,Done,Major,WS-67 -> Fix error in quickbooks yaml file,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-200,Done,Major,WS-67 -> Update the table component to handle date columns,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-207,Done,Major,WS-151 -> test on dev and staging,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-208,Done,Major,WS-67 -> Test on dev,-,-,0m,0m,1h 25m,1h 25m,,,,
+Sub-task,WS-211,Done,Major,WS-199 -> Setup sending invite from the app,-,-,0m,0m,2h 15m,2h 15m,,,,
+Sub-task,WS-213,Done,Major,WS-212 -> Are there any journal entries in Dec?,-,-,0m,0m,2h 15m,2h 15m,,,,
+Sub-task,WS-216,In Progress,Major,WS-212 -> How much did we spend on Auditing this year?,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-218,Done,Major,WS-212 -> what is the A/P account balance?,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-222,In Progress,Major,WS-212 -> Did we have any SPAC admin expenses last month?,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-225,Done,Major,WS-212 -> how much do I owe grammarly,-,-,0m,0m,5h 5m,5h 5m,,,,
+Task,WS-226,QA,Critical,Preprocess Queries before making embedding,-,1h,0m,0m,2h,3h 26m,,"2 hours, 26 minutes",,-243
+-> Sub-task,WS-229,Done,Major,-> Create link for Getting embeddings that uses the LLM to normalize query,1h,,0m,,1h 26m,,26 minutes,,-43,-43
+Sub-task,WS-232,To Do,Major,WS-212 -> Testing on dev,-,-,0m,0m,1h 45m,1h 45m,,,,
+Sub-task,WS-234,Done,Major,WS-202 -> Update provider to be quickbooks,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-235,Done,Critical,WS-202 -> Setup Account Mapping and filters,-,-,0m,0m,46m,46m,,,,
+Sub-task,WS-236,Done,Major,WS-202 -> Update resolver to use the realm id,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-241,Done,Major,WS-199 -> create a share assistant handler on the account service,2h,2h,0m,0m,6h 34m,6h 34m,"4 hours, 34 minutes","4 hours, 34 minutes",-228,-228
+Sub-task,WS-242,Done,Major,WS-199 -> Update the share assistant handler to fetch the user by email from IAM and if the user does not exist then create a user and account with that email,10m,10m,0m,0m,20m,20m,10 minutes,10 minutes,-100,-100
+Sub-task,WS-245,Done,Major,WS-199 -> update the account validation middleware so that a user would only be able to message a shared assistant,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-246,Done,Major,WS-199 -> update the account validation middleware so that the assistant owner can manage all the shared assistants,1h,1h,0m,0m,1h 5m,1h 5m,5 minutes,5 minutes,-8,-8
+Sub-task,WS-247,Done,Major,WS-199 -> update the app to disable the install and delete buttons on an assistant if it's shared,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-248,Done,Major,WS-199 -> update the handlers to check if an assistant is shared before making a token request to IAM and if so then use the parent account ID on the assistant to get the token,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-249,Done,Major,WS-199 -> create a event handler that would update all the shared assistants when the parent assistant is updated,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-250,Done,Major,WS-199 -> create an even handler that would delete all the shared assistants when the parent assistant is updated,1h,1h,0m,0m,3h 7m,3h 7m,"2 hours, 7 minutes","2 hours, 7 minutes",-211,-211
+Sub-task,WS-253,Done,Major,WS-201 -> create a social connection in auth0 for WeOS,-,-,0m,0m,33m,33m,,,,
+Sub-task,WS-255,Done,Major,WS-201 -> fix issue with microsoft login throwing an error (see comment),-,-,0m,0m,1h 43m,1h 43m,,,,
+Sub-task,WS-256,Done,Major,WS-202 -> Investigate Transaction endpoint to see if it fits our use case,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-259,In Progress,Critical,WS-258 -> What is in checking account 8048?,20m,20m,0m,0m,30m,30m,10 minutes,10 minutes,-50,-50
+Sub-task,WS-260,Done,Major,WS-258 -> Is there anything in deferred tax assets?,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-261,Done,Major,WS-258 -> What is the balance that is due from Trajectory Capital LLC?,40m,40m,0m,0m,20m,20m,20 minutes,20 minutes,50,50
+Sub-task,WS-263,In Progress,Major,WS-258 -> How much SPAC expenses were there in the first quarter?,-,-,0m,0m,2h 13m,2h 13m,,,,
+Sub-task,WS-264,In Progress,Major,WS-258 -> What is my Other Income amount for the full year?,45m,45m,0m,0m,50m,50m,5 minutes,5 minutes,-11,-11
+Sub-task,WS-265,Done,Major,WS-258 -> How much is the Miscellaneous Expense for the year?,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-267,Done,Major,WS-199 -> create event handler that would create/update sub resources on the shared assistant integration when the parent is updated,1h 15m,1h 15m,0m,0m,1h 20m,1h 20m,5 minutes,5 minutes,-6,-6
+Task,WS-269,Done,Major,Add a data tag to the message input to make it easier to target in Selenium tests,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-270,Done,Major,WS-199 -> update app to handle install url with assistantId as a query parameter,-,-,0m,0m,1h 40m,1h 40m,,,,
+Sub-task,WS-271,Done,Major,WS-199 -> update IAM to sort the list of users in descending order,-,-,0m,0m,26m,26m,,,,
+Sub-task,WS-272,Done,Major,WS-199 -> update integration service to use the owner id to get iam token if its a shared assistant,-,-,0m,0m,1h 45m,1h 45m,,,,
+Task,WS-274,Done,Major,Improve retrieval by adding more context to embeddings,2h,2h,0m,0m,7h 30m,1d 30m,"5 hours, 30 minutes","6 hours, 30 minutes",-275,-325
+-> Sub-task,WS-279,Done,Critical,-> Update RAG pipeline to generate and use Algorithms for retrieval,-,,0m,,1h,,,,,
+Sub-task,WS-275,Done,Major,WS-199 -> test on dev,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-276,Done,Major,WS-199 -> hook up removing a shared user,1h,1h,0m,0m,1h 45m,1h 45m,45 minutes,45 minutes,-75,-75
+Sub-task,WS-277,Done,Major,WS-199 -> Deploy to Staging,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-281,Done,Major,WS-199 -> set up the invite status,-,-,0m,0m,6h 5m,6h 5m,,,,
+Sub-task,WS-284,Done,Major,WS-202 -> Investigate the General Ledger,-,-,0m,0m,2h 40m,2h 40m,,,,
+Bug,WS-286,Done,Major,Fix delete handler on the other services,-,-,0m,0m,30m,30m,,,,
+Task,WS-287,Done,Critical,Use fuzzy search for like queries,-,-,0m,0m,45m,6h 30m,,,,
+-> Sub-task,WS-297,Done,Major,-> Experiment with https://github.com/rapidfuzz/RapidFuzz,-,,0m,,3h,,,,,
+-> Sub-task,WS-304,Done,Major,-> Experiment with https://github.com/lithammer/fuzzysearch,-,,0m,,2h,,,,,
+-> Sub-task,WS-305,Done,Major,-> Compare experiments,-,,0m,,45m,,,,,
+Bug,WS-328,Done,Major,Deleting an integration does not work as expected,-,-,0m,0m,20m,20m,,,,
+Task,WS-331,Done,Major,Setup experiment to see if reducing the time window would improve the response accuracy,-,-,0m,0m,4h 20m,4h 20m,,,,
+Task,WS-332,Done,Major,Setup experiment remove sending the generated response from the conversation history,-,-,0m,0m,2h 50m,2h 50m,,,,
+Bug,WS-333,Done,Major,Error response bug,-,-,0m,0m,6h 13m,6h 13m,,,,
+Bug,WS-335,Done,Major,Invite email not being sent,-,-,0m,0m,20m,20m,,,,
+Task,WS-337,Done,Major,Can we create a prompt that will identify the correct report and date range to query to respond to a user's query,-,-,0m,0m,1d 7h 48m,2d 5h 37m,,,,
+-> Sub-task,WS-358,Done,Major,-> create a feedback loop to handle the error responses,-,,0m,,2h 36m,,,,,
+-> Sub-task,WS-359,Done,Major,-> Update the assistant handler to return the markdown in a 'md' property so that it would be easier to render it on the front end,-,,0m,,35m,,,,,
+-> Sub-task,WS-360,Done,Major,-> Get the LLM to return the correct dates with the reports,-,,0m,,2h 38m,,,,,
+Story,WS-341,Done,Major,As a developer I should be able to query quickbooks report on the integration service,-,-,0m,0m,2h 30m,1d 5h 20m,,,,
+-> Sub-task,WS-342,Done,Major,-> Add quickbooks api and create report schema and mapping,-,,0m,,20m,,,,,
+-> Sub-task,WS-343,Done,Major,-> Create resolver to hit quickbooks reports,-,,0m,,1d 2h 30m,,,,,
+Story,WS-345,Done,Major,As a user I should be able to remove a shared assistant from my account,-,-,0m,0m,4h,4h,,,,
+Sub-task,WS-347,Done,Major,WS-202 -> Update controller to pull the baseUrl from the integration and add it to the context,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-348,Done,Major,WS-202 -> Update quickbooks resolver to check for the baseUrl in the context and not found fallback to the default,-,-,0m,0m,30m,30m,,,,
+Story,WS-349,Done,Major,As a user I should be able to resend or delete a pending invite,-,-,0m,0m,30m,3h,,,,
+-> Sub-task,WS-366,Done,Major,-> Update the shared assistant handler to check if the code exists and if the status is pending update the expiry date,-,,0m,,1h,,,,,
+-> Sub-task,WS-367,Done,Major,-> Updated the weos-app to remove the pending user from the shared users array and update the assistant,-,,0m,,1h 30m,,,,,
+Sub-task,WS-353,Done,Major,WS-202 -> update the app to render the markdown,-,-,0m,0m,36m,36m,,,,
+Bug,WS-362,Done,Minor,The date the user message was created does not seem to be saving,-,-,0m,0m,50m,50m,,,,
+Story,WS-365,Done,Major,As a user I should be able to accept an invite even if the email address on the account is different from the invite,-,-,0m,0m,4h,7h 20m,,,,
+-> Sub-task,WS-368,Done,Major,"-> update the share assistant handler to the set code, expiration date in the shared user array",-,,0m,,1h 30m,,,,,
+-> Sub-task,WS-369,Done,Major,-> update the handler to check for the user by the code,-,,0m,,1h,,,,,
+-> Sub-task,WS-370,Done,Major,-> update the app to pass in the the invite code,-,,0m,,20m,,,,,
+-> Sub-task,WS-371,Done,Major,-> remove the code that pulls the user from iam and use the user from the jwt,-,,0m,,30m,,,,,
+Improvement,WS-372,Done,Major,Giving the finance assistant more accounting knowledge would make it perform better,-,-,0m,0m,4h,4h,,,,
+Sub-task,WS-374,Done,Major,WS-346 -> Remove mapping code,-,-,0m,0m,1h 10m,1h 10m,,,,
+Sub-task,WS-375,Done,Major,WS-346 -> Make it so that default integrations are setup on start up,-,-,0m,0m,2h 30m,2h 30m,,,,
+Task,WS-376,Deploy to Staging,Critical,Can we get the LLM to use the context to interpret the question and NOT use previous responses to answer the question,-,-,0m,0m,2h 52m,2h 52m,,,,
+Task,WS-378,Closed,Critical,As a user I should be able to use a demo assistant to try out WeOS,-,-,0m,0m,3h 6m,1d 6h 56m,,,,
+-> Sub-task,WS-403,Done,Major,-> add an event handler that would fetch all the users from the DB and create the shared assistant under their account,-,,0m,,6h 5m,,,,,
+-> Sub-task,WS-404,Done,Major,-> Add an event handler that would add the demo assistant to all new users,-,,0m,,2h,,,,,
+-> Sub-task,WS-411,Done,Major,-> create an event handler that would add all the demo assistants to a collection,-,,0m,,1h 5m,,,,,
+-> Sub-task,WS-418,Done,Major,-> create and publish the demo assistant manifest,-,,0m,,35m,,,,,
+-> Sub-task,WS-502,Done,Major,-> make it so that only admins can view and install a demo assistant,-,,0m,,30m,,,,,
+-> Sub-task,WS-536,Done,Major,-> create an event handler that would remove the demo assistant from the collection when an admin deletes a demo assistant,-,,0m,,1h 20m,,,,,
+-> Sub-task,WS-554,Done,Major,-> Deploy,-,,0m,,15m,,,,,
+Improvement,WS-381,In Progress,Major,Confirm delta reports can be used to make Smart Brevity summaries,-,-,0m,0m,57m,57m,,,,
+Sub-task,WS-397,Done,Major,WS-379 -> Setup go service that runs as a cron job,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-398,Done,Major,"WS-379 -> Create structs for Invoice, Customer, Bills, Account",-,-,0m,0m,2h 40m,2h 40m,,,,
+Sub-task,WS-399,Done,Major,WS-379 -> Create function to generate a Bill using gofakeit,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-400,Done,Major,WS-379 -> Create function to generate an Invoice using gofakeit,-,-,0m,0m,1h,1h,,,,
+Task,WS-402,Done,Major,Will the LLM respond to budget questions well if given a budget detail,-,-,0m,0m,4h,4h,,,,
+Sub-task,WS-405,Done,Major,WS-379 -> Create function to generate a Customer using gofakeit,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-406,Done,Major,WS-379 -> Copy over function that gets the machine to machine token,-,-,0m,0m,2m,2m,,,,
+Sub-task,WS-407,Done,Major,WS-379 -> Create function to hit IAM to get QuickBooks token,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-408,Done,Major,WS-379 -> Update security on the tokens route in IAM to allow this service,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-409,Done,Major,"WS-379 -> Create workflow that creates new customers, makes bills for those customer and generates invoices",-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-410,Done,Major,WS-379 -> Create workflow that pulls existing customers and pays bills,-,-,0m,0m,1h,1h,,,,
+Improvement,WS-421,Done,Critical,Can we get the LLM to identify key financial changes to alert on,-,-,0m,0m,4h 12m,4h 12m,,,,
+Improvement,WS-423,In Progress,Critical,"Can we get alerts to take into account a user's ""focus"" or comments",-,-,0m,0m,2h 46m,2h 46m,,,,
+Sub-task,WS-430,Done,Major,WS-426 -> Add receiver for creating alert,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-432,Done,Major,WS-431 -> Create event handler that creates a job in the cron scheduler to run the user query returned,2h,2h,0m,0m,2h 27m,2h 27m,27 minutes,27 minutes,-22,-22
+Sub-task,WS-434,Done,Major,WS-426 -> Add option to create a new alert to the menu,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-438,Done,Major,WS-426 -> Add collection for alerts,-,-,0m,0m,2h 18m,2h 18m,,,,
+Sub-task,WS-439,Done,Major,"WS-426 -> Create a ""conversation"" for the alert when it's created",-,-,0m,0m,27m,27m,,,,
+Sub-task,WS-443,Done,Major,WS-426 -> Deploy,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-445,Done,Major,WS-431 -> Add initializer that starts the alerts when the service starts,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-447,Done,Major,WS-426 -> Add check if query returned is working,-,-,0m,0m,4h 34m,4h 34m,,,,
+Sub-task,WS-449,Done,Major,WS-426 -> Update prompt so that the user can set the cadence and it would be extracted (similar to how the query is extracted),-,-,0m,0m,50m,50m,,,,
+Sub-task,WS-450,Done,Major,WS-431 -> Make so that other apis could call the assistant service with a query,-,-,0m,0m,6h 46m,6h 46m,,,,
+Sub-task,WS-451,Done,Major,WS-426 -> If the alert is successfully added return a user friendly confirmation,-,-,0m,0m,2h 57m,2h 57m,,,,
+Sub-task,WS-452,Done,Major,WS-379 -> Create additional workflows,-,-,0m,0m,1h 45m,1h 45m,,,,
+Task,WS-453,Done,Critical,Update the weos version on all the services,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-454,Done,Major,WS-379 -> Make so that accounts can be added and removed,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-462,Done,Major,WS-379 -> Deploys,-,-,0m,0m,1h 16m,1h 16m,,,,
+Story,WS-465,Done,Major,As a user I should be able to de-activate an alert,-,1h 10m,0m,0m,1h,3h 10m,,2 hours,,-171
+-> Sub-task,WS-556,Done,Major,"-> Add a ""active"" property to the alert",10m,,0m,,10m,,0 minutes,,0,0
+-> Sub-task,WS-557,Done,Major,-> Update the send query function to check if the alert is active before running the query,20m,,0m,,20m,,0 minutes,,0,0
+-> Sub-task,WS-558,Done,Major,"-> Add a de-activate button to the alerts on the front end and make a request to update the ""active"" property on the alert when it is clicked",40m,,0m,,1h 40m,,1 hour,,-150,-150
+Sub-task,WS-468,Done,Major,WS-426 -> Make it so that when you delete an assistant it would delete the alerts on the alert service and run the initializer again,-,-,0m,0m,2h 17m,2h 17m,,,,
+Sub-task,WS-471,Done,Major,WS-431 -> Deploy,-,-,0m,0m,2h 27m,2h 27m,,,,
+Sub-task,WS-472,Done,Major,WS-426 -> Make it so that a cadence lower than a day can't be set,-,-,0m,0m,25m,25m,,,,
+Sub-task,WS-473,Done,Major,WS-379 -> Make workflow to pay invoices,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-474,Done,Major,WS-379 -> Make it so that undeposited funds are transferred to checking account,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-475,Done,Major,WS-379 -> Add an endpoint to that runs the demo manually,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-476,Done,Major,WS-431 -> Create alert card,-,-,0m,0m,25m,25m,,,,
+Sub-task,WS-477,Done,Major,WS-431 -> Create chat card,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-478,Done,Major,WS-431 -> Create home screen,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,WS-480,Done,Major,WS-431 -> Create notification if the alert should be triggered,3h,3h,0m,0m,5h 35m,5h 35m,"2 hours, 35 minutes","2 hours, 35 minutes",-86,-86
+Sub-task,WS-481,Done,Major,WS-431 -> Create modal that creates the alerts,-,-,0m,0m,2h 17m,2h 17m,,,,
+Sub-task,WS-482,Done,Major,WS-431 -> Hook ups,-,-,0m,0m,2h 30m,2h 30m,,,,
+Task,WS-483,To Do,Minor,Make it so that alerts take into account the user's timezone,-,-,0m,0m,20m,20m,,,,
+Task,WS-484,In Progress,Major,Refactor Weos app,-,-,0m,0m,1h,7h 30m,,,,
+-> Sub-task,WS-496,In Progress,Major,-> setup mobile builds,-,,0m,,6h 30m,,,,,
+Sub-task,WS-498,Done,Major,WS-459 -> Create reusable chat container component,-,-,0m,0m,3h 15m,3h 15m,,,,
+Sub-task,WS-499,Done,Major,WS-459 -> Link nonfictions to open using the chat component,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-500,Done,Major,WS-459 -> Add context back so the user can continue the conversation,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,WS-501,Done,Major,WS-441 -> Pass in a notficationtypes from the front end,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-503,Done,Major,WS-441 -> Update (r *AlertSetup) Run to pass the the notifications types to the alert service,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-506,Done,Major,WS-441 -> Update the Runquery function on the alert service to send out the email if a notification is created,-,-,0m,0m,2h 10m,2h 10m,,,,
+Sub-task,WS-511,Done,Major,WS-461 -> Append snooze icon on hover for desktop view,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-512,Done,Major,WS-461 -> Allow sliding to notification left or right to snooze,-,-,0m,0m,4h 15m,4h 15m,,,,
+Sub-task,WS-513,Done,Major,WS-461 -> Add endpoint to delete a notification on the alert service,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-515,Done,Major,WS-461 -> Add an receiver to update the alert trigger when a notification is deleted,-,-,0m,0m,3h 45m,3h 45m,,,,
+Task,WS-516,In Progress,Major,Implement better tracing using Opentelemetry,-,-,0m,0m,4h 55m,5h 35m,,,,
+-> Sub-task,WS-520,In Progress,Major,-> Instrument the Alert Service,-,,0m,,40m,,,,,
+Improvement,WS-531,Done,Major,Can we easily implement coach marks into the app,-,-,0m,0m,3h 45m,3h 45m,,,,
+Sub-task,WS-538,Done,Major,WS-521 -> setup endpoint that gets events by accountid,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-539,Done,Major,WS-521 -> update homescreen to pull the activity list,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-540,Done,Major,WS-521 -> add notification button that sends the user to the notification screen,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-541,Done,Major,WS-521 -> create a schema for events,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-542,Done,Major,WS-521 -> update the run query function to create an event for the alert when its ran,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-543,Done,Major,WS-528 -> Create alert list item component,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-544,Done,Major,WS-528 -> Create alert screen,-,-,0m,0m,2h 20m,2h 20m,,,,
+Sub-task,WS-545,Done,Major,WS-528 -> Create filter function for alerts,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-547,Done,Major,WS-463 -> Add next run property to alert,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-548,Done,Major,WS-463 -> Update the Run alert function on the assistant service to update the alert if it already exist,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-549,Done,Major,WS-463 -> Update the validate alerts event handler on the alert service to handle updating alert,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-550,Done,Major,WS-463 -> Create split screen for desktop view,-,-,0m,0m,4h,4h,,,,
+Sub-task,WS-551,Done,Major,WS-463 -> Make the sidebar bar collapsible,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-552,Done,Major,WS-463 -> Create mobile screens,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-553,Done,Major,WS-463 -> Add update alert endpoint on the alert service,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-559,Done,Major,WS-546 -> update the open telemetry SDK version on the cloud module,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-560,Done,Major,WS-546 -> update the mico-services to use to updated version of open telemetry,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-561,Done,Major,WS-427 -> create event handler to delete notifications when a alert is deleted,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-562,Done,Major,WS-427 -> create confirmation modal,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-563,Done,Major,WS-427 -> hook up delete,1h 30m,1h 30m,0m,0m,2h,2h,30 minutes,30 minutes,-33,-33
+Sub-task,WS-564,Done,Major,WS-521 -> add viewed property to the notification shcema,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-565,Done,Major,WS-521 -> truncate activity with show more button,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-566,Done,Major,WS-521 -> make it so that when a notifcation is open it is marked as viewed and updated,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-567,Done,Major,WS-528 -> Add filter by last run date,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-568,Done,Major,WS-528 -> make icons colored,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-569,Done,Major,WS-528 -> have llm generate a title for the alert,-,-,0m,0m,1h 10m,1h 10m,,,,
+Sub-task,WS-570,Done,Major,WS-521 -> add separate buttons instead of the toggle,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-571,Done,Major,WS-521 -> store the state in local storage,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-572,Done,Major,WS-534 -> add a code property to the alerts,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-573,Done,Major,WS-534 -> update the request to the assistant service to pass in he gpt-4 model as a header,-,-,0m,0m,32m,32m,,,,
+Sub-task,WS-574,Done,Major,WS-534 -> Update the assistant service to use the gpt model from the header if set,-,-,0m,0m,35m,35m,,,,
+Sub-task,WS-575,Done,Major,WS-534 -> add a pyhton model to the assistant service,-,-,0m,0m,1h 20m,1h 20m,,,,
+Sub-task,WS-576,Done,Major,WS-534 -> Update the alert service to check if the alert is associated with code and if so then run the code instead of making a request to the assistant service,-,-,0m,0m,3h 34m,3h 34m,,,,
+Sub-task,WS-578,Done,Major,WS-534 -> Update the send query function to make a request to both models and compare the cosine similarity,-,-,0m,0m,3h 33m,3h 33m,,,,
+Sub-task,WS-585,Done,Major,WS-469 -> Create the insight service,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-586,Done,Major,WS-469 -> Deploy the insight service,2h,2h,0m,0m,3h 22m,3h 22m,"1 hour, 22 minutes","1 hour, 22 minutes",-68,-68
+Sub-task,WS-590,Done,Major,"WS-469 -> create ""dummy"" data for the insights",15m,15m,0m,0m,30m,30m,15 minutes,15 minutes,-100,-100
+Sub-task,WS-591,Done,Major,WS-469 -> update the app to fetch and render the insights from the insight service,1h,1h,0m,0m,2h 10m,2h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-116,-116
+Sub-task,WS-593,Done,Major,WS-469 -> Add schema and endpoints for insights,1h,1h,0m,0m,5h 10m,5h 10m,"4 hours, 10 minutes","4 hours, 10 minutes",-416,-416
+Sub-task,WS-595,Done,Major,WS-463 -> Add filter for activity,-,-,0m,0m,30m,30m,,,,
+Task,WS-610,To Do,Major,Cash Flow UI,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-614,Done,Major,WS-470 -> Create insight list item component,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-616,Done,Major,WS-470 -> Create Insight screen desktop,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-617,Done,Major,WS-469 -> Create insight card component,1h 30m,1h 30m,0m,0m,4h 40m,4h 40m,"3 hours, 10 minutes","3 hours, 10 minutes",-211,-211
+Sub-task,WS-620,Done,Major,WS-470 -> Create insight view component,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-622,Done,Major,WS-427 -> update delete alerts handler to delete one alert when an alert id is passed,3h,3h,0m,0m,3h 30m,3h 30m,30 minutes,30 minutes,-16,-16
+Sub-task,WS-639,Done,Major,WS-631 -> Update the Bill Mapping,-,-,0m,0m,3h 50m,3h 50m,,,,
+Sub-task,WS-640,Done,Major,WS-631 -> Add Journal Entry Mapping,-,-,0m,0m,3h 10m,3h 10m,,,,
+Sub-task,WS-641,Done,Major,WS-631 -> Add profit and loss mapping,-,-,0m,0m,5h 58m,5h 58m,,,,
+Sub-task,WS-642,Done,Major,WS-631 -> Add Balance sheet mapping,-,-,0m,0m,1d 15m,1d 15m,,,,
+Sub-task,WS-643,Done,Major,WS-631 -> Add vendor mapping,-,-,0m,0m,1h 55m,1h 55m,,,,
+Sub-task,WS-644,Done,Major,WS-631 -> Add Trial balance mapping,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-645,Done,Major,WS-631 -> Create function to parse the Trial balance report into the mapping,-,-,0m,0m,1h 30m,1h 30m,,,,
+Improvement,WS-650,Done,Critical,Can we use the balance sheet as a starting point for providing insights and recommended alerts,-,5h,0m,0m,6h,1d 2h 40m,,"5 hours, 40 minutes",,-113
+-> Sub-task,WS-683,Done,Major,-> Can we identify a transaction that caused an issue with an account balance,-,,0m,,1h,,,,,
+-> Sub-task,WS-688,Done,Major,-> Can we use the profit and lost to identify trends/issues,5h,,0m,,3h 40m,,"1 hour, 20 minutes",,26,26
+Sub-task,WS-654,Done,Major,WS-631 -> Add Customer mapping,-,-,0m,0m,3h 47m,3h 47m,,,,
+Sub-task,WS-655,Done,Major,WS-631 -> Add Invoice mapping,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-659,Done,Major,WS-652 -> add a middleware that would only allow admins to edit the cron tab of an alert,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-660,Done,Major,WS-652 -> copy the workflows from the assistant service and add them to the cloud module,2h,2h,0m,0m,3h,3h,1 hour,1 hour,-50,-50
+Sub-task,WS-661,Done,Major,WS-652 -> Update the run query function to use the workflows from the cloud module to run and validate the alert,1h 30m,1h 30m,0m,0m,1d 1h 23m,1d 1h 23m,"7 hours, 53 minutes","7 hours, 53 minutes",-525,-525
+Sub-task,WS-664,Done,Major,WS-652 -> create an alert setup hander on the alert service,1h,1h,0m,0m,2h 59m,2h 59m,"1 hour, 59 minutes","1 hour, 59 minutes",-198,-198
+Sub-task,WS-665,Done,Major,"WS-583 -> create a ""start"" link that would extract actionable items from the balance sheet",2h,2h,0m,0m,1d 7h 50m,1d 7h 50m,"1 day, 5 hours, 50 minutes","1 day, 5 hours, 50 minutes",-691,-691
+Sub-task,WS-670,Done,Major,"WS-583 -> create a ""ignite"" handler to for generating the insights",1h,1h,0m,0m,6h 46m,6h 46m,"5 hours, 46 minutes","5 hours, 46 minutes",-576,-576
+Sub-task,WS-671,Done,Major,WS-583 -> update the front end to hit the generate insight endpoint when a user first creates an account,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Sub-task,WS-675,Done,Major,WS-698 -> create a function that would run on a schedule and update the active property on the insights for each account,1h,1h,0m,0m,2h 38m,2h 38m,"1 hour, 38 minutes","1 hour, 38 minutes",-163,-163
+Sub-task,WS-684,Done,Major,WS-469 -> Create insight projection and model,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Bug,WS-686,Done,Major,Can't snooze notifications whose alerts were already deleted,30m,30m,0m,0m,34m,34m,4 minutes,4 minutes,-13,-13
+Sub-task,WS-690,Done,Major,"WS-689 -> Change ""connect to quickbooks"" button to an intuit approved graphic. See here: Intuit Developer",20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-692,Done,Major,"WS-689 -> Change email subject from ""Notification from XYZ Assistant"" to ""WeOS Notification - ""Name of Alert“",20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-693,Done,Major,WS-689 -> Menu Edits,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-694,Done,Minor,WS-689 -> Shared assistant remains in pending status even after accepting,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-695,Done,Major,WS-689 -> Site optimization,4h,4h,0m,0m,5h,5h,1 hour,1 hour,-25,-25
+Task,WS-696,Done,Critical,Switch JWT Library,-,-,0m,0m,32m,32m,,,,
+Bug,WS-702,Done,Minor,Snooze on mobile not working,-,-,0m,0m,45m,45m,,,,
+Bug,WS-703,Done,Major,Account Service Returning a 401 when running alerts on a schedule,-,-,0m,0m,50m,50m,,,,
+Sub-task,WS-704,Done,Major,WS-470 -> Create insight screen mobile,45m,45m,0m,0m,1h,1h,15 minutes,15 minutes,-33,-33
+Sub-task,WS-705,Done,Major,WS-470 -> add resolve button,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-708,Done,Major,WS-707 -> Update the weos-terraform-vpc module,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-710,Done,Major,WS-707 -> Create passwords for microservices in WeOS terraform,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-711,Done,Major,WS-707 -> Update prod,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-715,Done,Major,WS-707 -> Deploy to Staging,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-716,Done,Major,WS-707 -> Update remaining microservices to use the default SQL initializer,1h,1h,0m,0m,1h 8m,1h 8m,8 minutes,8 minutes,-13,-13
+Sub-task,WS-723,Done,Major,WS-649 -> Set up the logo for the custom connection,30m,30m,0m,0m,1h,1h,30 minutes,30 minutes,-100,-100
+Sub-task,WS-724,Done,Major,"WS-649 -> Check the user sub for QuickBooks and setup default assistant, then create account on the insight service",1h,1h,0m,0m,1h 20m,1h 20m,20 minutes,20 minutes,-33,-33
+Sub-task,WS-725,Done,Major,WS-698 -> Update the igniters to not make all the insights inactive except 1,30m,30m,0m,0m,47m,47m,17 minutes,17 minutes,-56,-56
+Sub-task,WS-731,Done,Major,"WS-717 -> Add igniter property to the insight struct, should be set within the igniter",20m,20m,0m,0m,40m,40m,20 minutes,20 minutes,-100,-100
+Sub-task,WS-733,Done,Major,WS-717 -> Add reports array property to the insight struct should be set within the igniter,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-735,Done,Major,WS-717 -> Add timeframe property to the insight struct should be set within the igniter,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-738,Done,Major,WS-717 -> update the insight card to have a info icon that flips the card and shows this data,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-739,Done,Major,WS-698 -> Update the front end to fetch and render the active insights,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-746,Done,Major,WS-707 -> Deploy to Dev,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-747,Done,Major,WS-732 -> Update the alert service to store and run the recommended alerts,2h,2h,0m,0m,4h 5m,4h 5m,"2 hours, 5 minutes","2 hours, 5 minutes",-104,-104
+Sub-task,WS-748,Done,Major,WS-732 -> Pull recommend alerts from the alert service,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Task,WS-750,Done,Major,Fix noisey errors on integration service,-,-,0m,0m,11m,11m,,,,
+Bug,WS-751,Done,Critical,Context cancelled error from the account service,-,-,0m,0m,7h 49m,7h 49m,,,,
+Bug,WS-753,Done,Major,Loss of context in Notifications Chat,-,-,0m,0m,4h 52m,4h 52m,,,,
+Bug,WS-759,Done,Minor,Alerts on prod returning null responses in Langfuse,-,-,0m,0m,2h 50m,2h 50m,,,,
+Sub-task,WS-762,Done,Major,WS-755 -> Add third column to insight screen,10m,10m,0m,0m,20m,20m,10 minutes,10 minutes,-100,-100
+Sub-task,WS-763,Done,Major,WS-755 -> Render recommend alerts from the insight object,45m,45m,0m,0m,2h 45m,2h 45m,2 hours,2 hours,-266,-266
+Sub-task,WS-764,Done,Major,WS-755 -> Validate 10 alerts and add them to the recommend alerts,3h,3h,0m,0m,4h 15m,4h 15m,"1 hour, 15 minutes","1 hour, 15 minutes",-41,-41
+Sub-task,WS-765,Done,Major,WS-757 -> Change snooze icon to pause icon,10m,10m,0m,0m,15m,15m,5 minutes,5 minutes,-50,-50
+Sub-task,WS-766,Done,Major,"WS-757 -> update ""update notification event handler"" to check if ""read"" property is set to true and set the alert trigger to be false",2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Bug,WS-773,Reopened,Minor,LLM hallucinating when there is no report data,-,-,0m,0m,3h 5m,3h 5m,,,,
+Sub-task,WS-774,Done,Major,WS-758 -> create a provider that would run the profit and loss igniter that would run on a daily schedule and call the profit and loss igniter based on the created date,1h 30m,1h 30m,0m,0m,2h 31m,2h 31m,"1 hour, 1 minute","1 hour, 1 minute",-67,-67
+Sub-task,WS-775,Done,Major,WS-758 -> Create a provider that would run on a monthly schedule and trigger the profit and loss igniter for all accounts,1h 30m,1h 30m,0m,0m,1h 40m,1h 40m,10 minutes,10 minutes,-11,-11
+Sub-task,WS-776,Done,Major,WS-758 -> update the igniter params to take in a start and end date and use this to determine which reports to get,30m,30m,0m,0m,1h 10m,1h 10m,40 minutes,40 minutes,-133,-133
+Sub-task,WS-777,Done,Major,WS-758 -> Create a provider that would create the m2m token and add it to the container,1h 30m,1h 30m,0m,0m,1h 36m,1h 36m,6 minutes,6 minutes,-6,-6
+Sub-task,WS-785,Done,Major,WS-772 -> setup custom scheme in app builds,5h,5h,0m,0m,5h,5h,0 minutes,0 minutes,0,0
+Sub-task,WS-786,Done,Major,WS-772 -> setup app to listen for redirects to that custom scheme,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-787,Done,Major,WS-772 -> test build on https://ionic.io/appflow,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-788,Done,Major,WS-772 -> create native auth0 application,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-790,Done,Major,WS-772 -> install capacitor and relevant packages,30m,30m,0m,0m,3h,3h,"2 hours, 30 minutes","2 hours, 30 minutes",-500,-500
+Sub-task,WS-795,Done,Major,WS-755 -> create list of recommended alerts on that alert service,30m,30m,0m,0m,1h,1h,30 minutes,30 minutes,-100,-100
+Sub-task,WS-797,Done,Major,WS-755 -> update the schedule provider to fetch add the recommended alerts to the insight when it is made active,1h,1h,0m,0m,6h 58m,6h 58m,"5 hours, 58 minutes","5 hours, 58 minutes",-596,-596
+Bug,WS-803,Done,Major,LLM returned wrong revenue no. though it had the correct reports,-,-,0m,0m,50m,50m,,,,
+Bug,WS-805,Done,Critical,Error when editing alert,45m,45m,0m,0m,53m,53m,8 minutes,8 minutes,-17,-17
+Task,WS-806,Done,Critical,Add create alert button to manage alert screen,30m,30m,0m,0m,40m,40m,10 minutes,10 minutes,-33,-33
+Bug,WS-807,Done,Major,Daily sparks not showing up,-,-,0m,0m,2h 45m,2h 45m,,,,
+Sub-task,WS-813,Done,Major,WS-757 -> update delete notification event handler to set the alert to inactive,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Bug,WS-814,Done,Major,Alerts aren't setup if the LLM got the correct response but the Python failed,-,-,0m,0m,1h 10m,1h 10m,,,,
+Bug,WS-815,Done,Major,Queries needing more than two reporting periods not working,-,-,0m,0m,1h 53m,1h 53m,,,,
+Story,WS-818,To Do,Critical,I should be able to get sparks and recommended readings based on my business info,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-821,Done,Major,WS-772 -> Setup fastlane for playstore,6h,6h,0m,0m,6h,6h,0 minutes,0 minutes,0,0
+Story,WS-824,Done,Minor,I should be able to easily report errors and crashes,-,-,0m,0m,30m,3h 15m,,,,
+-> Sub-task,WS-963,Done,Major,-> Add report button to error messages,-,,0m,,45m,,,,,
+-> Sub-task,WS-965,Done,Major,-> Add a handler to the feedback service to create issue in jira,-,,0m,,1h,,,,,
+-> Sub-task,WS-1058,Done,Major,-> update slack message template,-,,0m,,1h,,,,,
+Story,WS-826,Done,Major,I should be able to easily rate the app,10m,1h 5m,0m,0m,1h 55m,3h,"1 hour, 45 minutes","1 hour, 55 minutes",-1050,-176
+-> Sub-task,WS-1188,Done,Major,"-> Add remote config variable ""in_app_review",10m,,0m,,10m,,0 minutes,,0,0
+-> Sub-task,WS-1189,Done,Major,-> install @capacitor-community/in-app-review,-,,0m,,10m,,,,,
+-> Sub-task,WS-1190,Done,Major,"-> Trigger in app review based on the value of ""in_app_review"" and if all notifications have been read",45m,,0m,,45m,,0 minutes,,0,0
+Task,WS-827,Done,Minor,Add a guided tour of WeOS that highlights sparks and signals,-,2h 40m,0m,0m,1h 10m,4h 30m,,"1 hour, 50 minutes",,-68
+-> Sub-task,WS-856,Done,Major,-> Add checks to ensure that the tour starts after quickbooks is connected,20m,,0m,,1h,,40 minutes,,-200,-200
+-> Sub-task,WS-857,Done,Major,-> Install driver.js,10m,,0m,,10m,,0 minutes,,0,0
+-> Sub-task,WS-858,Done,Major,-> Add ids to elements so they can be reference,20m,,0m,,20m,,0 minutes,,0,0
+-> Sub-task,WS-859,Done,Major,-> Create highlight for each element,1h 30m,,0m,,1h 30m,,0 minutes,,0,0
+-> Sub-task,WS-860,Done,Major,-> Add each highlight to driver steps,20m,,0m,,20m,,0 minutes,,0,0
+Sub-task,WS-830,Done,Major,WS-810 -> Create and setup Goal Service,2h,2h,0m,0m,1h 40m,1h 40m,20 minutes,20 minutes,16,16
+Sub-task,WS-834,Done,Major,WS-810 -> Create an initialiser that would fetch and create all the default Goals,1h,1h,0m,0m,2h 10m,2h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-116,-116
+Sub-task,WS-842,Done,Major,WS-801 -> Replace Alerts with Signals through the app,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-848,Done,Major,WS-810 -> Update the front end to create a goal resource when the user selects a goal,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-850,Done,Major,WS-810 -> create a batch setup endpoint on the alert serrvice,15m,15m,0m,0m,20m,20m,5 minutes,5 minutes,-33,-33
+Sub-task,WS-851,Done,Major,WS-810 -> create a handler on the alert service that would loop through all the alerts associated with a goal and create it under the account,1h 30m,1h 30m,0m,0m,4h 27m,4h 27m,"2 hours, 57 minutes","2 hours, 57 minutes",-196,-196
+Sub-task,WS-852,Done,Major,WS-810 -> create a list of recommended alerts for each goal on the alert servce,3h,3h,0m,0m,5h 15m,5h 15m,"2 hours, 15 minutes","2 hours, 15 minutes",-75,-75
+Sub-task,WS-853,Done,Major,WS-810 -> Add a goal property to the alerts,15m,15m,0m,0m,35m,35m,20 minutes,20 minutes,-133,-133
+Story,WS-861,To Do,Critical,I should be able to purchase a subscription,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-875,Done,Major,WS-442 -> Install capacitor push notifications,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-876,Done,Major,WS-442 -> Setup prompt so that user can allow push notifcations,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-877,Done,Major,WS-864 -> Update the alert service to check the subscription status and only run the python code based on that,-,-,0m,0m,1h 55m,1h 55m,,,,
+Sub-task,WS-881,Done,Major,WS-442 -> Add push notification listeners,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-883,Done,Major,WS-442 -> Add Firebase Admin SDK to the alert service,-,-,0m,0m,1h 7m,1h 7m,,,,
+Task,WS-893,Done,Major,When the LLM sets a signal to run every hour change it to every day instead,-,-,0m,0m,55m,55m,,,,
+Sub-task,WS-911,Done,Major,WS-864 -> Add prompt when for canceling subscription,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Sub-task,WS-917,Done,Major,WS-772 -> Deploy to dev,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-924,In Progress,Major,WS-919 -> Setup in-app-products for android and ios,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,WS-926,Done,Major,WS-919 -> Install @revenuecat/purchases-capacitor and configure in app.vue,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-927,Done,Major,WS-919 -> Get offerings using sdk and render them,2h,2h,0m,0m,2h 10m,2h 10m,10 minutes,10 minutes,-8,-8
+Sub-task,WS-928,Done,Major,WS-919 -> Setup purchase package function using the sdk,2h,2h,0m,0m,5h 15m,5h 15m,"3 hours, 15 minutes","3 hours, 15 minutes",-162,-162
+Sub-task,WS-930,Done,Major,WS-919 -> Create revenue cat api key,10m,10m,0m,0m,45m,45m,35 minutes,35 minutes,-350,-350
+Sub-task,WS-932,Done,Major,WS-772 -> Add splash screen,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-933,Done,Major,WS-772 -> Configure QuickBooks redirect depending on the platform,1h 30m,1h 30m,0m,0m,2h,2h,30 minutes,30 minutes,-33,-33
+Sub-task,WS-939,Done,Major,WS-915 -> Add push notification registration function to App.Delegate.swift,1h 10m,1h 10m,0m,0m,1h,1h,10 minutes,10 minutes,14,14
+Sub-task,WS-940,Done,Major,WS-915 -> Add fire base sdk to pod file,45m,45m,0m,0m,1h 45m,1h 45m,1 hour,1 hour,-133,-133
+Sub-task,WS-941,Done,Major,WS-919 -> Configure the sdk to use the account id as the user app id,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-943,Done,Major,WS-919 -> create a webhook that would send real time subscription updates to IAM,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-944,Done,Major,WS-919 -> create an endpoint on the IAM service to accept to subscription updates,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-945,Done,Major,WS-919 -> create a handler on IAM to save the subscription status on the user,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,WS-946,Done,Major,WS-919 -> update the auth0 action to add the subscription status to the jwt,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-948,Done,Major,WS-442 -> Add option for push notification on the sidebar,45m,45m,0m,0m,1h,1h,15 minutes,15 minutes,-33,-33
+Task,WS-950,Done,Blocker,Update IAM so that there is a idempotent endpoint for Auth0 actions to use,-,-,0m,0m,2h 30m,1d 1h 25m,,,,
+-> Sub-task,WS-951,Done,Major,-> create an accounts schema on the IAM service,-,,0m,,30m,,,,,
+-> Sub-task,WS-952,Done,Major,-> Update the auth0 action to fetch a user by auth ID,-,,0m,,1h 30m,,,,,
+-> Sub-task,WS-953,Done,Major,-> Create a handler on IAM service to create the user and account if the user does not exist,-,,0m,,2h 40m,,,,,
+-> Sub-task,WS-954,Done,Major,-> Create an event handler on the IAM service to create an account and user resource on the Account Service,-,,0m,,1h 30m,,,,,
+-> Sub-task,WS-955,Done,Major,-> Depreciate the create account and user handlers on the Account service,-,,0m,,30m,,,,,
+-> Sub-task,WS-956,Done,Major,-> remove the create account flow from the callback in the APP,-,,0m,,15m,,,,,
+Bug,WS-957,Done,Critical,Logout Leads to Log in Loop,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-978,Done,Major,WS-855 -> create a handler that would delete the user account and connection from the database,-,-,0m,0m,1h 20m,1h 20m,,,,
+Sub-task,WS-979,Done,Major,"WS-855 -> create an event handler that would delete the account and user on the account service, alert service and insight service",-,-,0m,0m,2h 28m,2h 28m,,,,
+Sub-task,WS-981,Done,Major,WS-855 -> add a delete account button to the app,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-982,Done,Major,WS-855 -> Update the app to make a request to the IAM service to delete the account,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-983,Done,Major,WS-855 -> Add a validation middleware to IAM to ensure that the user can only delete their account,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-984,Done,Major,WS-855 -> update the delete alert handler on the alert service to delete all the alerts associated with an account,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-985,Done,Major,WS-855 -> Add a delete endpoint and handler to the insight service,-,-,0m,0m,2h,2h,,,,
+Task,WS-990,Done,Major,Create a staging environment for IAM,-,-,0m,0m,2h,6h 45m,,,,
+-> Sub-task,WS-1013,Done,Major,-> create all the applications in auth0 staging tenant,-,,0m,,1h 40m,,,,,
+-> Sub-task,WS-1015,Done,Major,-> Update all the services to use the staging credentials,-,,0m,,1h 30m,,,,,
+-> Sub-task,WS-1016,Done,Major,-> Update all the services on staging to point to IAM on staging,-,,0m,,35m,,,,,
+-> Sub-task,WS-1199,Done,Major,-> remove environment code from the IAM service,-,,0m,,1h,,,,,
+Sub-task,WS-991,Done,Major,WS-810 -> create the basic alerts for each goal,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1004,Done,Major,WS-988 -> update the get user handler in IAM to fetch the invite code and add the user to the account,2h,2h,0m,0m,3h 58m,3h 58m,"1 hour, 58 minutes","1 hour, 58 minutes",-98,-98
+Sub-task,WS-1005,Done,Major,WS-988 -> Update the create user hander in IAM to create the user and not the account if an invite code is set,-,-,0m,0m,2h 7m,2h 7m,,,,
+Sub-task,WS-1017,Done,Major,WS-810 -> create an endpoint and handler that would get last year's value based on the goal,-,-,0m,0m,3h 44m,3h 44m,,,,
+Sub-task,WS-1018,Done,Major,WS-810 -> update the frontend to fetch the list of goals,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1019,Done,Major,WS-810 -> Update the front end to hit the target endpoint and render message when the user selects a goal,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-1021,Done,Major,WS-989 -> update the profit and loss prompt to get the LLM to identify the trends and trajectory for the current year,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1022,Done,Major,WS-989 -> create an igniter that would compare the profit and loss trends from the year and the current year and generate insights,-,-,0m,0m,30m,30m,,,,
+Bug,WS-1023,Done,Major,When notifications are read the notification in the menu is not updated,4h,4h,0m,0m,5h,5h 42m,1 hour,"1 hour, 42 minutes",-25,-42
+-> Sub-task,WS-1031,Done,Major,-> updated the alert service update the notification instead of creating a new one for existing notifications,-,,0m,,42m,,,,,
+Sub-task,WS-1027,Done,Major,WS-987 -> Create connection QuickBooks screen,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1028,Done,Major,WS-987 -> Update setup assistants function to return to the onboarding flow after quickbooks is conneted,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1029,Done,Major,WS-810 -> Create goal screens,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1030,Done,Major,WS-989 -> create a job that would run the igniters on a monthly and daily schedule,-,-,0m,0m,10m,10m,,,,
+Bug,WS-1032,Done,Blocker,When jwt token expires users are stuck in a login loop,-,-,0m,0m,1h,1h,,,,
+Bug,WS-1035,Done,Blocker,No Notifications on Android,-,-,0m,0m,4h,4h,,,,
+Story,WS-1036,To Do,Major,As a user I should be able to disable push notifications,-,-,0m,0m,30m,30m,,,,
+Task,WS-1038,Done,Minor,Add Sparks page header on mobile,-,-,0m,0m,20m,20m,,,,
+Bug,WS-1039,Done,Major,Error logging out,2h,2h,0m,0m,2h 45m,2h 45m,45 minutes,45 minutes,-37,-37
+Bug,WS-1041,Done,Major,Connect QB Prompt persists,-,-,0m,0m,1h,1h,,,,
+Improvement,WS-1045,Done,Major,"Can we use Seasonal and Trend decomposition using LOESS (STL) to identify seasonal changes, trends and residual values",-,-,0m,0m,2h 15m,2h 15m,,,,
+Improvement,WS-1046,In Progress,Major,Can we use recurring invoices/bills to improve STL decomposition analysis,-,-,0m,0m,4h 30m,4h 30m,,,,
+Improvement,WS-1047,Done,Major,Will using a different predictive model per account improve the accuracy of the forecasting?,-,-,0m,0m,1d 10m,1d 10m,,,,
+Task,WS-1050,Reopened,Minor,Add Facebook SDK to mobile apps,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1051,Done,Major,WS-810 -> add an endpoint and handler to IAM that would return true if a connection is found,-,-,0m,0m,25m,25m,,,,
+Sub-task,WS-1056,Done,Major,WS-810 -> set up deleting a goal,-,-,0m,0m,1h 15m,1h 15m,,,,
+Sub-task,WS-1057,Done,Major,WS-989 -> Update the comparison igniter to compare this month and last months profit and loss reports and generate insights,-,-,0m,0m,35m,35m,,,,
+Sub-task,WS-1060,Done,Major,WS-1059 -> add documentation to the insight service,-,-,0m,0m,2h 10m,2h 10m,,,,
+Sub-task,WS-1068,Done,Major,WS-1037 -> Create settings screen,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1069,Done,Major,WS-1037 -> Add back cookie control module,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1070,Done,Major,WS-1037 -> Migrate delete functionality to settings screen,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Bug,WS-1072,Closed,Blocker,401 Error returned when I login the following day,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1095,Done,Major,WS-706 -> Create an Account Receivables Igniter,-,-,0m,0m,1h 20m,1h 20m,,,,
+Sub-task,WS-1096,Done,Major,WS-706 -> create an LLM Prompt that would generate an AR summary for an insight,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1097,Done,Major,WS-706 -> Add a method on the insight to get the YTD data for a report and return it in json format,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,WS-1098,Done,Major,WS-706 -> Add a property on the insight to store the YTD information,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1099,Done,Major,WS-706 -> Add a questions schema to the insight service,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1100,Done,Major,WS-706 -> create a list of questions for the AR igniter,-,-,0m,0m,3h 25m,3h 25m,,,,
+Sub-task,WS-1101,Done,Major,WS-706 -> create an initializer that would create the questions for the igniter,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1102,Done,Major,"WS-706 -> Update the AR handler to fetch the questions, run the python code and create the insights",-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1103,Done,Major,WS-706 -> Update the AR handler to store the parent ID for children insights,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1104,Done,Major,WS-706 -> Add a viewed property to the insights and set the property on all the children to false,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1105,Done,Major,WS-706 -> Install chart js,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1106,Done,Major,WS-706 -> Render chart using data on the parent insight,1h 30m,1h 30m,0m,0m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1107,Done,Major,WS-706 -> Hook up learn more,45m,45m,0m,0m,1h,1h,15 minutes,15 minutes,-33,-33
+Sub-task,WS-1108,Done,Major,WS-706 -> Add follow up card that shows the child insight,45m,45m,0m,0m,1h 45m,1h 45m,1 hour,1 hour,-133,-133
+Sub-task,WS-1109,Done,Major,WS-706 -> Add next spark button for mobile screen,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1110,Done,Major,WS-1052 -> Create an Account Payables Igniter,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1111,Done,Major,WS-1052 -> create a list of questions with python code for AP insights,-,-,0m,0m,1d 2h,1d 2h,,,,
+Sub-task,WS-1112,Done,Major,WS-1052 -> create a prompt that would generate an AP summary,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1114,Done,Major,WS-706 -> create a job that would run the AR igniter weekly for each account,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1116,Done,Major,WS-1052 -> create a job that would run the AP igniter weekly,-,-,0m,0m,5m,5m,,,,
+Bug,WS-1117,Done,Major,A string can be entered for a goal target,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-1122,Done,Major,WS-919 -> Configure In-app Purchase Capability for IOS,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1125,Done,Major,WS-862 -> set the default subscription in IAM to be free trail,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1126,Done,Major,"WS-862 -> create a cron job that would update the status to ""Trial Expired"" after 30 days",-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1133,Done,Major,WS-862 -> create prompt for user to subscribe,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1134,Done,Major,WS-862 -> Add subscription status to the top navigation,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1136,Done,Major,WS-919 -> create subscription page,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Task,WS-1139,In Progress,Major,Yeet Kandji MDM off wepala systems,-,-,0m,0m,2h,3h 15m,,,,
+-> Sub-task,WS-1140,Done,Major,-> remove mdm profile,-,,0m,,15m,,,,,
+-> Sub-task,WS-1141,Done,Major,-> get paay admin to remove our devices from kandji,-,,0m,,1h,,,,,
+Sub-task,WS-1146,Done,Major,WS-919 -> add a middleware that would validate the request,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1148,In Progress,Major,WS-919 -> Setup store kit testing on ios,2h,2h,0m,0m,1d 1h 30m,1d 1h 30m,"7 hours, 30 minutes","7 hours, 30 minutes",-375,-375
+Task,WS-1149,Done,Critical,Remove old accounts from the alert service,-,-,0m,0m,2h 5m,2h 5m,,,,
+Sub-task,WS-1150,Done,Major,WS-919 -> Add subscription status to the top navigation,45m,45m,0m,0m,1h,1h,15 minutes,15 minutes,-33,-33
+Sub-task,WS-1158,Done,Major,WS-1156 -> Add provider for FirebaseSDK,15m,15m,0m,0m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,WS-1161,Done,Major,WS-1156 -> Push to Dev,30m,30m,0m,0m,35m,35m,5 minutes,5 minutes,-16,-16
+Sub-task,WS-1163,Done,Major,WS-1156 -> Port the SendNotification function from the alert service to the insight service,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1165,Done,Major,WS-1145 -> Add event handler to trigger generation when the account is first created,20m,20m,0m,0m,30m,30m,10 minutes,10 minutes,-50,-50
+Sub-task,WS-1166,Done,Major,WS-1145 -> Create endpoint to grandfather existing users,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1168,Done,Major,WS-1145 -> Deploy to Dev,15m,15m,0m,0m,30m,30m,15 minutes,15 minutes,-100,-100
+Sub-task,WS-1170,Done,Major,WS-1145 -> Figure out standard way to return data for front end to render graph,30m,30m,0m,0m,20m,20m,10 minutes,10 minutes,33,33
+Sub-task,WS-1171,Done,Major,WS-1145 -> Move all the A/R A/P igniters into a separate file,-,-,0m,0m,8m,8m,,,,
+Sub-task,WS-1177,Done,Major,WS-1156 -> Add an endpoint to test the push notifications,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1178,Done,Major,WS-1175 -> Install and setup @capacitor-firebase/remote-config,45m,45m,0m,0m,1h,1h,15 minutes,15 minutes,-33,-33
+Sub-task,WS-1179,Done,Major,WS-1175 -> Create screen to accept feedback from the user,1h 30m,1h 30m,0m,0m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1180,Done,Major,WS-1175 -> Update the feedback service to store this feedback,1h 30m,1h 30m,0m,0m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1181,Done,Major,WS-1175 -> Set up handler to push this feedback to slack,15m,15m,0m,0m,44m,44m,29 minutes,29 minutes,-193,-193
+Sub-task,WS-1182,Done,Major,WS-1175 -> Setup restrictions in the app so that users can't perform destructive actions,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,WS-1183,Done,Major,WS-1175 -> Check if the device id exists on the feedback service to determine if the user completed the demo form or not.,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1184,Done,Major,WS-1175 -> Create demo_login as a remote config option,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1185,Done,Major,WS-1175 -> Conditionally render the demo link based on the demo_login value,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1186,Done,Major,WS-1175 -> Added an endpoint to IAM to update the subscription status,-,-,0m,0m,1h 15m,1h 15m,,,,
+Sub-task,WS-1187,Done,Major,WS-1175 -> update the login title in auth0 to include the username and password for the demo account,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1194,Done,Major,WS-1145 -> update the frontend to render new chart format,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Bug,WS-1198,Done,Major,when i read a notification it scrolls the welcome page,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Task,WS-1215,Done,Major,Wrap subscriptions behind feature flags,-,2h 30m,0m,0m,30m,4h 38m,,"2 hours, 8 minutes",,-85
+-> Sub-task,WS-1216,Done,Major,-> hide the subscription screen based on a feature flag,45m,,0m,,1h,,15 minutes,,-33,-33
+-> Sub-task,WS-1217,Done,Major,-> hide insights based on the current condition and feature flag,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,WS-1218,Done,Major,-> add a way to disable subscriptions on the IAM service,-,,0m,,1h 8m,,,,,
+-> Sub-task,WS-1220,Done,Major,-> set remote config to disable subscriptions,45m,,0m,,1h,,15 minutes,,-33,-33
+Sub-task,WS-1227,Done,Major,WS-1204 -> Add a provider for shopify,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1228,Done,Major,WS-1204 -> Create a controller for verifying the installation request from shopify,-,-,0m,0m,2h 31m,2h 31m,,,,
+Sub-task,WS-1229,Done,Major,WS-1203 -> Setup Shopify Connection in Auth0,30m,30m,0m,0m,1h,1h,30 minutes,30 minutes,-100,-100
+Sub-task,WS-1230,Done,Major,WS-1203 -> add the auth0 callback url to the Shopify app,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1231,Done,Major,WS-1204 -> Add Shopify Service,2h,2h,0m,0m,1d 2h 37m,1d 2h 37m,"1 day, 37 minutes","1 day, 37 minutes",-430,-430
+Sub-task,WS-1232,Done,Major,WS-1204 -> Add screen for choosing plan,1h 30m,1h 30m,0m,0m,1h 50m,1h 50m,20 minutes,20 minutes,-22,-22
+Sub-task,WS-1234,Done,Major,WS-1204 -> Confirm that we can pass in an account id on login to quickbooks to link to an existing account,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1235,Done,Major,WS-1204 -> Update the auth0 action to pass in the account ID and add it to the JWT when the user connects quickbooks,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1236,Done,Major,WS-1204 -> Set the app url in the shopify partner dashboard,15m,15m,0m,0m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,WS-1238,Done,Major,WS-1207 -> Deploy to Dev,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1239,Done,Major,WS-1207 -> Setup account resource for storing configuration,2h,2h,0m,0m,1h 35m,1h 35m,25 minutes,25 minutes,20,20
+Sub-task,WS-1240,Done,Major,WS-1207 -> Update weos default write controller to not allow users to create resources that aren't children of their account,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1243,Done,Major,WS-1207 -> Add mapping to Quickbooks integration to get list of classes,30m,30m,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1246,Done,Major,WS-1226 -> Add method to shopify service to get orders,3h,3h,0m,0m,1h,1h,2 hours,2 hours,66,66
+Sub-task,WS-1247,Done,Major,WS-1226 -> Add endpoint for getting list of orders,3h,3h,0m,0m,2h,2h,1 hour,1 hour,33,33
+Bug,WS-1248,Closed,Major,Unable to update the status on the subscriptions in IAM,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-1249,Done,Minor,WS-1224 -> Update account list endpoint to return a specific type of account,2h,2h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,25,25
+Sub-task,WS-1250,Done,Major,WS-1213 -> Setup mapping to get a list of customers from Quickbooks,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1251,Done,Major,WS-1213 -> Setup mapping to get products/service from Quickbooks,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,WS-1252,Done,Major,WS-1213 -> Add command receiver to preview order import given shopify order id,2h,2h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1258,Done,Major,WS-1255 -> Add shopify integration to integration service,1d,1d,0m,0m,1d 2h,1d 2h,2 hours,2 hours,-25,-25
+Sub-task,WS-1259,Done,Major,WS-1255 -> Add mapping to get disputes from shopify,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1264,Done,Major,WS-1256 -> Consolidate all weekly igniters cron jobs into one cron job,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1265,Done,Major,WS-1256 -> Add questions and related python code,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1268,Done,Major,WS-1224 -> Setup recognition screen on front end,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1276,Done,Major,WS-1204 -> create a callback handler that would create the shopify connection and create the user and account,-,-,0m,0m,3h 22m,3h 22m,,,,
+Task,WS-1277,Done,Major,Wepala Website updates,5h,5h,0m,0m,1d 1h 25m,1d 1h 25m,"4 hours, 25 minutes","4 hours, 25 minutes",-88,-88
+Sub-task,WS-1278,Done,Major,WS-1256 -> Create job run the igniter on a weekly basis,5m,5m,0m,0m,5m,5m,0 minutes,0 minutes,0,0
+Sub-task,WS-1287,Done,Major,WS-1213 -> Create Order Entity,2h,2h,0m,0m,5h 13m,5h 13m,"3 hours, 13 minutes","3 hours, 13 minutes",-160,-160
+Sub-task,WS-1288,Done,Major,WS-1213 -> Create Product Entity,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1289,Done,Major,WS-1213 -> Create Customer Entity,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1290,Done,Major,WS-1213 -> Hook up UI for previewing and import,3h,3h,0m,0m,4h 30m,4h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-50,-50
+Sub-task,WS-1291,Done,Major,WS-1213 -> Hook up performing an import,3h,3h,0m,0m,3h 30m,3h 30m,30 minutes,30 minutes,-16,-16
+Sub-task,WS-1292,Done,Major,WS-1226 -> Hook up order list UI,2h 30m,2h 30m,0m,0m,2h 30m,2h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1294,Done,Major,WS-1204 -> Add screen for shopify to be redirected to after app install,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1296,Done,Major,WS-1204 -> update the install URL handler in IAM to return the shopify auth URL,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1300,Done,Major,WS-1204 -> update integration service to get the shopify token from iam,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1302,Done,Major,WS-1203 -> create a well-known endpoint and controller on the IAM service,-,-,0m,0m,35m,35m,,,,
+Sub-task,WS-1303,Done,Major,WS-1203 -> create an authorization endpoint and handler on the IAM service,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1304,Done,Major,WS-1203 -> create a token endpoint and handler on the IAM service,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1305,Done,Major,WS-1203 -> Add the auth to the security scheme,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-1310,Done,Major,WS-1203 -> add the JWKS endpoint and controller to the IAM Service,-,-,0m,0m,4h,4h,,,,
+Sub-task,WS-1312,Done,Major,WS-1203 -> add the WeAuth Security scheme to all the services,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-1316,Done,Major,WS-1255 -> Initital Feedback,2h,2h,0m,0m,3h 10m,3h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-58,-58
+Sub-task,WS-1317,Done,Major,WS-1295 -> Add endpoint to Feedback service to handle customer data request,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1318,Done,Major,WS-1295 -> Add endpoint to Feedback Service to handle customer erasure,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1319,Done,Major,WS-1295 -> Add endpoints to handler webhooks,1h 30m,1h 30m,0m,0m,1h 8m,1h 8m,22 minutes,22 minutes,24,24
+Sub-task,WS-1323,Done,Major,WS-1295 -> Update all the shopify apps for the different environments with the webhook URL,1h,1h,0m,0m,1h 13m,1h 13m,13 minutes,13 minutes,-21,-21
+Sub-task,WS-1324,Done,Major,WS-1203 -> push updates to dev an test that all the services are working with the WeAuth token,1h 30m,1h 30m,0m,0m,1h 40m,1h 40m,10 minutes,10 minutes,-11,-11
+Task,WS-1326,QA,Major,Find a way to generate m2m tokens using the WeAuth Service,-,-,0m,0m,1h 40m,1h 40m,,,,
+Sub-task,WS-1328,Done,Major,WS-1327 -> Debug Issue in Profit and Loss Trend Igniter,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1329,Done,Major,WS-1327 -> Write Test for Profit and Loss Trend Igniter,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-1330,Done,Major,WS-1327 -> Write Test for Initial AR igniter,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1331,Done,Major,WS-1327 -> Write Test for Initial Dispute Igniter,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1332,Done,Major,WS-1327 -> Write Test for Weekly Dispute Igniter,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-1333,Done,Major,WS-1327 -> Write Test for get client Ids function,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1334,Done,Major,WS-1327 -> Write Test for the Convert to Markdown Table function,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1335,Done,Major,WS-1327 -> Write Test for Format Chart function,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-1336,Done,Major,WS-1327 -> Write Test for Generate to CSV String function,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1337,Done,Major,WS-1327 -> Write Test for Set YTD function,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1338,Done,Major,WS-1327 -> Write Test for Set CEI function,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1343,Done,Major,WS-1295 -> make it so that the connection ID is stored on the insights when creating the shopify insights,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1345,Done,Major,WS-1295 -> update the IAM handler to verify that the request is from shopify,1h 30m,1h 30m,0m,0m,1h 10m,1h 10m,20 minutes,20 minutes,22,22
+Sub-task,WS-1346,Done,Major,WS-1295 -> Deploy to staging,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1348,Done,Major,WS-1204 -> Feedback,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,WS-1351,Done,Major,WS-1339 -> Add utils file and corresponding functions to application layer,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1352,Done,Major,WS-1339 -> Add utils file and corresponding functions to domain layer,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1353,Done,Major,WS-1339 -> Add utils file and corresponding functions to infrastructure layer,-,-,0m,0m,20m,20m,,,,
+Sub-task,WS-1354,Done,Major,WS-1339 -> Update Set YTD function,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1355,Done,Major,WS-1339 -> Update Set CEI function,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1356,Done,Major,WS-1339 -> Move scheduler to application layer,-,-,0m,0m,2m,2m,,,,
+Sub-task,WS-1357,Done,Major,WS-1339 -> Implement Get Embeddings function in Infrastructure layer,-,-,0m,0m,15m,15m,,,,
+Sub-task,WS-1358,Done,Major,WS-1339 -> Implement CreateChatCompletion in the infrastructure layer,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1359,Done,Major,WS-1339 -> Add imports to application layer,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1360,Done,Major,WS-1339 -> Move questions.json to infrastructure layer,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1361,Done,Major,WS-1339 -> Add ecommerce interface to service interfaces file in the domain package,-,-,0m,0m,2m,2m,,,,
+Sub-task,WS-1362,Done,Major,WS-1339 -> Add a component “ShopifyService” to the infrastructure layer that implements the ecommerce interface,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,WS-1363,Done,Major,WS-1339 -> Implement GetProfitAndLossByDate function,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1364,Done,Major,WS-1339 -> Add implementation for quickbooks interface methods using integration service,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1365,Done,Major,WS-1339 -> Implement GetBalanceSheetByDate function,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1366,Done,Major,WS-1339 -> Implement GetAgedPayablesByDate function,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1367,Done,Major,WS-1339 -> Implement GetAgedReceivablesByDate function,-,-,0m,0m,5m,5m,,,,
+Sub-task,WS-1368,Done,Major,WS-1350 -> Add a endpoint and handler that would copy over the demo account quickbooks token to the user's account,1h 30m,1h 30m,0m,0m,1h,1h,30 minutes,30 minutes,33,33
+Sub-task,WS-1370,Done,Major,WS-1350 -> add a controller that would redirect users to the app with a JWT once the account is crated,1h 30m,1h 30m,0m,0m,1h 50m,1h 50m,20 minutes,20 minutes,-22,-22
+Sub-task,WS-1371,Done,Major,WS-1350 -> add a demo account login to the shopify screen,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1372,Done,Major,WS-1204 -> Stuck on loading screen while installing app,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1374,Done,Major,WS-1350 -> add a handler to the IAM service that would create the default assistant and install the quickbooks integration,1h 30m,1h 30m,0m,0m,1h 55m,1h 55m,25 minutes,25 minutes,-27,-27
+Sub-task,WS-1375,Done,Major,WS-1339 -> Update shopify igniters to pull directly from the shopify API,-,-,0m,0m,30m,30m,,,,
+Sub-task,WS-1376,Done,Major,WS-1339 -> Update python code for weekly disputes igniter to pull from shopify api,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1377,Done,Major,WS-1339 -> Update python code for initial disputes igniter to pull from shopify api,-,-,0m,0m,5h,5h,,,,
+Sub-task,WS-1378,Done,Major,WS-1339 -> Add alert service component to infrastructure,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1379,Done,Major,WS-1339 -> Move over tests from WS-1327 ticket into this branch,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1381,Done,Major,WS-1295 -> Initial Feedback,1h 30m,1h 30m,0m,0m,4h 50m,4h 50m,"3 hours, 20 minutes","3 hours, 20 minutes",-222,-222
+Sub-task,WS-1382,Done,Major,WS-1339 -> Update and refactor all igniters to use services and domain abstractions,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1384,Done,Major,WS-1207 -> Update quickbooks api yaml and regenerate sdk,1h 30m,1h 30m,0m,0m,3h,3h,"1 hour, 30 minutes","1 hour, 30 minutes",-100,-100
+Sub-task,WS-1386,Done,Major,WS-1350 -> Deploy to staging,30m,30m,0m,0m,40m,40m,10 minutes,10 minutes,-33,-33
+Sub-task,WS-1387,Done,Major,WS-1350 -> Test on Dev,1h,1h,0m,0m,3h 50m,3h 50m,"2 hours, 50 minutes","2 hours, 50 minutes",-283,-283
+Bug,WS-1388,Done,Major,Old Shopify tokens becomes invalid when a user opens the APP from a store,-,-,0m,0m,2h 42m,2h 42m,,,,
+Sub-task,WS-1391,Done,Major,WS-1205 -> Create screens,3h,3h,0m,0m,3h,3h,0 minutes,0 minutes,0,0
+Sub-task,WS-1392,Done,Major,WS-1205 -> Add function to fetch the shopify client ids from IAM,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1393,Done,Major,WS-1205 -> Add function to delete shopify token from IAM,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1394,Done,Major,WS-1205 -> Add function to add shopify store,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Sub-task,WS-1395,Done,Major,WS-1205 -> Add function to refresh store,30m,30m,0m,0m,45m,45m,15 minutes,15 minutes,-50,-50
+Sub-task,WS-1396,Done,Major,WS-1339 -> Update python code for AR igniters to pull data from igniter,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1397,Done,Major,WS-1339 -> Wrtie code to pull and parse data to send to python code for AR Igniters,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1402,Done,Blocker,WS-1205 -> add an endpoint on IAM to fetch the client IDs,1h,1h,0m,0m,1h 10m,1h 10m,10 minutes,10 minutes,-16,-16
+Sub-task,WS-1403,Done,Major,WS-1339 -> Debugging test,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1404,Done,Major,WS-1205 -> Hookup,3h,3h,0m,0m,3h,3h,0 minutes,0 minutes,0,0
+Sub-task,WS-1405,Done,Major,WS-1213 -> Setup endpoint that returns a list of products,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1406,Done,Major,WS-1213 -> Setup endpoint that returns a list of customers,2h,2h,0m,0m,2h 10m,2h 10m,10 minutes,10 minutes,-8,-8
+Sub-task,WS-1407,Done,Major,WS-1339 -> Convert python code to go code for AR igniters,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,WS-1408,Done,Major,WS-1339 -> Convert python code to go for initial dispute igniter,-,-,0m,0m,4h,4h,,,,
+Bug,WS-1410,Done,Major,Alert creation timing out,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1412,Done,Major,WS-1339 -> Convert python code to go for initial AR igniter,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1413,Done,Major,WS-1339 -> Convert python code to go for the weekly disputes igniter,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1414,Done,Major,WS-1339 -> Convert the deferred payments python code to go for the AP igniter,-,-,0m,0m,40m,40m,,,,
+Sub-task,WS-1415,Done,Major,WS-1339 -> Update SetYTD Test,-,-,0m,0m,10m,10m,,,,
+Sub-task,WS-1416,Done,Major,WS-1350 -> QA Feedback 2,1h,1h,0m,0m,50m,50m,10 minutes,10 minutes,16,16
+Sub-task,WS-1417,Done,Major,WS-1350 -> QA Feedback 3 - User doesn't follow through with chosen plan,-,-,0m,0m,4h 15m,4h 15m,,,,
+Sub-task,WS-1418,Done,Major,WS-1213 -> Setup endpoint to return a list of accounts from quickbooks,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1419,Done,Major,WS-1213 -> Create method to get order from shopify,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1420,Done,Major,WS-1207 -> Add endpoint for saving the configuration,2h,2h,0m,0m,3h 25m,3h 25m,"1 hour, 25 minutes","1 hour, 25 minutes",-70,-70
+Sub-task,WS-1421,Done,Major,WS-1213 -> Create endpoint for creating an import,2h,2h,0m,0m,1d 59m,1d 59m,"6 hours, 59 minutes","6 hours, 59 minutes",-349,-349
+Sub-task,WS-1422,Done,Major,WS-1226 -> Update screens based on feedback from francis/akeem,5h,5h,0m,0m,5h,5h,0 minutes,0 minutes,0,0
+Sub-task,WS-1423,Done,Major,WS-1213 -> Add endpoint for listing imports,1h,1h,0m,0m,29m,29m,31 minutes,31 minutes,51,51
+Sub-task,WS-1425,Done,Major,WS-1207 -> Create endpoint to create a new customer,2h,2h,0m,0m,3h 44m,3h 44m,"1 hour, 44 minutes","1 hour, 44 minutes",-86,-86
+Sub-task,WS-1427,Done,Major,WS-1224 -> Hook up revenue recognition,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1428,Done,Major,WS-1207 -> Hook up saving order configuration,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1429,Done,Major,WS-1213 -> Hook up Saving Product config and Customer config,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1430,Done,Major,WS-1213 -> Add method and endpoint to get classes from quickbooks,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1431,Done,Major,WS-1207 -> Add default values for some configs,30m,30m,0m,0m,-,-,-,-,100,100
+Bug,WS-1432,Done,Major,Running out of m2m tokens on dev halfway through the month,-,-,0m,0m,52m,52m,,,,
+Sub-task,WS-1433,Done,Major,WS-1207 -> Add autocomplete to handle searches,2h,2h,0m,0m,2h 10m,2h 10m,10 minutes,10 minutes,-8,-8
+Sub-task,WS-1434,Done,Major,WS-1207 -> Hook up create customer,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1437,Done,Major,WS-1209 -> Setup Tax Mapping Config,1h,1h,0m,0m,1h 27m,1h 27m,27 minutes,27 minutes,-45,-45
+Sub-task,WS-1440,Done,Major,WS-1209 -> Hook up the configuration/mapping ui,3h,3h,0m,0m,4h 30m,4h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-50,-50
+Sub-task,WS-1441,Done,Major,WS-1208 -> Setup fee mapping config,1h,1h,0m,0m,24m,24m,36 minutes,36 minutes,60,60
+Sub-task,WS-1442,Done,Major,WS-1208 -> Endpoint for shopify fees,2h,2h,0m,0m,1h 35m,1h 35m,25 minutes,25 minutes,20,20
+Sub-task,WS-1443,Done,Major,WS-1208 -> Hook up configuration,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1445,Done,Major,WS-1213 -> Add endpoint for previewing and import,2h,2h,0m,0m,1h 20m,1h 20m,40 minutes,40 minutes,33,33
+Sub-task,WS-1446,Done,Major,WS-1207 -> Add select store screen and rework manage integrations,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1447,Done,Major,WS-1226 -> Add info about the status of import to list,2h,2h,0m,0m,1h 15m,1h 15m,45 minutes,45 minutes,37,37
+Bug,WS-1448,In Review,Major,Unable to select an alert on mobile,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1451,Done,Major,WS-1339 -> update the go version and fix the dependencies,-,-,0m,0m,11m,11m,,,,
+Sub-task,WS-1452,Done,Major,WS-1226 -> Hook up filters,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Task,WS-1457,Reopened,Blocker,Update child insights of weekly chargeback insight to show customer name and email,-,2h,0m,0m,0m,2h 30m,,30 minutes,,
+-> Sub-task,WS-1471,Done,Major,-> update the python code on for the child insight to add the customer name and email to the list,1h 30m,,0m,,2h,,30 minutes,,-33,-33
+-> Sub-task,WS-1517,Done,Major,-> test on dev,30m,,0m,,30m,,0 minutes,,0,0
+Sub-task,WS-1458,Done,Major,WS-1453 -> Add section in settings to show the current subscription,3h 20m,3h 20m,0m,0m,3h 20m,3h 20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1459,Done,Major,WS-1453 -> Add endpoint to cancel a subscription,1h,1h,0m,0m,5h 26m,5h 26m,"4 hours, 26 minutes","4 hours, 26 minutes",-443,-443
+Sub-task,WS-1460,Done,Major,WS-1226 -> Add payment status filter,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1461,Done,Major,WS-1226 -> Add fulfillment status filter,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1462,Done,Major,WS-1226 -> Make it so that it prefilters the list of order based on the config,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-1463,Done,Major,WS-1213 -> Dev review feedback,1h 30m,1h 30m,0m,0m,2h 17m,2h 17m,47 minutes,47 minutes,-52,-52
+Sub-task,WS-1464,Done,Major,WS-1454 -> Update subscription service so that the interval is passed in when the plan is created,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,WS-1465,Done,Major,WS-1453 -> Add endpoint to get subscription(s) account has,1h,1h,0m,0m,48m,48m,12 minutes,12 minutes,20,20
+Sub-task,WS-1472,Done,Major,WS-1207 -> Feedback,1h 30m,1h 30m,0m,0m,1h 45m,1h 45m,15 minutes,15 minutes,-16,-16
+Sub-task,WS-1473,Done,Major,WS-1226 -> Dev review feedback,4h 30m,4h 30m,0m,0m,4h 30m,4h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1476,Done,Major,WS-1207 -> Update the config validation to check the preferences,2h,2h,0m,0m,1h 26m,1h 26m,34 minutes,34 minutes,28,28
+Sub-task,WS-1477,Done,Major,WS-1226 -> Update order list controller to filter by import status,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1478,Done,Major,WS-1211 -> Add the import status to the list of changes on the import,30m,30m,0m,0m,10m,10m,20 minutes,20 minutes,66,66
+Sub-task,WS-1480,Done,Major,WS-1211 -> Hook up import button to hit the endpoint,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1481,Done,Major,WS-1211 -> Poll the import resource and update the list of items in the preview,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1482,Done,Major,WS-1206 -> Create endpoint for getting the list of payment options,2h,2h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1483,Done,Major,WS-1206 -> Pull the list of payment options from import service and populate the fields,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1488,Done,Major,WS-1466 -> Map fields to payout config,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1490,Done,Major,WS-1466 -> Render any errors after saving the config,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1491,Done,Major,WS-1474 -> Add endpoint to get list of payouts,3h,3h,0m,0m,5h 37m,5h 37m,"2 hours, 37 minutes","2 hours, 37 minutes",-87,-87
+Sub-task,WS-1492,Done,Major,WS-1474 -> Update the list screen to have tabs at the top for orders/payouts,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1493,Done,Major,WS-1474 -> Pull the list of payout and update the table,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1494,Done,Major,WS-1474 -> Create functions to handle filters for the payouts,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1495,Done,Major,WS-1474 -> Create payment service interface for getting list of payouts,2h,2h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1496,Done,Major,WS-1468 -> Update Post method on import to handle payouts,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1497,Done,Major,WS-1470 -> Create function to undo the import,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1498,Done,Major,WS-1470 -> Poll the resource for updates and update the items,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1499,Done,Major,WS-1470 -> Add endpoint to undo import,4h,4h,0m,0m,6h 5m,6h 5m,"2 hours, 5 minutes","2 hours, 5 minutes",-52,-52
+Sub-task,WS-1500,Done,Major,WS-1470 -> Render any errors that comes back,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1501,Done,Major,WS-1475 -> Setup keys in key manager,1h,1h,0m,0m,1h 17m,1h 17m,17 minutes,17 minutes,-28,-28
+Sub-task,WS-1502,Done,Major,WS-1475 -> Create test custom apps across all the environments for testing,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1505,Done,Major,WS-1475 -> Add the ability to associate a custom install link to provider,2h,2h,0m,0m,31m,31m,"1 hour, 29 minutes","1 hour, 29 minutes",74,74
+Sub-task,WS-1506,Done,Major,WS-1207 -> Update array of errors to be objects with a property for info link,-,-,0m,0m,42m,42m,,,,
+Sub-task,WS-1507,Done,Major,WS-1213 -> Report that the import is not being deleted from the resource table,30m,30m,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1513,Done,Major,WS-1453 -> Test subscription not working,-,-,0m,0m,2h 12m,2h 12m,,,,
+Sub-task,WS-1514,Done,Major,WS-1453 -> update the subscription handler in IAM to use the graphql shopify endpoint,-,-,0m,0m,30m,30m,,,,
+Bug,WS-1515,Done,Major,Error: Could not retrieve sparks,-,-,0m,0m,3h 5m,3h 5m,,,,
+Sub-task,WS-1518,Done,Major,"WS-1207 -> Switch to saving the id of the custom, account and product",3h,3h,0m,0m,3h 10m,3h 10m,10 minutes,10 minutes,-5,-5
+Sub-task,WS-1519,Done,Major,WS-1211 -> Fix issue where product is not being saved with line item,1h,1h,0m,0m,1h 8m,1h 8m,8 minutes,8 minutes,-13,-13
+Sub-task,WS-1520,Done,Major,WS-1211 -> Use tax mappings to add tax line items,2h,2h,0m,0m,1h,1h,1 hour,1 hour,50,50
+Sub-task,WS-1521,Done,Major,WS-1211 -> Use fee mappings to add fee line items,1h,1h,0m,0m,19m,19m,41 minutes,41 minutes,68,68
+Sub-task,WS-1522,Done,Major,WS-1211 -> Add discounts,1h,1h,0m,0m,3h 8m,3h 8m,"2 hours, 8 minutes","2 hours, 8 minutes",-213,-213
+Sub-task,WS-1523,Done,Major,WS-1211 -> Add WeOS tag,1h,1h,0m,0m,17m,17m,43 minutes,43 minutes,71,71
+Sub-task,WS-1525,Done,Major,WS-1211 -> Add shipping lines,1h,1h,0m,0m,1h 10m,1h 10m,10 minutes,10 minutes,-16,-16
+Sub-task,WS-1527,Done,Major,WS-1211 -> Make sure sales receipt is working,1h,1h,0m,0m,58m,58m,2 minutes,2 minutes,3,3
+Sub-task,WS-1528,Done,Major,WS-1211 -> Update Shopify API,1h,1h,0m,0m,3h 16m,3h 16m,"2 hours, 16 minutes","2 hours, 16 minutes",-226,-226
+Sub-task,WS-1529,Done,Major,WS-1211 -> Update domain layer to create payments,2h,2h,0m,0m,3h 19m,3h 19m,"1 hour, 19 minutes","1 hour, 19 minutes",-65,-65
+Sub-task,WS-1532,Done,Major,WS-1475 -> Update the verification controller in IAM to get the custom provider and fetch the keys from the key manager,1h 30m,1h 30m,0m,0m,1h 31m,1h 31m,1 minute,1 minute,-1,-1
+Sub-task,WS-1533,Done,Major,WS-1475 -> remove code from the callback handler in IAM where the shopify provider is hardcoded,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1534,Done,Major,WS-1475 -> update the app url and callback url in custom shopify app to use the custom provider ID,30m,30m,0m,0m,50m,50m,20 minutes,20 minutes,-66,-66
+Sub-task,WS-1535,Done,Major,WS-1475 -> Test on Dev,1h,1h,0m,0m,7h,7h,6 hours,6 hours,-600,-600
+Sub-task,WS-1537,Done,Major,"WS-1207 -> Hook up saving shipping, discount and payment config",4h,4h,0m,0m,4h,4h,0 minutes,0 minutes,0,0
+Sub-task,WS-1538,Done,Major,WS-1211 -> Add correct billing and shipping address to invoice,1h,1h,0m,0m,49m,49m,11 minutes,11 minutes,18,18
+Sub-task,WS-1540,Done,Major,WS-1211 -> Make it so that an already sync'd invoice is updated not created,1h,1h,0m,0m,1h 20m,1h 20m,20 minutes,20 minutes,-33,-33
+Sub-task,WS-1541,Done,Major,WS-1211 -> Handle refunds better,2h,2h,0m,0m,3h 40m,3h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",-83,-83
+Sub-task,WS-1542,Done,Major,WS-1467 -> Update shopify service to get payout details,1h,1h,0m,0m,1h 7m,1h 7m,7 minutes,7 minutes,-11,-11
+Sub-task,WS-1543,Done,Major,WS-1467 -> Create payouts import screen based on wireframe,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1544,Done,Major,WS-1467 -> Create entity for payout and thirdparty payout,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1545,Done,Major,WS-1467 -> Call endpoint to get payout details and render tables,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1547,Done,Major,WS-1467 -> Add method on account model to import payout,2h,2h,0m,0m,2h 7m,2h 7m,7 minutes,7 minutes,-5,-5
+Sub-task,WS-1548,Done,Major,WS-1467 -> Add function and button to perform import,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1550,Done,Major,WS-1474 -> Update the table component to have the right fields and render the data,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1551,Done,Major,WS-1468 -> Update Quickbooks service and SDK for creating deposit,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1553,Done,Major,WS-1467 -> Update import payout to create journal entries,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1554,In Progress,Major,WS-1226 -> Feedback 2,1d 30m,1d 30m,0m,0m,1d 1h,1d 1h,30 minutes,30 minutes,-5,-5
+Sub-task,WS-1555,Done,Major,WS-1211 -> Errors syncing client orders,-,-,0m,0m,1h 18m,1h 18m,,,,
+Sub-task,WS-1557,Done,Major,WS-1468 -> Update Quickbooks service and SDK for creating journal entries,1h,1h,0m,0m,2h 9m,2h 9m,"1 hour, 9 minutes","1 hour, 9 minutes",-115,-115
+Sub-task,WS-1558,Done,Major,WS-1211 -> Update quickbooks service to create refund,1h,1h,0m,0m,3h 30m,3h 30m,"2 hours, 30 minutes","2 hours, 30 minutes",-250,-250
+Sub-task,WS-1559,Done,Major,WS-1468 -> Switch to linking deposit to payment instead of the order,1h,1h,0m,0m,1h 40m,1h 40m,40 minutes,40 minutes,-66,-66
+Sub-task,WS-1560,Done,Major,"WS-1211 -> Sort out order date, idempotency",3h,3h,0m,0m,1h 8m,1h 8m,"1 hour, 52 minutes","1 hour, 52 minutes",62,62
+Sub-task,WS-1561,Done,Major,WS-1475 -> Update subscription create endpoint for an exception for custom apps,2h,2h,0m,0m,1h 15m,1h 15m,45 minutes,45 minutes,37,37
+Sub-task,WS-1563,Done,Major,WS-1475 -> update IAM to create a subscription for the custom app,1h 30m,1h 30m,0m,0m,1h,1h,30 minutes,30 minutes,33,33
+Sub-task,WS-1564,Done,Major,WS-1475 -> update IAM to make a request to the subscription service to create the subscription,1h 30m,1h 30m,0m,0m,2h,2h,30 minutes,30 minutes,-33,-33
+Sub-task,WS-1565,Done,Major,WS-1209 -> QA Feedback,2h,2h,0m,0m,1h 54m,1h 54m,6 minutes,6 minutes,5,5
+Bug,WS-1567,Done,Major,Error when adding Shopify integration,-,-,0m,0m,3h 45m,3h 45m,,,,
+Sub-task,WS-1568,Done,Major,WS-1466 -> Hook up the default account mapping and account specific mappings,1h 30m,1h 30m,0m,0m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1570,Done,Major,WS-1467 -> Ensure more than 250 transactions are pulled from payout,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1571,Done,Major,WS-1468 -> Dev Environ Feedback,-,-,0m,0m,1d 6h 8m,1d 6h 8m,,,,
+Sub-task,WS-1574,Done,Major,WS-1211 -> Feedback,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1575,Done,Major,WS-1467 -> Journal entry page,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1576,Done,Major,WS-1474 -> Add Refund Detail screens,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Story,WS-1577,In Progress,Major,Additional Detail Screens,4h,4h,0m,0m,4h,4h,0 minutes,0 minutes,0,0
+Sub-task,WS-1578,Done,Major,WS-1207 -> Add refund config,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1579,Done,Major,WS-1468 -> Add work around for refunds is not being attached to deposit,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1581,Done,Major,WS-1466 -> Make it so that all the payout transactions are pulled,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Story,WS-1582,Done,Major,Preparing Payout Preview Modal,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1583,Done,Major,WS-1466 -> Add options to choose how deposit lines are added to deposit,1h,1h,0m,0m,3h,3h,2 hours,2 hours,-200,-200
+Sub-task,WS-1584,Done,Major,WS-1474 -> Fix issue where the payout status is incorrect,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1591,Done,Major,WS-1467 -> Feedback,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1593,Done,Major,WS-1475 -> Update the integration page to check for custom provider and pass it into the request to iam,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1594,Done,Major,WS-1475 -> make it so that shopify shops can be install using the custom app,-,-,0m,0m,3h 33m,3h 33m,,,,
+Sub-task,WS-1600,Done,Major,WS-1598 -> Update the Quickbook Service to check the fee config for the mappings,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1605,Done,Major,WS-1602 -> Save payment options in the payment event handler to the database,1h,1h,0m,0m,36m,36m,24 minutes,24 minutes,40,40
+Sub-task,WS-1606,Done,Major,WS-1598 -> Update the fee component to render payout fees,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1607,Done,Major,WS-1602 -> Create an endpoint for getting the list of payment options,1h,1h,0m,0m,45m,45m,15 minutes,15 minutes,25,25
+Sub-task,WS-1608,Done,Major,WS-1597 -> Update the mapping component to be a singular field mapping,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1609,Done,Major,WS-1597 -> Update the components that used the previous mapping component to loop and render the fields,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1610,Done,Major,WS-1597 -> Create function to assign placeholder values when the default mapping changes,10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1612,Done,Major,WS-1604 -> Update the import projection to have information about the associated items in the import,1h,1h,0m,0m,1h 11m,1h 11m,11 minutes,11 minutes,-18,-18
+Sub-task,WS-1615,Done,Major,WS-1614 -> Update list payout controller to return a dummy payout for webooks-dev and webooks-qa stores,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1616,Done,Major,WS-1614 -> Add a payment service that can be substituted for the shopify service when specific store ids are used,1h,1h,0m,0m,45m,45m,15 minutes,15 minutes,25,25
+Sub-task,WS-1617,Done,Major,WS-1614 -> Update Get Service to use the store id to determine which service to use as well,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1618,Done,Major,WS-1601 -> Clean up payment config,30m,30m,0m,0m,15m,15m,15 minutes,15 minutes,50,50
+Sub-task,WS-1619,Done,Major,WS-1613 -> Add import list with last 5 imports to home screen,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1620,Done,Major,WS-1613 -> Render the alert messages in the alerts tab and add setting button.,45m,45m,0m,0m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1621,Done,Major,WS-1595 -> Update the delete request to hit the new endpoint,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1624,Done,Major,WS-1604 -> render summary on the import item,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1625,Done,Major,WS-1604 -> add filter to import list,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1627,Done,Major,"WS-1604 -> Set imports to have status ""preview"" by default",30m,30m,0m,0m,5m,5m,25 minutes,25 minutes,83,83
+Sub-task,WS-1632,Done,Major,"WS-1631 -> Set import status to ""error"" when there is an error during import and all the changes have been attempted",1h,1h,0m,0m,20m,20m,40 minutes,40 minutes,66,66
+Sub-task,WS-1633,Done,Major,"WS-1631 -> update the polling function to check for status ""error"" and stop polling",10m,10m,0m,0m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1635,Done,Major,WS-1628 -> QA-feedback,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1636,Done,Major,WS-1206 -> Feedback,20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1648,Done,Major,WS-1614 -> Make payout total match orders/payout transaction,1h,1h,0m,0m,35m,35m,25 minutes,25 minutes,41,41
+Sub-task,WS-1651,Done,Major,WS-1642 -> Create endpoint for returning the list of providers,1h,1h,0m,0m,22m,22m,38 minutes,38 minutes,63,63
+Sub-task,WS-1652,Done,Major,WS-1642 -> Update integrations screen to render the list of providers,1h,1h,0m,0m,31m,31m,29 minutes,29 minutes,48,48
+Sub-task,WS-1653,Done,Major,WS-1642 -> Add list of stores for square,2h,2h,0m,0m,1h,1h,1 hour,1 hour,50,50
+Sub-task,WS-1656,Done,Major,WS-1644 -> Copy shopify config and make sure the config is saving to square store resource,1h,1h,0m,0m,1h 46m,1h 46m,46 minutes,46 minutes,-76,-76
+Sub-task,WS-1657,Done,Major,WS-1645 -> Add square service and implement order service,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1659,Done,Major,WS-1645 -> Implement payout service on square service,2h,2h,0m,0m,3h 12m,3h 12m,"1 hour, 12 minutes","1 hour, 12 minutes",-60,-60
+Sub-task,WS-1664,Done,Major,WS-1212 -> Add screen for scheduling import,2h,2h,0m,0m,3h 40m,3h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",-83,-83
+Sub-task,WS-1665,Done,Major,WS-1212 -> Create entity for scheduled import,2h,2h,0m,0m,50m,50m,"1 hour, 10 minutes","1 hour, 10 minutes",58,58
+Sub-task,WS-1666,Done,Major,WS-1212 -> Create a command that gets the payouts to be imported,1h,1h,0m,0m,48m,48m,12 minutes,12 minutes,20,20
+Sub-task,WS-1667,Done,Major,WS-1212 -> Create a command that gets the orders to be imported,1h,1h,0m,0m,1h 56m,1h 56m,56 minutes,56 minutes,-93,-93
+Sub-task,WS-1668,Done,Major,WS-1212 -> Setup event handler to persist scheduled import,3h,3h,0m,0m,4h 30m,4h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-50,-50
+Sub-task,WS-1669,Done,Major,WS-1212 -> Add endpoint for importing orders on a schedule,1h,1h,0m,0m,4h 30m,4h 30m,"3 hours, 30 minutes","3 hours, 30 minutes",-350,-350
+Sub-task,WS-1670,Done,Major,WS-1212 -> Add endpoint for listing scheduled jobs,1h,1h,0m,0m,1h 40m,1h 40m,40 minutes,40 minutes,-66,-66
+Sub-task,WS-1671,Done,Major,WS-1212 -> Add endpoint for scheduling an import,1h,1h,0m,0m,2h 15m,2h 15m,"1 hour, 15 minutes","1 hour, 15 minutes",-125,-125
+Sub-task,WS-1677,Done,Major,WS-1212 -> Add list screen of scheduled imports,2h,2h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1678,Done,Major,WS-1212 -> Create batch job service to queue scheduled imports,2h,2h,0m,0m,1h 14m,1h 14m,46 minutes,46 minutes,38,38
+Sub-task,WS-1680,Done,Major,WS-1212 -> Feedback,-,-,0m,0m,2h 33m,2h 33m,,,,
+Sub-task,WS-1683,Done,Major,WS-1642 -> Make it so that the store name or store id is saved with the connection as the client id,-,-,0m,0m,3h 45m,3h 45m,,,,
+Sub-task,WS-1684,Done,Major,WS-1646 -> Generate Fern SDK to use,1h,1h,0m,0m,2h 40m,2h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",-166,-166
+Sub-task,WS-1685,Done,Major,WS-1646 -> Implement the Square Service,2h,2h,0m,0m,2d 51m,2d 51m,"1 day, 6 hours, 51 minutes","1 day, 6 hours, 51 minutes",-742,-742
+Sub-task,WS-1686,Done,Major,WS-1646 -> Update screens in UI to be provider agnostic,3h,3h,0m,0m,4h 50m,4h 50m,"1 hour, 50 minutes","1 hour, 50 minutes",-61,-61
+Sub-task,WS-1688,Done,Major,WS-1642 -> Can’t add multiple square stores to WeOS,-,-,0m,0m,1h 30m,1h 30m,,,,
+Story,WS-1689,To Do,Major,As a team member I should be able to link my netsuite account,-,-,0m,0m,3h 18m,3h 18m,,,,
+Sub-task,WS-1695,Done,Major,WS-1690 -> Add UI to manage Tip Config,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1709,Done,Major,WS-1705 -> Add endpoint to receive file uploads,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1710,Done,Major,WS-1705 -> Add entity for image upload,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1711,Done,Critical,WS-1705 -> Create restlet for attaching image to record,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1713,Done,Major,WS-1705 -> Add entity for purchase order,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1714,Done,Major,WS-1705 -> Add netsuite service,1h,1h,0m,0m,2h 30m,2h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,WS-1715,Done,Major,WS-1705 -> Add screen for updating details of uploaded image,2h,2h,0m,0m,4h,4h,2 hours,2 hours,-100,-100
+Sub-task,WS-1720,Done,Major,WS-1650 -> create an event handler on the IAM service to delete the store resource after the connection is deleted,-,-,0m,0m,2h 14m,2h 14m,,,,
+Sub-task,WS-1721,Done,Major,WS-1650 -> create an event handler on the import service that would delete the projections when the resource is deleted,-,-,0m,0m,2h 17m,2h 17m,,,,
+Task,WS-1723,Done,Critical,Make it so that admins are messaged when there is an error on import,-,-,0m,0m,4h 15m,4h 15m,,,,
+Sub-task,WS-1727,Done,Major,WS-1650 -> create a receiver that would delete a resource and all it's children then delete all the projections,-,-,0m,0m,2h 31m,2h 31m,,,,
+Bug,WS-1733,Done,Critical,Server crashing running square import on a schedule,-,-,0m,0m,2h 40m,2h 40m,,,,
+Sub-task,WS-1734,Done,Major,WS-1650 -> Test,-,-,0m,0m,2h 18m,2h 18m,,,,
+Sub-task,WS-1737,Done,Major,WS-988 -> add an invite endpoint and handler to IAM,1h 30m,1h 30m,0m,0m,1h 40m,1h 40m,10 minutes,10 minutes,-11,-11
+Sub-task,WS-1740,Done,Major,WS-988 -> Test on Dev,-,-,0m,0m,4h 40m,4h 40m,,,,
+Sub-task,WS-1742,Done,Major,WS-988 -> make it so that the users could be removed from an account,1h 30m,1h 30m,0m,0m,4h 9m,4h 9m,"2 hours, 39 minutes","2 hours, 39 minutes",-176,-176
+Sub-task,WS-1744,Done,Major,WS-1650 -> feedback,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1745,Done,Major,WS-1325 -> Setup WeOSv2,1h,1h,0m,0m,56m,56m,4 minutes,4 minutes,6,6
+Sub-task,WS-1746,Done,Major,WS-1325 -> Setup default oauth providers,1h,1h,0m,0m,2h 40m,2h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",-166,-166
+Sub-task,WS-1747,Done,Major,WS-1325 -> Get Install URL working again,2h,2h,0m,0m,3h 10m,3h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-58,-58
+Sub-task,WS-1748,Done,Major,WS-1325 -> Add callback that handlers oauth response,2h,2h,0m,0m,3h 23m,3h 23m,"1 hour, 23 minutes","1 hour, 23 minutes",-69,-69
+Sub-task,WS-1749,Done,Major,WS-1325 -> Setup creating user with username and password,4h,4h,0m,0m,4h 50m,4h 50m,50 minutes,50 minutes,-20,-20
+Sub-task,WS-1750,Done,Major,WS-1325 -> Setup creating user with oauth token,2h,2h,0m,0m,-,-,-,-,100,100
+Sub-task,WS-1751,Done,Major,WS-1325 -> Setup Sessions for Users logging in,2h,2h,0m,0m,3h 20m,3h 20m,"1 hour, 20 minutes","1 hour, 20 minutes",-66,-66
+Sub-task,WS-1754,Done,Major,WS-1325 -> Create command for setting up JWT and updating Session,2h,2h,0m,0m,3h 20m,3h 20m,"1 hour, 20 minutes","1 hour, 20 minutes",-66,-66
+Bug,WS-1757,Done,Critical,Payout and Order Rollback not removing items from WeOS,1h,1h,0m,0m,4h 50m,4h 50m,"3 hours, 50 minutes","3 hours, 50 minutes",-383,-383
+Sub-task,WS-1763,Done,Major,"WS-1325 -> setup square, quickbooks and shopify providers",-,-,0m,0m,5h 18m,5h 18m,,,,
+Sub-task,WS-1764,Done,Major,WS-1325 -> set up connections,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1766,Done,Major,WS-1325 -> set up account creation,2h,2h,0m,0m,2h 45m,2h 45m,45 minutes,45 minutes,-37,-37
+Sub-task,WS-1771,Done,Major,WS-1325 -> setup single account OAuth service for shopify,1h 30m,1h 30m,0m,0m,2h,2h,30 minutes,30 minutes,-33,-33
+Sub-task,WS-1772,Done,Major,WS-1325 -> setup subscription interface,-,-,0m,0m,2h 40m,2h 40m,,,,
+Sub-task,WS-1773,Done,Major,WS-1325 -> setup up switching accounts and inviting users to an account,-,-,0m,0m,5h 20m,5h 20m,,,,
+Sub-task,WS-1774,Done,Major,WS-1325 -> fix session error,-,-,0m,0m,2h 20m,2h 20m,,,,
+Sub-task,WS-1776,Done,Major,WS-1325 -> make the login endpoint /authorize,-,-,0m,0m,55m,55m,,,,
+Sub-task,WS-1777,Done,Major,WS-1325 -> add account service event handlers,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,WS-1779,Done,Major,WS-1325 -> connect IAM to the weos app,-,-,0m,0m,5h 36m,5h 36m,,,,
+Sub-task,WS-1783,Done,Major,WS-1325 -> add delete account handler,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,WS-1785,Done,Major,WS-1325 -> Test and add migration plan,-,-,0m,0m,6h 40m,6h 40m,,,,
+Task,WS-1787,In Progress,Major,Deploy refactored inisght,1h,1h,0m,0m,1h 1m,1h 1m,1 minute,1 minute,-1,-1
+Sub-task,WS-1808,Done,Major,WS-1804 -> Back up non prod database backup,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1809,Done,Major,WS-1325 -> push updates to dev and test,2h,2h,0m,0m,5h,5h,3 hours,3 hours,-150,-150
+Task,WS-1822,In Progress,Major,Refactor code structure for WeOS v2,2h,2h,0m,0m,6h 45m,6h 45m,"4 hours, 45 minutes","4 hours, 45 minutes",-237,-237
+Task,WS-1831,In Progress,Major,setup audit service,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1837,Done,Major,WS-1325 -> get shopify subscription working,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1838,Done,Major,WS-1325 -> fix errors and update endpoints,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1840,Done,Major,WS-1839 -> add domain object for roles,1h,1h,0m,0m,35m,35m,25 minutes,25 minutes,41,41
+Sub-task,WS-1841,Done,Major,WS-1839 -> add CURD endpoints for roles and add event handlers for the entities,1h,1h,0m,0m,30m,30m,30 minutes,30 minutes,50,50
+Sub-task,WS-1842,Done,Major,WS-1839 -> update the update user handler to update the user roles,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1845,Done,Major,WS-1839 -> Test on staging,-,-,0m,0m,30m,30m,,,,
+Task,WS-1850,Deploy to Production,Major,make the redirect url in IAM dynamic,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,WS-1852,Done,Major,WS-1706 -> Add a way to get a list of purchase order from netsuite,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1859,Done,Major,WS-1858 -> create a custom provider for kulr-netsuite,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1860,Done,Major,WS-1858 -> create a netsuite auth service,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-1861,Done,Major,WS-1858 -> update the oauth receiver to create all netsuite users under the same account,2h,2h,0m,0m,3h,3h,1 hour,1 hour,-50,-50
+Sub-task,WS-1862,Done,Major,WS-1858 -> create weos integration in netsuite,30m,30m,0m,0m,1h 30m,1h 30m,1 hour,1 hour,-200,-200
+Improvement,WS-1863,Done,Critical,Make it so that the default providers don't overwrite the providers that are already there,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1864,Done,Major,WS-1858 -> Fix open ID connect error when authorising netsuite,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1866,Done,Major,WS-1705 -> add entity for accounts and file,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1867,Done,Major,WS-1705 -> Add netsuite login on the frontend,1h 30m,1h 30m,0m,0m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1869,Done,Major,WS-1705 -> Client Feedback,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1872,Done,Major,WS-1858 -> Feedback,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-1873,Done,Major,WS-1705 -> Sort out mobile build,-,-,0m,0m,5h,5h,,,,
+Bug,WS-1876,Done,Major,Netsuite View on WeOS APP being disabled when refreshed,-,-,0m,0m,25m,25m,,,,
+Task,WS-1877,Done,Major,Redirct loop when login is cancelled,-,-,0m,0m,1h 40m,1h 40m,,,,
+Sub-task,WS-1914,Done,Major,WS-1900 -> Finish implement list transactions,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1917,Done,Major,WS-1900 -> confirm quickbooks list transactions work,1h,1h,0m,0m,1d 1h 20m,1d 1h 20m,"1 day, 20 minutes","1 day, 20 minutes",-833,-833
+Sub-task,WS-1928,Done,Major,WS-1910 -> Get basic account creation working using domain models,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1929,In Progress,Major,WS-1910 -> add resources file,1h,1h,0m,0m,4h,4h,3 hours,3 hours,-300,-300
+Sub-task,WS-1930,In Progress,Major,WS-1910 -> setup resource providers,1h,1h,0m,0m,3h 23m,3h 23m,"2 hours, 23 minutes","2 hours, 23 minutes",-238,-238
+Sub-task,WS-1931,Done,Major,WS-1910 -> setup user roles,1h,1h,0m,0m,1h 40m,1h 40m,40 minutes,40 minutes,-66,-66
+Sub-task,WS-1932,To Do,Major,WS-1910 -> setup subscriptions using the domain models,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1938,Done,Major,WS-1910 -> get basic connection working,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,WS-1939,Done,Major,WS-1900 -> Deploy to staging,1h,1h,0m,0m,2h 58m,2h 58m,"1 hour, 58 minutes","1 hour, 58 minutes",-196,-196
+Sub-task,WS-1941,Done,Major,WS-1940 -> Setup basic slack app using bolt,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1947,Done,Major,WS-1940 -> remove hardcoded JWT,-,-,0m,0m,1d 3h,1d 3h,,,,
+Sub-task,WS-1948,Done,Major,WS-1940 -> Add slack provider to IAM,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,WS-1950,Done,Major,WS-1900 -> Add netsuite to finance service,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1955,In Progress,Major,WS-1953 -> Setup workflow domain object,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1956,In Progress,Major,WS-1953 -> Add endpoints for managing workflows,1h,1h,0m,0m,5h,5h,4 hours,4 hours,-400,-400
+Sub-task,WS-1957,To Do,Major,WS-1953 -> Create a cron job for running workflows that need to be run every hour,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1964,Done,Major,WS-1906 -> Implement list methods,-,-,0m,0m,4h 30m,4h 30m,,,,
+Sub-task,WS-1965,Done,Major,WS-1906 -> Implement get methods,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1966,Done,Major,WS-1906 -> Implement create methods,-,-,0m,0m,1d,1d,,,,
+Sub-task,WS-1967,Done,Major,WS-1906 -> Implement delete methods,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-1968,Done,Major,WS-1906 -> Get cursor working,-,-,0m,0m,2h 15m,2h 15m,,,,
+Sub-task,WS-1969,Done,Major,WS-1906 -> Get filters working,-,-,0m,0m,4h 15m,4h 15m,,,,
+Sub-task,WS-1970,To Do,Major,WS-1953 -> Add a queue system that runs workflows,2h,2h,0m,0m,3h 18m,3h 18m,"1 hour, 18 minutes","1 hour, 18 minutes",-65,-65
+Sub-task,WS-1971,Done,Major,WS-1953 -> deploy to prod,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,WS-1972,To Do,Major,WS-1910 -> update the weos app to prompt the user to enter the netsuite account ID when login in,-,-,0m,0m,1h,1h,,,,
+Bug,WS-1973,Done,Major,PO not found,-,-,0m,0m,1h 24m,1h 24m,,,,
+Sub-task,WS-1983,In Progress,Major,WS-1976 -> implement SO update method,-,-,0m,0m,3h,3h,,,,
+Sub-task,WS-1984,Done,Major,WS-1975 -> Deploy Host Agent to staging,4h,4h,0m,0m,1h,1h,3 hours,3 hours,75,75
+Sub-task,WS-1985,Done,Major,WS-1975 -> Update slack app to point to host agent,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1986,In Progress,Major,WS-1976 -> implement PO create/update method,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,WS-1987,Done,Major,WS-1975 -> Add authentication for Slack bots against IAM,2h,2h,0m,0m,1d 6h,1d 6h,"1 day, 4 hours","1 day, 4 hours",-600,-600
+Sub-task,WS-1988,In Progress,Major,WS-1976 -> create suite script that would send events,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-1991,To Do,Major,WS-1981 -> update the SO method to approve SOs,30m,30m,0m,0m,1h 10m,1h 10m,40 minutes,40 minutes,-133,-133
+Sub-task,WS-1992,To Do,Major,WS-1981 -> update the PO method to approve POs,30m,30m,0m,0m,1h,1h,30 minutes,30 minutes,-100,-100
+Sub-task,WS-1993,Done,Major,WS-1975 -> make sure that the mcp server is up and working,1h,1h,0m,0m,2h 30m,2h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,WS-1994,In Progress,Major,WS-1977 -> Register a bot in azure,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,WS-1999,Done,Major,WS-1976 -> Investigate which agent framework to use,2h,2h,0m,0m,1d 2h 45m,1d 2h 45m,"1 day, 45 minutes","1 day, 45 minutes",-437,-437
+Sub-task,WS-2005,Done,Major,WS-1975 -> Integrate host agent with MCP,2h,2h,0m,0m,5h 50m,5h 50m,"3 hours, 50 minutes","3 hours, 50 minutes",-191,-191
+Sub-task,WS-2008,To Do,Major,WS-1976 -> Integrate host agent with workflow service,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-2009,To Do,Major,WS-1976 -> Integrate host agent with notification service,-,-,0m,0m,1h,1h,,,,
+Sub-task,WS-2018,Done,Major,WS-1975 -> Fix issue with conversation not persisting in slack chat,2h,2h,0m,0m,2h 20m,2h 20m,20 minutes,20 minutes,-16,-16
+Sub-task,WS-2019,Done,Major,WS-1975 -> Make it so that lists are returned as a CSV in slack,2h,2h,0m,0m,5h,5h,3 hours,3 hours,-150,-150
+Sub-task,WS-2026,Done,Major,WS-1975 -> Update weos so that endpoints allow users by default,-,-,0m,0m,45m,45m,,,,
+Sub-task,WS-2028,Done,Major,WS-2017 -> get list endpoint working,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,WS-2029,Done,Major,WS-2017 -> get upsert endpoint working,1h,1h,0m,0m,1h 20m,1h 20m,20 minutes,20 minutes,-33,-33
+Sub-task,WS-2033,Done,Major,WS-1940 -> Switch to using NodeJS instead,-,-,0m,0m,1d 7h 43m,1d 7h 43m,,,,
+Sub-task,WS-2035,Done,Major,WS-1940 -> Handle errors from using tools,-,-,0m,0m,2h,2h,,,,
+Sub-task,WS-709,Done,Major,WS-707 -> Update WeOS VPC to use updated module,15m,15m,2m,2m,13m,13m,0 minutes,0 minutes,0,0
+Sub-task,WS-1634,To Do,Major,WS-1226 -> When filtering by import status pull the list of orders in the system first,1h,1h,4m,4m,56m,56m,0 minutes,0 minutes,0,0
+Sub-task,WS-24,Done,Major,WS-12 -> Setup Integration record for the application,15m,15m,5m,5m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-30,Done,Major,WS-12 -> Create a scheduled suitescript run the saved search daily and save the results in file cabinet,2h,2h,5m,5m,1h 55m,1h 55m,0 minutes,0 minutes,0,0
+Sub-task,WS-691,Done,Major,WS-689 -> Creating Alert (modal when you click to create an alert),15m,15m,5m,5m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1132,Done,Major,"WS-862 -> if user has status of ""Trial Expired"" hide insight details",25m,25m,5m,5m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1174,Done,Major,WS-863 -> Update the frontend so the user wont be able to create custom signals,45m,45m,5m,5m,40m,40m,0 minutes,0 minutes,0,0
+Sub-task,WS-1320,Done,Major,WS-1295 -> Setup endpoint for webhook that removes the shop date from IAM,2h,2h,5m,5m,1h 55m,1h 55m,0 minutes,0 minutes,0,0
+Sub-task,WS-1380,Done,Major,WS-1339 -> Update abstractions for Similar alerts,-,-,5m,5m,2h 40m,2h 40m,,,,
+Sub-task,WS-1703,Done,Major,WS-1691 -> add login with google button to the get-started screen,30m,30m,6m,6m,24m,24m,0 minutes,0 minutes,0,0
+Sub-task,WS-713,Done,Major,WS-707 -> Create passwords for IAM databases and update IAM terraform,15m,15m,8m,8m,7m,7m,0 minutes,0 minutes,0,0
+Sub-task,WS-1322,Done,Major,WS-1295 -> create an event handler in IAM to remove the shop data from all the other services,2h,2h,8m,8m,2h 22m,2h 22m,30 minutes,30 minutes,-25,-25
+Sub-task,WS-1611,Done,Major,WS-1604 -> Add filters for store and status to the import list endpoint,1h,1h,8m,8m,52m,52m,0 minutes,0 minutes,0,0
+Sub-task,WS-87,Done,Major,WS-59 -> Make sure that everything is working well with this assistant,1h,1h,10m,10m,50m,50m,0 minutes,0 minutes,0,0
+Sub-task,WS-233,Done,Major,WS-199 -> create a share endpoint on the account service,10m,10m,10m,10m,0m,0m,0 minutes,0 minutes,0,0
+Sub-task,WS-244,Done,Major,"WS-199 -> update the assistant resource to include a shared, sharedUsers and parentAccount property",10m,10m,10m,10m,-,-,-,-,0,0
+Sub-task,WS-662,Done,Major,WS-652 -> Update the front end to make a request to the alert service to create the alert instead of the assistant service,1h 30m,1h 30m,10m,10m,1h 20m,1h 20m,0 minutes,0 minutes,0,0
+Sub-task,WS-687,Done,Major,WS-583 -> Add account resource to schema that triggers insight generation,1h,1h,10m,10m,50m,50m,0 minutes,0 minutes,0,0
+Bug,WS-771,Done,Major,Cannot find subtree for parent node,20m,20m,10m,10m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-794,Done,Major,WS-772 -> Remove PWA,30m,30m,10m,10m,20m,20m,0 minutes,0 minutes,0,0
+Task,WS-958,Done,Major,Make it so that insights are all active when generated,-,10m,0m,10m,1h,1h,,1 hour,,-600
+-> Sub-task,WS-975,Done,Major,-> Link Pull Request to Dev branch,10m,,10m,,-,,-,,0,0
+Sub-task,WS-1131,Done,Major,WS-919 -> create <public_google_api_key>,20m,20m,10m,10m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1160,Done,Major,WS-1156 -> Create a way to get the list of users that are associated with an account from IAM,30m,30m,10m,10m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1262,Done,Major,WS-1255 -> Dispatch command to generate insight to the new account event handler,20m,20m,10m,10m,10m,10m,0 minutes,0 minutes,0,0
+Sub-task,WS-1347,Done,Major,WS-1295 -> Deploy to prod,30m,30m,10m,10m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-1524,Done,Major,WS-1211 -> Add Payment,2h,2h,10m,10m,1h 50m,1h 50m,0 minutes,0 minutes,0,0
+Sub-task,WS-1556,Done,Major,WS-1467 -> Update import payout to import missing orders,1h,1h,10m,10m,50m,50m,0 minutes,0 minutes,0,0
+Sub-task,WS-1599,Done,Major,WS-1598 -> Update the fee config to have the mappings that were previously under payouts,30m,30m,10m,10m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,WS-23,Done,Major,WS-12 -> Update Roles to be able to login with OAuth 2.0,15m,15m,12m,12m,3m,3m,0 minutes,0 minutes,0,0
+Task,WS-268,Done,Major,Setup langfuse,-,6h 30m,0m,13m,1h 55m,4d 1h 52m,,"3 days, 3 hours, 35 minutes",,-424
+-> Sub-task,WS-300,Done,Major,-> Create Langfuse Go SDK,4h,,0m,,2d 32m,,"1 day, 4 hours, 32 minutes",,-313,-313
+-> Sub-task,WS-301,Done,Major,-> Update the workflows to send spans to Langfuse,1h 30m,,0m,,1d 4h 48m,,"1 day, 3 hours, 18 minutes",,-753,-753
+-> Sub-task,WS-303,Done,Major,-> set up self hosting on local,30m,,0m,,30m,,0 minutes,,0,0
+-> Sub-task,WS-323,Done,Major,-> Implement Langfuse SDK on front end to capture user feedback,-,,0m,,1h 20m,,,,,
+-> Sub-task,WS-377,Done,Major,-> Deployments,-,,0m,,30m,,,,,
+-> Sub-task,WS-322,Done,Major,-> Test Langfuse Cloud using python SDK,30m,,13m,,17m,,0 minutes,,0,0
+Sub-task,WS-1739,Done,Major,WS-988 -> Add list of users to the app,1h,1h,14m,14m,46m,46m,0 minutes,0 minutes,0,0
+Sub-task,WS-55,Done,Major,WS-44 -> Pull token from IAM and validate jwt,1h,1h,15m,15m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,WS-144,To Do,Major,WS-103 -> Create the account specific manifest and include the full schemas for the account,15m,15m,15m,15m,-,-,-,-,0,0
+Story,WS-754,To Do,Minor,As a user I should be able to see blog posts related to the insights that I received,-,15m,0m,15m,2h 7m,2h 7m,,"2 hours, 7 minutes",,-846
+-> Sub-task,WS-780,To Do,Major,-> Add a blog property to the insight that would store a list of blogs relating to the insight,15m,,15m,,-,,-,,0,0
+Sub-task,WS-831,Done,Major,WS-810 -> Setup schema and CRUD endpoints for a Goal,15m,15m,15m,15m,-,-,-,-,0,0
+Sub-task,WS-1003,Done,Major,WS-988 -> Update the action to pass in the invite code to IAM,30m,30m,15m,15m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,WS-1130,Done,Major,WS-919 -> create <public_apple_api_key>,20m,20m,15m,15m,5m,5m,0 minutes,0 minutes,0,0
+Sub-task,WS-1135,To Do,Major,WS-919 -> Add screenshot for WeOS Plus Monthly Subscription in iOS,15m,15m,15m,15m,-,-,-,-,0,0
+Sub-task,WS-1173,Done,Major,WS-864 -> Deploy to staging,15m,15m,15m,15m,-,-,-,-,0,0
+Sub-task,WS-1400,Done,Major,WS-1350 -> Add environment variable for assistant service,30m,30m,15m,15m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,WS-1401,Done,Major,WS-1339 -> Add environment variable to use for the Quickbooks endpoint,30m,30m,15m,15m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,WS-1485,Done,Major,WS-1206 -> Map fields to the payout config,2h,2h,15m,15m,1h 45m,1h 45m,0 minutes,0 minutes,0,0
+Sub-task,WS-1702,Done,Major,WS-1691 -> Enable google login in auth0,15m,15m,15m,15m,-,-,-,-,0,0
+Story,WS-165,Done,Critical,As a developer I should be able to make a fine tuned model for an assistant,-,1d 30m,0m,16m,1h,1d 7h 2m,,"6 hours, 48 minutes",,-80
+-> Sub-task,WS-167,Done,Major,-> Make it so that giving a thumbs up creates an embedding,1h,,0m,,1h 15m,,15 minutes,,-25,-25
+-> Sub-task,WS-168,Done,Major,-> Make it so that giving a thumbs up creates and example,1h,,0m,,1h 55m,,55 minutes,,-91,-91
+-> Sub-task,WS-169,Done,Major,-> Make it so that giving a thumbs down makes an example,1h,,0m,,1h 24m,,24 minutes,,-40,-40
+-> Sub-task,WS-170,Done,Major,-> Add an endpoint for using examples to make a fine tuned model,3h,,0m,,4h 11m,,"1 hour, 11 minutes",,-39,-39
+-> Sub-task,WS-188,Done,Major,-> Add more examples,1h,,0m,,1h 44m,,44 minutes,,-73,-73
+-> Sub-task,WS-189,Done,Major,-> Build finance assistant fine tune model,1h,,0m,,2h,,1 hour,,-100,-100
+-> Sub-task,WS-190,Done,Major,-> Error submitting feedback,-,,0m,,1h 19m,,,,,
+-> Sub-task,WS-166,Done,Major,-> Add a collection for fine tune model examples to accounts,30m,,16m,,14m,,0 minutes,,0,0
+Sub-task,WS-435,Done,Major,WS-426 -> Add screen for creating alert using natural language,30m,30m,18m,18m,12m,12m,0 minutes,0 minutes,0,0
+Sub-task,WS-1398,Done,Major,WS-1350 -> Assess current status,1h,1h,19m,19m,41m,41m,0 minutes,0 minutes,0,0
+Sub-task,WS-1439,Done,Major,WS-1209 -> Endpoint for getting tax items from shopify orders,2h,2h,19m,19m,1h 41m,1h 41m,0 minutes,0 minutes,0,0
+Task,WS-283,Done,Critical,Use list of account names when generating response,-,1d 1h 15m,0m,20m,2h 38m,2d 3h 20m,,"1 day, 2 hours, 25 minutes",,-112
+-> Sub-task,WS-298,Done,Major,-> create Jupyter note book experiment that compares the LLM responses with the prompt list and the responses without,2h,,0m,,3h 30m,,"1 hour, 30 minutes",,-75,-75
+-> Sub-task,WS-310,Done,Major,-> update the HighestSimilarityPrompt workflow on the assistant service to check if the similar embedding that the query matched to is querying for an account,1h,,0m,,1h 15m,,15 minutes,,-25,-25
+-> Sub-task,WS-313,Done,Major,-> Update the finance prompt so that the LLM would be able to handle the abbreviation,1h,,0m,,1h 15m,,15 minutes,,-25,-25
+-> Sub-task,WS-315,Done,Major,-> Write prompt foo test to validate the prompt,1h,,0m,,3h 30m,,"2 hours, 30 minutes",,-250,-250
+-> Sub-task,WS-316,Done,Major,-> Test the queries using the finance assistant,2h,,0m,,2h 5m,,5 minutes,,-4,-4
+-> Sub-task,WS-319,Done,Major,-> Update the integration service to only hit the trial balance if the balance is requested,30m,,0m,,45m,,15 minutes,,-50,-50
+-> Sub-task,WS-321,Done,Major,"-> Update the integration service to handle the ""in"" operator",45m,,0m,,1h 10m,,25 minutes,,-55,-55
+-> Sub-task,WS-325,Done,Major,-> the assistant handler to return feedback to the LLM if the python code returned no accounts found,-,,0m,,45m,,,,,
+-> Sub-task,WS-327,Done,Major,-> Run updated experiments,-,,0m,,1h 47m,,,,,
+-> Sub-task,WS-318,Done,Major,-> write unit tests to test the updated workflow,1h,,20m,,40m,,0 minutes,,0,0
+Sub-task,WS-1233,Done,Major,WS-1204 -> Add endpoint to handle shopify billing confirmation,1h,1h,20m,20m,3h 40m,3h 40m,3 hours,3 hours,-300,-300
+Sub-task,WS-1694,Done,Major,WS-1690 -> Add Tip config to API,1h,1h,21m,21m,39m,39m,0 minutes,0 minutes,0,0
+Sub-task,WS-73,Done,Major,WS-59 -> Fix issue with the finance assistant install (It appears to be returning a 404),1h,1h,25m,25m,35m,35m,0 minutes,0 minutes,0,0
+Sub-task,WS-223,In Progress,Major,WS-212 -> How much SPAC Administrative Expense did we have last month?,-,-,25m,25m,30m,30m,,,,
+Sub-task,WS-796,Done,Major,WS-755 -> update the recommended alert initialiser to create and store the embeddings from the recommended alerts,1h,1h,25m,25m,35m,35m,0 minutes,0 minutes,0,0
+Sub-task,WS-2021,In Progress,Major,WS-2020 -> setup endpoint,2h,2h,25m,25m,1h 35m,1h 35m,0 minutes,0 minutes,0,0
+Sub-task,WS-1916,Done,Major,WS-1900 -> confirm that the more complex schema works with the weos mcp setup,1h,1h,27m,27m,33m,33m,0 minutes,0 minutes,0,0
+Story,WS-66,Done,Major,As a developer I should be able to create setup an integration with company specific credentials,-,6h 10m,0m,28m,2h 20m,3d 6h 5m,,"3 days, 23 minutes",,-395
+-> Sub-task,WS-131,Done,Major,-> Set up AWS Secret manager,2h 30m,,0m,,2h 25m,,5 minutes,,3,3
+-> Sub-task,WS-133,Done,Major,-> Create a handler on the IAM service so that when an account specific provider is created it would get the keys from AWS and store it on the provider,2h,,0m,,5h 3m,,"3 hours, 3 minutes",,-152,-152
+-> Sub-task,WS-134,Done,Major,-> Update the manifest on the integration service to include the key names as properties,20m,,0m,,3h 50m,,"3 hours, 30 minutes",,-1050,-1050
+-> Sub-task,WS-135,Done,Major,-> Update the weos app to include the key name in the header when sending a request to IAM to get the install URL,20m,,0m,,2h 5m,,"1 hour, 45 minutes",,-525,-525
+-> Sub-task,WS-282,Done,Major,-> create an event handler on the integration service that would create the account specific provider on the IAM service,-,,0m,,2h,,,,,
+-> Sub-task,WS-324,Done,Major,-> Setup and research terraform,-,,0m,,4h,,,,,
+-> Sub-task,WS-326,Done,Major,"-> Create receiver that would create the account collection, the integration and make the request to iam",-,,0m,,6h 20m,,,,,
+-> Sub-task,WS-334,Done,Major,-> Create event handler to setup providers for default integrations,-,,0m,,1h 30m,,,,,
+-> Sub-task,WS-329,Done,Major,-> Deploy to staging,1h,,28m,,32m,,0 minutes,,0,0
+Task,WS-227,In Progress,Major,Avoid making duplicate embeddings,1h,1h,29m,29m,31m,31m,0 minutes,0 minutes,0,0
+Sub-task,WS-1510,To Do,Major,WS-1508 -> Add config for saving selection,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,WS-1530,Done,Major,WS-1211 -> Update infrastructure layer to account for payments,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1658,Done,Major,WS-1645 -> Implement payment service on square service,2h,2h,30m,30m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1810,Done,Major,WS-1325 -> push updates to staging and test,1h,1h,30m,30m,2h,2h,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,WS-1918,Done,Major,WS-1900 -> setup view detail controllers,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,WS-1921,Done,Major,WS-1900 -> Setup receivers for deleting transactions,30m,30m,30m,30m,-,-,-,-,0,0
+Task,WS-98,Done,Critical,Validate LLM response and rerun query if response is not valid,-,1d 4h 30m,0m,50m,15m,3d 24m,,"1 day, 4 hours, 44 minutes",,-101
+-> Sub-task,WS-100,Done,Major,-> Add a step that checks if there was code associated and re-runs the query if not,2h,,0m,,1d 12m,,"6 hours, 12 minutes",,-310,-310
+-> Sub-task,WS-101,Done,Major,-> Add a step that checks if there was an error with the python response and re-runs the query if there was,3h,,0m,,5h,,2 hours,,-66,-66
+-> Sub-task,WS-114,Done,Major,-> Make sure the response returned to the WeOS app is formatted correctly,1h,,0m,,1h 48m,,48 minutes,,-80,-80
+-> Sub-task,WS-117,Done,Major,-> Add Link to Update Conversation,1h,,0m,,3h 8m,,"2 hours, 8 minutes",,-213,-213
+-> Sub-task,WS-119,Done,Major,-> Make it extract steps from the python code as well,1h,,0m,,1h 42m,,42 minutes,,-70,-70
+-> Sub-task,WS-123,Done,Major,-> Fix issue where time is not showing up,-,,0m,,20m,,,,,
+-> Sub-task,WS-198,Done,Major,-> Fix issue with null response,-,,0m,,19m,,,,,
+-> Sub-task,WS-120,Done,Major,-> Make retries 2 layers deep,2h,,2m,,1h 58m,,0 minutes,,0,0
+-> Sub-task,WS-116,Done,Major,-> Add Link to skip LLM call if the similarity is 1.0,1h,,9m,,51m,,0 minutes,,0,0
+-> Sub-task,WS-124,Done,Major,-> Fix issue where steps are not showing up in the UI,30m,,17m,,13m,,0 minutes,,0,0
+-> Sub-task,WS-122,Done,Major,-> Add Link that detects json like code in the response and extracts it and places it in items,1h,,22m,,38m,,0 minutes,,0,0
+,,,,Total,12w 3d 7h 45m,12w 3d 7h 45m,2d 27m,2d 27m,34w 1h 41m,34w 1h 41m,"21 weeks, 5 days, 2 hours, 23 minutes","21 weeks, 5 days, 2 hours, 23 minutes",-173,-173

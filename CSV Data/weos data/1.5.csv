@@ -1,0 +1,26 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,WS-442,Closed,Major,I should be able to set mobile push notifications as an output channel for alert messages for android,-,-,0m,0m,5h 44m,5h 44m,,,,
+Story,WS-706,Closed,Blocker,I should be able to get insights based on my Account Receivables,-,-,0m,0m,1d 2h 10m,1d 2h 10m,,,,
+Story,WS-772,Closed,Major,Can we get weos mobile native,-,-,0m,0m,1d,1d,,,,
+Task,WS-801,Closed,Major,Change the nomenclature for alerts to signals,-,-,0m,0m,30m,30m,,,,
+Story,WS-810,Closed,Major,I should be able to select a goal after installing the app,-,-,0m,0m,4h 42m,4h 42m,,,,
+Story,WS-825,Closed,Major,I should be able to cancel my subscription,-,-,0m,0m,30m,30m,,,,
+Story,WS-855,Closed,Blocker,I should be able to delete my account,-,-,0m,0m,2h 58m,2h 58m,,,,
+Task,WS-862,Closed,Major,After 30 days lock new sparks,-,-,0m,0m,1h 5m,1h 5m,,,,
+Task,WS-863,Closed,Major,After 30 days disable new signals and signals that aren't running on python,-,-,0m,0m,20m,20m,,,,
+Task,WS-915,Closed,Major,Add support for push notifications on iOS,-,-,0m,0m,2h 30m,2h 30m,,,,
+Story,WS-919,Closed,Critical,I should be able to purchase a subscription (revenue cat),-,-,0m,0m,6h,6h,,,,
+Story,WS-989,Closed,Critical,I should get sparks about my income statement when I first install the application,-,-,0m,0m,3h 30m,3h 30m,,,,
+Bug,WS-1034,Closed,Blocker,iOS Feedback,-,-,0m,0m,2h,2h,,,,
+Task,WS-1037,Closed,Major,Add settings screen,-,-,0m,0m,1h,1h,,,,
+Task,WS-1043,Closed,Critical,Add Firebase Analytics to iOS,1h 30m,1h 30m,0m,0m,4h 7m,4h 7m,"2 hours, 37 minutes","2 hours, 37 minutes",-174,-174
+Story,WS-1052,Closed,Blocker,I should be able to get insights based on my Account Payables,-,-,0m,0m,3h 50m,3h 50m,,,,
+Story,WS-1143,Closed,Major,I should be able to get detailed insights based on my A/R,1d,1d,0m,0m,2h 45m,2h 45m,"5 hours, 15 minutes","5 hours, 15 minutes",65,65
+Story,WS-1145,Closed,Major,I should get an analysis of my A/R when I first install the application,-,-,0m,0m,1h 15m,1h 15m,,,,
+Story,WS-1156,Closed,Critical,I should get a push notification once a week about a spark I received within that week,-,-,0m,0m,35m,35m,,,,
+Bug,WS-1176,Closed,Critical,Coming back to the app it tries to login the user but redirects in the in app browser,-,-,0m,0m,2h 30m,2h 30m,,,,
+Story,WS-1257,Closed,Blocker,I should see a loading screen when I select the purchase subscription button on iOS,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Task,WS-822,Closed,Major,Setup fastlane for ios,1d 4h,1d 4h,1d 4h,1d 4h,-,-,-,-,0,0
+Task,WS-864,Closed,Major,I should be able to cancel a subscription,-,-,-,-,-,-,,,,
+Story,WS-1175,Closed,Critical,As a user I should be able to tryout WeOS with a demo account,-,-,-,-,-,-,,,,
+,,,,Total,2d 6h,2d 6h,1d 4h,1d 4h,1w 1d 31m,1w 1d 31m,"6 days, 6 hours, 31 minutes","6 days, 6 hours, 31 minutes",-247,-247

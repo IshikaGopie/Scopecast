@@ -1,0 +1,6 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Bug,WS-13,Done,Blocker,When an integration has the option to setup sub resources it isn't completed correctly,-,-,0m,0m,30m,30m,,,,
+Bug,WS-373,Done,Major,Getting a null error response when first loading the app on production,-,-,0m,0m,1h 5m,1h 5m,,,,
+Story,WS-59,Done,Critical,I should be able to setup a Finance assistant,-,-,25m,25m,0m,0m,,,,
+Task,WS-14,Done,Major,UI Cleanup,-,-,-,-,-,-,,,,
+,,,,Total,0m,0m,25m,25m,1h 35m,1h 35m,2 hours,2 hours,0,0

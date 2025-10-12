@@ -1,0 +1,31 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,APO-207,Done,Major,As and admin I should be able to use AI to generate questions for a test objective,-,-,0m,0m,1h,1h,,,,
+Task,APO-210,Done,Major,Setup basic admin app and deploy,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Story,APO-225,Done,Major,As a child I should be able to login with a code,-,-,0m,0m,2h,2h,,,,
+Task,APO-267,Done,Major,Setup the domain on Hubspot,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Task,APO-273,Done,Major,Setup base app,1h,1h,0m,0m,4h,4h,3 hours,3 hours,-300,-300
+Bug,APO-306,Done,Critical,Could not generate questions,-,-,0m,0m,3h 18m,3h 18m,,,,
+Bug,APO-320,Done,Blocker,Parts are disappearing when save questioned,-,-,0m,0m,29m,29m,,,,
+Story,APO-325,Done,Major,Make it so that the user is redirected to add student if they don't have any student,0m,0m,0m,0m,1h,1h,1 hour,1 hour,,
+Story,APO-328,Done,Blocker,As a user I should be able to start an exam even if I'm not logged in as a student,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Task,APO-333,Done,Major,Make it return an error if the user signs in with an account that doesn't exist,-,-,0m,0m,2h,2h,,,,
+Task,APO-332,Done,Major,When creating an exercise without a student use a default if there is 1 student in the account,30m,30m,15m,15m,15m,15m,0 minutes,0 minutes,0,0
+Task,APO-327,Done,Critical,Add a state so that if a question needs to be fixed it could go into that state,30m,30m,22m,22m,8m,8m,0 minutes,0 minutes,0,0
+Task,APO-313,Done,Major,Split initial login screen for existing users and new users,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Task,APO-314,Done,Major,Make more mobile friendly,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Task,APO-209,Done,Major,Generate basic api code,2h,2h,1h,1h,2h,2h,1 hour,1 hour,-50,-50
+Task,APO-208,Done,Major,Setup basic API and deploy,2h,2h,1h 5m,1h 5m,55m,55m,0 minutes,0 minutes,0,0
+Task,APO-197,Closed,Major,Switch to using OpenAI instead of Google Vertex API,-,-,-,-,-,-,,,,
+Story,APO-200,Done,Major,As an admin I should be able to manage test bodies,-,-,-,-,-,-,,,,
+Story,APO-203,Done,Major,As an admin I should be able to manage questions,-,-,-,-,-,-,,,,
+Story,APO-223,Done,Major,As a parent I should be able to register and log in,-,-,-,-,-,-,,,,
+Story,APO-224,Done,Major,As a parent I should be able to add a child,-,-,-,-,-,-,,,,
+Story,APO-226,Done,Major,As a parent I should be able to manage exercises,-,-,-,-,-,-,,,,
+Story,APO-227,Done,Major,As a child I should be able to complete excercises,-,-,-,-,-,-,,,,
+Story,APO-228,Done,Major,As a parent I should be able to view the syllabus,-,-,-,-,-,-,,,,
+Story,APO-261,Done,Major,As an admin I should be able to make a custom prompt for generating questions,-,-,-,-,-,-,,,,
+Story,APO-268,Done,Blocker,QA,-,-,-,-,-,-,,,,
+Story,APO-290,Done,Major,I should be able to create a question that has multiple parts,-,-,-,-,-,-,,,,
+Story,APO-303,Done,Major,As a parent I should be able to analyze how my child did on an exercise,-,-,-,-,-,-,,,,
+Task,APO-334,Done,Major,Update the color of the theme to be orange,-,-,-,-,-,-,,,,
+,,,,Total,1d 3h,1d 3h,3h 42m,3h 42m,2d 6h 5m,2d 6h 5m,"1 day, 6 hours, 47 minutes","1 day, 6 hours, 47 minutes",-134,-134

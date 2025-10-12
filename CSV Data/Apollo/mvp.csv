@@ -1,0 +1,65 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Task,APO-13,Done,Blocker,setup aws amplify,6h,6h,0m,0m,1d 2h 9m,1d 2h 9m,"4 hours, 9 minutes","4 hours, 9 minutes",-69,-69
+Task,APO-26,Done,Blocker,create binary poll screen,6h,6h,0m,0m,1d 4h 5m,1d 4h 5m,"6 hours, 5 minutes","6 hours, 5 minutes",-101,-101
+Task,APO-28,Done,Blocker,create image poll screen,1d,1d,0m,0m,2d 7h 6m,2d 7h 6m,"1 day, 7 hours, 6 minutes","1 day, 7 hours, 6 minutes",-188,-188
+Sub-task,APO-31,Done,,$parentIssue.getKey() -> add method for getting poll by id,2h,2h,0m,0m,4h 28m,4h 28m,"2 hours, 28 minutes","2 hours, 28 minutes",-123,-123
+Sub-task,APO-32,Done,,$parentIssue.getKey() -> create component for sharing poll url,2h,2h,0m,0m,3h 10m,3h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-58,-58
+Task,APO-33,Done,Blocker,implement deeplink,4h,4h,0m,0m,1d 6h 1m,1d 6h 1m,"1 day, 2 hours, 1 minute","1 day, 2 hours, 1 minute",-250,-250
+Task,APO-42,Done,Blocker,create poll results screen,4h,4h,0m,0m,1d 2h 33m,1d 2h 33m,"6 hours, 33 minutes","6 hours, 33 minutes",-163,-163
+Task,APO-58,Done,,create screen for voting binary poll,6h,6h,0m,0m,7h 26m,7h 26m,"1 hour, 26 minutes","1 hour, 26 minutes",-23,-23
+Task,APO-66,Done,Blocker,add share button to poll results,2h,2h,0m,0m,3h 42m,3h 42m,"1 hour, 42 minutes","1 hour, 42 minutes",-85,-85
+Task,APO-71,Done,,create dynamodb adapter for accounts,3h,3h,0m,0m,1d 15m,1d 15m,"5 hours, 15 minutes","5 hours, 15 minutes",-175,-175
+Task,APO-75,Done,Major,"Changes to UI for app header, got header and navigation to play nicely.",4h,4h,0m,0m,4h,4h,0 minutes,0 minutes,0,0
+Task,APO-76,Done,Major,Create a landing page,1d,1d,0m,0m,1d 3h 29m,1d 3h 29m,"3 hours, 29 minutes","3 hours, 29 minutes",-43,-43
+Task,APO-78,Done,Major,Create a demographic break down sreen,4h,4h,0m,0m,1d 7h 49m,1d 7h 49m,"1 day, 3 hours, 49 minutes","1 day, 3 hours, 49 minutes",-295,-295
+Task,APO-79,Done,Major,Finish my polls section,3h,3h,0m,0m,4h 37m,4h 37m,"1 hour, 37 minutes","1 hour, 37 minutes",-53,-53
+Task,APO-80,Done,Major,Design Poll API,3h,3h,0m,0m,4h 36m,4h 36m,"1 hour, 36 minutes","1 hour, 36 minutes",-53,-53
+Task,APO-81,Done,Major,Automate the build process,4h,4h,0m,0m,5h 38m,5h 38m,"1 hour, 38 minutes","1 hour, 38 minutes",-40,-40
+Task,APO-96,Done,Major,Create Action for retrieving user poll results (Polls user created),3h,3h,0m,0m,2d 2h 17m,2d 2h 17m,"1 day, 7 hours, 17 minutes","1 day, 7 hours, 17 minutes",-509,-509
+Task,APO-102,Done,Major,implement adapters:,1d,1d,0m,0m,2d 1h 32m,2d 1h 32m,"1 day, 1 hour, 32 minutes","1 day, 1 hour, 32 minutes",-119,-119
+Task,APO-103,Done,Major,unit tests,2h,2h,0m,0m,2d 4h 1m,2d 4h 1m,"2 days, 2 hours, 1 minute","2 days, 2 hours, 1 minute",-900,-900
+Task,APO-139,Done,Major,Create tests for actions,6h,6h,0m,0m,6h 17m,6h 17m,17 minutes,17 minutes,-4,-4
+Task,APO-140,Done,Major,Update service to use a service struct,4h,4h,0m,0m,6h,6h,2 hours,2 hours,-50,-50
+Task,APO-148,Done,Major,Setup and run Expo app on Android and iOS simulators,1h 30m,1h 30m,0m,0m,2h 4m,2h 4m,34 minutes,34 minutes,-37,-37
+Task,APO-150,Done,Major,Move hard coded URLs into configs,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Task,APO-158,Done,Blocker,Create a handler for creating a poll,2h,2h,0m,0m,7h 25m,7h 25m,"5 hours, 25 minutes","5 hours, 25 minutes",-270,-270
+Task,APO-160,Done,Blocker,Create a handler for answering a poll,2h,2h,0m,0m,6h 39m,6h 39m,"4 hours, 39 minutes","4 hours, 39 minutes",-232,-232
+Task,APO-161,Done,Major,Deploy poll service,3h,3h,0m,0m,2d 51m,2d 51m,"1 day, 5 hours, 51 minutes","1 day, 5 hours, 51 minutes",-461,-461
+Task,APO-163,Done,Major,"Send User ID, Account ID and Correlation ID in requests to poll server",2h,2h,0m,0m,2h 56m,2h 56m,56 minutes,56 minutes,-46,-46
+Task,APO-165,Done,Major,View and Create polls with new API,1h 30m,1h 30m,0m,0m,1d 1h 32m,1d 1h 32m,"1 day, 2 minutes","1 day, 2 minutes",-535,-535
+Task,APO-168,Done,Major,Vote on polls in App,2h 30m,2h 30m,0m,0m,3h 47m,3h 47m,"1 hour, 17 minutes","1 hour, 17 minutes",-51,-51
+Task,APO-98,Done,Major,Create action for retrieving poll details,3h,3h,1m,1m,2h 59m,2h 59m,0 minutes,0 minutes,0,0
+Task,APO-60,Done,Blocker,create screen for voting multioption poll,6h,6h,3m,3m,1d 1h 34m,1d 1h 34m,"3 hours, 37 minutes","3 hours, 37 minutes",-60,-60
+Task,APO-84,Done,Major,Send example results json,30m,30m,3m,3m,27m,27m,0 minutes,0 minutes,0,0
+Task,APO-167,Done,Major,Remove upload image functionality,1h 30m,1h 30m,4m,4m,1h 26m,1h 26m,0 minutes,0 minutes,0,0
+Task,APO-113,Done,Major,Allow poll duplicate,6h,6h,5m,5m,5h 55m,5h 55m,0 minutes,0 minutes,0,0
+Task,APO-59,Done,Blocker,create screen for voting image poll,6h,6h,11m,11m,1d 2h 10m,1d 2h 10m,"4 hours, 21 minutes","4 hours, 21 minutes",-72,-72
+Task,APO-100,Done,Major,Apollo Prep,2h,2h,12m,12m,1h 48m,1h 48m,0 minutes,0 minutes,0,0
+Task,APO-27,Done,Blocker,create multiple choice poll screen,1d,1d,18m,18m,1d 12m,1d 12m,30 minutes,30 minutes,-6,-6
+Task,APO-85,Done,Major,Figure out how Ariel is going to access the endpoint,30m,30m,30m,30m,-,-,-,-,0,0
+Task,APO-149,Done,Major,Remove Profile tab and share button,1h 30m,1h 30m,38m,38m,52m,52m,0 minutes,0 minutes,0,0
+Task,APO-63,Done,,create endpoint for getting polls,3h,3h,39m,39m,2h 21m,2h 21m,0 minutes,0 minutes,0,0
+Task,APO-95,Done,Major,Generate GUID/UID on app install,3h,3h,40m,40m,2h 20m,2h 20m,0 minutes,0 minutes,0,0
+Task,APO-111,Done,Major,Create action and hook up functionality for voting on a poll,6h,6h,40m,40m,5h 20m,5h 20m,0 minutes,0 minutes,0,0
+Task,APO-97,Done,Major,Create action for retrieving poll results,3h,3h,41m,41m,2h 19m,2h 19m,0 minutes,0 minutes,0,0
+Task,APO-69,Done,,setup accountApi repository,2h,2h,44m,44m,1h 16m,1h 16m,0 minutes,0 minutes,0,0
+Task,APO-104,Done,Major,test command,1h,1h,50m,50m,10m,10m,0 minutes,0 minutes,0,0
+Task,APO-83,Done,Major,Get Landing page on weflow,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Task,APO-86,Done,Major,Update system architecture doc,1h,1h,1h,1h,-,-,-,-,0,0
+Task,APO-89,Done,Major,Setup Poll mock server,1h,1h,1h,1h,-,-,-,-,0,0
+Task,APO-16,Done,Blocker,setup pollApi repository,2h,2h,1h 3m,1h 3m,57m,57m,0 minutes,0 minutes,0,0
+Task,APO-82,Done,Major,Add Image to question,3h,3h,1h 15m,1h 15m,1h 45m,1h 45m,0 minutes,0 minutes,0,0
+Task,APO-70,Done,,create interface for account storage,2h,2h,1h 40m,1h 40m,20m,20m,0 minutes,0 minutes,0,0
+Task,APO-10,Done,Blocker,"setup aws amplify for facebook login, google login",4h,4h,1h 58m,1h 58m,2h 2m,2h 2m,0 minutes,0 minutes,0,0
+Task,APO-12,Done,Blocker,setup boilerplate react native project,2h,2h,2h,2h,-,-,-,-,0,0
+Task,APO-29,Done,Blocker,create action for creating poll,6h,1d 6h,2h,2h,1d 1h 32m,5d 2h 21m,"5 hours, 32 minutes","3 days, 6 hours, 21 minutes",-92,-216
+-> Sub-task,APO-93,Done,Major,-> Save Poll image using image poll endpoint,4h,,0m,,3d 2h 43m,,"2 days, 6 hours, 43 minutes",,-567,-567
+-> Sub-task,APO-94,Done,Major,-> Store Poll using Enpoint,4h,,0m,,6h 6m,,"2 hours, 6 minutes",,-52,-52
+Task,APO-87,Done,Major,Spec out Results,2h,2h,2h,2h,-,-,-,-,0,0
+Task,APO-108,Done,Major,Mock up the walk through,2h,2h,2h,2h,-,-,-,-,0,0
+Task,APO-112,Done,Major,Display results when poll vote is registered,1d,1d,2h 47m,2h 47m,5h 13m,5h 13m,0 minutes,0 minutes,0,0
+Task,APO-99,Done,Major,Create View for Image poll results,6h,6h,2h 51m,2h 51m,3h 9m,3h 9m,0 minutes,0 minutes,0,0
+Task,APO-22,Done,,create a spec for the create poll api in swagger,6h,6h,6h,6h,-,-,-,-,0,0
+Task,APO-92,Done,Major,Work on Image server,3d,3d,1d,1d,2d 1h 47m,2d 1h 47m,"1 hour, 47 minutes","1 hour, 47 minutes",-7,-7
+Task,APO-77,Done,Major,01/30/3019 Misc LittleApollo,-,-,-,-,-,-,,,,
+,,,,Total,4w 1d 7h 30m,4w 1d 7h 30m,5d 2h 53m,5d 2h 53m,7w 8m,7w 8m,"3 weeks, 3 days, 3 hours, 31 minutes","3 weeks, 3 days, 3 hours, 31 minutes",-81,-81

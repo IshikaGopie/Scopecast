@@ -1,0 +1,28 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,WS-1203,Done,Major,I should be able to login with Shopify,-,5h,-,0m,-,5h 33m,,33 minutes,,
+-> Sub-task,WS-1275,Done,Blocker,-> Make it so that users can log into WeOS with 3rd party OAuth,5h,,0m,,5h 33m,,33 minutes,,-11,-11
+Story,WS-1204,Done,Blocker,I should be able to install WeOS from the Shopify app marketplace,-,-,0m,0m,2h 10m,2h 10m,,,,
+Story,WS-1211,Done,Major,I should be able to run a sync manually,-,-,0m,0m,7h 10m,7h 10m,,,,
+Story,WS-1213,Done,Blocker,I should be able to preview an import,-,-,0m,0m,-,-,,,,
+Story,WS-1255,Done,Major,I should be able to get insights on chargebacks when I first install the app,-,-,0m,0m,2h,2h,,,,
+Story,WS-1350,Done,Blocker,I should be able to test the shopify integration without setting up Quickbooks,-,-,0m,0m,48m,48m,,,,
+Task,WS-1390,Closed,Major,"@nuxt dev tools, security vulnerability",20m,20m,0m,0m,20m,20m,0 minutes,0 minutes,0,0
+Task,WS-1454,Done,Blocker,Update app listing to address feedback,-,-,0m,0m,15m,15m,,,,
+Bug,WS-1455,Done,Blocker,Can't go to chat with assistant when logged in with shopify account,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Story,WS-1468,Done,Major,I should be able to post a payout,-,-,0m,0m,-,-,,,,
+Story,WS-1592,Done,Major,I should be able to see all tax mappings,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Story,WS-1205,Done,Major,I should be able to setup multiple stores in WeOS,-,-,-,-,-,-,,,,
+Story,WS-1207,Done,Blocker,I should be able to configure how sales orders are sync'd,-,-,-,-,-,-,,,,
+Story,WS-1208,Done,Major,I should be able to configure how fees are sync'd,-,-,-,-,-,-,,,,
+Story,WS-1209,Done,Blocker,I should be able to configure how taxes are sync'd,-,-,-,-,-,-,,,,
+Story,WS-1256,Done,Major,I should be able to get weekly insights on chargebacks,-,-,-,-,-,-,,,,
+Task,WS-1295,Done,Blocker,Add endpoints to handle GDPR Requests,-,-,-,-,-,-,,,,
+Story,WS-1307,Closed,Major,I should be able to preview an import,-,-,-,-,-,-,,,,
+Story,WS-1308,Closed,Major,I should be able to approve an import,-,-,-,-,-,-,,,,
+Story,WS-1453,Done,Blocker,I should be able to switch between plans,-,-,-,-,-,-,,,,
+Bug,WS-1456,Closed,Blocker,Can't create signal from an account that was created with shopify,-,-,-,-,-,-,,,,
+Story,WS-1466,Done,Major,I should be able to configure how payouts are imported,-,-,-,-,-,-,,,,
+Story,WS-1467,Done,Major,I should be able to preview a payout,-,-,-,-,-,-,,,,
+Story,WS-1470,Done,Major,I should be able to undo an import,-,-,-,-,-,-,,,,
+Task,WS-1475,Done,Critical,Create customer specific shopify provider,-,-,-,-,-,-,,,,
+,,,,Total,1d 20m,1d 20m,0m,0m,2d 5h 16m,2d 5h 16m,"1 day, 4 hours, 56 minutes","1 day, 4 hours, 56 minutes",-155,-155

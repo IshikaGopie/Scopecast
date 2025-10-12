@@ -1,0 +1,8 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Task,WS-1325,Done,Major,Replace Auth0 as auth provider,-,-,0m,0m,1h,1h,,,,
+Bug,WS-1849,Done,Blocker,When Token Expired have to restart the service for new token to take effect,-,-,0m,0m,40m,40m,,,,
+Task,WS-1804,Done,Critical,Get rid of dev environment,-,-,-,-,-,-,,,,
+Bug,WS-1843,Done,Blocker,Issues preparing for Nassif Demo,-,-,-,-,-,-,,,,
+Task,WS-1846,Done,Major,Nassif workaround for missing SKUS,-,-,-,-,-,-,,,,
+Bug,WS-1851,Done,Major,Connection Title is blank after shopify user logs in,-,-,-,-,-,-,,,,
+,,,,Total,0m,0m,0m,0m,1h 40m,1h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",0,0

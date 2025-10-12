@@ -1,0 +1,25 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,PALM-17,Done,Major,I should be able to manage service requests,-,-,0m,0m,1h,1h,,,,
+Task,PALM-114,In Progress,Blocker,QA,0m,0m,0m,0m,-,-,,-,,
+Task,PALM-130,Done,Major,Remove the magic unmarshal,1h,1h,0m,0m,4h 30m,4h 30m,"3 hours, 30 minutes","3 hours, 30 minutes",-350,-350
+Task,PALM-1,Closed,Major,Setup terraform workspace for PALM,1h,1h,1h,1h,1h,1h,1 hour,1 hour,-100,-100
+Task,PALM-13,Closed,Major,Setup front-end app,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Task,PALM-131,Closed,Major,For multi add ensure we delete the existing first and then attach the new,2h,2h,2h,2h,-,-,-,-,0,0
+Story,PALM-4,Done,Major,Manage Clients,-,-,-,-,-,-,,,,
+Story,PALM-5,Reopened,Major,I should be able to manage contacts,-,-,-,-,-,-,,,,
+Story,PALM-6,Done,Major,I should be able to manage contracts,-,-,-,-,-,-,,,,
+Story,PALM-7,Done,Major,I should be able to manage quotes,-,-,-,-,-,-,,,,
+Story,PALM-10,Closed,Major,As an accountant I should be able to send an invoice to the client,-,-,-,-,-,-,,,,
+Story,PALM-11,Done,Major,As a client I should be able to sign off on a request,-,-,-,-,-,-,,,,
+Story,PALM-14,Done,Major,I should be able to manage vendors,-,-,-,-,-,-,,,,
+Story,PALM-15,Done,Major,I should be able to manage expenses,-,-,-,-,-,-,,,,
+Story,PALM-16,Done,Major,I should be able to manage the price schedule,-,-,-,-,-,-,,,,
+Story,PALM-18,Done,Blocker,I should be able to create a new service request,-,-,-,-,-,-,,,,
+Story,PALM-93,Reopened,Critical,I should be able to manage invoice,-,-,-,-,-,-,,,,
+Story,PALM-98,In Progress,Major,I should be able to manage users,-,-,-,-,-,-,,,,
+Task,PALM-101,QA,Major,Enforce role RBAC,-,-,-,-,-,-,,,,
+Story,PALM-133,QA,Major,As an user I should be able to send out a service request confirmation,-,-,-,-,-,-,,,,
+Story,PALM-138,QA,Critical,As an admin I should be able to download all the documents related to a service request,-,-,-,-,-,-,,,,
+Task,PALM-142,To Do,Major,Add screen to mark service request as paid,-,-,-,-,-,-,,,,
+Story,PALM-144,QA,Major,I should be able to add items to a price schedule for a vendor,-,-,-,-,-,-,,,,
+,,,,Total,6h,6h,4h,4h,7h 30m,7h 30m,"5 hours, 30 minutes","5 hours, 30 minutes",-91,-91

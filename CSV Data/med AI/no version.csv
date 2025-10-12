@@ -1,0 +1,138 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Task,MED-26,Done,Major,Setup Prod environment,4h,4h,0m,0m,1d 18m,1d 18m,"4 hours, 18 minutes","4 hours, 18 minutes",-107,-107
+Sub-task,MED-29,Done,Major,MED-1 -> Setup environment for apple id,2h,2h,0m,0m,2h 30m,2h 30m,30 minutes,30 minutes,-25,-25
+Sub-task,MED-30,Done,Major,MED-1 -> Setup OAuth Config for Apple Service,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-32,Done,Major,MED-1 -> Feedback,-,-,0m,0m,1d 1h,1d 1h,,,,
+Sub-task,MED-34,Done,Major,MED-2 -> Implement GetInfo,30m,30m,0m,0m,40m,40m,10 minutes,10 minutes,-33,-33
+Sub-task,MED-36,Done,Major,MED-3 -> Implement GetInfo,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-38,Done,Major,MED-4 -> Setup login endpoint,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-39,Done,Major,MED-4 -> Implement Cache service interface on Azure Service,1h,1h,0m,0m,1h 6m,1h 6m,6 minutes,6 minutes,-10,-10
+Sub-task,MED-42,Done,Major,MED-5 -> Setup system for initiating a password reset,1h,1h,0m,0m,1h 50m,1h 50m,50 minutes,50 minutes,-83,-83
+Sub-task,MED-43,Done,Major,MED-5 -> Setup endpoint for updating the password after reset,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,MED-47,To Do,Major,MED-27 -> Update github actions to push to azure,4h,4h,0m,0m,5h 30m,5h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-37,-37
+Sub-task,MED-49,Done,Major,MED-27 -> Setup authentication and login,4h,4h,0m,0m,4h 30m,4h 30m,30 minutes,30 minutes,-12,-12
+Sub-task,MED-50,Done,Major,MED-22 -> Setup container,2h,2h,0m,0m,3h 10m,3h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",-58,-58
+Sub-task,MED-52,To Do,Major,MED-22 -> Setup api gateway,30m,30m,0m,0m,2h,2h,"1 hour, 30 minutes","1 hour, 30 minutes",-300,-300
+Sub-task,MED-53,Done,Major,MED-27 -> setup onboarding screens,-,-,0m,0m,3h,3h,,,,
+Sub-task,MED-54,In Progress,Major,MED-27 -> fix failing tests,-,-,0m,0m,1h,1h,,,,
+Sub-task,MED-56,Done,Major,MED-5 -> setup email service,-,-,0m,0m,1h 10m,1h 10m,,,,
+Sub-task,MED-76,Done,Major,MED-19 -> model the tutor service,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-77,Done,Major,"MED-19 -> create entities, receivers etc",1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-79,Done,Major,MED-19 -> add screens to admin for managing prompt,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-80,Done,Major,MED-18 -> Add concept of tags,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-82,Done,Major,MED-18 -> Update question form to allow user to specify identifier,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-84,Done,Major,MED-18 -> Update question form so that multemdia could be uploaded or added as a link,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-87,Done,Major,MED-18 -> Make it so that the id for the question is generated,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,MED-88,Done,Major,MED-18 -> Add multimedia concept to answers,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-94,Done,Major,MED-93 -> Import learning objectives,3h,3h,0m,0m,5h,5h,2 hours,2 hours,-66,-66
+Sub-task,MED-95,Done,Major,MED-93 -> Update UI to be auto complete,2h,2h,0m,0m,3h,3h,1 hour,1 hour,-50,-50
+Sub-task,MED-96,Done,Major,MED-6 -> Setup build keys in app store,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-99,Done,Major,MED-6 -> First deploy to test flight,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-102,Done,Major,MED-17 -> Add endpoint for creating a question bank,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-107,Done,Major,MED-93 -> Add endpoint for managing topics,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-111,Done,Major,MED-93 -> Add screen for uploading CSV with objectives,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,MED-112,Done,Major,MED-93 -> Feedback,-,-,0m,0m,1h 40m,1h 40m,,,,
+Sub-task,MED-113,Done,Major,MED-17 -> Hook up creation screen to API,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-115,Done,Major,MED-17 -> Update block domain entity with logic for generating a block,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-116,Done,Major,MED-17 -> Setup question service for return a list of questions,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-118,Done,Major,MED-16 -> Add entity for a submission to the block,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-119,Done,Major,MED-16 -> Add pinia store for tracking progress in the block and navigating the block,1h,1h,0m,0m,3h,3h,2 hours,2 hours,-200,-200
+Sub-task,MED-122,Done,Major,MED-121 -> update block to track time remaining,1h,1h,0m,0m,4h,4h,3 hours,3 hours,-300,-300
+Sub-task,MED-123,Done,Major,MED-121 -> track end time,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,MED-139,Done,Major,MED-16 -> Add entity for recording the answer,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-146,Done,Major,MED-14 -> Add a query tutor endpoint,15m,15m,0m,0m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,MED-147,Done,Major,MED-14 -> instantiate LLM Service,15m,15m,0m,0m,15m,15m,0 minutes,0 minutes,0,0
+Sub-task,MED-150,Done,Major,MED-148 -> Add controller to get a list of organ systems along with the user scores and percentiles,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-152,Done,Major,MED-15 -> update chat receiver to filter by tutor,15m,15m,0m,0m,30m,30m,15 minutes,15 minutes,-100,-100
+Sub-task,MED-153,Done,Major,MED-15 -> Add a review tutor receiver,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,MED-154,Done,Major,MED-14 -> create a tutor service on the app,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-155,Done,Major,MED-14 -> update the app to send a request to the tutor endpoint on the tutor service,1h,1h,0m,0m,2h 26m,2h 26m,"1 hour, 26 minutes","1 hour, 26 minutes",-143,-143
+Sub-task,MED-156,Done,Major,MED-15 -> update the app to send a request to the endpoint on the tutor service,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-157,Done,Major,MED-14 -> Setup query service,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-158,Done,Major,MED-15 -> set up review service,1h,1h,0m,0m,-,-,-,-,100,100
+Sub-task,MED-161,Done,Major,MED-14 -> create an event handler for creating a chat,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-162,Done,Major,MED-14 -> create an event handler for creating a message,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,MED-163,Done,Major,MED-14 -> Add a tutor property to the prompt,1h,1h,0m,0m,20m,20m,40 minutes,40 minutes,66,66
+Sub-task,MED-164,Done,Major,MED-14 -> update the app to add a menu to select the tutor when creating the prompt,1h,1h,0m,0m,15m,15m,45 minutes,45 minutes,75,75
+Sub-task,MED-167,Done,Major,MED-15 -> update the app to make the tutor available when reviewing a question,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-174,Done,Major,MED-173 -> Add domain entity for user feedback,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-175,Done,Major,MED-173 -> Update handler to send email to admins when user feedback is added,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,MED-176,Done,Major,MED-173 -> Added receiver and endpoint for submitting feedback,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-177,Done,Major,MED-173 -> Show list of feedback in question view in admin,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-178,Done,Major,MED-173 -> Hook up feedback view to endpoint,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-180,Done,Major,MED-128 -> Hook up the explanations for write and incorrect answers,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-182,Done,Major,MED-127 -> Hook up block results,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,MED-184,Done,Major,MED-10 -> Setup product and entitlements in revenue cat,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-185,Done,Major,MED-10 -> Setup revenue cat SDK on iOS,1h,1h,0m,0m,6h,6h,5 hours,5 hours,-500,-500
+Sub-task,MED-188,Done,Major,MED-10 -> Link Stripe to Revenue Cat,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,MED-190,Done,Major,MED-10 -> Hook up subscription purchase in UI,0m,0m,0m,0m,1h,1h,1 hour,1 hour,,
+Sub-task,MED-192,Done,Major,MED-10 -> Hook up link to manage subscription on stripe if web purchase,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-197,Done,Major,MED-124 -> hook up updated list,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-198,Done,Major,MED-129 -> Hook up pause functionality to update block on back end,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-202,Done,Major,MED-17 -> Feedback,-,-,0m,0m,1h,1h,,,,
+Sub-task,MED-205,Done,Major,MED-6 -> Add logos for the app,20m,20m,0m,0m,-,-,-,-,100,100
+Sub-task,MED-208,Done,Major,MED-16 -> Feedback,-,-,0m,0m,3h,3h,,,,
+Sub-task,MED-215,Done,Major,MED-15 -> Feedback,-,-,0m,0m,2h,2h,,,,
+Sub-task,MED-216,Done,Major,MED-210 -> add endpoint to get user,-,-,0m,0m,30m,30m,,,,
+Sub-task,MED-218,In Progress,Major,MED-4 -> feedback,-,-,0m,0m,40m,40m,,,,
+Sub-task,MED-223,Done,Major,MED-1 -> update callback handler to handle the apple login,-,-,0m,0m,2h,2h,,,,
+Bug,MED-225,To Do,Major,Subscription not working,-,-,0m,0m,1h 30m,1h 30m,,,,
+Bug,MED-228,Closed,Major,Topics Id default to learning objective id on import,-,-,0m,0m,45m,45m,,,,
+Sub-task,MED-45,Done,Major,MED-4 -> Implement AWS service,1h,1h,10m,10m,50m,50m,0 minutes,0 minutes,0,0
+Sub-task,MED-89,Done,Major,MED-18 -> Add multimedia concept to answer form,1h,1h,10m,10m,2h 30m,2h 30m,"1 hour, 40 minutes","1 hour, 40 minutes",-166,-166
+Sub-task,MED-37,Done,Major,MED-3 -> Setup Oauth config,1h,1h,17m,17m,43m,43m,0 minutes,0 minutes,0,0
+Sub-task,MED-31,Done,Major,MED-1 -> Implement GetInfo,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,MED-46,Done,Major,MED-27 -> Setup base app,2h,2h,30m,30m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,MED-86,Done,Major,MED-18 -> Add the ability to do bulk actions on questions,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,MED-110,Done,Major,MED-93 -> Create endpoint for importing learning objectives,2h,2h,30m,30m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,MED-145,Done,Major,MED-14 -> Add a query receiver to the tutor service,2h,2h,30m,30m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,MED-151,Done,Major,MED-148 -> Hook up endpoint to UI,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,MED-169,Done,Major,MED-166 -> Update block taking flow to show explanation after each question,1h,1h,30m,30m,-,-,-,-,50,50
+Sub-task,MED-44,Done,Major,MED-22 -> Setup Azure CLI and init terraform state,2h,2h,49m,49m,1h 11m,1h 11m,0 minutes,0 minutes,0,0
+Task,MED-23,Done,Major,Create terraform module for Azure Container Instance,2h,2h,53m,53m,1h 7m,1h 7m,0 minutes,0 minutes,0,0
+Sub-task,MED-35,To Do,Major,MED-3 -> Setup client id and secret,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-41,To Do,Major,MED-8 -> Add event handler for sending emails,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-75,Done,Major,MED-18 -> Add learning objectives,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-78,Done,Major,MED-19 -> confirm prompt endpoint works,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-83,Done,Major,MED-18 -> Add concept of multimedia links to questions,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-98,Done,Major,MED-6 -> Fix issue with notch,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-108,Done,Major,MED-93 -> Add endpoint for managing sub topics,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-120,Done,Major,MED-16 -> Hook up the front end to display question,1h,1h,1h,1h,1h,1h,1 hour,1 hour,-100,-100
+Sub-task,MED-136,Done,Major,MED-135 -> Create entity for tracking user stats,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-137,Done,Major,MED-135 -> Update block handler to update average score on user stats,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-138,Done,Major,MED-135 -> Add controller for returning user stats,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-186,Done,Major,MED-10 -> Setup revenuecat SDK on android,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-187,Done,Major,MED-10 -> setup revenuecat SDK on web,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-189,Done,Major,MED-10 -> Upgrade IAM to support subscriptions,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-191,Done,Major,MED-10 -> Feedback,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,MED-199,Done,Major,MED-129 -> Add code to end the exam when time runs out,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-200,Done,Major,MED-14 -> update the open AI service to pass in an endpoint,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,MED-51,Done,Major,MED-22 -> Setup container registry,2h,2h,1h 30m,1h 30m,30m,30m,0 minutes,0 minutes,0,0
+Task,MED-24,Closed,Major,Setup Dev environment,2h,2h,2h,2h,-,-,-,-,0,0
+Task,MED-74,To Do,Major,Add concept of feedback and users,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,MED-85,Done,Major,MED-18 -> Add more columns to the question list and the ability to filter on those column,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,MED-195,To Do,Major,MED-7 -> get android build working,2h,2h,2h,2h,-,-,-,-,0,0
+Story,MED-140,To Do,Major,I should be able to see my average overall score rank against all users in the system,-,2h 30m,-,2h 30m,-,-,,-,,
+-> Sub-task,MED-141,To Do,Major,-> Create a gorm model for tracking all user scores,30m,,30m,,-,,-,,0,0
+-> Sub-task,MED-142,To Do,Major,-> Update block handler to store score table,30m,,30m,,-,,-,,0,0
+-> Sub-task,MED-144,To Do,Major,-> Hook up ranking performance widget,30m,,30m,,-,,-,,0,0
+-> Sub-task,MED-143,To Do,Major,-> Update stats controller to return the user's rank and percentile,1h,,1h,,-,,-,,0,0
+Sub-task,MED-33,Done,Major,MED-2 -> Setup client id and secret,-,-,-,-,-,-,,,,
+Sub-task,MED-100,Done,Major,MED-6 -> Feedback,-,-,-,-,-,-,,,,
+Sub-task,MED-104,Done,Major,MED-16 -> Add endpoint for saving answer to a question,-,-,-,-,-,-,,,,
+Sub-task,MED-106,Done,Major,MED-16 -> Add endpoint for updating the state of the exam,-,-,-,-,-,-,,,,
+Sub-task,MED-114,Done,Major,MED-17 -> Update the filter form so that the organ system filter shows topics,-,-,-,-,-,-,,,,
+Sub-task,MED-117,Done,Major,MED-17 -> Make it so that select all on the filter selects ALL in the list,-,-,-,-,-,-,,,,
+Sub-task,MED-125,Done,Major,MED-124 -> Update the list of paused questions across the top of the blocks landing screen,-,-,-,-,-,-,,,,
+Sub-task,MED-133,Done,Major,MED-131 -> Update with full list of specialties,-,-,-,-,-,-,,,,
+Sub-task,MED-149,Done,Major,MED-148 -> UI Updates,-,-,-,-,-,-,,,,
+Sub-task,MED-160,Done,Major,MED-159 -> Hook up list to list block api,-,-,-,-,-,-,,,,
+Sub-task,MED-165,Done,Major,MED-17 -> Add disciplines filter,-,-,-,-,-,-,,,,
+Sub-task,MED-168,Done,Major,MED-128 -> Add review version of question detail,-,-,-,-,-,-,,,,
+Sub-task,MED-171,Done,Major,MED-170 -> Add method for progressing timer,-,-,-,-,-,-,,,,
+Sub-task,MED-172,Done,Major,MED-170 -> Clear timer set timeout the moment the explanation is shown in tutor mode,-,-,-,-,-,-,,,,
+Sub-task,MED-179,Done,Major,MED-128 -> Update the question answers to have a version where the answer is wrong and another when it's correct,-,-,-,-,-,-,,,,
+Sub-task,MED-181,Done,Major,MED-127 -> Add screen for block results,-,-,-,-,-,-,,,,
+Sub-task,MED-194,To Do,Major,MED-7 -> Setup fastlane for android,-,-,-,-,-,-,,,,
+Bug,MED-227,Closed,Major,AI tutor screen too large,-,-,-,-,-,-,,,,
+,,,,Total,2w 2d 1h 35m,2w 2d 1h 35m,4d 2h 49m,4d 2h 49m,2w 4d 7h 26m,2w 4d 7h 26m,"1 week, 40 minutes","1 week, 40 minutes",-43,-43

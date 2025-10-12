@@ -1,0 +1,119 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Sub-task,PALM-22,Done,Major,PALM-11 -> add a receiver for approving/rejecting the service request,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-23,Done,Major,PALM-11 -> add confirmation screens to show the choice that they selected,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-26,Done,Major,PALM-17 -> Setup controllers for getting a list of requests and viewing a request,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-29,Done,Major,PALM-17 -> Add receiver for creating a service request in an account,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-30,Done,Major,PALM-17 -> Add a receiver for deleting a service request,1h,1h,0m,0m,20m,20m,40 minutes,40 minutes,66,66
+Sub-task,PALM-38,Done,Major,PALM-6 -> create domain object and model for contract,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-39,Done,Major,PALM-6 -> add receiver for creating contract,1h,1h,0m,0m,6h,6h,5 hours,5 hours,-500,-500
+Sub-task,PALM-40,Done,Major,PALM-6 -> create domain object and model for price schedule item,-,-,0m,0m,2h,2h,,,,
+Sub-task,PALM-41,Done,Major,PALM-6 -> hook up create contract screen,-,-,0m,0m,41m,41m,,,,
+Sub-task,PALM-42,Done,Major,PALM-6 -> create controller for listing the contracts,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-43,Done,Major,PALM-6 -> add a receiver for deleting a contract,1h,1h,0m,0m,20m,20m,40 minutes,40 minutes,66,66
+Sub-task,PALM-44,Done,Major,PALM-4 -> Add view client screen,-,-,0m,0m,1h,1h,,,,
+Sub-task,PALM-46,Done,Major,PALM-17 -> Add endpoint for uploading a file,2h,2h,0m,0m,4h 37m,4h 37m,"2 hours, 37 minutes","2 hours, 37 minutes",-130,-130
+Sub-task,PALM-47,Done,Major,PALM-17 -> Add screen for Adding a Quote,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-52,Done,Major,PALM-17 -> Hook up service request view screen,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,PALM-53,Done,Major,PALM-17 -> Wireframe and client approval,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,PALM-54,Done,Major,PALM-17 -> Add endpoint for adding service request items,1h,1h,0m,0m,5h 6m,5h 6m,"4 hours, 6 minutes","4 hours, 6 minutes",-410,-410
+Sub-task,PALM-56,Done,Major,PALM-17 -> Update the service request list screen columns,1h,1h,0m,0m,3h,3h,2 hours,2 hours,-200,-200
+Sub-task,PALM-57,Done,Major,"PALM-15 -> Rework Bills, Vendor Quotes",1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,PALM-58,Done,Major,PALM-17 -> Add FileService implementation for AWS that uses S3,-,-,0m,0m,1h 17m,1h 17m,,,,
+Sub-task,PALM-59,Done,Major,PALM-7 -> Hook up screen for adding a Quote,1h,1h,0m,0m,5h 10m,5h 10m,"4 hours, 10 minutes","4 hours, 10 minutes",-416,-416
+Sub-task,PALM-60,Done,Major,PALM-6 -> Update the items functionality to make edit behave similar to service request items,1h,1h,0m,0m,1h 33m,1h 33m,33 minutes,33 minutes,-55,-55
+Sub-task,PALM-61,Done,Major,PALM-14 -> Confirm vendor API works,2h,2h,0m,0m,1h,1h,1 hour,1 hour,50,50
+Sub-task,PALM-70,Done,Major,PALM-5 -> Ensure add contact works,1h,1h,0m,0m,2h 52m,2h 52m,"1 hour, 52 minutes","1 hour, 52 minutes",-186,-186
+Sub-task,PALM-71,Done,Major,PALM-16 -> Add endpoint for listing schedules,1h,1h,0m,0m,30m,30m,30 minutes,30 minutes,50,50
+Sub-task,PALM-72,Done,Major,PALM-16 -> Add endpoint for upserting schedule,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-73,Done,Major,PALM-16 -> Add endpoint for viewing schedule,20m,20m,0m,0m,10m,10m,10 minutes,10 minutes,50,50
+Sub-task,PALM-74,Done,Major,PALM-16 -> Add endpoint for deleting schedule,-,-,0m,0m,30m,30m,,,,
+Sub-task,PALM-75,Done,Major,PALM-16 -> Add endppint for listing categories,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-76,Done,Major,PALM-16 -> add endpoint for upserting categories,1h,1h,0m,0m,4h 42m,4h 42m,"3 hours, 42 minutes","3 hours, 42 minutes",-370,-370
+Sub-task,PALM-77,Done,Major,PALM-16 -> add endpoint for viewing categories,-,-,0m,0m,30m,30m,,,,
+Sub-task,PALM-78,Done,Major,PALM-16 -> add endpoint for deleting categories,-,-,0m,0m,10m,10m,,,,
+Sub-task,PALM-79,Done,Major,PALM-16 -> add endpoint for listing items,1h,1h,0m,0m,25m,25m,35 minutes,35 minutes,58,58
+Sub-task,PALM-82,Done,Major,PALM-16 -> add endpoint for viewing items,30m,30m,0m,0m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,PALM-87,Done,Major,PALM-16 -> Add for for creating categories,-,-,0m,0m,50m,50m,,,,
+Sub-task,PALM-90,Done,Major,PALM-15 -> Add endpoint for upserting expense,1h,1h,0m,0m,2h 40m,2h 40m,"1 hour, 40 minutes","1 hour, 40 minutes",-166,-166
+Sub-task,PALM-91,Done,Major,PALM-15 -> Add screen for upserting expense,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,PALM-92,Done,Major,PALM-15 -> Update expense list to show aggregates,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-94,Done,Major,PALM-93 -> Add endpoint for upserting invoice,1h,1h,0m,0m,2h,2h,1 hour,1 hour,-100,-100
+Sub-task,PALM-95,Done,Major,PALM-93 -> Add endoint for viewing invoice details,1h,1h,0m,0m,10m,10m,50 minutes,50 minutes,83,83
+Sub-task,PALM-99,Done,Major,PALM-98 -> Add screen to list users,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-100,To Do,Major,PALM-98 -> Add screen to invite user,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-104,Done,Major,PALM-7 -> ensure delete file works,1h,1h,0m,0m,20m,20m,40 minutes,40 minutes,66,66
+Sub-task,PALM-105,Done,Major,PALM-7 -> AWS upload not working,-,-,0m,0m,2h,2h,,,,
+Sub-task,PALM-106,Done,Major,PALM-16 -> make it so that the price schedule items would not get overwritten from the initializer,1h,1h,0m,0m,30m,30m,30 minutes,30 minutes,50,50
+Sub-task,PALM-107,Done,Major,PALM-15 -> Update the expense main list view,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-108,Done,Major,PALM-5 -> Add view contact endpoint,1h,1h,0m,0m,10m,10m,50 minutes,50 minutes,83,83
+Sub-task,PALM-109,Done,Major,PALM-5 -> Add delete contact endpoint,1h,1h,0m,0m,10m,10m,50 minutes,50 minutes,83,83
+Sub-task,PALM-110,Done,Major,PALM-5 -> Confirm upsert contact endpoint is setup,1h,1h,0m,0m,2h 30m,2h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,PALM-111,Done,Major,PALM-98 -> Add endpoint so that admins can edit a user,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-112,Done,Major,PALM-98 -> Add endpoint to get a user's details,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Sub-task,PALM-113,Done,Critical,PALM-98 -> Add initializer for roles,1h,1h,0m,0m,45m,45m,15 minutes,15 minutes,25,25
+Sub-task,PALM-115,Done,Major,PALM-114 -> First round QA on staging,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-120,Done,Major,PALM-14 -> Feedback,-,-,0m,0m,30m,30m,,,,
+Sub-task,PALM-121,Done,Major,PALM-7 -> Feedback,-,-,0m,0m,45m,45m,,,,
+Sub-task,PALM-122,Done,Major,PALM-4 -> Feedback,-,-,0m,0m,12m,12m,,,,
+Sub-task,PALM-123,Done,Major,PALM-6 -> Feedback,-,-,0m,0m,12m,12m,,,,
+Sub-task,PALM-124,Done,Major,PALM-17 -> Feedback,-,-,0m,0m,1h 10m,1h 10m,,,,
+Sub-task,PALM-125,Done,Major,PALM-18 -> Feedback,-,-,0m,0m,1h 5m,1h 5m,,,,
+Sub-task,PALM-126,Done,Major,PALM-93 -> Feedback,0m,0m,0m,0m,1h 10m,1h 10m,"1 hour, 10 minutes","1 hour, 10 minutes",,
+Sub-task,PALM-127,Done,Major,PALM-15 -> feedback,-,-,0m,0m,2h,2h,,,,
+Sub-task,PALM-128,Done,Major,PALM-11 -> Feedback,-,-,0m,0m,40m,40m,,,,
+Sub-task,PALM-129,Done,Major,PALM-5 -> Feedback,-,-,0m,0m,20m,20m,,,,
+Sub-task,PALM-134,Done,Major,PALM-133 -> add receiver and endpoint to send confirmation email to requestor,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-135,Done,Major,PALM-133 -> Updated email template to show service request items and new copy,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-145,Done,Major,PALM-144 -> Create a vendor item domain entity,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-55,Done,Major,PALM-17 -> Update dashboard to show service request status,1h,1h,13m,13m,47m,47m,0 minutes,0 minutes,0,0
+Sub-task,PALM-31,Done,Major,PALM-18 -> Add value object for message,15m,15m,15m,15m,-,-,-,-,0,0
+Sub-task,PALM-116,To Do,Major,PALM-114 -> Second Round QA on staging,1h,1h,15m,15m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,PALM-86,Done,Major,PALM-16 -> Add form for creating schedule,1h,1h,20m,20m,40m,40m,0 minutes,0 minutes,0,0
+Sub-task,PALM-25,Done,Major,PALM-17 -> Add gorm model for service request,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,PALM-35,Done,Major,PALM-4 -> setup IAM on staging so that accounts can be managed,2h,2h,30m,30m,1h 30m,1h 30m,0 minutes,0 minutes,0,0
+Sub-task,PALM-36,Done,Major,PALM-4 -> integrate UI with IAM,1h,1h,30m,30m,7h 30m,7h 30m,7 hours,7 hours,-700,-700
+Sub-task,PALM-67,Done,Major,PALM-17 -> Update list on service request items to show cost,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,PALM-132,To Do,Major,PALM-101 -> Make markup view admin only,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,PALM-65,Done,Major,PALM-6 -> Confirm edit is working,1h,1h,40m,40m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,PALM-68,Done,Major,PALM-17 -> Ensure service request edit works,1h,1h,40m,40m,20m,20m,0 minutes,0 minutes,0,0
+Sub-task,PALM-66,Done,Minor,PALM-6 -> Add filter by client,1h,1h,50m,50m,10m,10m,0 minutes,0 minutes,0,0
+Task,PALM-97,To Do,Critical,Move over to client servers,4h,4h,50m,50m,3h 10m,3h 10m,0 minutes,0 minutes,0,0
+Sub-task,PALM-20,Done,Major,PALM-18 -> Create a receiver for creating a service request,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-21,Done,Major,PALM-18 -> Add a handler that sends and email to the contact associated with the request,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-24,Done,Major,PALM-17 -> Add domain object for service request,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-33,Done,Major,PALM-18 -> Add middleware that can be used to output any screen as a pdf,3h,3h,1h,1h,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,PALM-45,Done,Major,PALM-18 -> Make it so that an identifier is generated for service request,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-48,Done,Major,PALM-17 -> Add screen for adding items to a service request,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-51,Done,Major,PALM-17 -> Hook up screen for adding items to a service request,1h,1h,1h,1h,1h,1h,1 hour,1 hour,-100,-100
+Sub-task,PALM-62,Done,Major,PALM-14 -> Add list screen,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-63,Done,Major,PALM-14 -> Add edit screen,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-64,Done,Major,PALM-4 -> Connect search,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-69,Done,Major,PALM-5 -> Ensure contact edit works,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-84,Done,Major,PALM-16 -> add screen for view screen for a schedule that shows categories,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-88,Done,Major,PALM-16 -> Add form for creating items,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-102,To Do,Major,PALM-101 -> Update UI to only show specific menus to a specific role,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-103,To Do,Major,PALM-101 -> Update api to only allow admins on certain endpoints,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-117,To Do,Major,PALM-114 -> Third Round QA on staging,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-118,To Do,Major,PALM-114 -> First Round QA on prod,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-119,To Do,Major,PALM-114 -> Second Round QA on prod,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-137,Done,Major,PALM-133 -> Hook up confirmation send to front end,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-139,To Do,Major,PALM-138 -> Add a receiver that zips all the related files to a service request and returns a link to the zip,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-140,To Do,Major,PALM-138 -> Add button to download to create and download the zip,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-143,To Do,Major,PALM-142 -> Add checkbox for admin to mark the service request as paid,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-146,Done,Major,PALM-144 -> Update vendor view to list vendor items,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,PALM-147,Done,Major,PALM-144 -> Add a form for creating a vendor item,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-148,Done,Major,PALM-144 -> Add command receiver and endpoint for creating vendor item,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,PALM-149,In Progress,Major,PALM-144 -> Update the expense form to show list of related vendor items to the selected service request items,2h,2h,1h,1h,6h 30m,6h 30m,"5 hours, 30 minutes","5 hours, 30 minutes",-275,-275
+Sub-task,PALM-96,Done,Major,PALM-93 -> Add form for editing invoice,2h,2h,1h 20m,1h 20m,40m,40m,0 minutes,0 minutes,0,0
+Task,PALM-3,Closed,Major,Create client service,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,PALM-50,Done,Major,PALM-15 -> Hook up editing vendor quote screen,1h,1h,2h,2h,1h,1h,2 hours,2 hours,-200,-200
+Sub-task,PALM-89,Done,Major,PALM-10 -> Create CSV of invoice,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,PALM-19,Done,Major,PALM-18 -> create UI for creating a basic service request,-,-,-,-,-,-,,,,
+Sub-task,PALM-27,Done,Major,PALM-17 -> Add screen for viewing a list of service requests,-,-,-,-,-,-,,,,
+Sub-task,PALM-28,Done,Major,PALM-17 -> Add screen for view a service request,-,-,-,-,-,-,,,,
+Sub-task,PALM-34,Done,Major,PALM-4 -> setup account domain object and gorm model,-,-,-,-,-,-,,,,
+Sub-task,PALM-49,Done,Major,PALM-17 -> Add screen for editing a bill,-,-,-,-,-,-,,,,
+Sub-task,PALM-83,Done,Major,PALM-16 -> add screen for listing schedules,-,-,-,-,-,-,,,,
+Sub-task,PALM-85,Done,Major,PALM-16 -> Add view screen for categorie that shows items,-,-,-,-,-,-,,,,
+Sub-task,PALM-136,Done,Major,PALM-133 -> remove previous email that was being sent,-,-,-,-,-,-,,,,
+,,,,Total,1w 5d 7h 5m,1w 5d 7h 5m,4d 7h 53m,4d 7h 53m,2w 1d 2h 24m,2w 1d 2h 24m,"1 week, 3 hours, 12 minutes","1 week, 3 hours, 12 minutes",-57,-57

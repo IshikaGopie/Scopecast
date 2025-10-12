@@ -1,0 +1,153 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Task,APO-1,Done,Major,Create Pages and Navigation through the app,6h,6h,0m,0m,6h 9m,6h 9m,9 minutes,9 minutes,-2,-2
+Task,APO-4,Done,Major,Create a Poll Functionality,2d,2d,0m,0m,1d 2h 58m,1d 2h 58m,"5 hours, 2 minutes","5 hours, 2 minutes",31,31
+Task,APO-6,Done,Major,Build App load/first open flow according to design,-,-,0m,0m,2h 30m,2h 30m,,,,
+Task,APO-7,Done,Major,Build design for feed/Home page And Create Poll Page,0m,0m,0m,0m,1d 1h 50m,1d 1h 50m,"1 day, 1 hour, 50 minutes","1 day, 1 hour, 50 minutes",,
+Task,APO-57,Done,Blocker,create endpoint for sending poll vote,2h,2h,0m,0m,4h 2m,4h 2m,"2 hours, 2 minutes","2 hours, 2 minutes",-101,-101
+Task,APO-142,Done,Major,Image Service Restructure,2h 30m,2h 30m,0m,0m,2h 47m,2h 47m,17 minutes,17 minutes,-11,-11
+Task,APO-171,Done,Major,Misc Tweaks + Fixes,-,-,0m,0m,1d 2h 48m,1d 2h 48m,,,,
+Sub-task,APO-222,Done,Major,APO-200 -> Add endpoint to list test frameworks,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-230,Done,Minor,"APO-223 -> Setup Google App, Microsoft App and Facebook app for Apollo",1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-237,Done,Major,APO-225 -> Add child dashboard,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,APO-238,Done,Major,APO-225 -> Add view child endpoint,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-239,Done,Major,APO-226 -> Add endpoint for viewing list of exercises,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-242,Done,Major,APO-226 -> Add endpoint for viewing exercise detail,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,APO-245,Done,Major,APO-227 -> Add endpoint for submitting an answer,2h,2h,0m,0m,3h 6m,3h 6m,"1 hour, 6 minutes","1 hour, 6 minutes",-55,-55
+Sub-task,APO-246,Done,Major,APO-227 -> Add endpoint grading and getting the answers for an exercise,2h,2h,0m,0m,1d 1h,1d 1h,7 hours,7 hours,-350,-350
+Sub-task,APO-247,Done,Major,APO-227 -> Add screen for reviewing answers,2h,2h,0m,0m,5h,5h,3 hours,3 hours,-150,-150
+Sub-task,APO-251,Done,Major,APO-228 -> Add endpoint for viewing test objectives under a strand,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-256,Done,Major,APO-203 -> finalize endpoints,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,APO-257,Done,Major,APO-203 -> Add create form,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-259,Done,Major,APO-207 -> Create a generic prompt for generating questions,1h,1h,0m,0m,1h 10m,1h 10m,10 minutes,10 minutes,-16,-16
+Sub-task,APO-260,Done,Major,APO-207 -> Create a receiver for generating questions,1h,1h,0m,0m,3h 30m,3h 30m,"2 hours, 30 minutes","2 hours, 30 minutes",-250,-250
+Sub-task,APO-265,Done,Major,APO-261 -> Add a screen for creating/updating/testing a prompt,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-266,Done,Major,APO-261 -> Add endpoint for upserting a prompt,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-269,Done,Major,APO-203 -> Feedback,-,-,0m,0m,2h 30m,2h 30m,,,,
+Sub-task,APO-276,Done,Major,APO-270 -> Implement RevenueCat service in IAM,2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,APO-277,Done,Major,APO-270 -> Add subscription screens,1h,1h,0m,0m,2h 30m,2h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,APO-278,Done,Major,APO-270 -> Feedback,1h,1h,0m,0m,5h 25m,5h 25m,"4 hours, 25 minutes","4 hours, 25 minutes",-441,-441
+Sub-task,APO-288,Done,Major,APO-207 -> Feedback,-,-,0m,0m,1h 30m,1h 30m,,,,
+Sub-task,APO-291,Done,Major,APO-290 -> Update UI to allow for adding sub questions,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-292,Done,Major,APO-290 -> Update the question upsert endpoint to allow for passing in sub parts,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-294,Done,Major,APO-225 -> add screen for adding child,1h,1h,0m,0m,1h 30m,1h 30m,30 minutes,30 minutes,-50,-50
+Story,APO-295,To Do,Major,As an admin I should be able to select multiple test objectives for a question,-,-,-,0m,-,1h,,,,
+-> Sub-task,APO-297,To Do,Major,-> Update question upsert endpoint to receive multiple test objectives,-,,0m,,1h,,,,,
+Sub-task,APO-296,Done,Major,APO-270 -> Implement stripe service in IAM,0m,0m,0m,0m,-,-,,-,,
+Sub-task,APO-298,Done,Major,APO-225 -> Get student creation working on the test service,1h,1h,0m,0m,2h 30m,2h 30m,"1 hour, 30 minutes","1 hour, 30 minutes",-150,-150
+Sub-task,APO-299,Done,Major,APO-227 -> add endpoint for viewing answer,-,-,0m,0m,15m,15m,,,,
+Sub-task,APO-300,Done,Major,"APO-224 -> Make it so that if an email is entered for student, invite is sent",2h,2h,0m,0m,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,APO-301,Done,Major,APO-224 -> Feedback,-,-,0m,0m,1h,1h,,,,
+Sub-task,APO-304,Done,Major,APO-227 -> Feedback,-,-,0m,0m,6h 30m,6h 30m,,,,
+Sub-task,APO-305,Done,Major,APO-226 -> Feedback,0m,0m,0m,0m,3h 30m,3h 30m,"3 hours, 30 minutes","3 hours, 30 minutes",,
+Sub-task,APO-311,Done,Major,APO-270 -> Update exercise upsert receiver to return 402 if the user doesn't have a subscription,1h,1h,0m,0m,1h 15m,1h 15m,15 minutes,15 minutes,-25,-25
+Sub-task,APO-315,Done,Major,APO-270 -> Add an endpoint to IAM to get an updated JWT,-,-,0m,0m,3h 30m,3h 30m,,,,
+Sub-task,APO-318,Done,Major,APO-303 -> Add endpoint for getting the stats of an exercise,2h,2h,0m,0m,3h 24m,3h 24m,"1 hour, 24 minutes","1 hour, 24 minutes",-70,-70
+Sub-task,APO-319,Done,Major,APO-303 -> Hook up UI to backend,2h,2h,0m,0m,4h 15m,4h 15m,"2 hours, 15 minutes","2 hours, 15 minutes",-112,-112
+Sub-task,APO-321,Done,Major,APO-270 -> Add subscription ID to the JWT,1h,1h,0m,0m,3h,3h,2 hours,2 hours,-200,-200
+Sub-task,APO-349,Done,Major,APO-346 -> Add a list screen for all the exercises,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-350,Done,Major,APO-346 -> Add form for creating/updating an exercise,2h,2h,0m,0m,6h 51m,6h 51m,"4 hours, 51 minutes","4 hours, 51 minutes",-242,-242
+Sub-task,APO-387,Done,Major,APO-384 -> add ela writing as a subject,2h,2h,0m,0m,5h,5h,3 hours,3 hours,-150,-150
+Sub-task,APO-388,Done,Major,APO-384 -> setup the different types of essays as strands,-,-,0m,0m,2h,2h,,,,
+Sub-task,APO-391,Done,Major,"APO-384 -> Add screens for selecting strand, and questions",-,-,0m,0m,3h 30m,3h 30m,,,,
+Task,APO-151,Done,Major,Get up to speed with the Image Server,4h,4h,5m,5m,3h 55m,3h 55m,0 minutes,0 minutes,0,0
+Task,APO-2,Done,Major,Create Apollo RN project and Repo,1h,1h,15m,15m,45m,45m,0 minutes,0 minutes,0,0
+Sub-task,APO-244,Done,Major,APO-227 -> Add screen for viewing a question,3h,3h,18m,18m,3h 54m,3h 54m,"1 hour, 12 minutes","1 hour, 12 minutes",-40,-40
+Sub-task,APO-317,Done,Major,APO-303 -> Record time spent on a question,1h,1h,20m,20m,1h 40m,1h 40m,1 hour,1 hour,-100,-100
+Sub-task,APO-323,Done,Major,APO-303 -> Update tally to only show questions as a whole and not each question part individually,1h,1h,20m,20m,1h 40m,1h 40m,1 hour,1 hour,-100,-100
+Sub-task,APO-275,Done,Major,APO-270 -> Setup revenue cat,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,APO-289,Done,Major,APO-261 -> Feedback,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,APO-293,Done,Major,APO-290 -> Update Question generation to accommodate multi part questions,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Sub-task,APO-352,Done,Major,APO-309 -> Add method on Answer to mark answer correct,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,APO-354,Done,Major,APO-307 -> Update question service to fix issue where repeats are in the sample,30m,30m,30m,30m,-,-,-,-,0,0
+Sub-task,APO-322,Done,Major,APO-303 -> Add total metrics at the top,1h,1h,35m,35m,25m,25m,0 minutes,0 minutes,0,0
+Task,APO-253,Done,Major,Import test objectives from CSV,1h,3h,0m,40m,1h,3h 20m,0 minutes,1 hour,0,-33
+-> Sub-task,APO-254,Done,Major,"-> Process subjects,strands, substrands",1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,APO-255,Done,Major,"-> Process test objectives, thinking process",1h,,40m,,1h 20m,,1 hour,,-100,-100
+Sub-task,APO-258,Done,Major,APO-207 -> Import questions from CSV,1h,1h,44m,44m,1h 16m,1h 16m,1 hour,1 hour,-100,-100
+Story,APO-176,Done,Major,I should be able to get the answer for a question,-,1h,-,1h,-,-,,-,,
+-> Sub-task,APO-187,Done,Major,-> Update answer prompt to work without out the user submitting an answer,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-189,Done,Major,-> Experiment with prompt that checks it's own explanation,-,,-,,-,,,,,
+Sub-task,APO-231,Done,Major,APO-223 -> Setup dashboard for logged in Parent,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-233,Done,Major,APO-224 -> Add endpoint for removing a child,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-234,Done,Major,APO-224 -> Add form for creating child,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-235,Done,Major,APO-224 -> Add screen for creating child,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-240,Done,Major,APO-226 -> Add screen for listing and filtering exercises,3h,3h,1h,1h,2h,2h,0 minutes,0 minutes,0,0
+Sub-task,APO-241,Done,Major,APO-226 -> Add endpoint for upserting exercise,2h,2h,1h,1h,1d,1d,7 hours,7 hours,-350,-350
+Sub-task,APO-250,Done,Major,APO-228 -> add endpoint for viewing a strand,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-262,Done,Major,APO-261 -> Add screen for view list of test objectives,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-264,Done,Major,APO-261 -> Add a form for creating/updating a prompt,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-274,Done,Major,APO-270 -> Setup stripe account,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-324,To Do,Major,APO-303 -> Small UI tweaks,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-351,Done,Major,APO-346 -> Add endpoint for creating a crafted exercise,2h,2h,1h,1h,1h,1h,0 minutes,0 minutes,0,0
+Sub-task,APO-353,Done,Major,APO-309 -> Add endpoint for marking answer correct,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-355,Done,Major,APO-307 -> Update question service to re run query without restrictions if the no. of questions returned is less than what was asked for,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-375,Done,Major,APO-374 -> Add coachmarks to the exercise review screen,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-376,Done,Major,APO-374 -> Add coachmarks to the question review,1h,1h,1h,1h,-,-,-,-,0,0
+Sub-task,APO-310,Done,Major,APO-270 -> Update front end to use revenue cat,2h,2h,1h 45m,1h 45m,15m,15m,0 minutes,0 minutes,0,0
+Task,APO-8,Done,Major,Build Design for Profile Page,3h,3h,2h,2h,2h 45m,2h 45m,"1 hour, 45 minutes","1 hour, 45 minutes",-58,-58
+Sub-task,APO-232,Done,Major,APO-224 -> Add endpoint for upserting a child,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,APO-236,Done,Major,APO-224 -> Add a profile screen where the account could be managed,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,APO-252,Done,Major,APO-228 -> Add screen for viewing test objectives,2h,2h,2h,2h,-,-,-,-,0,0
+Sub-task,APO-378,Done,Major,APO-377 -> Add a button to an exercise that deletes the submission and starts the exercise,2h,2h,2h,2h,-,-,-,-,0,0
+Task,APO-143,Done,Major,Poll Service Restructure,2h 30m,2h 30m,2h 5m,2h 5m,25m,25m,0 minutes,0 minutes,0,0
+Sub-task,APO-248,Done,Major,APO-228 -> Add screen that lists the SEA strands,3h,3h,2h 30m,2h 30m,30m,30m,0 minutes,0 minutes,0,0
+Task,APO-25,Done,,create endpoint for adding a poll,4h,4h,3h 59m,3h 59m,1m,1m,0 minutes,0 minutes,0,0
+Story,APO-335,To Do,Major,As a parent I should be able to upload an image of a question and get the answer,-,4h,-,4h,-,-,,-,,
+-> Sub-task,APO-338,To Do,Major,-> Add screen for submitting question,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-339,To Do,Major,-> Hookup UI to backend,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-337,To Do,Major,-> Create a receiver that takes a question submission and uses the LLM to answer it,2h,,2h,,-,,-,,0,0
+Story,APO-175,Done,Critical,I should be able to submit an answer and get it corrected,-,4h 30m,-,4h 30m,-,-,,-,,
+-> Sub-task,APO-183,Done,Major,-> Add input to enter answer for question,30m,,30m,,-,,-,,0,0
+-> Sub-task,APO-185,Done,Major,-> Add endpoint to submit response to,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-186,Done,Major,-> Update UI to show AI response,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-184,Done,Major,-> Create prompt for responding to question,2h,,2h,,-,,-,,0,0
+Task,APO-177,Done,Major,Add langfuse so that you can get feedback on generated questions and answers,-,4h 30m,-,4h 30m,-,-,,-,,
+-> Sub-task,APO-180,Done,Major,-> Update AI response to return trace id and observation id so that it can be passed back when the response is generated,30m,,30m,,-,,-,,0,0
+-> Sub-task,APO-181,Done,Major,-> Deploy to staging,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-182,Done,Major,-> Deploy to prod,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-179,Done,Major,-> Add UI to rate generation,2h,,2h,,-,,-,,0,0
+Story,APO-191,To Do,Major,I should be able to submit an image and get the math question behind,-,5h 30m,-,4h 40m,-,50m,,0 minutes,,
+-> Sub-task,APO-192,Done,Major,-> Add input to upload image,30m,,0m,,30m,,0 minutes,,0,0
+-> Sub-task,APO-194,Done,Major,-> Get image upload working,1h,,40m,,20m,,0 minutes,,0,0
+-> Sub-task,APO-195,To Do,Major,-> Get OCR working and returning message,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-196,To Do,Major,-> Update so that the message returned is set as the question or answer depending on the input,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-193,To Do,Major,-> Add input to take image with phone camera,2h,,2h,,-,,-,,0,0
+Story,APO-336,To Do,Major,As a parent I should be able to get more questions like a specific type of question,-,6h,-,6h,-,-,,-,,
+-> Sub-task,APO-341,To Do,Major,-> Create exercise factory that uses a question as a reference,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-343,To Do,Major,-> Update ui to link to creating exercise by reference,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-340,To Do,Major,-> Update question generation to create a vector for each question,2h,,2h,,-,,-,,0,0
+-> Sub-task,APO-342,To Do,Major,-> Update the question service to have method for getting questions by vector similarity,2h,,2h,,-,,-,,0,0
+Story,APO-271,To Do,Major,I should be able to install from the play store,-,1d 6h,-,1d 6h,-,-,,-,,
+-> Sub-task,APO-279,To Do,Major,-> Setup project playstore,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-280,To Do,Major,-> Setup firebase account,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-281,To Do,Major,-> Setup capacitor,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-284,To Do,Major,-> Add Facebook SDK,1h,,1h,,-,,-,,0,0
+-> Sub-task,APO-282,To Do,Major,-> Setup fastlane,2h,,2h,,-,,-,,0,0
+-> Sub-task,APO-283,To Do,Major,-> Do first build,2h,,2h,,-,,-,,0,0
+-> Sub-task,APO-285,To Do,Major,-> Setup Google Tag Manager,2h,,2h,,-,,-,,0,0
+-> Sub-task,APO-286,To Do,Major,-> Setup RevenueCat SDK,2h,,2h,,-,,-,,0,0
+-> Sub-task,APO-287,To Do,Major,-> Feedback,2h,,2h,,-,,-,,0,0
+Task,APO-5,Done,Major,Spec Little Apollo,-,-,-,-,-,-,,,,
+Task,APO-172,Done,Major,"Create a list of tools that people use for those jobs, pains and gains now",-,-,-,-,-,-,,,,
+Bug,APO-173,Done,Major,Questions are correct but the explaination for the solution is incorrect,-,-,-,-,-,-,,,,
+-> Sub-task,APO-188,Done,Major,-> Create experiment for having the LLM check it's own answer,-,,-,,-,,,,,
+Bug,APO-174,To Do,Major,Doesn't generate good questions for trig identities,-,-,-,-,-,-,,,,
+Task,APO-190,Done,Major,Make it so that the question is generated using a more accurate answer,-,-,-,-,-,-,,,,
+Sub-task,APO-198,To Do,Major,APO-197 -> Update receivers to use OpenAI SDK Instead,-,-,-,-,-,-,,,,
+Sub-task,APO-199,To Do,Major,APO-197 -> Add Apollo OpenAI key to build,-,-,-,-,-,-,,,,
+Sub-task,APO-229,Done,Minor,APO-223 -> Setup apollo IAM,-,-,-,-,-,-,,,,
+Sub-task,APO-243,Done,Major,APO-226 -> Add endpoint for deleting exercise,-,-,-,-,-,-,,,,
+Story,APO-272,To Do,Major,I should be able to install from the app store,-,-,-,-,-,-,,,,
+Sub-task,APO-302,Done,Major,APO-225 -> Feedback,-,-,-,-,-,-,,,,
+Task,APO-308,To Do,Critical,Improve question generation to make it easier,-,-,-,-,-,-,,,,
+Story,APO-312,To Do,Minor,As a student I should be able to setup an account,-,-,-,-,-,-,,,,
+Task,APO-326,To Do,Minor,Make it so that user could select to add student via email or by username,-,-,-,-,-,-,,,,
+Sub-task,APO-329,Done,Major,APO-328 -> Updated the app to use the student id associated with the exercise instead of pulling from the logged in user JWT,-,-,-,-,-,-,,,,
+Sub-task,APO-330,Done,Major,APO-328 -> Remove view button for parent,-,-,-,-,-,-,,,,
+Sub-task,APO-331,Done,Major,APO-328 -> Make it so that when the exam is finished grading it goes to the report,-,-,-,-,-,-,,,,
+Sub-task,APO-347,Done,Major,"APO-346 -> Update exercise entity to have a ""name"" for the exercise",-,-,-,-,-,-,,,,
+Sub-task,APO-382,To Do,Major,APO-381 -> add schools to api,-,-,-,-,-,-,,,,
+Epic,APO-383,To Do,Major,Create a tool for creative writing,-,-,-,-,-,-,,,,
+Task,APO-392,To Do,Minor,"Make it so that when you do ""more like this"" it gives questions worth the same no. of marks",-,-,-,-,-,-,,,,
+Task,APO-401,To Do,Major,Turn on Std 5 Questions,-,-,-,-,-,-,,,,
+,,,,Total,3w 3h 30m,3w 3h 30m,1w 3d 46m,1w 3d 46m,3w 2d 2h 11m,3w 2d 2h 11m,"1 week, 4 days, 7 hours, 27 minutes","1 week, 4 days, 7 hours, 27 minutes",-55,-55

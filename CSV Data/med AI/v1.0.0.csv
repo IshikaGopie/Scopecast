@@ -1,0 +1,71 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,MED-11,Done,Blocker,I should be able to cancel my subscription,-,-,0m,0m,3h,3h,,,,
+Story,MED-17,Done,Blocker,I should be able to create a test in test mode,-,-,0m,0m,3h,3h,,,,
+Story,MED-19,Done,Major,As an admin I should be able to manage the prompts for the Tutor AI,-,2h,-,0m,-,2h 30m,,30 minutes,,
+-> Sub-task,MED-59,Done,Major,-> Deploy Tutor Service to Wepala,2h,,0m,,2h 30m,,30 minutes,,-25,-25
+Task,MED-22,In Progress,Blocker,Create terraform module for Azure VPC,-,-,0m,0m,2h 10m,2h 10m,,,,
+Bug,MED-209,Done,Blocker,Can't Delete user from admin,-,-,0m,0m,2h 30m,2h 30m,,,,
+Task,MED-212,Done,Blocker,Switch to using custom scheme,-,-,0m,0m,20m,20m,,,,
+Task,MED-213,Done,Critical,Make it so that questions are not repeated,-,-,0m,0m,1h 30m,1h 30m,,,,
+Story,MED-203,Done,Critical,I should go back to the question list page I was on when I edit a question,1h,1h,5m,5m,55m,55m,0 minutes,0 minutes,0,0
+Task,MED-183,Done,Critical,Setup encoding during learning objectives import,1h,1h,30m,30m,30m,30m,0 minutes,0 minutes,0,0
+Story,MED-7,To Do,Major,I should be able to install the app form the play store,-,1h,-,1h,-,-,,-,,
+-> Sub-task,MED-193,To Do,Major,-> Setup development keys for android,1h,,1h,,-,,-,,0,0
+Story,MED-6,Done,Major,I should be able to install the app from the app store,2h,2h,2h,2h,-,-,-,-,0,0
+Story,MED-18,Done,Major,As an admin I should be able to to manage the question bank,-,1d 6h,-,1d,-,1d 5h,,7 hours,,
+-> Sub-task,MED-61,Done,Major,-> Update entities,1h,,0m,,7h,,6 hours,,-600,-600
+-> Sub-task,MED-63,Done,Major,-> Add endpoint for upserting disciplines,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,MED-64,Done,Major,-> Add endpoint for upserting compentency,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,MED-68,Done,Major,-> Add question edit enpoint,-,,0m,,1h,,,,,
+-> Sub-task,MED-70,Done,Major,-> Add question create screen,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,MED-72,Done,Major,-> Add organ system screens,1h,,0m,,1h,,0 minutes,,0,0
+-> Sub-task,MED-60,Done,Critical,-> Wireframe Admin App,1h,,1h,,-,,-,,0,0
+-> Sub-task,MED-62,Done,Major,-> Add endpoint for Upserting Organ System,1h,,1h,,-,,-,,0,0
+-> Sub-task,MED-65,Done,Major,-> Add endpoint for upserting cognitive skills,1h,,1h,,-,,-,,0,0
+-> Sub-task,MED-69,Done,Major,-> Add question list screen,1h,,1h,,-,,-,,0,0
+-> Sub-task,MED-71,Done,Major,-> Hook up question create,2h,,1h,,1h,,0 minutes,,0,0
+-> Sub-task,MED-73,Done,Major,-> Add competency screens,1h,,1h,,-,,-,,0,0
+-> Sub-task,MED-67,Done,Major,-> Add question create endpoint,2h,,2h,,-,,-,,0,0
+-> Sub-task,MED-58,Done,Major,-> Deploy MedAI App to Wepala,-,,-,,-,,,,,
+-> Sub-task,MED-66,Done,Major,-> Add initializer for question types,-,,-,,-,,,,,
+Story,MED-1,Done,Major,I should be able to setup an account using apple id,-,-,-,-,-,-,,,,
+Story,MED-2,Done,Major,I should be able to setup an account using google id,-,-,-,-,-,-,,,,
+Story,MED-3,Done,Major,I should be able to setup an account using microsoft,-,-,-,-,-,-,,,,
+Story,MED-4,QA,Major,I should be able to setup an account using username and password,-,-,-,-,-,-,,,,
+Story,MED-5,Done,Major,I should be able to reset my password (if I use the password option),-,-,-,-,-,-,,,,
+Story,MED-8,To Do,Major,I should be receive an email when I setup a new account,-,-,-,-,-,-,,,,
+Story,MED-9,To Do,Major,I should be receive an email when I update an account,-,-,-,-,-,-,,,,
+Story,MED-10,Done,Major,I should be able to pay for a subscription,-,-,-,-,-,-,,,,
+Story,MED-14,Done,Major,I should be able to use the AI to ask general questions,-,-,-,-,-,-,,,,
+Story,MED-15,Done,Critical,I should be able to use the AI tutor when reviewing questions,-,-,-,-,-,-,,,,
+Story,MED-16,Done,Blocker,I should be able to take a test,-,-,-,-,-,-,,,,
+Story,MED-20,Done,Major,As an admin I should be able to see a list of users,-,-,-,-,-,-,,,,
+Story,MED-21,To Do,Major,I should not be able to sign up is I'm not in an allowed region,-,-,-,-,-,-,,,,
+Task,MED-27,In Progress,Major,Deploy App,-,-,-,-,-,-,,,,
+Story,MED-93,Done,Critical,As and admin I should be able use autocomplete to select the learning objective on a question,-,-,-,-,-,-,,,,
+Story,MED-121,Done,Minor,As a user I should be able to pause a test,-,-,-,-,-,-,,,,
+Story,MED-124,Done,Major,As a user I should be able to see a list of all the paused blocks,-,-,-,-,-,-,,,,
+Story,MED-127,Done,Major,I should be able to see the results of a block when completed,-,-,-,-,-,-,,,,
+Story,MED-128,Done,Major,I should be able to review a question that I already answered in a block,-,-,-,-,-,-,,,,
+Story,MED-129,Done,Major,I should be able to end a block,-,-,-,-,-,-,,,,
+Story,MED-131,Done,Major,I should be able to select specialty when setting up an account,-,-,-,-,-,-,,,,
+Story,MED-135,Done,Major,I should be able to see my average score,-,-,-,-,-,-,,,,
+Story,MED-148,Done,Major,I should be able to see how I rank by organ system,-,-,-,-,-,-,,,,
+Story,MED-159,Done,Major,As a user I should be able to see a list of blocks that have been completed,-,-,-,-,-,-,,,,
+Story,MED-166,Done,Major,I should be able to take the test in tutor mode,-,-,-,-,-,-,,,,
+Story,MED-170,Done,Major,I should be able to take a timed test,-,-,-,-,-,-,,,,
+Story,MED-173,Done,Major,I should be able to leave feedback on a question,-,-,-,-,-,-,,,,
+Story,MED-201,Done,Major,I should be able to get lab view data,-,-,-,-,-,-,,,,
+Task,MED-204,Done,Blocker,Onboarding Updates,-,-,-,-,-,-,,,,
+Story,MED-206,To Do,Major,As an admin I should be able to add references for a question,-,-,-,-,-,-,,,,
+Task,MED-207,Done,Critical,Mobile Fixes,-,-,-,-,-,-,,,,
+Task,MED-210,Done,Major,Hook up use profile screen to show actual user info,-,-,-,-,-,-,,,,
+Task,MED-211,Done,Blocker,Copy Questions back from Production,-,-,-,-,-,-,,,,
+Story,MED-214,To Do,Major,As an admin I should be able to search for questions by id,-,-,-,-,-,-,,,,
+Task,MED-217,Done,Major,Move the settings menu item under my account,-,-,-,-,-,-,,,,
+Task,MED-219,Done,Critical,Make it so that in tutor mode when the user goes back it goes to the review version of the question,-,-,-,-,-,-,,,,
+Task,MED-221,To Do,Critical,Microsoft login not working (at least on staging),-,-,-,-,-,-,,,,
+Bug,MED-222,Done,Major,Page header and title not changing after logging in,-,-,-,-,-,-,,,,
+Bug,MED-224,To Do,Major,When the user cancels login they are taken to a blank screen on mobile,-,-,-,-,-,-,,,,
+Bug,MED-226,Done,Blocker,Apple approval updates,-,-,-,-,-,-,,,,
+,,,,Total,2d 5h,2d 5h,1d 3h 35m,1d 3h 35m,3d 5h 25m,3d 5h 25m,"2 days, 4 hours","2 days, 4 hours",-95,-95

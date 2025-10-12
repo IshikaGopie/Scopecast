@@ -1,0 +1,6 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Story,WS-1706,To Do,Major,As a user I should be able to upload a file and associate it with a purchase order,-,-,0m,0m,2h,2h,,,,
+Bug,WS-1878,Done,Major,Authenticating with emails is case sensitive,-,-,0m,0m,30m,30m,,,,
+Story,WS-1705,Done,Major,As a user I should be able to upload an image and associate it with a purchase order,-,-,-,-,-,-,,,,
+Task,WS-1858,Deploy to Production,Major,Add Netsuite as a provider to IAM,-,-,-,-,-,-,,,,
+,,,,Total,0m,0m,0m,0m,2h 30m,2h 30m,"2 hours, 30 minutes","2 hours, 30 minutes",0,0

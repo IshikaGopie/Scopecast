@@ -1,0 +1,34 @@
+Issue Type,Key,Status,Priority,Summary,Original Time Estimated,Σ,Estimated Time Remaining,Σ,Total Time Spent,Σ,Accuracy,Σ,Accuracy (%),Σ
+Bug,WS-1566,Done,Major,Quickbooks refresh not working,-,-,0m,0m,2h 10m,2h 10m,,,,
+Story,WS-1638,Done,Critical,I should be able to access the app from my various stores,-,-,0m,0m,3h 38m,3h 38m,,,,
+Story,WS-1646,Done,Major,I should be able to import orders from Square,-,-,0m,0m,20m,20m,,,,
+Bug,WS-1662,Done,Major,Selecting the notification icon should take you to the alerts section,-,-,0m,0m,5m,5m,,,,
+Bug,WS-1676,Closed,Critical,Can't login on mobile,-,-,0m,0m,30m,30m,,,,
+Bug,WS-1687,Done,Major,Integration not authorized error from quickbooks,-,-,0m,0m,2h,2h,,,,
+Task,WS-1716,Done,Critical,Make it so that if there is an error deleting an item from Quickbooks the parent isn't deleted,-,-,0m,0m,48m,48m,,,,
+Task,WS-1717,Done,Critical,Make it so that if there is an error on one item that it stops trying to push the import,-,-,0m,0m,1h 38m,1h 38m,,,,
+Task,WS-1718,Closed,Critical,Make it so that if there is a time out error it let's the user know that things are slow on destination end and that they can try the import again,-,-,0m,0m,1h 10m,1h 10m,,,,
+Task,WS-1719,Done,Critical,Make it so that the users gets a friendly error when Quickbooks says there are too many people in the system,-,-,0m,0m,40m,40m,,,,
+Bug,WS-1724,Done,Major,Error during adding store causes a blank connection to be created,-,-,0m,0m,1h 53m,1h 53m,,,,
+Bug,WS-1730,Done,Major,After import order is showing up as unpaid,-,-,0m,0m,53m,53m,,,,
+Bug,WS-1762,Done,Blocker,Payment mapping not being respected,-,-,0m,0m,5h 33m,5h 33m,,,,
+Bug,WS-1767,Done,Blocker,Duplicate entries on import,1h,1h,0m,0m,1h,1h,0 minutes,0 minutes,0,0
+Bug,WS-1768,Done,Critical,Orders showing up with wrong date,2h,2h,0m,0m,3h 5m,3h 5m,"1 hour, 5 minutes","1 hour, 5 minutes",-54,-54
+Bug,WS-1770,Done,Critical,Refund Receipts for cash orders don't seem to get created,1h,1h,0m,0m,4h 40m,4h 40m,"3 hours, 40 minutes","3 hours, 40 minutes",-366,-366
+Task,WS-1726,Done,Critical,"Make help button show modal with Email, Phone and support website",30m,30m,6m,6m,24m,24m,0 minutes,0 minutes,0,0
+Task,WS-1735,Done,Blocker,Make it so that store selected on import list screen is selected on payouts and orders,30m,30m,7m,7m,23m,23m,0 minutes,0 minutes,0,0
+Bug,WS-1758,Done,Critical,The date on the fees added are incorrect,1h,1h,40m,40m,20m,20m,0 minutes,0 minutes,0,0
+Story,WS-1650,Done,Major,I should be able to remove square integration,1h,1h,1h,1h,-,-,-,-,0,0
+Story,WS-1212,Done,Major,I should be able to schedule a sync to run,-,-,-,-,-,-,,,,
+Story,WS-1642,Done,Major,I should be able to add Square as an integration,-,-,-,-,-,-,,,,
+Story,WS-1644,Done,Major,I should be able to configure how imports are done for Square store,-,-,-,-,-,-,,,,
+Story,WS-1645,Done,Major,I should be able to import payouts from Square,-,-,-,-,-,-,,,,
+Bug,WS-1681,Closed,Critical,When you login with a non-shopify account you get an error related to imports,-,-,-,-,-,-,,,,
+Story,WS-1690,Done,Major,I should be able to manage how I want tips to be handled,-,-,-,-,-,-,,,,
+Story,WS-1691,Done,Critical,I should be able to login with Google or Microsoft,-,-,-,-,-,-,,,,
+Bug,WS-1725,Done,Major,Everytime an import is done a new tax item is being created,-,-,-,-,-,-,,,,
+Task,WS-1729,Done,Minor,Update the list columns to essentials,-,-,-,-,-,-,,,,
+Task,WS-1736,Done,Minor,Improve build for mobile,-,-,-,-,-,-,,,,
+Bug,WS-1743,Done,Major,Error showing up when switching to Square config,-,-,-,-,-,-,,,,
+Bug,WS-1781,Done,Critical,Getting bad request when retrieving payouts on prod,-,-,-,-,-,-,,,,
+,,,,Total,7h,7h,1h 53m,1h 53m,3d 7h 10m,3d 7h 10m,"3 days, 2 hours, 3 minutes","3 days, 2 hours, 3 minutes",-372,-372
