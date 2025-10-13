@@ -1,866 +1,866 @@
 Issue Type,Status,Priority,Summary,Original Time Estimated,Total Time Spent
-Story,Done,Critical,When my session expires I should be taken to login,1h,1h
-Task,Done,Major,Update the payment config to only have mapping for undeposited funds,30m,30m
-Bug,Done,Critical,The wrong date is showing up on payouts and orders,30m,38m
-Task,Done,Major,Rename Sparks and Signals,30m,30m
-Task,QA,Critical,Create basic WeOS Slack App,0m,4h
-Improvement,In Progress,Blocker,Optimize OAuth Integration flow,6h,1d 7h 8m
-Task,QA,Major,Make agent that runs a tool and retries if no result or if there is an error,4h,6h 40m
-Task,QA,Major,Create an agent that runs an algorithm until all steps are complete and there is a final result,4h,5h
-Story,To Do,Major,I should be able to install a personal assistant,1d,7h 22m
- Subtask,Done,Major, Add schemas to the prompt,30m,1h 15m
- Subtask,Done,Major, Create the embeddings for the queries,6h,1d 5h 12m
- Subtask,Done,Critical, Update the query so that it removes duplicates and uses the data from the Shawline Facility,2h,5h 2m
-Subtask,Done,Minor,  Fix initial icon on the landing screen,1h,3h 30m
-Subtask,Done,Minor,  Ensure all integrations have icons,30m,1h 30m
-Subtask,Done,Major,  Redirect back to the main chat after installing integration,10m,10m
-Subtask,Done,Major,  Make message input smaller,1h 30m,2h 20m
-Subtask,Done,Major,  Setup Netsuite Provider in IAM,1h,3h 38m
-Subtask,Done,Major,  Create graphQL schema,30m,3h 53m
-Subtask,Done,Major,  Add netsuite integration,2h,3h 49m
-Subtask,Done,Major,  Update schemas to match the assistant,30m,30m
-Subtask,Done,Major,  Add endpoint on the integration to valid integration jwt token,10m,10m
-Subtask,Done,Major,  Create command handler to pull the assistant and check if specific integrations exist,2h,2h 10m
-Subtask,Done,Major,  Return errors,10m,10m
-Subtask,Done,Major,  Add notification bar to the top of chat container,2h,3h 30m
-Subtask,Done,Major,  Update Iam to return expires property,30m,1h 24m
-Subtask,Done,Major,  Show me the accounts with the largest variances compared to the previous month,2h,3h 28m
-Subtask,Done,Major,  Are there expenses accounts with a credit balance,2h,6h 55m
-Subtask,Done,Major,  Can you identify any duplicate transactions in the last quarter,2h,3h
-Subtask,Done,Major,  Are there any roundsum entries in the major expense accounts,2h,2h
-Subtask,Done,Major,  Deployment,30m,3h 10m
-Subtask,Done,Major,  Removed hardcoded credentials,1h,2h
-Subtask,Done,Major,  Test Queries on Dev and staging,2h,2h
-Subtask,Done,Major,  what is the checking balance as of 11302023,30m,2h 5m
-Subtask,Done,Major,  Getting balances for expense accounts,2h,6h
-Subtask,Done,Major,  Get the trial balance as of a specific date,2h,1d 5h 27m
-Subtask,Done,Major,  Update the assistant service to check if the python code returned a 401 or 403 response and if so then return the code to the app,1h,3h 20m
-Subtask,Done,Major,  Update the app to have the user reauthorize the integration if the assistant service returned a 401 or 403,1h,1h 20m
-Subtask,Done,Major,  Update the integration service to return which integration threw the error response in the error message,1h,2h 27m
-Subtask,Done,Major,  Update all resolver to return errors to the controller,2h,2h
-Bug,Done,Major,Login issues,20m,20m
- Subtask,Done,Major, Create link for Getting embeddings that uses the LLM to normalize query,1h,1h 26m
-Subtask,Done,Major,  create a share assistant handler on the account service,2h,6h 34m
-Subtask,Done,Major,  Update the share assistant handler to fetch the user by email from IAM and if the user does not exist then create a user and account with that email,10m,20m
-Subtask,Done,Major,  update the account validation middleware so that a user would only be able to message a shared assistant,1h,1h 30m
-Subtask,Done,Major,  update the account validation middleware so that the assistant owner can manage all the shared assistants,1h,1h 5m
-Subtask,Done,Major,  update the handlers to check if an assistant is shared before making a token request to IAM and if so then use the parent account ID on the assistant to get the token,1h,1h
-Subtask,Done,Major,  create a event handler that would update all the shared assistants when the parent assistant is updated,1h,2h
-Subtask,Done,Major,  create an even handler that would delete all the shared assistants when the parent assistant is updated,1h,3h 7m
-Subtask,In Progress,Critical,  What is in checking account 8048,20m,30m
-Subtask,Done,Major,  Is there anything in deferred tax assets,20m,20m
-Subtask,Done,Major,  What is the balance that is due from Trajectory Capital LLC,40m,20m
-Subtask,In Progress,Major,  What is my Other Income amount for the full year,45m,50m
-Subtask,Done,Major,  create event handler that would createupdate sub resources on the shared assistant integration when the parent is updated,1h 15m,1h 20m
-Task,Done,Major,Add a data tag to the message input to make it easier to target in Selenium tests,10m,10m
-Task,Done,Major,Improve retrieval by adding more context to embeddings,2h,7h 30m
-Subtask,Done,Major,  hook up removing a shared user,1h,1h 45m
-Subtask,Done,Major,  Add receiver for creating alert,2h,2h 30m
-Subtask,Done,Major,  Create event handler that creates a job in the cron scheduler to run the user query returned,2h,2h 27m
-Subtask,Done,Major,  Add option to create a new alert to the menu,30m,30m
-Subtask,Done,Major,  Deploy,30m,30m
- Subtask,Done,Major, Add a active property to the alert,10m,10m
- Subtask,Done,Major, Update the send query function to check if the alert is active before running the query,20m,20m
- Subtask,Done,Major, Add a deactivate button to the alerts on the front end and make a request to update the active property on the alert when it is clicked,40m,1h 40m
-Subtask,Done,Major,  Create notification if the alert should be triggered,3h,5h 35m
-Subtask,Done,Major,  Add context back so the user can continue the conversation,1h,1h 15m
-Subtask,Done,Major,  create event handler to delete notifications when a alert is deleted,1h,1h
-Subtask,Done,Major,  create confirmation modal,1h,1h 30m
-Subtask,Done,Major,  hook up delete,1h 30m,2h
-Subtask,Done,Major,  Deploy the insight service,2h,3h 22m
-Subtask,Done,Major,  create dummy data for the insights,15m,30m
-Subtask,Done,Major,  update the app to fetch and render the insights from the insight service,1h,2h 10m
-Subtask,Done,Major,  Add schema and endpoints for insights,1h,5h 10m
-Subtask,Done,Major,  Create insight list item component,45m,45m
-Subtask,Done,Major,  Create Insight screen desktop,45m,45m
-Subtask,Done,Major,  Create insight card component,1h 30m,4h 40m
-Subtask,Done,Major,  Create insight view component,45m,45m
-Subtask,Done,Major,  update delete alerts handler to delete one alert when an alert id is passed,3h,3h 30m
- Subtask,Done,Major, Can we use the profit and lost to identify trendsissues,5h,3h 40m
-Subtask,Done,Major,  add a middleware that would only allow admins to edit the cron tab of an alert,1h,1h 30m
-Subtask,Done,Major,  copy the workflows from the assistant service and add them to the cloud module,2h,3h
-Subtask,Done,Major,  Update the run query function to use the workflows from the cloud module to run and validate the alert,1h 30m,1d 1h 23m
-Subtask,Done,Major,  create an alert setup hander on the alert service,1h,2h 59m
-Subtask,Done,Major,  create a start link that would extract actionable items from the balance sheet,2h,1d 7h 50m
-Subtask,Done,Major,  create a ignite handler to for generating the insights,1h,6h 46m
-Subtask,Done,Major,  update the front end to hit the generate insight endpoint when a user first creates an account,30m,45m
-Subtask,Done,Major,  create a function that would run on a schedule and update the active property on the insights for each account,1h,2h 38m
-Subtask,Done,Major,  Create insight projection and model,1h,1h
-Bug,Done,Major,Cant snooze notifications whose alerts were already deleted,30m,34m
-Subtask,Done,Major,  Change connect to quickbooks button to an intuit approved graphic See here Intuit Developer,20m,20m
-Subtask,Done,Major,  Change email subject from Notification from XYZ Assistant to WeOS Notification  Name of Alert,20m,20m
-Subtask,Done,Major,  Menu Edits,1h,2h
-Subtask,Done,Minor,  Shared assistant remains in pending status even after accepting,1h,1h
-Subtask,Done,Major,  Site optimization,4h,5h
-Subtask,Done,Major,  Create insight screen mobile,45m,1h
-Subtask,Done,Major,  add resolve button,20m,20m
-Subtask,Done,Major,  Update the weosterraformvpc module,10m,10m
-Subtask,Done,Major,  Create passwords for microservices in WeOS terraform,1h,1h
-Subtask,Done,Major,  Deploy to Staging,1h,1h
-Subtask,Done,Major,  Update remaining microservices to use the default SQL initializer,1h,1h 8m
-Subtask,Done,Major,  Set up the logo for the custom connection,30m,1h
-Subtask,Done,Major,  Check the user sub for QuickBooks and setup default assistant then create account on the insight service,1h,1h 20m
-Subtask,Done,Major,  Update the igniters to not make all the insights inactive except 1,30m,47m
-Subtask,Done,Major,  Add igniter property to the insight struct should be set within the igniter,20m,40m
-Subtask,Done,Major,  Add reports array property to the insight struct should be set within the igniter,20m,20m
-Subtask,Done,Major,  Add timeframe property to the insight struct should be set within the igniter,20m,20m
-Subtask,Done,Major,  update the insight card to have a info icon that flips the card and shows this data,2h,2h
-Subtask,Done,Major,  Update the front end to fetch and render the active insights,10m,10m
-Subtask,Done,Major,  Deploy to Dev,1h,2h
-Subtask,Done,Major,  Update the alert service to store and run the recommended alerts,2h,4h 5m
-Subtask,Done,Major,  Pull recommend alerts from the alert service,30m,45m
-Subtask,Done,Major,  Add third column to insight screen,10m,20m
-Subtask,Done,Major,  Render recommend alerts from the insight object,45m,2h 45m
-Subtask,Done,Major,  Validate 10 alerts and add them to the recommend alerts,3h,4h 15m
-Subtask,Done,Major,  Change snooze icon to pause icon,10m,15m
-Subtask,Done,Major,  update update notification event handler to check if read property is set to true and set the alert trigger to be false,2h,2h 30m
-Subtask,Done,Major,  create a provider that would run the profit and loss igniter that would run on a daily schedule and call the profit and loss igniter based on the created date,1h 30m,2h 31m
-Subtask,Done,Major,  Create a provider that would run on a monthly schedule and trigger the profit and loss igniter for all accounts,1h 30m,1h 40m
-Subtask,Done,Major,  update the igniter params to take in a start and end date and use this to determine which reports to get,30m,1h 10m
-Subtask,Done,Major,  Create a provider that would create the m2m token and add it to the container,1h 30m,1h 36m
-Subtask,Done,Major,  setup custom scheme in app builds,5h,5h
-Subtask,Done,Major,  setup app to listen for redirects to that custom scheme,30m,30m
-Subtask,Done,Major,  test build on httpsionicioappflow,1h,1h
-Subtask,Done,Major,  create native auth0 application,30m,30m
-Subtask,Done,Major,  install capacitor and relevant packages,30m,3h
-Subtask,Done,Major,  create list of recommended alerts on that alert service,30m,1h
-Subtask,Done,Major,  update the schedule provider to fetch add the recommended alerts to the insight when it is made active,1h,6h 58m
-Bug,Done,Critical,Error when editing alert,45m,53m
-Task,Done,Critical,Add create alert button to manage alert screen,30m,40m
-Subtask,Done,Major,  update delete notification event handler to set the alert to inactive,30m,30m
-Subtask,Done,Major,  Setup fastlane for playstore,6h,6h
-Story,Done,Major,I should be able to easily rate the app,10m,1h 55m
- Subtask,Done,Major, Add remote config variable in_app_review,10m,10m
- Subtask,Done,Major, Trigger in app review based on the value of in_app_review and if all notifications have been read,45m,45m
- Subtask,Done,Major, Add checks to ensure that the tour starts after quickbooks is connected,20m,1h
- Subtask,Done,Major, Install driverjs,10m,10m
- Subtask,Done,Major, Add ids to elements so they can be reference,20m,20m
- Subtask,Done,Major, Create highlight for each element,1h 30m,1h 30m
- Subtask,Done,Major, Add each highlight to driver steps,20m,20m
-Subtask,Done,Major,  Create and setup Goal Service,2h,1h 40m
-Subtask,Done,Major,  Create an initialiser that would fetch and create all the default Goals,1h,2h 10m
-Subtask,Done,Major,  Replace Alerts with Signals through the app,30m,30m
-Subtask,Done,Major,  create a batch setup endpoint on the alert serrvice,15m,20m
-Subtask,Done,Major,  create a handler on the alert service that would loop through all the alerts associated with a goal and create it under the account,1h 30m,4h 27m
-Subtask,Done,Major,  create a list of recommended alerts for each goal on the alert servce,3h,5h 15m
-Subtask,Done,Major,  Add a goal property to the alerts,15m,35m
-Subtask,Done,Major,  Setup prompt so that user can allow push notifcations,2h,2h
-Subtask,Done,Major,  Add push notification listeners,2h,2h
-Subtask,Done,Major,  Add prompt when for canceling subscription,30m,45m
-Subtask,Done,Major,  Deploy to dev,1h,1h
-Subtask,In Progress,Major,  Setup inappproducts for android and ios,1h,1h 15m
-Subtask,Done,Major,  Install revenuecatpurchasescapacitor and configure in appvue,30m,30m
-Subtask,Done,Major,  Get offerings using sdk and render them,2h,2h 10m
-Subtask,Done,Major,  Setup purchase package function using the sdk,2h,5h 15m
-Subtask,Done,Major,  Create revenue cat api key,10m,45m
-Subtask,Done,Major,  Add splash screen,1h,1h 30m
-Subtask,Done,Major,  Configure QuickBooks redirect depending on the platform,1h 30m,2h
-Subtask,Done,Major,  Add push notification registration function to AppDelegateswift,1h 10m,1h
-Subtask,Done,Major,  Add fire base sdk to pod file,45m,1h 45m
-Subtask,Done,Major,  Configure the sdk to use the account id as the user app id,30m,30m
-Subtask,Done,Major,  Add option for push notification on the sidebar,45m,1h
-Subtask,Done,Major,  update the get user handler in IAM to fetch the invite code and add the user to the account,2h,3h 58m
-Bug,Done,Major,When notifications are read the notification in the menu is not updated,4h,5h
-Bug,Done,Major,Error logging out,2h,2h 45m
-Task,Reopened,Minor,Add Facebook SDK to mobile apps,1h,1h 30m
-Subtask,Done,Major,  Create settings screen,30m,30m
-Subtask,Done,Major,  Add back cookie control module,1h,1h 30m
-Subtask,Done,Major,  Migrate delete functionality to settings screen,30m,30m
-Subtask,Done,Major,  Install chart js,10m,10m
-Subtask,Done,Major,  Render chart using data on the parent insight,1h 30m,1h 30m
-Subtask,Done,Major,  Hook up learn more,45m,1h
-Subtask,Done,Major,  Add follow up card that shows the child insight,45m,1h 45m
-Subtask,Done,Major,  Add next spark button for mobile screen,30m,30m
-Subtask,Done,Major,  Configure Inapp Purchase Capability for IOS,30m,30m
-Subtask,Done,Major,  create prompt for user to subscribe,45m,45m
-Subtask,Done,Major,  Add subscription status to the top navigation,10m,10m
-Subtask,Done,Major,  create subscription page,45m,45m
-Subtask,In Progress,Major,  Setup store kit testing on ios,2h,1d 1h 30m
-Subtask,Done,Major,  Add subscription status to the top navigation,45m,1h
-Subtask,Done,Major,  Add provider for FirebaseSDK,15m,15m
-Subtask,Done,Major,  Push to Dev,30m,35m
-Subtask,Done,Major,  Port the SendNotification function from the alert service to the insight service,10m,10m
-Subtask,Done,Major,  Add event handler to trigger generation when the account is first created,20m,30m
-Subtask,Done,Major,  Deploy to Dev,15m,30m
-Subtask,Done,Major,  Figure out standard way to return data for front end to render graph,30m,20m
-Subtask,Done,Major,  Install and setup capacitorfirebaseremoteconfig,45m,1h
-Subtask,Done,Major,  Create screen to accept feedback from the user,1h 30m,1h 30m
-Subtask,Done,Major,  Update the feedback service to store this feedback,1h 30m,1h 30m
-Subtask,Done,Major,  Set up handler to push this feedback to slack,15m,44m
-Subtask,Done,Major,  Setup restrictions in the app so that users cant perform destructive actions,1h,1h 15m
-Subtask,Done,Major,  Check if the device id exists on the feedback service to determine if the user completed the demo form or not,30m,30m
-Subtask,Done,Major,  Create demo_login as a remote config option,10m,10m
-Subtask,Done,Major,  Conditionally render the demo link based on the demo_login value,10m,10m
-Subtask,Done,Major,  update the frontend to render new chart format,30m,45m
-Bug,Done,Major,when i read a notification it scrolls the welcome page,30m,30m
- Subtask,Done,Major, hide the subscription screen based on a feature flag,45m,1h
- Subtask,Done,Major, hide insights based on the current condition and feature flag,1h,1h
- Subtask,Done,Major, set remote config to disable subscriptions,45m,1h
-Subtask,Done,Major,  Setup Shopify Connection in Auth0,30m,1h
-Subtask,Done,Major,  add the auth0 callback url to the Shopify app,10m,10m
-Subtask,Done,Major,  Add Shopify Service,2h,1d 2h 37m
-Subtask,Done,Major,  Add screen for choosing plan,1h 30m,1h 50m
-Subtask,Done,Major,  Update the auth0 action to pass in the account ID and add it to the JWT when the user connects quickbooks,1h,1h
-Subtask,Done,Major,  Set the app url in the shopify partner dashboard,15m,15m
-Subtask,Done,Major,  Deploy to Dev,2h,2h
-Subtask,Done,Major,  Setup account resource for storing configuration,2h,1h 35m
-Subtask,Done,Major,  Add method to shopify service to get orders,3h,1h
-Subtask,Done,Major,  Add endpoint for getting list of orders,3h,2h
-Subtask,Done,Minor,  Update account list endpoint to return a specific type of account,2h,1h 30m
-Subtask,Done,Major,  Setup mapping to get a list of customers from Quickbooks,30m,30m
-Subtask,Done,Major,  Setup mapping to get productsservice from Quickbooks,1h,1h 15m
-Subtask,Done,Major,  Add shopify integration to integration service,1d,1d 2h
-Subtask,Done,Major,  Add mapping to get disputes from shopify,2h,2h
-Subtask,Done,Major,  Consolidate all weekly igniters cron jobs into one cron job,10m,10m
-Subtask,Done,Major,  Add questions and related python code,1h,1h
-Subtask,Done,Major,  Setup recognition screen on front end,1h,1h
-Task,Done,Major,Wepala Website updates,5h,1d 1h 25m
-Subtask,Done,Major,  Create job run the igniter on a weekly basis,5m,5m
-Subtask,Done,Major,  Create Order Entity,2h,5h 13m
-Subtask,Done,Major,  Create Product Entity,2h,2h
-Subtask,Done,Major,  Create Customer Entity,1h,1h
-Subtask,Done,Major,  Hook up UI for previewing and import,3h,4h 30m
-Subtask,Done,Major,  Hook up performing an import,3h,3h 30m
-Subtask,Done,Major,  Hook up order list UI,2h 30m,2h 30m
-Subtask,Done,Major,  Add screen for shopify to be redirected to after app install,45m,45m
-Subtask,Done,Major,  update the install URL handler in IAM to return the shopify auth URL,1h,1h
-Subtask,Done,Major,  update integration service to get the shopify token from iam,30m,30m
-Subtask,Done,Major,  add the WeAuth Security scheme to all the services,1h,2h
-Subtask,Done,Major,  Initital Feedback,2h,3h 10m
-Subtask,Done,Major,  Add endpoint to Feedback service to handle customer data request,45m,45m
-Subtask,Done,Major,  Add endpoint to Feedback Service to handle customer erasure,45m,45m
-Subtask,Done,Major,  Add endpoints to handler webhooks,1h 30m,1h 8m
-Subtask,Done,Major,  Update all the shopify apps for the different environments with the webhook URL,1h,1h 13m
-Subtask,Done,Major,  push updates to dev an test that all the services are working with the WeAuth token,1h 30m,1h 40m
-Subtask,Done,Major,  make it so that the connection ID is stored on the insights when creating the shopify insights,1h,1h
-Subtask,Done,Major,  update the IAM handler to verify that the request is from shopify,1h 30m,1h 10m
-Subtask,Done,Major,  Deploy to staging,30m,30m
-Subtask,Done,Major,  Add a endpoint and handler that would copy over the demo account quickbooks token to the users account,1h 30m,1h
-Subtask,Done,Major,  add a controller that would redirect users to the app with a JWT once the account is crated,1h 30m,1h 50m
-Subtask,Done,Major,  add a demo account login to the shopify screen,2h,2h 30m
-Subtask,Done,Major,  Stuck on loading screen while installing app,1h,1h 30m
-Subtask,Done,Major,  add a handler to the IAM service that would create the default assistant and install the quickbooks integration,1h 30m,1h 55m
-Subtask,Done,Major,  Initial Feedback,1h 30m,4h 50m
-Subtask,Done,Major,  Update quickbooks api yaml and regenerate sdk,1h 30m,3h
-Subtask,Done,Major,  Deploy to staging,30m,40m
-Subtask,Done,Major,  Test on Dev,1h,3h 50m
-Subtask,Done,Major,  Create screens,3h,3h
-Subtask,Done,Major,  Add function to fetch the shopify client ids from IAM,30m,30m
-Subtask,Done,Major,  Add function to delete shopify token from IAM,30m,30m
-Subtask,Done,Major,  Add function to add shopify store,30m,45m
-Subtask,Done,Major,  Add function to refresh store,30m,45m
-Subtask,Done,Blocker,  add an endpoint on IAM to fetch the client IDs,1h,1h 10m
-Subtask,Done,Major,  Debugging test,1h,1h
-Subtask,Done,Major,  Hookup,3h,3h
-Subtask,Done,Major,  Setup endpoint that returns a list of products,1h,1h 30m
-Subtask,Done,Major,  Setup endpoint that returns a list of customers,2h,2h 10m
-Subtask,Done,Major,  QA Feedback 2,1h,50m
-Subtask,Done,Major,  Setup endpoint to return a list of accounts from quickbooks,30m,30m
-Subtask,Done,Major,  Create method to get order from shopify,30m,30m
-Subtask,Done,Major,  Add endpoint for saving the configuration,2h,3h 25m
-Subtask,Done,Major,  Create endpoint for creating an import,2h,1d 59m
-Subtask,Done,Major,  Update screens based on feedback from francisakeem,5h,5h
-Subtask,Done,Major,  Add endpoint for listing imports,1h,29m
-Subtask,Done,Major,  Create endpoint to create a new customer,2h,3h 44m
-Subtask,Done,Major,  Hook up revenue recognition,1h,1h 30m
-Subtask,Done,Major,  Hook up saving order configuration,1h,1h
-Subtask,Done,Major,  Hook up Saving Product config and Customer config,2h,2h
-Subtask,Done,Major,  Add method and endpoint to get classes from quickbooks,1h,1h
-Subtask,Done,Major,  Add autocomplete to handle searches,2h,2h 10m
-Subtask,Done,Major,  Hook up create customer,2h,2h
-Subtask,Done,Major,  Setup Tax Mapping Config,1h,1h 27m
-Subtask,Done,Major,  Hook up the configurationmapping ui,3h,4h 30m
-Subtask,Done,Major,  Setup fee mapping config,1h,24m
-Subtask,Done,Major,  Endpoint for shopify fees,2h,1h 35m
-Subtask,Done,Major,  Hook up configuration,1h,1h 30m
-Subtask,Done,Major,  Add endpoint for previewing and import,2h,1h 20m
-Subtask,Done,Major,  Add select store screen and rework manage integrations,1h,1h
-Subtask,Done,Major,  Add info about the status of import to list,2h,1h 15m
-Bug,In Review,Major,Unable to select an alert on mobile,1h,1h 30m
-Subtask,Done,Major,  Hook up filters,2h,2h
- Subtask,Done,Major, update the python code on for the child insight to add the customer name and email to the list,1h 30m,2h
- Subtask,Done,Major, test on dev,30m,30m
-Subtask,Done,Major,  Add section in settings to show the current subscription,3h 20m,3h 20m
-Subtask,Done,Major,  Add endpoint to cancel a subscription,1h,5h 26m
-Subtask,Done,Major,  Add payment status filter,2h,2h
-Subtask,Done,Major,  Add fulfillment status filter,2h,2h 30m
-Subtask,Done,Major,  Make it so that it prefilters the list of order based on the config,1h,2h
-Subtask,Done,Major,  Dev review feedback,1h 30m,2h 17m
-Subtask,Done,Major,  Update subscription service so that the interval is passed in when the plan is created,1h,1h 15m
-Subtask,Done,Major,  Add endpoint to get subscriptions account has,1h,48m
-Subtask,Done,Major,  Feedback,1h 30m,1h 45m
-Subtask,Done,Major,  Dev review feedback,4h 30m,4h 30m
-Subtask,Done,Major,  Update the config validation to check the preferences,2h,1h 26m
-Subtask,Done,Major,  Update order list controller to filter by import status,1h,1h
-Subtask,Done,Major,  Add the import status to the list of changes on the import,30m,10m
-Subtask,Done,Major,  Hook up import button to hit the endpoint,45m,45m
-Subtask,Done,Major,  Poll the import resource and update the list of items in the preview,2h,2h
-Subtask,Done,Major,  Pull the list of payment options from import service and populate the fields,1h,1h
-Subtask,Done,Major,  Map fields to payout config,1h,1h
-Subtask,Done,Major,  Render any errors after saving the config,30m,30m
-Subtask,Done,Major,  Add endpoint to get list of payouts,3h,5h 37m
-Subtask,Done,Major,  Update the list screen to have tabs at the top for orderspayouts,30m,30m
-Subtask,Done,Major,  Pull the list of payout and update the table,2h,2h 30m
-Subtask,Done,Major,  Create functions to handle filters for the payouts,2h,2h 30m
-Subtask,Done,Major,  Update Post method on import to handle payouts,1h,1h
-Subtask,Done,Major,  Create function to undo the import,30m,30m
-Subtask,Done,Major,  Poll the resource for updates and update the items,1h,1h
-Subtask,Done,Major,  Add endpoint to undo import,4h,6h 5m
-Subtask,Done,Major,  Render any errors that comes back,30m,30m
-Subtask,Done,Major,  Setup keys in key manager,1h,1h 17m
-Subtask,Done,Major,  Add the ability to associate a custom install link to provider,2h,31m
-Subtask,Done,Major,  Switch to saving the id of the custom account and product,3h,3h 10m
-Subtask,Done,Major,  Fix issue where product is not being saved with line item,1h,1h 8m
-Subtask,Done,Major,  Use tax mappings to add tax line items,2h,1h
-Subtask,Done,Major,  Use fee mappings to add fee line items,1h,19m
-Subtask,Done,Major,  Add discounts,1h,3h 8m
-Subtask,Done,Major,  Add WeOS tag,1h,17m
-Subtask,Done,Major,  Add shipping lines,1h,1h 10m
-Subtask,Done,Major,  Make sure sales receipt is working,1h,58m
-Subtask,Done,Major,  Update Shopify API,1h,3h 16m
-Subtask,Done,Major,  Update domain layer to create payments,2h,3h 19m
-Subtask,Done,Major,  Update the verification controller in IAM to get the custom provider and fetch the keys from the key manager,1h 30m,1h 31m
-Subtask,Done,Major,  remove code from the callback handler in IAM where the shopify provider is hardcoded,1h,1h
-Subtask,Done,Major,  update the app url and callback url in custom shopify app to use the custom provider ID,30m,50m
-Subtask,Done,Major,  Test on Dev,1h,7h
-Subtask,Done,Major,  Hook up saving shipping discount and payment config,4h,4h
-Subtask,Done,Major,  Add correct billing and shipping address to invoice,1h,49m
-Subtask,Done,Major,  Make it so that an already syncd invoice is updated not created,1h,1h 20m
-Subtask,Done,Major,  Handle refunds better,2h,3h 40m
-Subtask,Done,Major,  Update shopify service to get payout details,1h,1h 7m
-Subtask,Done,Major,  Create payouts import screen based on wireframe,2h,2h
-Subtask,Done,Major,  Create entity for payout and thirdparty payout,1h,1h 30m
-Subtask,Done,Major,  Call endpoint to get payout details and render tables,2h,2h 30m
-Subtask,Done,Major,  Add method on account model to import payout,2h,2h 7m
-Subtask,Done,Major,  Add function and button to perform import,30m,30m
-Subtask,Done,Major,  Update the table component to have the right fields and render the data,2h,2h
-Subtask,Done,Major,  Update Quickbooks service and SDK for creating deposit,1h,1h
-Subtask,Done,Major,  Update import payout to create journal entries,2h,2h
-Subtask,In Progress,Major,  Feedback 2,1d 30m,1d 1h
-Subtask,Done,Major,  Update Quickbooks service and SDK for creating journal entries,1h,2h 9m
-Subtask,Done,Major,  Update quickbooks service to create refund,1h,3h 30m
-Subtask,Done,Major,  Switch to linking deposit to payment instead of the order,1h,1h 40m
-Subtask,Done,Major,  Sort out order date idempotency,3h,1h 8m
-Subtask,Done,Major,  Update subscription create endpoint for an exception for custom apps,2h,1h 15m
-Subtask,Done,Major,  update IAM to create a subscription for the custom app,1h 30m,1h
-Subtask,Done,Major,  update IAM to make a request to the subscription service to create the subscription,1h 30m,2h
-Subtask,Done,Major,  QA Feedback,2h,1h 54m
-Subtask,Done,Major,  Hook up the default account mapping and account specific mappings,1h 30m,1h 30m
-Subtask,Done,Major,  Ensure more than 250 transactions are pulled from payout,1h,1h
-Subtask,Done,Major,  Feedback,30m,30m
-Subtask,Done,Major,  Journal entry page,1h,1h
-Subtask,Done,Major,  Add Refund Detail screens,2h,2h
-Story,In Progress,Major,Additional Detail Screens,4h,4h
-Subtask,Done,Major,  Add refund config,2h,2h
-Subtask,Done,Major,  Make it so that all the payout transactions are pulled,1h,2h
-Story,Done,Major,Preparing Payout Preview Modal,1h,1h
-Subtask,Done,Major,  Add options to choose how deposit lines are added to deposit,1h,3h
-Subtask,Done,Major,  Fix issue where the payout status is incorrect,1h,1h
-Subtask,Done,Major,  Feedback,1h,1h
-Subtask,Done,Major,  Update the integration page to check for custom provider and pass it into the request to iam,30m,30m
-Subtask,Done,Major,  Save payment options in the payment event handler to the database,1h,36m
-Subtask,Done,Major,  Update the fee component to render payout fees,1h,1h
-Subtask,Done,Major,  Create an endpoint for getting the list of payment options,1h,45m
-Subtask,Done,Major,  Update the mapping component to be a singular field mapping,1h,1h
-Subtask,Done,Major,  Update the components that used the previous mapping component to loop and render the fields,2h,2h
-Subtask,Done,Major,  Create function to assign placeholder values when the default mapping changes,10m,10m
-Subtask,Done,Major,  Update the import projection to have information about the associated items in the import,1h,1h 11m
-Subtask,Done,Major,  Update list payout controller to return a dummy payout for webooksdev and webooksqa stores,1h,1h
-Subtask,Done,Major,  Add a payment service that can be substituted for the shopify service when specific store ids are used,1h,45m
-Subtask,Done,Major,  Update Get Service to use the store id to determine which service to use as well,1h,1h 30m
-Subtask,Done,Major,  Clean up payment config,30m,15m
-Subtask,Done,Major,  Add import list with last 5 imports to home screen,45m,45m
-Subtask,Done,Major,  Render the alert messages in the alerts tab and add setting button,45m,45m
-Subtask,Done,Major,  Update the delete request to hit the new endpoint,20m,20m
-Subtask,Done,Major,  render summary on the import item,30m,30m
-Subtask,Done,Major,  add filter to import list,1h,1h
-Subtask,Done,Major,  Set imports to have status preview by default,30m,5m
-Subtask,Done,Major,  Set import status to error when there is an error during import and all the changes have been attempted,1h,20m
-Subtask,Done,Major,  update the polling function to check for status error and stop polling,10m,10m
-Subtask,Done,Major,  QAfeedback,1h,1h
-Subtask,Done,Major,  Feedback,20m,20m
-Subtask,Done,Major,  Make payout total match orderspayout transaction,1h,35m
-Subtask,Done,Major,  Create endpoint for returning the list of providers,1h,22m
-Subtask,Done,Major,  Update integrations screen to render the list of providers,1h,31m
-Subtask,Done,Major,  Add list of stores for square,2h,1h
-Subtask,Done,Major,  Copy shopify config and make sure the config is saving to square store resource,1h,1h 46m
-Subtask,Done,Major,  Add square service and implement order service,2h,2h
-Subtask,Done,Major,  Implement payout service on square service,2h,3h 12m
-Subtask,Done,Major,  Add screen for scheduling import,2h,3h 40m
-Subtask,Done,Major,  Create entity for scheduled import,2h,50m
-Subtask,Done,Major,  Create a command that gets the payouts to be imported,1h,48m
-Subtask,Done,Major,  Create a command that gets the orders to be imported,1h,1h 56m
-Subtask,Done,Major,  Setup event handler to persist scheduled import,3h,4h 30m
-Subtask,Done,Major,  Add endpoint for importing orders on a schedule,1h,4h 30m
-Subtask,Done,Major,  Add endpoint for listing scheduled jobs,1h,1h 40m
-Subtask,Done,Major,  Add endpoint for scheduling an import,1h,2h 15m
-Subtask,Done,Major,  Create batch job service to queue scheduled imports,2h,1h 14m
-Subtask,Done,Major,  Generate Fern SDK to use,1h,2h 40m
-Subtask,Done,Major,  Implement the Square Service,2h,2d 51m
-Subtask,Done,Major,  Update screens in UI to be provider agnostic,3h,4h 50m
-Subtask,Done,Major,  Add UI to manage Tip Config,1h,1h
-Subtask,Done,Major,  Add endpoint to receive file uploads,1h,1h
-Subtask,Done,Critical,  Create restlet for attaching image to record,2h,2h
-Subtask,Done,Major,  Add entity for purchase order,1h,1h
-Subtask,Done,Major,  Add netsuite service,1h,2h 30m
-Subtask,Done,Major,  Add screen for updating details of uploaded image,2h,4h
-Subtask,Done,Major,  add an invite endpoint and handler to IAM,1h 30m,1h 40m
-Subtask,Done,Major,  make it so that the users could be removed from an account,1h 30m,4h 9m
-Subtask,Done,Major,  Setup WeOSv2,1h,56m
-Subtask,Done,Major,  Setup default oauth providers,1h,2h 40m
-Subtask,Done,Major,  Get Install URL working again,2h,3h 10m
-Subtask,Done,Major,  Add callback that handlers oauth response,2h,3h 23m
-Subtask,Done,Major,  Setup creating user with username and password,4h,4h 50m
-Subtask,Done,Major,  Setup Sessions for Users logging in,2h,3h 20m
-Subtask,Done,Major,  Create command for setting up JWT and updating Session,2h,3h 20m
-Bug,Done,Critical,Payout and Order Rollback not removing items from WeOS,1h,4h 50m
-Subtask,Done,Major,  set up account creation,2h,2h 45m
-Subtask,Done,Major,  setup single account OAuth service for shopify,1h 30m,2h
-Task,In Progress,Major,Deploy refactored inisght,1h,1h 1m
-Subtask,Done,Major,  Back up non prod database backup,30m,30m
-Subtask,Done,Major,  push updates to dev and test,2h,5h
-Task,In Progress,Major,Refactor code structure for WeOS v2,2h,6h 45m
-Task,In Progress,Major,setup audit service,2h,2h
-Subtask,Done,Major,  add domain object for roles,1h,35m
-Subtask,Done,Major,  add CURD endpoints for roles and add event handlers for the entities,1h,30m
-Subtask,Done,Major,  update the update user handler to update the user roles,30m,30m
-Subtask,Done,Major,  Add a way to get a list of purchase order from netsuite,1h,1h 30m
-Subtask,Done,Major,  create a custom provider for kulrnetsuite,1h,1h 30m
-Subtask,Done,Major,  create a netsuite auth service,1h,2h
-Subtask,Done,Major,  update the oauth receiver to create all netsuite users under the same account,2h,3h
-Subtask,Done,Major,  create weos integration in netsuite,30m,1h 30m
-Subtask,Done,Major,  Fix open ID connect error when authorising netsuite,1h,1h 30m
-Subtask,Done,Major,  add entity for accounts and file,1h,1h
-Subtask,Done,Major,  Add netsuite login on the frontend,1h 30m,1h 30m
-Subtask,Done,Major,  Finish implement list transactions,1h,1h
-Subtask,Done,Major,  confirm quickbooks list transactions work,1h,1d 1h 20m
-Subtask,Done,Major,  Get basic account creation working using domain models,1h,1h 30m
-Subtask,In Progress,Major,  add resources file,1h,4h
-Subtask,In Progress,Major,  setup resource providers,1h,3h 23m
-Subtask,Done,Major,  setup user roles,1h,1h 40m
-Subtask,To Do,Major,  setup subscriptions using the domain models,1h,1h
-Subtask,Done,Major,  get basic connection working,1h,2h
-Subtask,Done,Major,  Deploy to staging,1h,2h 58m
-Subtask,Done,Major,  Setup basic slack app using bolt,1h,1h
-Subtask,In Progress,Major,  Setup workflow domain object,1h,1h
-Subtask,In Progress,Major,  Add endpoints for managing workflows,1h,5h
-Subtask,To Do,Major,  Add a queue system that runs workflows,2h,3h 18m
-Subtask,Done,Major,  deploy to prod,2h,2h
-Subtask,Done,Major,  Deploy Host Agent to staging,4h,1h
-Subtask,Done,Major,  Update slack app to point to host agent,1h,1h
-Subtask,Done,Major,  Add authentication for Slack bots against IAM,2h,1d 6h
-Subtask,In Progress,Major,  create suite script that would send events,1h,1h
-Subtask,To Do,Major,  update the SO method to approve SOs,30m,1h 10m
-Subtask,To Do,Major,  update the PO method to approve POs,30m,1h
-Subtask,Done,Major,  make sure that the mcp server is up and working,1h,2h 30m
-Subtask,In Progress,Major,  Register a bot in azure,1h,1h 30m
-Subtask,Done,Major,  Investigate which agent framework to use,2h,1d 2h 45m
-Subtask,Done,Major,  Integrate host agent with MCP,2h,5h 50m
-Subtask,Done,Major,  Fix issue with conversation not persisting in slack chat,2h,2h 20m
-Subtask,Done,Major,  Make it so that lists are returned as a CSV in slack,2h,5h
-Subtask,Done,Major,  get list endpoint working,1h,1h
-Subtask,Done,Major,  get upsert endpoint working,1h,1h 20m
-Subtask,Done,Major,  Update WeOS VPC to use updated module,15m,13m
-Subtask,To Do,Major,  When filtering by import status pull the list of orders in the system first,1h,56m
-Subtask,Done,Major,  Setup Integration record for the application,15m,10m
-Subtask,Done,Major,  Create a scheduled suitescript run the saved search daily and save the results in file cabinet,2h,1h 55m
-Subtask,Done,Major,  Creating Alert modal when you click to create an alert,15m,10m
-Subtask,Done,Major,  if user has status of Trial Expired hide insight details,25m,20m
-Subtask,Done,Major,  Update the frontend so the user wont be able to create custom signals,45m,40m
-Subtask,Done,Major,  Setup endpoint for webhook that removes the shop date from IAM,2h,1h 55m
-Subtask,Done,Major,  add login with google button to the getstarted screen,30m,24m
-Subtask,Done,Major,  Create passwords for IAM databases and update IAM terraform,15m,7m
-Subtask,Done,Major,  create an event handler in IAM to remove the shop data from all the other services,2h,2h 22m
-Subtask,Done,Major,  Add filters for store and status to the import list endpoint,1h,52m
-Subtask,Done,Major,  Make sure that everything is working well with this assistant,1h,50m
-Subtask,Done,Major,  create a share endpoint on the account service,10m,0m
-Subtask,Done,Major,  Update the front end to make a request to the alert service to create the alert instead of the assistant service,1h 30m,1h 20m
-Subtask,Done,Major,  Add account resource to schema that triggers insight generation,1h,50m
-Bug,Done,Major,Cannot find subtree for parent node,20m,10m
-Subtask,Done,Major,  Remove PWA,30m,20m
-Subtask,Done,Major,  create public_google_api_key,20m,10m
-Subtask,Done,Major,  Create a way to get the list of users that are associated with an account from IAM,30m,20m
-Subtask,Done,Major,  Dispatch command to generate insight to the new account event handler,20m,10m
-Subtask,Done,Major,  Deploy to prod,30m,20m
-Subtask,Done,Major,  Add Payment,2h,1h 50m
-Subtask,Done,Major,  Update import payout to import missing orders,1h,50m
-Subtask,Done,Major,  Update the fee config to have the mappings that were previously under payouts,30m,20m
-Subtask,Done,Major,  Update Roles to be able to login with OAuth 20,15m,3m
- Subtask,Done,Major, Create Langfuse Go SDK,4h,2d 32m
- Subtask,Done,Major, Update the workflows to send spans to Langfuse,1h 30m,1d 4h 48m
- Subtask,Done,Major, set up self hosting on local,30m,30m
- Subtask,Done,Major, Test Langfuse Cloud using python SDK,30m,17m
-Subtask,Done,Major,  Add list of users to the app,1h,46m
-Subtask,Done,Major,  Pull token from IAM and validate jwt,1h,45m
-Subtask,Done,Major,  Update the action to pass in the invite code to IAM,30m,15m
-Subtask,Done,Major,  create public_apple_api_key,20m,5m
-Subtask,Done,Major,  Add environment variable for assistant service,30m,15m
-Subtask,Done,Major,  Add environment variable to use for the Quickbooks endpoint,30m,15m
-Subtask,Done,Major,  Map fields to the payout config,2h,1h 45m
- Subtask,Done,Major, Make it so that giving a thumbs up creates an embedding,1h,1h 15m
- Subtask,Done,Major, Make it so that giving a thumbs up creates and example,1h,1h 55m
- Subtask,Done,Major, Make it so that giving a thumbs down makes an example,1h,1h 24m
- Subtask,Done,Major, Add an endpoint for using examples to make a fine tuned model,3h,4h 11m
- Subtask,Done,Major, Add more examples,1h,1h 44m
- Subtask,Done,Major, Build finance assistant fine tune model,1h,2h
- Subtask,Done,Major, Add a collection for fine tune model examples to accounts,30m,14m
-Subtask,Done,Major,  Add screen for creating alert using natural language,30m,12m
-Subtask,Done,Major,  Assess current status,1h,41m
-Subtask,Done,Major,  Endpoint for getting tax items from shopify orders,2h,1h 41m
- Subtask,Done,Major, create Jupyter note book experiment that compares the LLM responses with the prompt list and the responses without,2h,3h 30m
- Subtask,Done,Major, update the HighestSimilarityPrompt workflow on the assistant service to check if the similar embedding that the query matched to is querying for an account,1h,1h 15m
- Subtask,Done,Major, Update the finance prompt so that the LLM would be able to handle the abbreviation,1h,1h 15m
- Subtask,Done,Major, Write prompt foo test to validate the prompt,1h,3h 30m
- Subtask,Done,Major, Test the queries using the finance assistant,2h,2h 5m
- Subtask,Done,Major, Update the integration service to only hit the trial balance if the balance is requested,30m,45m
- Subtask,Done,Major, Update the integration service to handle the in operator,45m,1h 10m
- Subtask,Done,Major, write unit tests to test the updated workflow,1h,40m
-Subtask,Done,Major,  Add endpoint to handle shopify billing confirmation,1h,3h 40m
-Subtask,Done,Major,  Add Tip config to API,1h,39m
-Subtask,Done,Major,  Fix issue with the finance assistant install It appears to be returning a 404,1h,35m
-Subtask,Done,Major,  update the recommended alert initialiser to create and store the embeddings from the recommended alerts,1h,35m
-Subtask,In Progress,Major,  setup endpoint,2h,1h 35m
-Subtask,Done,Major,  confirm that the more complex schema works with the weos mcp setup,1h,33m
- Subtask,Done,Major, Set up AWS Secret manager,2h 30m,2h 25m
- Subtask,Done,Major, Create a handler on the IAM service so that when an account specific provider is created it would get the keys from AWS and store it on the provider,2h,5h 3m
- Subtask,Done,Major, Update the manifest on the integration service to include the key names as properties,20m,3h 50m
- Subtask,Done,Major, Update the weos app to include the key name in the header when sending a request to IAM to get the install URL,20m,2h 5m
- Subtask,Done,Major, Deploy to staging,1h,32m
-Task,In Progress,Major,Avoid making duplicate embeddings,1h,31m
-Subtask,Done,Major,  Update infrastructure layer to account for payments,1h,30m
-Subtask,Done,Major,  Implement payment service on square service,2h,1h 30m
-Subtask,Done,Major,  push updates to staging and test,1h,2h
-Subtask,Done,Major,  setup view detail controllers,1h,30m
- Subtask,Done,Major, Add a step that checks if there was code associated and reruns the query if not,2h,1d 12m
- Subtask,Done,Major, Add a step that checks if there was an error with the python response and reruns the query if there was,3h,5h
- Subtask,Done,Major, Make sure the response returned to the WeOS app is formatted correctly,1h,1h 48m
- Subtask,Done,Major, Add Link to Update Conversation,1h,3h 8m
- Subtask,Done,Major, Make it extract steps from the python code as well,1h,1h 42m
- Subtask,Done,Major, Make retries 2 layers deep,2h,1h 58m
- Subtask,Done,Major, Add Link to skip LLM call if the similarity is 10,1h,51m
- Subtask,Done,Major, Fix issue where steps are not showing up in the UI,30m,13m
- Subtask,Done,Major, Add Link that detects json like code in the response and extracts it and places it in items,1h,38m
- Subtask,Done,Blocker, Make it so that users can log into WeOS with 3rd party OAuth,5h,5h 33m
-Task,Closed,Major,nuxt dev tools security vulnerability,20m,20m
-Bug,Done,Blocker,Cant go to chat with assistant when logged in with shopify account,2h,2h
-Story,Done,Major,I should be able to see all tax mappings,1h,1h
-Bug,Done,Blocker,Duplicate entries on import,1h,1h
-Bug,Done,Critical,Orders showing up with wrong date,2h,3h 5m
-Bug,Done,Critical,Refund Receipts for cash orders dont seem to get created,1h,4h 40m
-Task,Done,Critical,Make help button show modal with Email Phone and support website,30m,24m
-Task,Done,Blocker,Make it so that store selected on import list screen is selected on payouts and orders,30m,23m
-Bug,Done,Critical,The date on the fees added are incorrect,1h,20m
-Task,Closed,Critical,Add Firebase Analytics to iOS,1h 30m,4h 7m
-Story,Closed,Major,I should be able to get detailed insights based on my AR,1d,2h 45m
-Story,Closed,Blocker,I should see a loading screen when I select the purchase subscription button on iOS,30m,30m
-Bug,Done,Minor,Long load times on Activity Feed,50m,1h 5m
-Story,Done,Major,Add placeholder text on alert create,2h,3h 30m
-Task,Done,Major,UXUI tweaks part 2,3h,3h 30m
-Task,Done,Major,UXUI tweaks part 3,4h 30m,5h
-Task,Done,Major,Make it so that when a users reads a message they can receive new notifications,0m,45m
-Story,Done,Major,Add footer to the application,1h,1h 56m
-Task,Done,Major,Setup Prod environment,4h,1d 18m
-Subtask,Done,Major,  Setup environment for apple id,2h,2h 30m
-Subtask,Done,Major,  Setup OAuth Config for Apple Service,1h,1h
-Subtask,Done,Major,  Implement GetInfo,30m,40m
-Subtask,Done,Major,  Implement GetInfo,1h,1h
-Subtask,Done,Major,  Setup login endpoint,1h,1h
-Subtask,Done,Major,  Implement Cache service interface on Azure Service,1h,1h 6m
-Subtask,Done,Major,  Setup system for initiating a password reset,1h,1h 50m
-Subtask,To Do,Major,  Update github actions to push to azure,4h,5h 30m
-Subtask,Done,Major,  Setup authentication and login,4h,4h 30m
-Subtask,Done,Major,  Setup container,2h,3h 10m
-Subtask,To Do,Major,  Setup api gateway,30m,2h
-Subtask,Done,Major,  model the tutor service,1h,1h
-Subtask,Done,Major,  create entities receivers etc,1h,1h
-Subtask,Done,Major,  add screens to admin for managing prompt,1h,1h
-Subtask,Done,Major,  Add concept of tags,1h,1h
-Subtask,Done,Major,  Update question form to allow user to specify identifier,1h,1h
-Subtask,Done,Major,  Update question form so that multemdia could be uploaded or added as a link,1h,1h
-Subtask,Done,Major,  Make it so that the id for the question is generated,30m,30m
-Subtask,Done,Major,  Add multimedia concept to answers,1h,1h
-Subtask,Done,Major,  Import learning objectives,3h,5h
-Subtask,Done,Major,  Update UI to be auto complete,2h,3h
-Subtask,Done,Major,  Setup build keys in app store,2h,2h
-Subtask,Done,Major,  First deploy to test flight,1h,1h
-Subtask,Done,Major,  Add endpoint for creating a question bank,2h,2h
-Subtask,Done,Major,  Add endpoint for managing topics,1h,1h
-Subtask,Done,Major,  Add screen for uploading CSV with objectives,1h,1h 15m
-Subtask,Done,Major,  Hook up creation screen to API,2h,2h
-Subtask,Done,Major,  Update block domain entity with logic for generating a block,1h,1h
-Subtask,Done,Major,  Setup question service for return a list of questions,2h,2h
-Subtask,Done,Major,  Add entity for a submission to the block,2h,2h
-Subtask,Done,Major,  Add pinia store for tracking progress in the block and navigating the block,1h,3h
-Subtask,Done,Major,  update block to track time remaining,1h,4h
-Subtask,Done,Major,  track end time,30m,30m
-Subtask,Done,Major,  Add entity for recording the answer,1h,1h
-Subtask,Done,Major,  Add a query tutor endpoint,15m,15m
-Subtask,Done,Major,  instantiate LLM Service,15m,15m
-Subtask,Done,Major,  Add controller to get a list of organ systems along with the user scores and percentiles,2h,2h
-Subtask,Done,Major,  update chat receiver to filter by tutor,15m,30m
-Subtask,Done,Major,  Add a review tutor receiver,2h,2h
-Subtask,Done,Major,  create a tutor service on the app,1h,1h
-Subtask,Done,Major,  update the app to send a request to the tutor endpoint on the tutor service,1h,2h 26m
-Subtask,Done,Major,  update the app to send a request to the endpoint on the tutor service,1h,1h
-Subtask,Done,Major,  Setup query service,1h,1h
-Subtask,Done,Major,  create an event handler for creating a chat,1h,1h
-Subtask,Done,Major,  create an event handler for creating a message,1h,1h 30m
-Subtask,Done,Major,  Add a tutor property to the prompt,1h,20m
-Subtask,Done,Major,  update the app to add a menu to select the tutor when creating the prompt,1h,15m
-Subtask,Done,Major,  update the app to make the tutor available when reviewing a question,1h,1h
-Subtask,Done,Major,  Add domain entity for user feedback,1h,1h
-Subtask,Done,Major,  Update handler to send email to admins when user feedback is added,1h,1h 30m
-Subtask,Done,Major,  Added receiver and endpoint for submitting feedback,1h,1h
-Subtask,Done,Major,  Show list of feedback in question view in admin,1h,1h
-Subtask,Done,Major,  Hook up feedback view to endpoint,1h,1h
-Subtask,Done,Major,  Hook up the explanations for write and incorrect answers,1h,1h
-Subtask,Done,Major,  Hook up block results,1h,2h
-Subtask,Done,Major,  Setup product and entitlements in revenue cat,1h,1h
-Subtask,Done,Major,  Setup revenue cat SDK on iOS,1h,6h
-Subtask,Done,Major,  Link Stripe to Revenue Cat,30m,30m
-Subtask,Done,Major,  Hook up subscription purchase in UI,0m,1h
-Subtask,Done,Major,  Hook up link to manage subscription on stripe if web purchase,1h,1h
-Subtask,Done,Major,  hook up updated list,1h,1h
-Subtask,Done,Major,  Hook up pause functionality to update block on back end,1h,1h
-Subtask,Done,Major,  Implement AWS service,1h,50m
-Subtask,Done,Major,  Add multimedia concept to answer form,1h,2h 30m
-Subtask,Done,Major,  Setup Oauth config,1h,43m
-Subtask,Done,Major,  Implement GetInfo,1h,30m
-Subtask,Done,Major,  Setup base app,2h,1h 30m
-Subtask,Done,Major,  Add the ability to do bulk actions on questions,1h,30m
-Subtask,Done,Major,  Create endpoint for importing learning objectives,2h,1h 30m
-Subtask,Done,Major,  Add a query receiver to the tutor service,2h,1h 30m
-Subtask,Done,Major,  Setup Azure CLI and init terraform state,2h,1h 11m
-Task,Done,Major,Create terraform module for Azure Container Instance,2h,1h 7m
-Subtask,Done,Major,  Add concept of multimedia links to questions,2h,1h
-Subtask,Done,Major,  Fix issue with notch,2h,1h
-Subtask,Done,Major,  Add endpoint for managing sub topics,2h,1h
-Subtask,Done,Major,  Hook up the front end to display question,1h,1h
-Subtask,Done,Major,  Feedback,2h,1h
-Subtask,Done,Major,  Setup container registry,2h,30m
- Subtask,Done,Major, Deploy Tutor Service to Wepala,2h,2h 30m
-Story,Done,Critical,I should go back to the question list page I was on when I edit a question,1h,55m
-Task,Done,Critical,Setup encoding during learning objectives import,1h,30m
- Subtask,Done,Major, Update entities,1h,7h
- Subtask,Done,Major, Add endpoint for upserting disciplines,1h,1h
- Subtask,Done,Major, Add endpoint for upserting compentency,1h,1h
- Subtask,Done,Major, Add question create screen,1h,1h
- Subtask,Done,Major, Add organ system screens,1h,1h
- Subtask,Done,Major, Hook up question create,2h,1h
-Task,Done,Major,Create Pages and Navigation through the app,6h,6h 9m
-Task,Done,Major,Create a Poll Functionality,2d,1d 2h 58m
-Task,Done,Major,Build design for feedHome page And Create Poll Page,0m,1d 1h 50m
-Task,Done,Blocker,create endpoint for sending poll vote,2h,4h 2m
-Task,Done,Major,Image Service Restructure,2h 30m,2h 47m
-Subtask,Done,Major,  Add endpoint to list test frameworks,1h,1h
-Subtask,Done,Minor,  Setup Google App Microsoft App and Facebook app for Apollo,1h,1h
-Subtask,Done,Major,  Add child dashboard,2h,2h
-Subtask,Done,Major,  Add view child endpoint,1h,1h
-Subtask,Done,Major,  Add endpoint for viewing list of exercises,1h,1h
-Subtask,Done,Major,  Add endpoint for viewing exercise detail,2h,2h
-Subtask,Done,Major,  Add endpoint for submitting an answer,2h,3h 6m
-Subtask,Done,Major,  Add endpoint grading and getting the answers for an exercise,2h,1d 1h
-Subtask,Done,Major,  Add screen for reviewing answers,2h,5h
-Subtask,Done,Major,  Add endpoint for viewing test objectives under a strand,1h,1h
-Subtask,Done,Major,  finalize endpoints,1h,1h 15m
-Subtask,Done,Major,  Add create form,1h,1h
-Subtask,Done,Major,  Create a generic prompt for generating questions,1h,1h 10m
-Subtask,Done,Major,  Create a receiver for generating questions,1h,3h 30m
-Subtask,Done,Major,  Add a screen for creatingupdatingtesting a prompt,1h,1h
-Subtask,Done,Major,  Add endpoint for upserting a prompt,1h,1h
-Subtask,Done,Major,  Implement RevenueCat service in IAM,2h,2h
-Subtask,Done,Major,  Add subscription screens,1h,2h 30m
-Subtask,Done,Major,  Feedback,1h,5h 25m
-Subtask,Done,Major,  Update UI to allow for adding sub questions,1h,1h
-Subtask,Done,Major,  Update the question upsert endpoint to allow for passing in sub parts,1h,1h
-Subtask,Done,Major,  add screen for adding child,1h,1h 30m
-Subtask,Done,Major,  Get student creation working on the test service,1h,2h 30m
-Subtask,Done,Major,  Make it so that if an email is entered for student invite is sent,2h,2h
-Subtask,Done,Major,  Feedback,0m,3h 30m
-Subtask,Done,Major,  Update exercise upsert receiver to return 402 if the user doesnt have a subscription,1h,1h 15m
-Subtask,Done,Major,  Add endpoint for getting the stats of an exercise,2h,3h 24m
-Subtask,Done,Major,  Hook up UI to backend,2h,4h 15m
-Subtask,Done,Major,  Add subscription ID to the JWT,1h,3h
-Subtask,Done,Major,  Add a list screen for all the exercises,1h,1h
-Subtask,Done,Major,  Add form for creatingupdating an exercise,2h,6h 51m
-Subtask,Done,Major,  add ela writing as a subject,2h,5h
-Task,Done,Major,Get up to speed with the Image Server,4h,3h 55m
-Task,Done,Major,Create Apollo RN project and Repo,1h,45m
-Subtask,Done,Major,  Add screen for viewing a question,3h,3h 54m
-Subtask,Done,Major,  Record time spent on a question,1h,1h 40m
-Subtask,Done,Major,  Update tally to only show questions as a whole and not each question part individually,1h,1h 40m
-Subtask,Done,Major,  Setup revenue cat,1h,30m
-Subtask,Done,Major,  Feedback,1h,30m
-Subtask,Done,Major,  Update Question generation to accommodate multi part questions,1h,30m
-Subtask,Done,Major,  Add total metrics at the top,1h,25m
-Task,Done,Major,Import test objectives from CSV,1h,1h
- Subtask,Done,Major, Process subjectsstrands substrands,1h,1h
- Subtask,Done,Major, Process test objectives thinking process,1h,1h 20m
-Subtask,Done,Major,  Import questions from CSV,1h,1h 16m
-Subtask,Done,Major,  Setup dashboard for logged in Parent,2h,1h
-Subtask,Done,Major,  Add screen for creating child,2h,1h
-Subtask,Done,Major,  Add screen for listing and filtering exercises,3h,2h
-Subtask,Done,Major,  Add endpoint for upserting exercise,2h,1d
-Subtask,Done,Major,  Add endpoint for creating a crafted exercise,2h,1h
-Subtask,Done,Major,  Update front end to use revenue cat,2h,15m
-Task,Done,Major,Build Design for Profile Page,3h,2h 45m
-Task,Done,Major,Poll Service Restructure,2h 30m,25m
-Subtask,Done,Major,  Add screen that lists the SEA strands,3h,30m
-Task,Done,,create endpoint for adding a poll,4h,1m
- Subtask,Done,Major, Add input to upload image,30m,30m
- Subtask,Done,Major, Get image upload working,1h,20m
-Task,Done,Blocker,setup aws amplify,6h,1d 2h 9m
-Task,Done,Blocker,create binary poll screen,6h,1d 4h 5m
-Task,Done,Blocker,create image poll screen,1d,2d 7h 6m
-Subtask,Done,,parentIssuegetKey  add method for getting poll by id,2h,4h 28m
-Subtask,Done,,parentIssuegetKey  create component for sharing poll url,2h,3h 10m
-Task,Done,Blocker,implement deeplink,4h,1d 6h 1m
-Task,Done,Blocker,create poll results screen,4h,1d 2h 33m
-Task,Done,,create screen for voting binary poll,6h,7h 26m
-Task,Done,Blocker,add share button to poll results,2h,3h 42m
-Task,Done,,create dynamodb adapter for accounts,3h,1d 15m
-Task,Done,Major,Changes to UI for app header got header and navigation to play nicely,4h,4h
-Task,Done,Major,Create a landing page,1d,1d 3h 29m
-Task,Done,Major,Create a demographic break down sreen,4h,1d 7h 49m
-Task,Done,Major,Finish my polls section,3h,4h 37m
-Task,Done,Major,Design Poll API,3h,4h 36m
-Task,Done,Major,Automate the build process,4h,5h 38m
-Task,Done,Major,Create Action for retrieving user poll results Polls user created,3h,2d 2h 17m
-Task,Done,Major,implement adapters,1d,2d 1h 32m
-Task,Done,Major,unit tests,2h,2d 4h 1m
-Task,Done,Major,Create tests for actions,6h,6h 17m
-Task,Done,Major,Update service to use a service struct,4h,6h
-Task,Done,Major,Setup and run Expo app on Android and iOS simulators,1h 30m,2h 4m
-Task,Done,Major,Move hard coded URLs into configs,1h,2h
-Task,Done,Blocker,Create a handler for creating a poll,2h,7h 25m
-Task,Done,Blocker,Create a handler for answering a poll,2h,6h 39m
-Task,Done,Major,Deploy poll service,3h,2d 51m
-Task,Done,Major,Send User ID Account ID and Correlation ID in requests to poll server,2h,2h 56m
-Task,Done,Major,View and Create polls with new API,1h 30m,1d 1h 32m
-Task,Done,Major,Vote on polls in App,2h 30m,3h 47m
-Task,Done,Major,Create action for retrieving poll details,3h,2h 59m
-Task,Done,Blocker,create screen for voting multioption poll,6h,1d 1h 34m
-Task,Done,Major,Send example results json,30m,27m
-Task,Done,Major,Remove upload image functionality,1h 30m,1h 26m
-Task,Done,Major,Allow poll duplicate,6h,5h 55m
-Task,Done,Blocker,create screen for voting image poll,6h,1d 2h 10m
-Task,Done,Major,Apollo Prep,2h,1h 48m
-Task,Done,Blocker,create multiple choice poll screen,1d,1d 12m
-Task,Done,Major,Remove Profile tab and share button,1h 30m,52m
-Task,Done,,create endpoint for getting polls,3h,2h 21m
-Task,Done,Major,Generate GUIDUID on app install,3h,2h 20m
-Task,Done,Major,Create action and hook up functionality for voting on a poll,6h,5h 20m
-Task,Done,Major,Create action for retrieving poll results,3h,2h 19m
-Task,Done,,setup accountApi repository,2h,1h 16m
-Task,Done,Major,test command,1h,10m
-Task,Done,Major,Get Landing page on weflow,2h,1h
-Task,Done,Blocker,setup pollApi repository,2h,57m
-Task,Done,Major,Add Image to question,3h,1h 45m
-Task,Done,,create interface for account storage,2h,20m
-Task,Done,Blocker,setup aws amplify for facebook login google login,4h,2h 2m
-Task,Done,Blocker,create action for creating poll,6h,1d 1h 32m
- Subtask,Done,Major, Save Poll image using image poll endpoint,4h,3d 2h 43m
- Subtask,Done,Major, Store Poll using Enpoint,4h,6h 6m
-Task,Done,Major,Display results when poll vote is registered,1d,5h 13m
-Task,Done,Major,Create View for Image poll results,6h,3h 9m
-Task,Done,Major,Work on Image server,3d,2d 1h 47m
-Task,Done,Major,Setup basic admin app and deploy,1h,1h
-Task,Done,Major,Setup the domain on Hubspot,1h,1h
-Task,Done,Major,Setup base app,1h,4h
-Story,Done,Major,Make it so that the user is redirected to add student if they dont have any student,0m,1h
-Story,Done,Blocker,As a user I should be able to start an exam even if Im not logged in as a student,1h,2h
-Task,Done,Major,When creating an exercise without a student use a default if there is 1 student in the account,30m,15m
-Task,Done,Critical,Add a state so that if a question needs to be fixed it could go into that state,30m,8m
-Task,Done,Major,Split initial login screen for existing users and new users,1h,30m
-Task,Done,Major,Make more mobile friendly,1h,30m
-Task,Done,Major,Generate basic api code,2h,2h
-Task,Done,Major,Setup basic API and deploy,2h,55m
-Story,Done,Major,As a std 4 parent I should be guided to evaluate what my child knows,2h,6h 10m
-Task,Done,Major,Add analytics,1h,4h 23m
- Subtask,Done,Major, Create preliminary build to confirm connectivity,1h,1h 37m
- Subtask,Resolved,Major, Setup CICD pipeline,30m,1h 21m
- Subtask,Resolved,Major, UI updates for consistency,1h,1h 30m
-Task,Resolved,Major,Plan Project,6h,6h 17m
- Subtask,Resolved,Major, Setup confirmation screen,30m,1h 4m
- Subtask,Resolved,Major, Setup error screen,30m,10m
- Subtask,Done,Major, Setup form inputs to do calculation,1h,48m
- Subtask,Done,Major, Add a command for publishing the quote,30m,1h 49m
- Subtask,Done,Major, Create go template for Requirements summary,30m,1h 55m
- Subtask,Done,Major, Create go template for data entry summary,30m,2h 48m
- Subtask,Resolved,Major, Setup sending to hedge hog service,1h,3h 23m
- Subtask,Resolved,Major, Switch to using writing SQL,3h,4h 2m
- Subtask,Done,Major, Setup wkhtmltopdf,1h,50m
- Subtask,Done,Major, Setup pdf generation execution,1h,22m
- Subtask,Done,Major, Setup Vue Form to capture data,1h,1h 41m
- Subtask,Done,Major, Create custom entity respository,1h,1h
- Subtask,Done,Major, Setup api schema,15m,28m
- Subtask,Done,Major, Setup NuxtJS project,30m,39m
-Task,Done,Major,Remove the magic unmarshal,1h,4h 30m
-Task,Closed,Major,Setup terraform workspace for PALM,1h,1h
-Task,Closed,Major,Setup frontend app,2h,1h
-Subtask,Done,Major,  add a receiver for approvingrejecting the service request,1h,1h 30m
-Subtask,Done,Major,  add confirmation screens to show the choice that they selected,1h,1h 30m
-Subtask,Done,Major,  Setup controllers for getting a list of requests and viewing a request,1h,1h
-Subtask,Done,Major,  Add receiver for creating a service request in an account,1h,1h
-Subtask,Done,Major,  Add a receiver for deleting a service request,1h,20m
-Subtask,Done,Major,  create domain object and model for contract,1h,1h
-Subtask,Done,Major,  add receiver for creating contract,1h,6h
-Subtask,Done,Major,  create controller for listing the contracts,1h,1h
-Subtask,Done,Major,  add a receiver for deleting a contract,1h,20m
-Subtask,Done,Major,  Add endpoint for uploading a file,2h,4h 37m
-Subtask,Done,Major,  Add screen for Adding a Quote,1h,1h
-Subtask,Done,Major,  Hook up service request view screen,1h,2h
-Subtask,Done,Major,  Wireframe and client approval,2h,2h
-Subtask,Done,Major,  Add endpoint for adding service request items,1h,5h 6m
-Subtask,Done,Major,  Update the service request list screen columns,1h,3h
-Subtask,Done,Major,  Rework Bills Vendor Quotes,1h,2h
-Subtask,Done,Major,  Hook up screen for adding a Quote,1h,5h 10m
-Subtask,Done,Major,  Update the items functionality to make edit behave similar to service request items,1h,1h 33m
-Subtask,Done,Major,  Confirm vendor API works,2h,1h
-Subtask,Done,Major,  Ensure add contact works,1h,2h 52m
-Subtask,Done,Major,  Add endpoint for listing schedules,1h,30m
-Subtask,Done,Major,  Add endpoint for upserting schedule,1h,1h 30m
-Subtask,Done,Major,  Add endpoint for viewing schedule,20m,10m
-Subtask,Done,Major,  Add endppint for listing categories,1h,1h
-Subtask,Done,Major,  add endpoint for upserting categories,1h,4h 42m
-Subtask,Done,Major,  add endpoint for listing items,1h,25m
-Subtask,Done,Major,  add endpoint for viewing items,30m,30m
-Subtask,Done,Major,  Add endpoint for upserting expense,1h,2h 40m
-Subtask,Done,Major,  Add screen for upserting expense,1h,2h
-Subtask,Done,Major,  Update expense list to show aggregates,1h,1h
-Subtask,Done,Major,  Add endpoint for upserting invoice,1h,2h
-Subtask,Done,Major,  Add endoint for viewing invoice details,1h,10m
-Subtask,Done,Major,  Add screen to list users,1h,1h
-Subtask,To Do,Major,  Add screen to invite user,1h,1h 30m
-Subtask,Done,Major,  ensure delete file works,1h,20m
-Subtask,Done,Major,  make it so that the price schedule items would not get overwritten from the initializer,1h,30m
-Subtask,Done,Major,  Update the expense main list view,1h,1h
-Subtask,Done,Major,  Add view contact endpoint,1h,10m
-Subtask,Done,Major,  Add delete contact endpoint,1h,10m
-Subtask,Done,Major,  Confirm upsert contact endpoint is setup,1h,2h 30m
-Subtask,Done,Major,  Add endpoint so that admins can edit a user,1h,1h 30m
-Subtask,Done,Major,  Add endpoint to get a users details,1h,1h 30m
-Subtask,Done,Critical,  Add initializer for roles,1h,45m
-Subtask,Done,Major,  First round QA on staging,1h,1h
-Subtask,Done,Major,  Feedback,0m,1h 10m
-Subtask,Done,Major,  add receiver and endpoint to send confirmation email to requestor,1h,1h
-Subtask,Done,Major,  Updated email template to show service request items and new copy,1h,1h
-Subtask,Done,Major,  Create a vendor item domain entity,1h,1h
-Subtask,Done,Major,  Update dashboard to show service request status,1h,47m
-Subtask,To Do,Major,  Second Round QA on staging,1h,45m
-Subtask,Done,Major,  Add form for creating schedule,1h,40m
-Subtask,Done,Major,  setup IAM on staging so that accounts can be managed,2h,1h 30m
-Subtask,Done,Major,  integrate UI with IAM,1h,7h 30m
-Subtask,Done,Major,  Update list on service request items to show cost,1h,30m
-Subtask,Done,Major,  Confirm edit is working,1h,20m
-Subtask,Done,Major,  Ensure service request edit works,1h,20m
-Subtask,Done,Minor,  Add filter by client,1h,10m
-Task,To Do,Critical,Move over to client servers,4h,3h 10m
-Subtask,Done,Major,  Add a handler that sends and email to the contact associated with the request,2h,1h
-Subtask,Done,Major,  Add middleware that can be used to output any screen as a pdf,3h,2h
-Subtask,Done,Major,  Hook up screen for adding items to a service request,1h,1h
-Subtask,Done,Major,  Add a form for creating a vendor item,2h,1h
-Subtask,Done,Major,  Add command receiver and endpoint for creating vendor item,2h,1h
-Subtask,In Progress,Major,  Update the expense form to show list of related vendor items to the selected service request items,2h,6h 30m
-Subtask,Done,Major,  Add form for editing invoice,2h,40m
-Subtask,Done,Major,  Hook up editing vendor quote screen,1h,1h
+Story,Done,Critical,When my session expires I should be taken to login,60,60
+Task,Done,Major,Update the payment config to only have mapping for undeposited funds,30,30
+Bug,Done,Critical,The wrong date is showing up on payouts and orders,30,38
+Task,Done,Major,Rename Sparks and Signals,30,30
+Task,QA,Critical,Create basic WeOS Slack App,0,240
+Improvement,In Progress,Blocker,Optimize OAuth Integration flow,360,908
+Task,QA,Major,Make agent that runs a tool and retries if no result or if there is an error,240,400
+Task,QA,Major,Create an agent that runs an algorithm until all steps are complete and there is a final result,240,300
+Story,To Do,Major,I should be able to install a personal assistant,480,442
+ Subtask,Done,Major, Add schemas to the prompt,30,75
+ Subtask,Done,Major, Create the embeddings for the queries,360,792
+ Subtask,Done,Critical, Update the query so that it removes duplicates and uses the data from the Shawline Facility,120,302
+Subtask,Done,Minor,  Fix initial icon on the landing screen,60,210
+Subtask,Done,Minor,  Ensure all integrations have icons,30,90
+Subtask,Done,Major,  Redirect back to the main chat after installing integration,10,10
+Subtask,Done,Major,  Make message input smaller,90,140
+Subtask,Done,Major,  Setup Netsuite Provider in IAM,60,218
+Subtask,Done,Major,  Create graphQL schema,30,233
+Subtask,Done,Major,  Add netsuite integration,120,229
+Subtask,Done,Major,  Update schemas to match the assistant,30,30
+Subtask,Done,Major,  Add endpoint on the integration to valid integration jwt token,10,10
+Subtask,Done,Major,  Create command handler to pull the assistant and check if specific integrations exist,120,130
+Subtask,Done,Major,  Return errors,10,10
+Subtask,Done,Major,  Add notification bar to the top of chat container,120,210
+Subtask,Done,Major,  Update Iam to return expires property,30,84
+Subtask,Done,Major,  Show me the accounts with the largest variances compared to the previous month,120,208
+Subtask,Done,Major,  Are there expenses accounts with a credit balance,120,415
+Subtask,Done,Major,  Can you identify any duplicate transactions in the last quarter,120,180
+Subtask,Done,Major,  Are there any roundsum entries in the major expense accounts,120,120
+Subtask,Done,Major,  Deployment,30,190
+Subtask,Done,Major,  Removed hardcoded credentials,60,120
+Subtask,Done,Major,  Test Queries on Dev and staging,120,120
+Subtask,Done,Major,  what is the checking balance as of 11302023,30,125
+Subtask,Done,Major,  Getting balances for expense accounts,120,360
+Subtask,Done,Major,  Get the trial balance as of a specific date,120,807
+Subtask,Done,Major,  Update the assistant service to check if the python code returned a 401 or 403 response and if so then return the code to the app,60,200
+Subtask,Done,Major,  Update the app to have the user reauthorize the integration if the assistant service returned a 401 or 403,60,80
+Subtask,Done,Major,  Update the integration service to return which integration threw the error response in the error message,60,147
+Subtask,Done,Major,  Update all resolver to return errors to the controller,120,120
+Bug,Done,Major,Login issues,20,20
+ Subtask,Done,Major, Create link for Getting embeddings that uses the LLM to normalize query,60,86
+Subtask,Done,Major,  create a share assistant handler on the account service,120,394
+Subtask,Done,Major,  Update the share assistant handler to fetch the user by email from IAM and if the user does not exist then create a user and account with that email,10,20
+Subtask,Done,Major,  update the account validation middleware so that a user would only be able to message a shared assistant,60,90
+Subtask,Done,Major,  update the account validation middleware so that the assistant owner can manage all the shared assistants,60,65
+Subtask,Done,Major,  update the handlers to check if an assistant is shared before making a token request to IAM and if so then use the parent account ID on the assistant to get the token,60,60
+Subtask,Done,Major,  create a event handler that would update all the shared assistants when the parent assistant is updated,60,120
+Subtask,Done,Major,  create an even handler that would delete all the shared assistants when the parent assistant is updated,60,187
+Subtask,In Progress,Critical,  What is in checking account 8048,20,30
+Subtask,Done,Major,  Is there anything in deferred tax assets,20,20
+Subtask,Done,Major,  What is the balance that is due from Trajectory Capital LLC,40,20
+Subtask,In Progress,Major,  What is my Other Income amount for the full year,45,50
+Subtask,Done,Major,  create event handler that would createupdate sub resources on the shared assistant integration when the parent is updated,75,80
+Task,Done,Major,Add a data tag to the message input to make it easier to target in Selenium tests,10,10
+Task,Done,Major,Improve retrieval by adding more context to embeddings,120,450
+Subtask,Done,Major,  hook up removing a shared user,60,105
+Subtask,Done,Major,  Add receiver for creating alert,120,150
+Subtask,Done,Major,  Create event handler that creates a job in the cron scheduler to run the user query returned,120,147
+Subtask,Done,Major,  Add option to create a new alert to the menu,30,30
+Subtask,Done,Major,  Deploy,30,30
+ Subtask,Done,Major, Add a active property to the alert,10,10
+ Subtask,Done,Major, Update the send query function to check if the alert is active before running the query,20,20
+ Subtask,Done,Major, Add a deactivate button to the alerts on the front end and make a request to update the active property on the alert when it is clicked,40,100
+Subtask,Done,Major,  Create notification if the alert should be triggered,180,335
+Subtask,Done,Major,  Add context back so the user can continue the conversation,60,75
+Subtask,Done,Major,  create event handler to delete notifications when a alert is deleted,60,60
+Subtask,Done,Major,  create confirmation modal,60,90
+Subtask,Done,Major,  hook up delete,90,120
+Subtask,Done,Major,  Deploy the insight service,120,202
+Subtask,Done,Major,  create dummy data for the insights,15,30
+Subtask,Done,Major,  update the app to fetch and render the insights from the insight service,60,130
+Subtask,Done,Major,  Add schema and endpoints for insights,60,310
+Subtask,Done,Major,  Create insight list item component,45,45
+Subtask,Done,Major,  Create Insight screen desktop,45,45
+Subtask,Done,Major,  Create insight card component,90,280
+Subtask,Done,Major,  Create insight view component,45,45
+Subtask,Done,Major,  update delete alerts handler to delete one alert when an alert id is passed,180,210
+ Subtask,Done,Major, Can we use the profit and lost to identify trendsissues,300,220
+Subtask,Done,Major,  add a middleware that would only allow admins to edit the cron tab of an alert,60,90
+Subtask,Done,Major,  copy the workflows from the assistant service and add them to the cloud module,120,180
+Subtask,Done,Major,  Update the run query function to use the workflows from the cloud module to run and validate the alert,90,563
+Subtask,Done,Major,  create an alert setup hander on the alert service,60,179
+Subtask,Done,Major,  create a start link that would extract actionable items from the balance sheet,120,950
+Subtask,Done,Major,  create a ignite handler to for generating the insights,60,406
+Subtask,Done,Major,  update the front end to hit the generate insight endpoint when a user first creates an account,30,45
+Subtask,Done,Major,  create a function that would run on a schedule and update the active property on the insights for each account,60,158
+Subtask,Done,Major,  Create insight projection and model,60,60
+Bug,Done,Major,Cant snooze notifications whose alerts were already deleted,30,34
+Subtask,Done,Major,  Change connect to quickbooks button to an intuit approved graphic See here Intuit Developer,20,20
+Subtask,Done,Major,  Change email subject from Notification from XYZ Assistant to WeOS Notification  Name of Alert,20,20
+Subtask,Done,Major,  Menu Edits,60,120
+Subtask,Done,Minor,  Shared assistant remains in pending status even after accepting,60,60
+Subtask,Done,Major,  Site optimization,240,300
+Subtask,Done,Major,  Create insight screen mobile,45,60
+Subtask,Done,Major,  add resolve button,20,20
+Subtask,Done,Major,  Update the weosterraformvpc module,10,10
+Subtask,Done,Major,  Create passwords for microservices in WeOS terraform,60,60
+Subtask,Done,Major,  Deploy to Staging,60,60
+Subtask,Done,Major,  Update remaining microservices to use the default SQL initializer,60,68
+Subtask,Done,Major,  Set up the logo for the custom connection,30,60
+Subtask,Done,Major,  Check the user sub for QuickBooks and setup default assistant then create account on the insight service,60,80
+Subtask,Done,Major,  Update the igniters to not make all the insights inactive except 1,30,47
+Subtask,Done,Major,  Add igniter property to the insight struct should be set within the igniter,20,40
+Subtask,Done,Major,  Add reports array property to the insight struct should be set within the igniter,20,20
+Subtask,Done,Major,  Add timeframe property to the insight struct should be set within the igniter,20,20
+Subtask,Done,Major,  update the insight card to have a info icon that flips the card and shows this data,120,120
+Subtask,Done,Major,  Update the front end to fetch and render the active insights,10,10
+Subtask,Done,Major,  Deploy to Dev,60,120
+Subtask,Done,Major,  Update the alert service to store and run the recommended alerts,120,245
+Subtask,Done,Major,  Pull recommend alerts from the alert service,30,45
+Subtask,Done,Major,  Add third column to insight screen,10,20
+Subtask,Done,Major,  Render recommend alerts from the insight object,45,165
+Subtask,Done,Major,  Validate 10 alerts and add them to the recommend alerts,180,255
+Subtask,Done,Major,  Change snooze icon to pause icon,10,15
+Subtask,Done,Major,  update update notification event handler to check if read property is set to true and set the alert trigger to be false,120,150
+Subtask,Done,Major,  create a provider that would run the profit and loss igniter that would run on a daily schedule and call the profit and loss igniter based on the created date,90,151
+Subtask,Done,Major,  Create a provider that would run on a monthly schedule and trigger the profit and loss igniter for all accounts,90,100
+Subtask,Done,Major,  update the igniter params to take in a start and end date and use this to determine which reports to get,30,70
+Subtask,Done,Major,  Create a provider that would create the m2m token and add it to the container,90,96
+Subtask,Done,Major,  setup custom scheme in app builds,300,300
+Subtask,Done,Major,  setup app to listen for redirects to that custom scheme,30,30
+Subtask,Done,Major,  test build on httpsionicioappflow,60,60
+Subtask,Done,Major,  create native auth0 application,30,30
+Subtask,Done,Major,  install capacitor and relevant packages,30,180
+Subtask,Done,Major,  create list of recommended alerts on that alert service,30,60
+Subtask,Done,Major,  update the schedule provider to fetch add the recommended alerts to the insight when it is made active,60,418
+Bug,Done,Critical,Error when editing alert,45,53
+Task,Done,Critical,Add create alert button to manage alert screen,30,40
+Subtask,Done,Major,  update delete notification event handler to set the alert to inactive,30,30
+Subtask,Done,Major,  Setup fastlane for playstore,360,360
+Story,Done,Major,I should be able to easily rate the app,10,115
+ Subtask,Done,Major, Add remote config variable in_app_review,10,10
+ Subtask,Done,Major, Trigger in app review based on the value of in_app_review and if all notifications have been read,45,45
+ Subtask,Done,Major, Add checks to ensure that the tour starts after quickbooks is connected,20,60
+ Subtask,Done,Major, Install driverjs,10,10
+ Subtask,Done,Major, Add ids to elements so they can be reference,20,20
+ Subtask,Done,Major, Create highlight for each element,90,90
+ Subtask,Done,Major, Add each highlight to driver steps,20,20
+Subtask,Done,Major,  Create and setup Goal Service,120,100
+Subtask,Done,Major,  Create an initialiser that would fetch and create all the default Goals,60,130
+Subtask,Done,Major,  Replace Alerts with Signals through the app,30,30
+Subtask,Done,Major,  create a batch setup endpoint on the alert serrvice,15,20
+Subtask,Done,Major,  create a handler on the alert service that would loop through all the alerts associated with a goal and create it under the account,90,267
+Subtask,Done,Major,  create a list of recommended alerts for each goal on the alert servce,180,315
+Subtask,Done,Major,  Add a goal property to the alerts,15,35
+Subtask,Done,Major,  Setup prompt so that user can allow push notifcations,120,120
+Subtask,Done,Major,  Add push notification listeners,120,120
+Subtask,Done,Major,  Add prompt when for canceling subscription,30,45
+Subtask,Done,Major,  Deploy to dev,60,60
+Subtask,In Progress,Major,  Setup inappproducts for android and ios,60,75
+Subtask,Done,Major,  Install revenuecatpurchasescapacitor and configure in appvue,30,30
+Subtask,Done,Major,  Get offerings using sdk and render them,120,130
+Subtask,Done,Major,  Setup purchase package function using the sdk,120,315
+Subtask,Done,Major,  Create revenue cat api key,10,45
+Subtask,Done,Major,  Add splash screen,60,90
+Subtask,Done,Major,  Configure QuickBooks redirect depending on the platform,90,120
+Subtask,Done,Major,  Add push notification registration function to AppDelegateswift,70,60
+Subtask,Done,Major,  Add fire base sdk to pod file,45,105
+Subtask,Done,Major,  Configure the sdk to use the account id as the user app id,30,30
+Subtask,Done,Major,  Add option for push notification on the sidebar,45,60
+Subtask,Done,Major,  update the get user handler in IAM to fetch the invite code and add the user to the account,120,238
+Bug,Done,Major,When notifications are read the notification in the menu is not updated,240,300
+Bug,Done,Major,Error logging out,120,165
+Task,Reopened,Minor,Add Facebook SDK to mobile apps,60,90
+Subtask,Done,Major,  Create settings screen,30,30
+Subtask,Done,Major,  Add back cookie control module,60,90
+Subtask,Done,Major,  Migrate delete functionality to settings screen,30,30
+Subtask,Done,Major,  Install chart js,10,10
+Subtask,Done,Major,  Render chart using data on the parent insight,90,90
+Subtask,Done,Major,  Hook up learn more,45,60
+Subtask,Done,Major,  Add follow up card that shows the child insight,45,105
+Subtask,Done,Major,  Add next spark button for mobile screen,30,30
+Subtask,Done,Major,  Configure Inapp Purchase Capability for IOS,30,30
+Subtask,Done,Major,  create prompt for user to subscribe,45,45
+Subtask,Done,Major,  Add subscription status to the top navigation,10,10
+Subtask,Done,Major,  create subscription page,45,45
+Subtask,In Progress,Major,  Setup store kit testing on ios,120,570
+Subtask,Done,Major,  Add subscription status to the top navigation,45,60
+Subtask,Done,Major,  Add provider for FirebaseSDK,15,15
+Subtask,Done,Major,  Push to Dev,30,35
+Subtask,Done,Major,  Port the SendNotification function from the alert service to the insight service,10,10
+Subtask,Done,Major,  Add event handler to trigger generation when the account is first created,20,30
+Subtask,Done,Major,  Deploy to Dev,15,30
+Subtask,Done,Major,  Figure out standard way to return data for front end to render graph,30,20
+Subtask,Done,Major,  Install and setup capacitorfirebaseremoteconfig,45,60
+Subtask,Done,Major,  Create screen to accept feedback from the user,90,90
+Subtask,Done,Major,  Update the feedback service to store this feedback,90,90
+Subtask,Done,Major,  Set up handler to push this feedback to slack,15,44
+Subtask,Done,Major,  Setup restrictions in the app so that users cant perform destructive actions,60,75
+Subtask,Done,Major,  Check if the device id exists on the feedback service to determine if the user completed the demo form or not,30,30
+Subtask,Done,Major,  Create demo_login as a remote config option,10,10
+Subtask,Done,Major,  Conditionally render the demo link based on the demo_login value,10,10
+Subtask,Done,Major,  update the frontend to render new chart format,30,45
+Bug,Done,Major,when i read a notification it scrolls the welcome page,30,30
+ Subtask,Done,Major, hide the subscription screen based on a feature flag,45,60
+ Subtask,Done,Major, hide insights based on the current condition and feature flag,60,60
+ Subtask,Done,Major, set remote config to disable subscriptions,45,60
+Subtask,Done,Major,  Setup Shopify Connection in Auth0,30,60
+Subtask,Done,Major,  add the auth0 callback url to the Shopify app,10,10
+Subtask,Done,Major,  Add Shopify Service,120,637
+Subtask,Done,Major,  Add screen for choosing plan,90,110
+Subtask,Done,Major,  Update the auth0 action to pass in the account ID and add it to the JWT when the user connects quickbooks,60,60
+Subtask,Done,Major,  Set the app url in the shopify partner dashboard,15,15
+Subtask,Done,Major,  Deploy to Dev,120,120
+Subtask,Done,Major,  Setup account resource for storing configuration,120,95
+Subtask,Done,Major,  Add method to shopify service to get orders,180,60
+Subtask,Done,Major,  Add endpoint for getting list of orders,180,120
+Subtask,Done,Minor,  Update account list endpoint to return a specific type of account,120,90
+Subtask,Done,Major,  Setup mapping to get a list of customers from Quickbooks,30,30
+Subtask,Done,Major,  Setup mapping to get productsservice from Quickbooks,60,75
+Subtask,Done,Major,  Add shopify integration to integration service,480,600
+Subtask,Done,Major,  Add mapping to get disputes from shopify,120,120
+Subtask,Done,Major,  Consolidate all weekly igniters cron jobs into one cron job,10,10
+Subtask,Done,Major,  Add questions and related python code,60,60
+Subtask,Done,Major,  Setup recognition screen on front end,60,60
+Task,Done,Major,Wepala Website updates,300,565
+Subtask,Done,Major,  Create job run the igniter on a weekly basis,5,5
+Subtask,Done,Major,  Create Order Entity,120,313
+Subtask,Done,Major,  Create Product Entity,120,120
+Subtask,Done,Major,  Create Customer Entity,60,60
+Subtask,Done,Major,  Hook up UI for previewing and import,180,270
+Subtask,Done,Major,  Hook up performing an import,180,210
+Subtask,Done,Major,  Hook up order list UI,150,150
+Subtask,Done,Major,  Add screen for shopify to be redirected to after app install,45,45
+Subtask,Done,Major,  update the install URL handler in IAM to return the shopify auth URL,60,60
+Subtask,Done,Major,  update integration service to get the shopify token from iam,30,30
+Subtask,Done,Major,  add the WeAuth Security scheme to all the services,60,120
+Subtask,Done,Major,  Initital Feedback,120,190
+Subtask,Done,Major,  Add endpoint to Feedback service to handle customer data request,45,45
+Subtask,Done,Major,  Add endpoint to Feedback Service to handle customer erasure,45,45
+Subtask,Done,Major,  Add endpoints to handler webhooks,90,68
+Subtask,Done,Major,  Update all the shopify apps for the different environments with the webhook URL,60,73
+Subtask,Done,Major,  push updates to dev an test that all the services are working with the WeAuth token,90,100
+Subtask,Done,Major,  make it so that the connection ID is stored on the insights when creating the shopify insights,60,60
+Subtask,Done,Major,  update the IAM handler to verify that the request is from shopify,90,70
+Subtask,Done,Major,  Deploy to staging,30,30
+Subtask,Done,Major,  Add a endpoint and handler that would copy over the demo account quickbooks token to the users account,90,60
+Subtask,Done,Major,  add a controller that would redirect users to the app with a JWT once the account is crated,90,110
+Subtask,Done,Major,  add a demo account login to the shopify screen,120,150
+Subtask,Done,Major,  Stuck on loading screen while installing app,60,90
+Subtask,Done,Major,  add a handler to the IAM service that would create the default assistant and install the quickbooks integration,90,115
+Subtask,Done,Major,  Initial Feedback,90,290
+Subtask,Done,Major,  Update quickbooks api yaml and regenerate sdk,90,180
+Subtask,Done,Major,  Deploy to staging,30,40
+Subtask,Done,Major,  Test on Dev,60,230
+Subtask,Done,Major,  Create screens,180,180
+Subtask,Done,Major,  Add function to fetch the shopify client ids from IAM,30,30
+Subtask,Done,Major,  Add function to delete shopify token from IAM,30,30
+Subtask,Done,Major,  Add function to add shopify store,30,45
+Subtask,Done,Major,  Add function to refresh store,30,45
+Subtask,Done,Blocker,  add an endpoint on IAM to fetch the client IDs,60,70
+Subtask,Done,Major,  Debugging test,60,60
+Subtask,Done,Major,  Hookup,180,180
+Subtask,Done,Major,  Setup endpoint that returns a list of products,60,90
+Subtask,Done,Major,  Setup endpoint that returns a list of customers,120,130
+Subtask,Done,Major,  QA Feedback 2,60,50
+Subtask,Done,Major,  Setup endpoint to return a list of accounts from quickbooks,30,30
+Subtask,Done,Major,  Create method to get order from shopify,30,30
+Subtask,Done,Major,  Add endpoint for saving the configuration,120,205
+Subtask,Done,Major,  Create endpoint for creating an import,120,539
+Subtask,Done,Major,  Update screens based on feedback from francisakeem,300,300
+Subtask,Done,Major,  Add endpoint for listing imports,60,29
+Subtask,Done,Major,  Create endpoint to create a new customer,120,224
+Subtask,Done,Major,  Hook up revenue recognition,60,90
+Subtask,Done,Major,  Hook up saving order configuration,60,60
+Subtask,Done,Major,  Hook up Saving Product config and Customer config,120,120
+Subtask,Done,Major,  Add method and endpoint to get classes from quickbooks,60,60
+Subtask,Done,Major,  Add autocomplete to handle searches,120,130
+Subtask,Done,Major,  Hook up create customer,120,120
+Subtask,Done,Major,  Setup Tax Mapping Config,60,87
+Subtask,Done,Major,  Hook up the configurationmapping ui,180,270
+Subtask,Done,Major,  Setup fee mapping config,60,24
+Subtask,Done,Major,  Endpoint for shopify fees,120,95
+Subtask,Done,Major,  Hook up configuration,60,90
+Subtask,Done,Major,  Add endpoint for previewing and import,120,80
+Subtask,Done,Major,  Add select store screen and rework manage integrations,60,60
+Subtask,Done,Major,  Add info about the status of import to list,120,75
+Bug,In Review,Major,Unable to select an alert on mobile,60,90
+Subtask,Done,Major,  Hook up filters,120,120
+ Subtask,Done,Major, update the python code on for the child insight to add the customer name and email to the list,90,120
+ Subtask,Done,Major, test on dev,30,30
+Subtask,Done,Major,  Add section in settings to show the current subscription,200,200
+Subtask,Done,Major,  Add endpoint to cancel a subscription,60,326
+Subtask,Done,Major,  Add payment status filter,120,120
+Subtask,Done,Major,  Add fulfillment status filter,120,150
+Subtask,Done,Major,  Make it so that it prefilters the list of order based on the config,60,120
+Subtask,Done,Major,  Dev review feedback,90,137
+Subtask,Done,Major,  Update subscription service so that the interval is passed in when the plan is created,60,75
+Subtask,Done,Major,  Add endpoint to get subscriptions account has,60,48
+Subtask,Done,Major,  Feedback,90,105
+Subtask,Done,Major,  Dev review feedback,270,270
+Subtask,Done,Major,  Update the config validation to check the preferences,120,86
+Subtask,Done,Major,  Update order list controller to filter by import status,60,60
+Subtask,Done,Major,  Add the import status to the list of changes on the import,30,10
+Subtask,Done,Major,  Hook up import button to hit the endpoint,45,45
+Subtask,Done,Major,  Poll the import resource and update the list of items in the preview,120,120
+Subtask,Done,Major,  Pull the list of payment options from import service and populate the fields,60,60
+Subtask,Done,Major,  Map fields to payout config,60,60
+Subtask,Done,Major,  Render any errors after saving the config,30,30
+Subtask,Done,Major,  Add endpoint to get list of payouts,180,337
+Subtask,Done,Major,  Update the list screen to have tabs at the top for orderspayouts,30,30
+Subtask,Done,Major,  Pull the list of payout and update the table,120,150
+Subtask,Done,Major,  Create functions to handle filters for the payouts,120,150
+Subtask,Done,Major,  Update Post method on import to handle payouts,60,60
+Subtask,Done,Major,  Create function to undo the import,30,30
+Subtask,Done,Major,  Poll the resource for updates and update the items,60,60
+Subtask,Done,Major,  Add endpoint to undo import,240,365
+Subtask,Done,Major,  Render any errors that comes back,30,30
+Subtask,Done,Major,  Setup keys in key manager,60,77
+Subtask,Done,Major,  Add the ability to associate a custom install link to provider,120,31
+Subtask,Done,Major,  Switch to saving the id of the custom account and product,180,190
+Subtask,Done,Major,  Fix issue where product is not being saved with line item,60,68
+Subtask,Done,Major,  Use tax mappings to add tax line items,120,60
+Subtask,Done,Major,  Use fee mappings to add fee line items,60,19
+Subtask,Done,Major,  Add discounts,60,188
+Subtask,Done,Major,  Add WeOS tag,60,17
+Subtask,Done,Major,  Add shipping lines,60,70
+Subtask,Done,Major,  Make sure sales receipt is working,60,58
+Subtask,Done,Major,  Update Shopify API,60,196
+Subtask,Done,Major,  Update domain layer to create payments,120,199
+Subtask,Done,Major,  Update the verification controller in IAM to get the custom provider and fetch the keys from the key manager,90,91
+Subtask,Done,Major,  remove code from the callback handler in IAM where the shopify provider is hardcoded,60,60
+Subtask,Done,Major,  update the app url and callback url in custom shopify app to use the custom provider ID,30,50
+Subtask,Done,Major,  Test on Dev,60,420
+Subtask,Done,Major,  Hook up saving shipping discount and payment config,240,240
+Subtask,Done,Major,  Add correct billing and shipping address to invoice,60,49
+Subtask,Done,Major,  Make it so that an already syncd invoice is updated not created,60,80
+Subtask,Done,Major,  Handle refunds better,120,220
+Subtask,Done,Major,  Update shopify service to get payout details,60,67
+Subtask,Done,Major,  Create payouts import screen based on wireframe,120,120
+Subtask,Done,Major,  Create entity for payout and thirdparty payout,60,90
+Subtask,Done,Major,  Call endpoint to get payout details and render tables,120,150
+Subtask,Done,Major,  Add method on account model to import payout,120,127
+Subtask,Done,Major,  Add function and button to perform import,30,30
+Subtask,Done,Major,  Update the table component to have the right fields and render the data,120,120
+Subtask,Done,Major,  Update Quickbooks service and SDK for creating deposit,60,60
+Subtask,Done,Major,  Update import payout to create journal entries,120,120
+Subtask,In Progress,Major,  Feedback 2,510,540
+Subtask,Done,Major,  Update Quickbooks service and SDK for creating journal entries,60,129
+Subtask,Done,Major,  Update quickbooks service to create refund,60,210
+Subtask,Done,Major,  Switch to linking deposit to payment instead of the order,60,100
+Subtask,Done,Major,  Sort out order date idempotency,180,68
+Subtask,Done,Major,  Update subscription create endpoint for an exception for custom apps,120,75
+Subtask,Done,Major,  update IAM to create a subscription for the custom app,90,60
+Subtask,Done,Major,  update IAM to make a request to the subscription service to create the subscription,90,120
+Subtask,Done,Major,  QA Feedback,120,114
+Subtask,Done,Major,  Hook up the default account mapping and account specific mappings,90,90
+Subtask,Done,Major,  Ensure more than 250 transactions are pulled from payout,60,60
+Subtask,Done,Major,  Feedback,30,30
+Subtask,Done,Major,  Journal entry page,60,60
+Subtask,Done,Major,  Add Refund Detail screens,120,120
+Story,In Progress,Major,Additional Detail Screens,240,240
+Subtask,Done,Major,  Add refund config,120,120
+Subtask,Done,Major,  Make it so that all the payout transactions are pulled,60,120
+Story,Done,Major,Preparing Payout Preview Modal,60,60
+Subtask,Done,Major,  Add options to choose how deposit lines are added to deposit,60,180
+Subtask,Done,Major,  Fix issue where the payout status is incorrect,60,60
+Subtask,Done,Major,  Feedback,60,60
+Subtask,Done,Major,  Update the integration page to check for custom provider and pass it into the request to iam,30,30
+Subtask,Done,Major,  Save payment options in the payment event handler to the database,60,36
+Subtask,Done,Major,  Update the fee component to render payout fees,60,60
+Subtask,Done,Major,  Create an endpoint for getting the list of payment options,60,45
+Subtask,Done,Major,  Update the mapping component to be a singular field mapping,60,60
+Subtask,Done,Major,  Update the components that used the previous mapping component to loop and render the fields,120,120
+Subtask,Done,Major,  Create function to assign placeholder values when the default mapping changes,10,10
+Subtask,Done,Major,  Update the import projection to have information about the associated items in the import,60,71
+Subtask,Done,Major,  Update list payout controller to return a dummy payout for webooksdev and webooksqa stores,60,60
+Subtask,Done,Major,  Add a payment service that can be substituted for the shopify service when specific store ids are used,60,45
+Subtask,Done,Major,  Update Get Service to use the store id to determine which service to use as well,60,90
+Subtask,Done,Major,  Clean up payment config,30,15
+Subtask,Done,Major,  Add import list with last 5 imports to home screen,45,45
+Subtask,Done,Major,  Render the alert messages in the alerts tab and add setting button,45,45
+Subtask,Done,Major,  Update the delete request to hit the new endpoint,20,20
+Subtask,Done,Major,  render summary on the import item,30,30
+Subtask,Done,Major,  add filter to import list,60,60
+Subtask,Done,Major,  Set imports to have status preview by default,30,5
+Subtask,Done,Major,  Set import status to error when there is an error during import and all the changes have been attempted,60,20
+Subtask,Done,Major,  update the polling function to check for status error and stop polling,10,10
+Subtask,Done,Major,  QAfeedback,60,60
+Subtask,Done,Major,  Feedback,20,20
+Subtask,Done,Major,  Make payout total match orderspayout transaction,60,35
+Subtask,Done,Major,  Create endpoint for returning the list of providers,60,22
+Subtask,Done,Major,  Update integrations screen to render the list of providers,60,31
+Subtask,Done,Major,  Add list of stores for square,120,60
+Subtask,Done,Major,  Copy shopify config and make sure the config is saving to square store resource,60,106
+Subtask,Done,Major,  Add square service and implement order service,120,120
+Subtask,Done,Major,  Implement payout service on square service,120,192
+Subtask,Done,Major,  Add screen for scheduling import,120,220
+Subtask,Done,Major,  Create entity for scheduled import,120,50
+Subtask,Done,Major,  Create a command that gets the payouts to be imported,60,48
+Subtask,Done,Major,  Create a command that gets the orders to be imported,60,116
+Subtask,Done,Major,  Setup event handler to persist scheduled import,180,270
+Subtask,Done,Major,  Add endpoint for importing orders on a schedule,60,270
+Subtask,Done,Major,  Add endpoint for listing scheduled jobs,60,100
+Subtask,Done,Major,  Add endpoint for scheduling an import,60,135
+Subtask,Done,Major,  Create batch job service to queue scheduled imports,120,74
+Subtask,Done,Major,  Generate Fern SDK to use,60,160
+Subtask,Done,Major,  Implement the Square Service,120,1011
+Subtask,Done,Major,  Update screens in UI to be provider agnostic,180,290
+Subtask,Done,Major,  Add UI to manage Tip Config,60,60
+Subtask,Done,Major,  Add endpoint to receive file uploads,60,60
+Subtask,Done,Critical,  Create restlet for attaching image to record,120,120
+Subtask,Done,Major,  Add entity for purchase order,60,60
+Subtask,Done,Major,  Add netsuite service,60,150
+Subtask,Done,Major,  Add screen for updating details of uploaded image,120,240
+Subtask,Done,Major,  add an invite endpoint and handler to IAM,90,100
+Subtask,Done,Major,  make it so that the users could be removed from an account,90,249
+Subtask,Done,Major,  Setup WeOSv2,60,56
+Subtask,Done,Major,  Setup default oauth providers,60,160
+Subtask,Done,Major,  Get Install URL working again,120,190
+Subtask,Done,Major,  Add callback that handlers oauth response,120,203
+Subtask,Done,Major,  Setup creating user with username and password,240,290
+Subtask,Done,Major,  Setup Sessions for Users logging in,120,200
+Subtask,Done,Major,  Create command for setting up JWT and updating Session,120,200
+Bug,Done,Critical,Payout and Order Rollback not removing items from WeOS,60,290
+Subtask,Done,Major,  set up account creation,120,165
+Subtask,Done,Major,  setup single account OAuth service for shopify,90,120
+Task,In Progress,Major,Deploy refactored inisght,60,61
+Subtask,Done,Major,  Back up non prod database backup,30,30
+Subtask,Done,Major,  push updates to dev and test,120,300
+Task,In Progress,Major,Refactor code structure for WeOS v2,120,405
+Task,In Progress,Major,setup audit service,120,120
+Subtask,Done,Major,  add domain object for roles,60,35
+Subtask,Done,Major,  add CURD endpoints for roles and add event handlers for the entities,60,30
+Subtask,Done,Major,  update the update user handler to update the user roles,30,30
+Subtask,Done,Major,  Add a way to get a list of purchase order from netsuite,60,90
+Subtask,Done,Major,  create a custom provider for kulrnetsuite,60,90
+Subtask,Done,Major,  create a netsuite auth service,60,120
+Subtask,Done,Major,  update the oauth receiver to create all netsuite users under the same account,120,180
+Subtask,Done,Major,  create weos integration in netsuite,30,90
+Subtask,Done,Major,  Fix open ID connect error when authorising netsuite,60,90
+Subtask,Done,Major,  add entity for accounts and file,60,60
+Subtask,Done,Major,  Add netsuite login on the frontend,90,90
+Subtask,Done,Major,  Finish implement list transactions,60,60
+Subtask,Done,Major,  confirm quickbooks list transactions work,60,560
+Subtask,Done,Major,  Get basic account creation working using domain models,60,90
+Subtask,In Progress,Major,  add resources file,60,240
+Subtask,In Progress,Major,  setup resource providers,60,203
+Subtask,Done,Major,  setup user roles,60,100
+Subtask,To Do,Major,  setup subscriptions using the domain models,60,60
+Subtask,Done,Major,  get basic connection working,60,120
+Subtask,Done,Major,  Deploy to staging,60,178
+Subtask,Done,Major,  Setup basic slack app using bolt,60,60
+Subtask,In Progress,Major,  Setup workflow domain object,60,60
+Subtask,In Progress,Major,  Add endpoints for managing workflows,60,300
+Subtask,To Do,Major,  Add a queue system that runs workflows,120,198
+Subtask,Done,Major,  deploy to prod,120,120
+Subtask,Done,Major,  Deploy Host Agent to staging,240,60
+Subtask,Done,Major,  Update slack app to point to host agent,60,60
+Subtask,Done,Major,  Add authentication for Slack bots against IAM,120,840
+Subtask,In Progress,Major,  create suite script that would send events,60,60
+Subtask,To Do,Major,  update the SO method to approve SOs,30,70
+Subtask,To Do,Major,  update the PO method to approve POs,30,60
+Subtask,Done,Major,  make sure that the mcp server is up and working,60,150
+Subtask,In Progress,Major,  Register a bot in azure,60,90
+Subtask,Done,Major,  Investigate which agent framework to use,120,645
+Subtask,Done,Major,  Integrate host agent with MCP,120,350
+Subtask,Done,Major,  Fix issue with conversation not persisting in slack chat,120,140
+Subtask,Done,Major,  Make it so that lists are returned as a CSV in slack,120,300
+Subtask,Done,Major,  get list endpoint working,60,60
+Subtask,Done,Major,  get upsert endpoint working,60,80
+Subtask,Done,Major,  Update WeOS VPC to use updated module,15,13
+Subtask,To Do,Major,  When filtering by import status pull the list of orders in the system first,60,56
+Subtask,Done,Major,  Setup Integration record for the application,15,10
+Subtask,Done,Major,  Create a scheduled suitescript run the saved search daily and save the results in file cabinet,120,115
+Subtask,Done,Major,  Creating Alert modal when you click to create an alert,15,10
+Subtask,Done,Major,  if user has status of Trial Expired hide insight details,25,20
+Subtask,Done,Major,  Update the frontend so the user wont be able to create custom signals,45,40
+Subtask,Done,Major,  Setup endpoint for webhook that removes the shop date from IAM,120,115
+Subtask,Done,Major,  add login with google button to the getstarted screen,30,24
+Subtask,Done,Major,  Create passwords for IAM databases and update IAM terraform,15,7
+Subtask,Done,Major,  create an event handler in IAM to remove the shop data from all the other services,120,142
+Subtask,Done,Major,  Add filters for store and status to the import list endpoint,60,52
+Subtask,Done,Major,  Make sure that everything is working well with this assistant,60,50
+Subtask,Done,Major,  create a share endpoint on the account service,10,0
+Subtask,Done,Major,  Update the front end to make a request to the alert service to create the alert instead of the assistant service,90,80
+Subtask,Done,Major,  Add account resource to schema that triggers insight generation,60,50
+Bug,Done,Major,Cannot find subtree for parent node,20,10
+Subtask,Done,Major,  Remove PWA,30,20
+Subtask,Done,Major,  create public_google_api_key,20,10
+Subtask,Done,Major,  Create a way to get the list of users that are associated with an account from IAM,30,20
+Subtask,Done,Major,  Dispatch command to generate insight to the new account event handler,20,10
+Subtask,Done,Major,  Deploy to prod,30,20
+Subtask,Done,Major,  Add Payment,120,110
+Subtask,Done,Major,  Update import payout to import missing orders,60,50
+Subtask,Done,Major,  Update the fee config to have the mappings that were previously under payouts,30,20
+Subtask,Done,Major,  Update Roles to be able to login with OAuth 20,15,3
+ Subtask,Done,Major, Create Langfuse Go SDK,240,992
+ Subtask,Done,Major, Update the workflows to send spans to Langfuse,90,768
+ Subtask,Done,Major, set up self hosting on local,30,30
+ Subtask,Done,Major, Test Langfuse Cloud using python SDK,30,17
+Subtask,Done,Major,  Add list of users to the app,60,46
+Subtask,Done,Major,  Pull token from IAM and validate jwt,60,45
+Subtask,Done,Major,  Update the action to pass in the invite code to IAM,30,15
+Subtask,Done,Major,  create public_apple_api_key,20,5
+Subtask,Done,Major,  Add environment variable for assistant service,30,15
+Subtask,Done,Major,  Add environment variable to use for the Quickbooks endpoint,30,15
+Subtask,Done,Major,  Map fields to the payout config,120,105
+ Subtask,Done,Major, Make it so that giving a thumbs up creates an embedding,60,75
+ Subtask,Done,Major, Make it so that giving a thumbs up creates and example,60,115
+ Subtask,Done,Major, Make it so that giving a thumbs down makes an example,60,84
+ Subtask,Done,Major, Add an endpoint for using examples to make a fine tuned model,180,251
+ Subtask,Done,Major, Add more examples,60,104
+ Subtask,Done,Major, Build finance assistant fine tune model,60,120
+ Subtask,Done,Major, Add a collection for fine tune model examples to accounts,30,14
+Subtask,Done,Major,  Add screen for creating alert using natural language,30,12
+Subtask,Done,Major,  Assess current status,60,41
+Subtask,Done,Major,  Endpoint for getting tax items from shopify orders,120,101
+ Subtask,Done,Major, create Jupyter note book experiment that compares the LLM responses with the prompt list and the responses without,120,210
+ Subtask,Done,Major, update the HighestSimilarityPrompt workflow on the assistant service to check if the similar embedding that the query matched to is querying for an account,60,75
+ Subtask,Done,Major, Update the finance prompt so that the LLM would be able to handle the abbreviation,60,75
+ Subtask,Done,Major, Write prompt foo test to validate the prompt,60,210
+ Subtask,Done,Major, Test the queries using the finance assistant,120,125
+ Subtask,Done,Major, Update the integration service to only hit the trial balance if the balance is requested,30,45
+ Subtask,Done,Major, Update the integration service to handle the in operator,45,70
+ Subtask,Done,Major, write unit tests to test the updated workflow,60,40
+Subtask,Done,Major,  Add endpoint to handle shopify billing confirmation,60,220
+Subtask,Done,Major,  Add Tip config to API,60,39
+Subtask,Done,Major,  Fix issue with the finance assistant install It appears to be returning a 404,60,35
+Subtask,Done,Major,  update the recommended alert initialiser to create and store the embeddings from the recommended alerts,60,35
+Subtask,In Progress,Major,  setup endpoint,120,95
+Subtask,Done,Major,  confirm that the more complex schema works with the weos mcp setup,60,33
+ Subtask,Done,Major, Set up AWS Secret manager,150,145
+ Subtask,Done,Major, Create a handler on the IAM service so that when an account specific provider is created it would get the keys from AWS and store it on the provider,120,303
+ Subtask,Done,Major, Update the manifest on the integration service to include the key names as properties,20,230
+ Subtask,Done,Major, Update the weos app to include the key name in the header when sending a request to IAM to get the install URL,20,125
+ Subtask,Done,Major, Deploy to staging,60,32
+Task,In Progress,Major,Avoid making duplicate embeddings,60,31
+Subtask,Done,Major,  Update infrastructure layer to account for payments,60,30
+Subtask,Done,Major,  Implement payment service on square service,120,90
+Subtask,Done,Major,  push updates to staging and test,60,120
+Subtask,Done,Major,  setup view detail controllers,60,30
+ Subtask,Done,Major, Add a step that checks if there was code associated and reruns the query if not,120,492
+ Subtask,Done,Major, Add a step that checks if there was an error with the python response and reruns the query if there was,180,300
+ Subtask,Done,Major, Make sure the response returned to the WeOS app is formatted correctly,60,108
+ Subtask,Done,Major, Add Link to Update Conversation,60,188
+ Subtask,Done,Major, Make it extract steps from the python code as well,60,102
+ Subtask,Done,Major, Make retries 2 layers deep,120,118
+ Subtask,Done,Major, Add Link to skip LLM call if the similarity is 10,60,51
+ Subtask,Done,Major, Fix issue where steps are not showing up in the UI,30,13
+ Subtask,Done,Major, Add Link that detects json like code in the response and extracts it and places it in items,60,38
+ Subtask,Done,Blocker, Make it so that users can log into WeOS with 3rd party OAuth,300,333
+Task,Closed,Major,nuxt dev tools security vulnerability,20,20
+Bug,Done,Blocker,Cant go to chat with assistant when logged in with shopify account,120,120
+Story,Done,Major,I should be able to see all tax mappings,60,60
+Bug,Done,Blocker,Duplicate entries on import,60,60
+Bug,Done,Critical,Orders showing up with wrong date,120,185
+Bug,Done,Critical,Refund Receipts for cash orders dont seem to get created,60,280
+Task,Done,Critical,Make help button show modal with Email Phone and support website,30,24
+Task,Done,Blocker,Make it so that store selected on import list screen is selected on payouts and orders,30,23
+Bug,Done,Critical,The date on the fees added are incorrect,60,20
+Task,Closed,Critical,Add Firebase Analytics to iOS,90,247
+Story,Closed,Major,I should be able to get detailed insights based on my AR,480,165
+Story,Closed,Blocker,I should see a loading screen when I select the purchase subscription button on iOS,30,30
+Bug,Done,Minor,Long load times on Activity Feed,50,65
+Story,Done,Major,Add placeholder text on alert create,120,210
+Task,Done,Major,UXUI tweaks part 2,180,210
+Task,Done,Major,UXUI tweaks part 3,270,300
+Task,Done,Major,Make it so that when a users reads a message they can receive new notifications,0,45
+Story,Done,Major,Add footer to the application,60,116
+Task,Done,Major,Setup Prod environment,240,498
+Subtask,Done,Major,  Setup environment for apple id,120,150
+Subtask,Done,Major,  Setup OAuth Config for Apple Service,60,60
+Subtask,Done,Major,  Implement GetInfo,30,40
+Subtask,Done,Major,  Implement GetInfo,60,60
+Subtask,Done,Major,  Setup login endpoint,60,60
+Subtask,Done,Major,  Implement Cache service interface on Azure Service,60,66
+Subtask,Done,Major,  Setup system for initiating a password reset,60,110
+Subtask,To Do,Major,  Update github actions to push to azure,240,330
+Subtask,Done,Major,  Setup authentication and login,240,270
+Subtask,Done,Major,  Setup container,120,190
+Subtask,To Do,Major,  Setup api gateway,30,120
+Subtask,Done,Major,  model the tutor service,60,60
+Subtask,Done,Major,  create entities receivers etc,60,60
+Subtask,Done,Major,  add screens to admin for managing prompt,60,60
+Subtask,Done,Major,  Add concept of tags,60,60
+Subtask,Done,Major,  Update question form to allow user to specify identifier,60,60
+Subtask,Done,Major,  Update question form so that multemdia could be uploaded or added as a link,60,60
+Subtask,Done,Major,  Make it so that the id for the question is generated,30,30
+Subtask,Done,Major,  Add multimedia concept to answers,60,60
+Subtask,Done,Major,  Import learning objectives,180,300
+Subtask,Done,Major,  Update UI to be auto complete,120,180
+Subtask,Done,Major,  Setup build keys in app store,120,120
+Subtask,Done,Major,  First deploy to test flight,60,60
+Subtask,Done,Major,  Add endpoint for creating a question bank,120,120
+Subtask,Done,Major,  Add endpoint for managing topics,60,60
+Subtask,Done,Major,  Add screen for uploading CSV with objectives,60,75
+Subtask,Done,Major,  Hook up creation screen to API,120,120
+Subtask,Done,Major,  Update block domain entity with logic for generating a block,60,60
+Subtask,Done,Major,  Setup question service for return a list of questions,120,120
+Subtask,Done,Major,  Add entity for a submission to the block,120,120
+Subtask,Done,Major,  Add pinia store for tracking progress in the block and navigating the block,60,180
+Subtask,Done,Major,  update block to track time remaining,60,240
+Subtask,Done,Major,  track end time,30,30
+Subtask,Done,Major,  Add entity for recording the answer,60,60
+Subtask,Done,Major,  Add a query tutor endpoint,15,15
+Subtask,Done,Major,  instantiate LLM Service,15,15
+Subtask,Done,Major,  Add controller to get a list of organ systems along with the user scores and percentiles,120,120
+Subtask,Done,Major,  update chat receiver to filter by tutor,15,30
+Subtask,Done,Major,  Add a review tutor receiver,120,120
+Subtask,Done,Major,  create a tutor service on the app,60,60
+Subtask,Done,Major,  update the app to send a request to the tutor endpoint on the tutor service,60,146
+Subtask,Done,Major,  update the app to send a request to the endpoint on the tutor service,60,60
+Subtask,Done,Major,  Setup query service,60,60
+Subtask,Done,Major,  create an event handler for creating a chat,60,60
+Subtask,Done,Major,  create an event handler for creating a message,60,90
+Subtask,Done,Major,  Add a tutor property to the prompt,60,20
+Subtask,Done,Major,  update the app to add a menu to select the tutor when creating the prompt,60,15
+Subtask,Done,Major,  update the app to make the tutor available when reviewing a question,60,60
+Subtask,Done,Major,  Add domain entity for user feedback,60,60
+Subtask,Done,Major,  Update handler to send email to admins when user feedback is added,60,90
+Subtask,Done,Major,  Added receiver and endpoint for submitting feedback,60,60
+Subtask,Done,Major,  Show list of feedback in question view in admin,60,60
+Subtask,Done,Major,  Hook up feedback view to endpoint,60,60
+Subtask,Done,Major,  Hook up the explanations for write and incorrect answers,60,60
+Subtask,Done,Major,  Hook up block results,60,120
+Subtask,Done,Major,  Setup product and entitlements in revenue cat,60,60
+Subtask,Done,Major,  Setup revenue cat SDK on iOS,60,360
+Subtask,Done,Major,  Link Stripe to Revenue Cat,30,30
+Subtask,Done,Major,  Hook up subscription purchase in UI,0,60
+Subtask,Done,Major,  Hook up link to manage subscription on stripe if web purchase,60,60
+Subtask,Done,Major,  hook up updated list,60,60
+Subtask,Done,Major,  Hook up pause functionality to update block on back end,60,60
+Subtask,Done,Major,  Implement AWS service,60,50
+Subtask,Done,Major,  Add multimedia concept to answer form,60,150
+Subtask,Done,Major,  Setup Oauth config,60,43
+Subtask,Done,Major,  Implement GetInfo,60,30
+Subtask,Done,Major,  Setup base app,120,90
+Subtask,Done,Major,  Add the ability to do bulk actions on questions,60,30
+Subtask,Done,Major,  Create endpoint for importing learning objectives,120,90
+Subtask,Done,Major,  Add a query receiver to the tutor service,120,90
+Subtask,Done,Major,  Setup Azure CLI and init terraform state,120,71
+Task,Done,Major,Create terraform module for Azure Container Instance,120,67
+Subtask,Done,Major,  Add concept of multimedia links to questions,120,60
+Subtask,Done,Major,  Fix issue with notch,120,60
+Subtask,Done,Major,  Add endpoint for managing sub topics,120,60
+Subtask,Done,Major,  Hook up the front end to display question,60,60
+Subtask,Done,Major,  Feedback,120,60
+Subtask,Done,Major,  Setup container registry,120,30
+ Subtask,Done,Major, Deploy Tutor Service to Wepala,120,150
+Story,Done,Critical,I should go back to the question list page I was on when I edit a question,60,55
+Task,Done,Critical,Setup encoding during learning objectives import,60,30
+ Subtask,Done,Major, Update entities,60,420
+ Subtask,Done,Major, Add endpoint for upserting disciplines,60,60
+ Subtask,Done,Major, Add endpoint for upserting compentency,60,60
+ Subtask,Done,Major, Add question create screen,60,60
+ Subtask,Done,Major, Add organ system screens,60,60
+ Subtask,Done,Major, Hook up question create,120,60
+Task,Done,Major,Create Pages and Navigation through the app,360,369
+Task,Done,Major,Create a Poll Functionality,960,658
+Task,Done,Major,Build design for feedHome page And Create Poll Page,0,590
+Task,Done,Blocker,create endpoint for sending poll vote,120,242
+Task,Done,Major,Image Service Restructure,150,167
+Subtask,Done,Major,  Add endpoint to list test frameworks,60,60
+Subtask,Done,Minor,  Setup Google App Microsoft App and Facebook app for Apollo,60,60
+Subtask,Done,Major,  Add child dashboard,120,120
+Subtask,Done,Major,  Add view child endpoint,60,60
+Subtask,Done,Major,  Add endpoint for viewing list of exercises,60,60
+Subtask,Done,Major,  Add endpoint for viewing exercise detail,120,120
+Subtask,Done,Major,  Add endpoint for submitting an answer,120,186
+Subtask,Done,Major,  Add endpoint grading and getting the answers for an exercise,120,540
+Subtask,Done,Major,  Add screen for reviewing answers,120,300
+Subtask,Done,Major,  Add endpoint for viewing test objectives under a strand,60,60
+Subtask,Done,Major,  finalize endpoints,60,75
+Subtask,Done,Major,  Add create form,60,60
+Subtask,Done,Major,  Create a generic prompt for generating questions,60,70
+Subtask,Done,Major,  Create a receiver for generating questions,60,210
+Subtask,Done,Major,  Add a screen for creatingupdatingtesting a prompt,60,60
+Subtask,Done,Major,  Add endpoint for upserting a prompt,60,60
+Subtask,Done,Major,  Implement RevenueCat service in IAM,120,120
+Subtask,Done,Major,  Add subscription screens,60,150
+Subtask,Done,Major,  Feedback,60,325
+Subtask,Done,Major,  Update UI to allow for adding sub questions,60,60
+Subtask,Done,Major,  Update the question upsert endpoint to allow for passing in sub parts,60,60
+Subtask,Done,Major,  add screen for adding child,60,90
+Subtask,Done,Major,  Get student creation working on the test service,60,150
+Subtask,Done,Major,  Make it so that if an email is entered for student invite is sent,120,120
+Subtask,Done,Major,  Feedback,0,210
+Subtask,Done,Major,  Update exercise upsert receiver to return 402 if the user doesnt have a subscription,60,75
+Subtask,Done,Major,  Add endpoint for getting the stats of an exercise,120,204
+Subtask,Done,Major,  Hook up UI to backend,120,255
+Subtask,Done,Major,  Add subscription ID to the JWT,60,180
+Subtask,Done,Major,  Add a list screen for all the exercises,60,60
+Subtask,Done,Major,  Add form for creatingupdating an exercise,120,411
+Subtask,Done,Major,  add ela writing as a subject,120,300
+Task,Done,Major,Get up to speed with the Image Server,240,235
+Task,Done,Major,Create Apollo RN project and Repo,60,45
+Subtask,Done,Major,  Add screen for viewing a question,180,234
+Subtask,Done,Major,  Record time spent on a question,60,100
+Subtask,Done,Major,  Update tally to only show questions as a whole and not each question part individually,60,100
+Subtask,Done,Major,  Setup revenue cat,60,30
+Subtask,Done,Major,  Feedback,60,30
+Subtask,Done,Major,  Update Question generation to accommodate multi part questions,60,30
+Subtask,Done,Major,  Add total metrics at the top,60,25
+Task,Done,Major,Import test objectives from CSV,60,60
+ Subtask,Done,Major, Process subjectsstrands substrands,60,60
+ Subtask,Done,Major, Process test objectives thinking process,60,80
+Subtask,Done,Major,  Import questions from CSV,60,76
+Subtask,Done,Major,  Setup dashboard for logged in Parent,120,60
+Subtask,Done,Major,  Add screen for creating child,120,60
+Subtask,Done,Major,  Add screen for listing and filtering exercises,180,120
+Subtask,Done,Major,  Add endpoint for upserting exercise,120,480
+Subtask,Done,Major,  Add endpoint for creating a crafted exercise,120,60
+Subtask,Done,Major,  Update front end to use revenue cat,120,15
+Task,Done,Major,Build Design for Profile Page,180,165
+Task,Done,Major,Poll Service Restructure,150,25
+Subtask,Done,Major,  Add screen that lists the SEA strands,180,30
+Task,Done,,create endpoint for adding a poll,240,1
+ Subtask,Done,Major, Add input to upload image,30,30
+ Subtask,Done,Major, Get image upload working,60,20
+Task,Done,Blocker,setup aws amplify,360,609
+Task,Done,Blocker,create binary poll screen,360,725
+Task,Done,Blocker,create image poll screen,480,1386
+Subtask,Done,,parentIssuegetKey  add method for getting poll by id,120,268
+Subtask,Done,,parentIssuegetKey  create component for sharing poll url,120,190
+Task,Done,Blocker,implement deeplink,240,841
+Task,Done,Blocker,create poll results screen,240,633
+Task,Done,,create screen for voting binary poll,360,446
+Task,Done,Blocker,add share button to poll results,120,222
+Task,Done,,create dynamodb adapter for accounts,180,495
+Task,Done,Major,Changes to UI for app header got header and navigation to play nicely,240,240
+Task,Done,Major,Create a landing page,480,689
+Task,Done,Major,Create a demographic break down sreen,240,949
+Task,Done,Major,Finish my polls section,180,277
+Task,Done,Major,Design Poll API,180,276
+Task,Done,Major,Automate the build process,240,338
+Task,Done,Major,Create Action for retrieving user poll results Polls user created,180,1097
+Task,Done,Major,implement adapters,480,1052
+Task,Done,Major,unit tests,120,1201
+Task,Done,Major,Create tests for actions,360,377
+Task,Done,Major,Update service to use a service struct,240,360
+Task,Done,Major,Setup and run Expo app on Android and iOS simulators,90,124
+Task,Done,Major,Move hard coded URLs into configs,60,120
+Task,Done,Blocker,Create a handler for creating a poll,120,445
+Task,Done,Blocker,Create a handler for answering a poll,120,399
+Task,Done,Major,Deploy poll service,180,1011
+Task,Done,Major,Send User ID Account ID and Correlation ID in requests to poll server,120,176
+Task,Done,Major,View and Create polls with new API,90,572
+Task,Done,Major,Vote on polls in App,150,227
+Task,Done,Major,Create action for retrieving poll details,180,179
+Task,Done,Blocker,create screen for voting multioption poll,360,574
+Task,Done,Major,Send example results json,30,27
+Task,Done,Major,Remove upload image functionality,90,86
+Task,Done,Major,Allow poll duplicate,360,355
+Task,Done,Blocker,create screen for voting image poll,360,610
+Task,Done,Major,Apollo Prep,120,108
+Task,Done,Blocker,create multiple choice poll screen,480,492
+Task,Done,Major,Remove Profile tab and share button,90,52
+Task,Done,,create endpoint for getting polls,180,141
+Task,Done,Major,Generate GUIDUID on app install,180,140
+Task,Done,Major,Create action and hook up functionality for voting on a poll,360,320
+Task,Done,Major,Create action for retrieving poll results,180,139
+Task,Done,,setup accountApi repository,120,76
+Task,Done,Major,test command,60,10
+Task,Done,Major,Get Landing page on weflow,120,60
+Task,Done,Blocker,setup pollApi repository,120,57
+Task,Done,Major,Add Image to question,180,105
+Task,Done,,create interface for account storage,120,20
+Task,Done,Blocker,setup aws amplify for facebook login google login,240,122
+Task,Done,Blocker,create action for creating poll,360,572
+ Subtask,Done,Major, Save Poll image using image poll endpoint,240,1603
+ Subtask,Done,Major, Store Poll using Enpoint,240,366
+Task,Done,Major,Display results when poll vote is registered,480,313
+Task,Done,Major,Create View for Image poll results,360,189
+Task,Done,Major,Work on Image server,1440,1067
+Task,Done,Major,Setup basic admin app and deploy,60,60
+Task,Done,Major,Setup the domain on Hubspot,60,60
+Task,Done,Major,Setup base app,60,240
+Story,Done,Major,Make it so that the user is redirected to add student if they dont have any student,0,60
+Story,Done,Blocker,As a user I should be able to start an exam even if Im not logged in as a student,60,120
+Task,Done,Major,When creating an exercise without a student use a default if there is 1 student in the account,30,15
+Task,Done,Critical,Add a state so that if a question needs to be fixed it could go into that state,30,8
+Task,Done,Major,Split initial login screen for existing users and new users,60,30
+Task,Done,Major,Make more mobile friendly,60,30
+Task,Done,Major,Generate basic api code,120,120
+Task,Done,Major,Setup basic API and deploy,120,55
+Story,Done,Major,As a std 4 parent I should be guided to evaluate what my child knows,120,370
+Task,Done,Major,Add analytics,60,263
+ Subtask,Done,Major, Create preliminary build to confirm connectivity,60,97
+ Subtask,Resolved,Major, Setup CICD pipeline,30,81
+ Subtask,Resolved,Major, UI updates for consistency,60,90
+Task,Resolved,Major,Plan Project,360,377
+ Subtask,Resolved,Major, Setup confirmation screen,30,64
+ Subtask,Resolved,Major, Setup error screen,30,10
+ Subtask,Done,Major, Setup form inputs to do calculation,60,48
+ Subtask,Done,Major, Add a command for publishing the quote,30,109
+ Subtask,Done,Major, Create go template for Requirements summary,30,115
+ Subtask,Done,Major, Create go template for data entry summary,30,168
+ Subtask,Resolved,Major, Setup sending to hedge hog service,60,203
+ Subtask,Resolved,Major, Switch to using writing SQL,180,242
+ Subtask,Done,Major, Setup wkhtmltopdf,60,50
+ Subtask,Done,Major, Setup pdf generation execution,60,22
+ Subtask,Done,Major, Setup Vue Form to capture data,60,101
+ Subtask,Done,Major, Create custom entity respository,60,60
+ Subtask,Done,Major, Setup api schema,15,28
+ Subtask,Done,Major, Setup NuxtJS project,30,39
+Task,Done,Major,Remove the magic unmarshal,60,270
+Task,Closed,Major,Setup terraform workspace for PALM,60,60
+Task,Closed,Major,Setup frontend app,120,60
+Subtask,Done,Major,  add a receiver for approvingrejecting the service request,60,90
+Subtask,Done,Major,  add confirmation screens to show the choice that they selected,60,90
+Subtask,Done,Major,  Setup controllers for getting a list of requests and viewing a request,60,60
+Subtask,Done,Major,  Add receiver for creating a service request in an account,60,60
+Subtask,Done,Major,  Add a receiver for deleting a service request,60,20
+Subtask,Done,Major,  create domain object and model for contract,60,60
+Subtask,Done,Major,  add receiver for creating contract,60,360
+Subtask,Done,Major,  create controller for listing the contracts,60,60
+Subtask,Done,Major,  add a receiver for deleting a contract,60,20
+Subtask,Done,Major,  Add endpoint for uploading a file,120,277
+Subtask,Done,Major,  Add screen for Adding a Quote,60,60
+Subtask,Done,Major,  Hook up service request view screen,60,120
+Subtask,Done,Major,  Wireframe and client approval,120,120
+Subtask,Done,Major,  Add endpoint for adding service request items,60,306
+Subtask,Done,Major,  Update the service request list screen columns,60,180
+Subtask,Done,Major,  Rework Bills Vendor Quotes,60,120
+Subtask,Done,Major,  Hook up screen for adding a Quote,60,310
+Subtask,Done,Major,  Update the items functionality to make edit behave similar to service request items,60,93
+Subtask,Done,Major,  Confirm vendor API works,120,60
+Subtask,Done,Major,  Ensure add contact works,60,172
+Subtask,Done,Major,  Add endpoint for listing schedules,60,30
+Subtask,Done,Major,  Add endpoint for upserting schedule,60,90
+Subtask,Done,Major,  Add endpoint for viewing schedule,20,10
+Subtask,Done,Major,  Add endppint for listing categories,60,60
+Subtask,Done,Major,  add endpoint for upserting categories,60,282
+Subtask,Done,Major,  add endpoint for listing items,60,25
+Subtask,Done,Major,  add endpoint for viewing items,30,30
+Subtask,Done,Major,  Add endpoint for upserting expense,60,160
+Subtask,Done,Major,  Add screen for upserting expense,60,120
+Subtask,Done,Major,  Update expense list to show aggregates,60,60
+Subtask,Done,Major,  Add endpoint for upserting invoice,60,120
+Subtask,Done,Major,  Add endoint for viewing invoice details,60,10
+Subtask,Done,Major,  Add screen to list users,60,60
+Subtask,To Do,Major,  Add screen to invite user,60,90
+Subtask,Done,Major,  ensure delete file works,60,20
+Subtask,Done,Major,  make it so that the price schedule items would not get overwritten from the initializer,60,30
+Subtask,Done,Major,  Update the expense main list view,60,60
+Subtask,Done,Major,  Add view contact endpoint,60,10
+Subtask,Done,Major,  Add delete contact endpoint,60,10
+Subtask,Done,Major,  Confirm upsert contact endpoint is setup,60,150
+Subtask,Done,Major,  Add endpoint so that admins can edit a user,60,90
+Subtask,Done,Major,  Add endpoint to get a users details,60,90
+Subtask,Done,Critical,  Add initializer for roles,60,45
+Subtask,Done,Major,  First round QA on staging,60,60
+Subtask,Done,Major,  Feedback,0,70
+Subtask,Done,Major,  add receiver and endpoint to send confirmation email to requestor,60,60
+Subtask,Done,Major,  Updated email template to show service request items and new copy,60,60
+Subtask,Done,Major,  Create a vendor item domain entity,60,60
+Subtask,Done,Major,  Update dashboard to show service request status,60,47
+Subtask,To Do,Major,  Second Round QA on staging,60,45
+Subtask,Done,Major,  Add form for creating schedule,60,40
+Subtask,Done,Major,  setup IAM on staging so that accounts can be managed,120,90
+Subtask,Done,Major,  integrate UI with IAM,60,450
+Subtask,Done,Major,  Update list on service request items to show cost,60,30
+Subtask,Done,Major,  Confirm edit is working,60,20
+Subtask,Done,Major,  Ensure service request edit works,60,20
+Subtask,Done,Minor,  Add filter by client,60,10
+Task,To Do,Critical,Move over to client servers,240,190
+Subtask,Done,Major,  Add a handler that sends and email to the contact associated with the request,120,60
+Subtask,Done,Major,  Add middleware that can be used to output any screen as a pdf,180,120
+Subtask,Done,Major,  Hook up screen for adding items to a service request,60,60
+Subtask,Done,Major,  Add a form for creating a vendor item,120,60
+Subtask,Done,Major,  Add command receiver and endpoint for creating vendor item,120,60
+Subtask,In Progress,Major,  Update the expense form to show list of related vendor items to the selected service request items,120,390
+Subtask,Done,Major,  Add form for editing invoice,120,40
+Subtask,Done,Major,  Hook up editing vendor quote screen,60,60
